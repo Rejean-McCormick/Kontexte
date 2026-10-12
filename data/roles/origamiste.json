@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "origamiste",
+  "name": {
+    "fr-CA": "Maître de l’origami",
+    "en": "Origami master"
+  },
+  "intro": {
+    "fr-CA": "fabriquer des objets par pliage",
+    "en": "You are playing the role of origami master in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "plier",
+    "compter",
+    "enseigner"
+  ],
+  "objects": [
+    "papier",
+    "chapeau",
+    "étoile"
+  ],
+  "problems": [
+    "papier insuffisant",
+    "pli complexe"
+  ],
+  "partners": [
+    "sorciere",
+    "peintre",
+    "photographe"
+  ]
+}

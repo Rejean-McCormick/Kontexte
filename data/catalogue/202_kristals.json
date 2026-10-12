@@ -1,0 +1,2891 @@
+{
+  "format": "ekole.catalogue/0.1",
+  "source": "frames-v1.2 + livraisons",
+  "count": 202,
+  "items_total": 2183,
+  "kristals": [
+    {
+      "id": "qc-pri-ad-001",
+      "titre": "Explorer corps, voix et espace scénique",
+      "discipline": "Art dramatique",
+      "discipline_code": "AD",
+      "vague": 0,
+      "objectif": "Utiliser corps, voix et espace pour exprimer une intention théâtrale.",
+      "preuve": "Interpréter une consigne d’expression par deux moyens différents.",
+      "prerequis": [],
+      "family_id": "qc-pri-ad-001-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ad-002",
+      "titre": "Découvrir personnages et situations dramatiques",
+      "discipline": "Art dramatique",
+      "discipline_code": "AD",
+      "vague": 0,
+      "objectif": "Caractériser un personnage et une situation de jeu dramatique.",
+      "preuve": "Improviser une entrée en scène manifestant un personnage identifiable.",
+      "prerequis": [],
+      "family_id": "qc-pri-ad-002-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ad-007",
+      "titre": "Observer une œuvre ou une représentation théâtrale",
+      "discipline": "Art dramatique",
+      "discipline_code": "AD",
+      "vague": 0,
+      "objectif": "Décrire ce qui se passe dans une représentation théâtrale.",
+      "preuve": "Noter des éléments observables d’une scène sans juger les personnes.",
+      "prerequis": [],
+      "family_id": "qc-pri-ad-007-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ale-001",
+      "titre": "Conscience phonologique en anglais",
+      "discipline": "Anglais, langue d’enseignement",
+      "discipline_code": "ALE",
+      "vague": 0,
+      "objectif": "Segmenter et manipuler syllabes et phonèmes de mots anglais oraux.",
+      "preuve": "Recomposer oralement des mots nouveaux après segmentation.",
+      "prerequis": [],
+      "family_id": "qc-pri-ale-001-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ale-008",
+      "titre": "Vocabulaire et morphologie anglaise",
+      "discipline": "Anglais, langue d’enseignement",
+      "discipline_code": "ALE",
+      "vague": 0,
+      "objectif": "Déduire le sens de mots anglais en utilisant contexte et morphologie.",
+      "preuve": "Expliquer le sens de mots nouveaux dans deux phrases.",
+      "prerequis": [],
+      "family_id": "qc-pri-ale-008-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ale-013",
+      "titre": "Écouter et comprendre des échanges",
+      "discipline": "Anglais, langue d’enseignement",
+      "discipline_code": "ALE",
+      "vague": 0,
+      "objectif": "Écouter un échange anglais et en restituer les idées essentielles.",
+      "preuve": "Résumer un échange et poser une question pertinente de clarification.",
+      "prerequis": [],
+      "family_id": "qc-pri-ale-013-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-als-001",
+      "titre": "Comprendre des consignes et des messages oraux",
+      "discipline": "Anglais, langue seconde",
+      "discipline_code": "ALS",
+      "vague": 0,
+      "objectif": "Exécuter et reformuler des consignes orales courantes en anglais.",
+      "preuve": "Suivre trois instructions inédites puis indiquer leur sens.",
+      "prerequis": [],
+      "family_id": "qc-pri-als-001-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-als-002",
+      "titre": "Reconnaître et utiliser le vocabulaire quotidien",
+      "discipline": "Anglais, langue seconde",
+      "discipline_code": "ALS",
+      "vague": 0,
+      "objectif": "Employer un lexique anglais ciblé dans des échanges authentiques.",
+      "preuve": "Nommer et utiliser correctement des mots nouveaux dans un mini-dialogue.",
+      "prerequis": [],
+      "family_id": "qc-pri-als-002-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-als-003",
+      "titre": "Comprendre chansons, comptines et histoires entendues",
+      "discipline": "Anglais, langue seconde",
+      "discipline_code": "ALS",
+      "vague": 0,
+      "objectif": "Identifier le sens global et quelques détails d’un texte oral rythmé.",
+      "preuve": "Répondre à des questions simples après une chanson ou histoire entendue.",
+      "prerequis": [],
+      "family_id": "qc-pri-als-003-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-als-004",
+      "titre": "Prononciation et rythme de l’anglais",
+      "discipline": "Anglais, langue seconde",
+      "discipline_code": "ALS",
+      "vague": 0,
+      "objectif": "Produire de manière intelligible des sons, accents et rythmes élémentaires.",
+      "preuve": "Enregistrer un court message compréhensible après modelage.",
+      "prerequis": [],
+      "family_id": "qc-pri-als-004-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-als-007",
+      "titre": "Comprendre des textes écrits adaptés",
+      "discipline": "Anglais, langue seconde",
+      "discipline_code": "ALS",
+      "vague": 0,
+      "objectif": "Extraire le sens d’un court texte écrit anglais adapté.",
+      "preuve": "Associer des phrases à des informations et repérer un détail précis.",
+      "prerequis": [],
+      "family_id": "qc-pri-als-007-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ap-001",
+      "titre": "Observer formes, lignes, couleurs et textures",
+      "discipline": "Arts plastiques",
+      "discipline_code": "AP",
+      "vague": 0,
+      "objectif": "Identifier et décrire des éléments visuels dans des images et objets.",
+      "preuve": "Annoter une image en justifiant plusieurs éléments observés.",
+      "prerequis": [],
+      "family_id": "qc-pri-ap-001-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ap-002",
+      "titre": "Expérimenter les gestes et techniques plastiques",
+      "discipline": "Arts plastiques",
+      "discipline_code": "AP",
+      "vague": 0,
+      "objectif": "Expérimenter des gestes, supports et procédés plastiques de façon sûre.",
+      "preuve": "Produire une planche d’essais légendée et comparer les effets.",
+      "prerequis": [],
+      "family_id": "qc-pri-ap-002-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ccq-001",
+      "titre": "Conscience de soi et construction identitaire",
+      "discipline": "Culture et citoyenneté québécoise",
+      "discipline_code": "CCQ",
+      "vague": 0,
+      "objectif": "Décrire des éléments de l’identité et expliquer leur diversité dans la société.",
+      "preuve": "Analyser un personnage fictif en respectant la pluralité des identités.",
+      "prerequis": [],
+      "family_id": "qc-pri-ccq-001-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ccq-002",
+      "titre": "Relations entre humains",
+      "discipline": "Culture et citoyenneté québécoise",
+      "discipline_code": "CCQ",
+      "vague": 0,
+      "objectif": "Comparer des façons de vivre les relations et les responsabilités partagées.",
+      "preuve": "Proposer des réponses argumentées à une situation relationnelle fictive.",
+      "prerequis": [],
+      "family_id": "qc-pri-ccq-002-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ccq-003",
+      "titre": "Quête de sens",
+      "discipline": "Culture et citoyenneté québécoise",
+      "discipline_code": "CCQ",
+      "vague": 0,
+      "objectif": "Explorer plusieurs réponses possibles à une question de sens.",
+      "preuve": "Comparer des points de vue sans exiger d’adhésion personnelle.",
+      "prerequis": [],
+      "family_id": "qc-pri-ccq-003-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ccq-004",
+      "titre": "Relations entre humains et environnement",
+      "discipline": "Culture et citoyenneté québécoise",
+      "discipline_code": "CCQ",
+      "vague": 0,
+      "objectif": "Analyser une situation où des choix humains touchent l’environnement.",
+      "preuve": "Évaluer deux options fictives selon des critères explicites.",
+      "prerequis": [],
+      "family_id": "qc-pri-ccq-004-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ccq-005",
+      "titre": "Médias et vie numérique",
+      "discipline": "Culture et citoyenneté québécoise",
+      "discipline_code": "CCQ",
+      "vague": 0,
+      "objectif": "Distinguer informations, opinions et influences dans des contenus médiatiques.",
+      "preuve": "Analyser un message fictif et expliciter deux mécanismes d’influence.",
+      "prerequis": [],
+      "family_id": "qc-pri-ccq-005-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ccq-006",
+      "titre": "Observer et décrire des réalités culturelles",
+      "discipline": "Culture et citoyenneté québécoise",
+      "discipline_code": "CCQ",
+      "vague": 0,
+      "objectif": "Décrire une réalité culturelle à partir d’éléments observables et contextualisés.",
+      "preuve": "Produire une description neutre d’une situation documentée.",
+      "prerequis": [],
+      "family_id": "qc-pri-ccq-006-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ccq-008",
+      "titre": "Dialoguer et écouter avec respect",
+      "discipline": "Culture et citoyenneté québécoise",
+      "discipline_code": "CCQ",
+      "vague": 0,
+      "objectif": "Conduire un échange avec écoute active, questions ouvertes et respect.",
+      "preuve": "Participer à un dialogue sur un cas fictif avec des relances pertinentes.",
+      "prerequis": [],
+      "family_id": "qc-pri-ccq-008-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ccq-010",
+      "titre": "Éducation à la sexualité : contenus prescrits et adaptés à l’âge",
+      "discipline": "Culture et citoyenneté québécoise",
+      "discipline_code": "CCQ",
+      "vague": 0,
+      "objectif": "Reconnaître les limites personnelles, le respect et les règles de sécurité dans des situations adaptées à l’âge.",
+      "preuve": "Choisir une conduite sûre dans une vignette fictive et identifier une ressource adulte.",
+      "prerequis": [],
+      "family_id": "qc-pri-ccq-010-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ccq-011",
+      "titre": "Réalités et perspectives des Premiers Peuples",
+      "discipline": "Culture et citoyenneté québécoise",
+      "discipline_code": "CCQ",
+      "vague": 0,
+      "objectif": "Présenter de manière respectueuse différentes perspectives de Premiers Peuples.",
+      "preuve": "Comparer deux documents contextualisés sans généralisation ni appropriation.",
+      "prerequis": [],
+      "family_id": "qc-pri-ccq-011-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-da-001",
+      "titre": "Explorer le corps et le mouvement",
+      "discipline": "Danse",
+      "discipline_code": "DA",
+      "vague": 0,
+      "objectif": "Explorer les possibilités de mouvements du corps en sécurité.",
+      "preuve": "Créer puis répéter une séquence courte explorant deux types de mouvements.",
+      "prerequis": [],
+      "family_id": "qc-pri-da-001-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-da-007",
+      "titre": "Observer des œuvres chorégraphiques",
+      "discipline": "Danse",
+      "discipline_code": "DA",
+      "vague": 0,
+      "objectif": "Observer et décrire les choix de mouvement dans une œuvre dansée.",
+      "preuve": "Décrire des éléments précis d’un extrait chorégraphique.",
+      "prerequis": [],
+      "family_id": "qc-pri-da-007-ev-01",
+      "nombre_items": 11,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-eps-001",
+      "titre": "Conscience corporelle et schéma corporel",
+      "discipline": "Éducation physique et à la santé",
+      "discipline_code": "EPS",
+      "vague": 0,
+      "objectif": "Identifier ses segments corporels et coordonner un mouvement simple.",
+      "preuve": "Exécuter un mouvement ciblé en décrivant ses repères corporels.",
+      "prerequis": [],
+      "family_id": "qc-pri-eps-001-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-eps-002",
+      "titre": "Locomotion et déplacements",
+      "discipline": "Éducation physique et à la santé",
+      "discipline_code": "EPS",
+      "vague": 0,
+      "objectif": "Adapter marche, course, saut ou déplacement à un espace et une consigne.",
+      "preuve": "Réaliser un parcours varié avec contrôle des déplacements.",
+      "prerequis": [],
+      "family_id": "qc-pri-eps-002-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-eps-003",
+      "titre": "Équilibre et coordination",
+      "discipline": "Éducation physique et à la santé",
+      "discipline_code": "EPS",
+      "vague": 0,
+      "objectif": "Maintenir ou retrouver l’équilibre lors d’actions motrices de difficulté graduée.",
+      "preuve": "Réussir deux enchaînements avec changement d’appuis.",
+      "prerequis": [],
+      "family_id": "qc-pri-eps-003-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-eps-004",
+      "titre": "Manipulation d’objets et habiletés motrices",
+      "discipline": "Éducation physique et à la santé",
+      "discipline_code": "EPS",
+      "vague": 0,
+      "objectif": "Contrôler un objet en lançant, recevant, frappant ou conduisant selon le contexte.",
+      "preuve": "Réaliser plusieurs essais mesurables avec ajustement de la technique.",
+      "prerequis": [],
+      "family_id": "qc-pri-eps-004-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-eps-008",
+      "titre": "Sécurité et prévention des blessures",
+      "discipline": "Éducation physique et à la santé",
+      "discipline_code": "EPS",
+      "vague": 0,
+      "objectif": "Reconnaître une situation à risque et appliquer les consignes de prévention.",
+      "preuve": "Repérer des risques dans un scénario et proposer une action sûre.",
+      "prerequis": [],
+      "family_id": "qc-pri-eps-008-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-eps-010",
+      "titre": "Habitudes de vie actives",
+      "discipline": "Éducation physique et à la santé",
+      "discipline_code": "EPS",
+      "vague": 0,
+      "objectif": "Planifier des occasions d’activité physique variées et réalistes.",
+      "preuve": "Élaborer un plan hebdomadaire flexible d’activités plaisantes.",
+      "prerequis": [],
+      "family_id": "qc-pri-eps-010-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-eps-011",
+      "titre": "Santé, repos, hygiène et bien-être",
+      "discipline": "Éducation physique et à la santé",
+      "discipline_code": "EPS",
+      "vague": 0,
+      "objectif": "Reconnaître les pratiques quotidiennes qui soutiennent santé et bien-être.",
+      "preuve": "Sélectionner des choix sains dans des situations scolaires fictives.",
+      "prerequis": [],
+      "family_id": "qc-pri-eps-011-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fls-001",
+      "titre": "Comprendre des messages oraux en français",
+      "discipline": "Français, langue seconde",
+      "discipline_code": "FLS",
+      "vague": 0,
+      "objectif": "Comprendre et exécuter des messages oraux courants en français.",
+      "preuve": "Effectuer plusieurs consignes inédites puis les reformuler.",
+      "prerequis": [],
+      "family_id": "qc-pri-fls-001-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fls-002",
+      "titre": "Vocabulaire et expressions usuelles en français",
+      "discipline": "Français, langue seconde",
+      "discipline_code": "FLS",
+      "vague": 0,
+      "objectif": "Employer un lexique français usuel dans des phrases contextualisées.",
+      "preuve": "Utiliser des expressions ciblées dans un dialogue nouveau.",
+      "prerequis": [],
+      "family_id": "qc-pri-fls-002-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fls-003",
+      "titre": "Prononciation et conscience des sons du français",
+      "discipline": "Français, langue seconde",
+      "discipline_code": "FLS",
+      "vague": 0,
+      "objectif": "Distinguer et produire les sons pertinents du français à un niveau intelligible.",
+      "preuve": "Produire un message oral intelligible après comparaison de modèles.",
+      "prerequis": [],
+      "family_id": "qc-pri-fls-003-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fls-011",
+      "titre": "Découvrir et interpréter des références culturelles francophones",
+      "discipline": "Français, langue seconde",
+      "discipline_code": "FLS",
+      "vague": 0,
+      "objectif": "Décrire et comparer des éléments culturels francophones situés et documentés.",
+      "preuve": "Présenter une référence culturelle sans généralisation abusive.",
+      "prerequis": [],
+      "family_id": "qc-pri-fls-011-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-001",
+      "titre": "Conscience phonologique et syllabes",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 0,
+      "objectif": "Segmenter, fusionner et transformer des syllabes et sons de mots entendus.",
+      "preuve": "Segmenter puis recomposer oralement cinq mots nouveaux.",
+      "prerequis": [],
+      "family_id": "qc-pri-fr-001-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-005",
+      "titre": "Compréhension littérale de textes",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 0,
+      "objectif": "Repérer des informations explicites et les restituer fidèlement après lecture ou écoute.",
+      "preuve": "Répondre à des questions littérales en citant un indice présent dans le texte.",
+      "prerequis": [],
+      "family_id": "qc-pri-fr-005-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-007",
+      "titre": "Stratégies de compréhension et d’autorégulation",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 0,
+      "objectif": "Choisir une stratégie de compréhension et en vérifier les effets sur un texte.",
+      "preuve": "Identifier une incompréhension, appliquer une stratégie et expliquer le résultat.",
+      "prerequis": [],
+      "family_id": "qc-pri-fr-007-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-011",
+      "titre": "Sens des mots et relations lexicales",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 0,
+      "objectif": "Déduire et expliquer le sens de mots en contexte puis réutiliser ce vocabulaire.",
+      "preuve": "Choisir le sens d’un mot dans deux contextes et le réutiliser justement.",
+      "prerequis": [],
+      "family_id": "qc-pri-fr-011-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-012",
+      "titre": "Orthographe d’usage",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 0,
+      "objectif": "Écrire correctement un ensemble ciblé de mots et expliquer une stratégie de mémorisation.",
+      "preuve": "Produire des mots en contexte puis corriger ses erreurs avec justification.",
+      "prerequis": [],
+      "family_id": "qc-pri-fr-012-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-013",
+      "titre": "Classes de mots",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 0,
+      "objectif": "Identifier la classe grammaticale de mots selon leur fonctionnement en phrase.",
+      "preuve": "Classer des mots en contexte et justifier deux cas ambigus.",
+      "prerequis": [],
+      "family_id": "qc-pri-fr-013-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-015",
+      "titre": "Construction des phrases",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 0,
+      "objectif": "Construire des phrases compréhensibles en organisant correctement leurs constituants.",
+      "preuve": "Transformer des mots désordonnés en phrases correctes et varier leur structure.",
+      "prerequis": [],
+      "family_id": "qc-pri-fr-015-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-020",
+      "titre": "Planifier un texte",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 0,
+      "objectif": "Organiser les idées d’un texte en fonction d’un destinataire et d’un but explicites.",
+      "preuve": "Produire un plan logique à partir d’une consigne d’écriture nouvelle.",
+      "prerequis": [],
+      "family_id": "qc-pri-fr-020-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-024",
+      "titre": "Comprendre des communications orales",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 0,
+      "objectif": "Reformuler les points essentiels d’une communication orale suivie.",
+      "preuve": "Restituer un message oral et répondre à des questions de vérification.",
+      "prerequis": [],
+      "family_id": "qc-pri-fr-024-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ilss-001",
+      "titre": "Comprendre les routines et consignes scolaires",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "discipline_code": "ILSS",
+      "vague": 0,
+      "objectif": "Comprendre les règles et consignes scolaires indispensables.",
+      "preuve": "Suivre une routine nouvelle et demander une clarification adaptée.",
+      "prerequis": [],
+      "family_id": "qc-pri-ilss-001-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ilss-003",
+      "titre": "Développer le vocabulaire scolaire essentiel",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "discipline_code": "ILSS",
+      "vague": 0,
+      "objectif": "Reconnaître et utiliser les mots clés des activités scolaires.",
+      "preuve": "Associer lexique et consignes dans une tâche scolaire nouvelle.",
+      "prerequis": [],
+      "family_id": "qc-pri-ilss-003-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ilss-009",
+      "titre": "Connaître les codes et pratiques de la vie scolaire",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "discipline_code": "ILSS",
+      "vague": 0,
+      "objectif": "Identifier les pratiques de classe et les ressources permettant d’obtenir de l’aide.",
+      "preuve": "Expliquer quoi faire face à un scénario scolaire fictif.",
+      "prerequis": [],
+      "family_id": "qc-pri-ilss-009-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-001",
+      "titre": "Dénombrer et représenter des collections",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 0,
+      "objectif": "Associer une quantité à un dénombrement exact et en représenter les éléments.",
+      "preuve": "Dénombrer deux collections inédites et contrôler le résultat autrement.",
+      "prerequis": [],
+      "family_id": "qc-pri-ma-001-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-004",
+      "titre": "Suites et régularités numériques",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 0,
+      "objectif": "Identifier, poursuivre et décrire une régularité numérique.",
+      "preuve": "Compléter une suite et expliciter une règle qui permet d’en prévoir la suite.",
+      "prerequis": [],
+      "family_id": "qc-pri-ma-004-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-012",
+      "titre": "Fractions : représentations et sens",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 0,
+      "objectif": "Représenter une fraction comme partie d’un tout ou d’une collection.",
+      "preuve": "Produire trois représentations correctes d’une même fraction simple.",
+      "prerequis": [],
+      "family_id": "qc-pri-ma-012-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-018",
+      "titre": "Relations et égalités numériques",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 0,
+      "objectif": "Établir et expliquer des égalités ou relations numériques correctes.",
+      "preuve": "Compléter des égalités ouvertes en explicitant la relation choisie.",
+      "prerequis": [],
+      "family_id": "qc-pri-ma-018-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-021",
+      "titre": "Positions, déplacements et repérage",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 0,
+      "objectif": "Décrire un trajet ou une position au moyen de repères spatiaux stables.",
+      "preuve": "Donner puis suivre un parcours spatial précis sans ambiguïté.",
+      "prerequis": [],
+      "family_id": "qc-pri-ma-021-ev-01",
+      "nombre_items": 11,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-022",
+      "titre": "Solides et représentations spatiales",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 0,
+      "objectif": "Reconnaître et décrire des solides grâce à leurs éléments constitutifs.",
+      "preuve": "Associer une description à un solide et justifier à l’aide de ses propriétés.",
+      "prerequis": [],
+      "family_id": "qc-pri-ma-022-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-023",
+      "titre": "Figures planes et propriétés",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 0,
+      "objectif": "Classer des figures planes à partir de propriétés observables.",
+      "preuve": "Trier de nouvelles figures et expliquer un cas de non-appartenance.",
+      "prerequis": [],
+      "family_id": "qc-pri-ma-023-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-025",
+      "titre": "Longueurs, masses et capacités",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 0,
+      "objectif": "Mesurer et comparer des longueurs, masses ou capacités avec unités adaptées.",
+      "preuve": "Choisir l’outil et mesurer un objet réel en justifiant l’unité.",
+      "prerequis": [],
+      "family_id": "qc-pri-ma-025-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-026",
+      "titre": "Temps et durées",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 0,
+      "objectif": "Lire des horaires et déterminer des durées entre deux événements.",
+      "preuve": "Calculer une durée et vérifier le sens du résultat dans un horaire.",
+      "prerequis": [],
+      "family_id": "qc-pri-ma-026-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-030",
+      "titre": "Collecter et organiser des données",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 0,
+      "objectif": "Collecter des données selon une question et produire un tableau fiable.",
+      "preuve": "Construire un tableau sans omission à partir d’observations brutes.",
+      "prerequis": [],
+      "family_id": "qc-pri-ma-030-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-032",
+      "titre": "Probabilités et événements aléatoires",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 0,
+      "objectif": "Décrire des événements en termes de possibilité et de chance relative.",
+      "preuve": "Classer des événements et expliquer les conditions du classement.",
+      "prerequis": [],
+      "family_id": "qc-pri-ma-032-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-033",
+      "titre": "Justifier et communiquer une démarche mathématique",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 0,
+      "objectif": "Communiquer un raisonnement mathématique vérifiable, au-delà du résultat.",
+      "preuve": "Présenter une solution cohérente et repérer l’erreur d’un autre raisonnement.",
+      "prerequis": [],
+      "family_id": "qc-pri-ma-033-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-mu-001",
+      "titre": "Percevoir les sons, leurs qualités et les silences",
+      "discipline": "Musique",
+      "discipline_code": "MU",
+      "vague": 0,
+      "objectif": "Discriminer sons et silences selon des propriétés audibles.",
+      "preuve": "Classer des extraits sonores selon deux critères expliqués.",
+      "prerequis": [],
+      "family_id": "qc-pri-mu-001-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-st-001",
+      "titre": "Observer et formuler des questions scientifiques",
+      "discipline": "Science et technologie",
+      "discipline_code": "ST",
+      "vague": 0,
+      "objectif": "Observer un phénomène et poser une question investigable et précise.",
+      "preuve": "Décrire un phénomène puis transformer une curiosité en question testable.",
+      "prerequis": [],
+      "family_id": "qc-pri-st-001-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-st-005",
+      "titre": "Propriétés et états de la matière",
+      "discipline": "Science et technologie",
+      "discipline_code": "ST",
+      "vague": 0,
+      "objectif": "Classer des matières selon leurs propriétés et leurs états.",
+      "preuve": "Classer des matériaux inconnus en justifiant deux critères.",
+      "prerequis": [],
+      "family_id": "qc-pri-st-005-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-st-007",
+      "titre": "Forces et mouvement",
+      "discipline": "Science et technologie",
+      "discipline_code": "ST",
+      "vague": 0,
+      "objectif": "Décrire l’effet d’une force sur le mouvement ou la forme d’un objet.",
+      "preuve": "Prédire puis observer les effets de forces différentes sur un objet.",
+      "prerequis": [],
+      "family_id": "qc-pri-st-007-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-st-008",
+      "titre": "Énergie et transformations énergétiques",
+      "discipline": "Science et technologie",
+      "discipline_code": "ST",
+      "vague": 0,
+      "objectif": "Repérer des sources d’énergie et décrire les transformations observées.",
+      "preuve": "Construire un schéma simple d’une chaîne énergétique observable.",
+      "prerequis": [],
+      "family_id": "qc-pri-st-008-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-st-009",
+      "titre": "Lumière et son",
+      "discipline": "Science et technologie",
+      "discipline_code": "ST",
+      "vague": 0,
+      "objectif": "Relier des phénomènes lumineux ou sonores à leurs sources et propriétés.",
+      "preuve": "Démontrer une variation de lumière ou de son par une manipulation sûre.",
+      "prerequis": [],
+      "family_id": "qc-pri-st-009-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-st-011",
+      "titre": "Objets techniques, mécanismes et fonctions",
+      "discipline": "Science et technologie",
+      "discipline_code": "ST",
+      "vague": 0,
+      "objectif": "Identifier la fonction d’éléments d’un objet technique usuel.",
+      "preuve": "Annoter un objet démontable ou documenté et expliquer ses fonctions.",
+      "prerequis": [],
+      "family_id": "qc-pri-st-011-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-st-013",
+      "titre": "Roches, sols et relief",
+      "discipline": "Science et technologie",
+      "discipline_code": "ST",
+      "vague": 0,
+      "objectif": "Comparer roches et sols à partir de caractéristiques observables.",
+      "preuve": "Établir un tableau comparatif d’échantillons sans risque.",
+      "prerequis": [],
+      "family_id": "qc-pri-st-013-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-st-015",
+      "titre": "Atmosphère et phénomènes météorologiques",
+      "discipline": "Science et technologie",
+      "discipline_code": "ST",
+      "vague": 0,
+      "objectif": "Décrire des phénomènes météorologiques à partir de mesures et observations.",
+      "preuve": "Interpréter une courte série de relevés météorologiques.",
+      "prerequis": [],
+      "family_id": "qc-pri-st-015-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-st-016",
+      "titre": "Terre, Soleil, Lune et système solaire",
+      "discipline": "Science et technologie",
+      "discipline_code": "ST",
+      "vague": 0,
+      "objectif": "Expliquer par un modèle simple des phénomènes Terre-Soleil-Lune.",
+      "preuve": "Utiliser un modèle pour expliquer un phénomène astronomique simple.",
+      "prerequis": [],
+      "family_id": "qc-pri-st-016-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-st-017",
+      "titre": "Caractéristiques et classification du vivant",
+      "discipline": "Science et technologie",
+      "discipline_code": "ST",
+      "vague": 0,
+      "objectif": "Classer des organismes par caractéristiques observables plutôt que par préférences.",
+      "preuve": "Justifier une classification de plusieurs êtres vivants.",
+      "prerequis": [],
+      "family_id": "qc-pri-st-017-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-st-018",
+      "titre": "Corps humain et besoins vitaux",
+      "discipline": "Science et technologie",
+      "discipline_code": "ST",
+      "vague": 0,
+      "objectif": "Relier besoins vitaux et fonctions d’organes ou systèmes étudiés.",
+      "preuve": "Construire un schéma fonctionnel simplifié d’un besoin vital.",
+      "prerequis": [],
+      "family_id": "qc-pri-st-018-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-us-001",
+      "titre": "Se repérer dans le temps et construire une chronologie",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "discipline_code": "US",
+      "vague": 0,
+      "objectif": "Positionner et ordonner des événements selon une échelle temporelle cohérente.",
+      "preuve": "Construire une ligne du temps et expliquer l’ordre retenu.",
+      "prerequis": [],
+      "family_id": "qc-pri-us-001-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-us-002",
+      "titre": "Lire des cartes et se repérer dans l’espace",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "discipline_code": "US",
+      "vague": 0,
+      "objectif": "Lire une carte à l’aide de son titre, sa légende et ses repères.",
+      "preuve": "Localiser des lieux et justifier le parcours entre eux sur une carte.",
+      "prerequis": [],
+      "family_id": "qc-pri-us-002-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-us-003",
+      "titre": "Caractériser un territoire et ses ressources",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "discipline_code": "US",
+      "vague": 0,
+      "objectif": "Caractériser un territoire par ses ressources et les usages humains observables.",
+      "preuve": "Produire une carte annotée reliant ressources et activités.",
+      "prerequis": [],
+      "family_id": "qc-pri-us-003-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-us-005",
+      "titre": "Utiliser et comparer des sources historiques",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "discipline_code": "US",
+      "vague": 0,
+      "objectif": "Distinguer source, affirmation et interprétation dans un document historique.",
+      "preuve": "Comparer deux sources et relever ce qu’elles établissent réellement.",
+      "prerequis": [],
+      "family_id": "qc-pri-us-005-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-us-006",
+      "titre": "Sociétés autochtones du territoire vers 1500",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "discipline_code": "US",
+      "vague": 0,
+      "objectif": "Décrire la diversité de sociétés autochtones sur le territoire vers 1500.",
+      "preuve": "Comparer deux réalités autochtones sans les confondre ni les homogénéiser.",
+      "prerequis": [],
+      "family_id": "qc-pri-us-006-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-us-007",
+      "titre": "Sociétés inuites et milieux nordiques",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "discipline_code": "US",
+      "vague": 0,
+      "objectif": "Décrire des aspects des sociétés inuites et leurs relations aux milieux nordiques.",
+      "preuve": "Expliquer deux relations entre environnement et activités, avec sources.",
+      "prerequis": [],
+      "family_id": "qc-pri-us-007-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-us-009",
+      "titre": "Rencontres et échanges entre populations",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "discipline_code": "US",
+      "vague": 0,
+      "objectif": "Comparer des situations de rencontre et d’échange entre populations.",
+      "preuve": "Analyser une situation à partir de deux points de vue documentés.",
+      "prerequis": [],
+      "family_id": "qc-pri-us-009-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-us-016",
+      "titre": "Diversité culturelle et héritages des sociétés",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "discipline_code": "US",
+      "vague": 0,
+      "objectif": "Expliquer la pluralité des héritages culturels dans les sociétés étudiées.",
+      "preuve": "Présenter deux héritages sans les réduire à des stéréotypes.",
+      "prerequis": [],
+      "family_id": "qc-pri-us-016-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ad-003",
+      "titre": "Improviser en interaction",
+      "discipline": "Art dramatique",
+      "discipline_code": "AD",
+      "vague": 1,
+      "objectif": "Improviser une interaction en respectant les propositions des partenaires.",
+      "preuve": "Soutenir une improvisation avec cohérence et prise en compte d’autrui.",
+      "prerequis": [
+        "qc-pri-ad-001",
+        "qc-pri-ad-002"
+      ],
+      "family_id": "qc-pri-ad-003-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ad-006",
+      "titre": "Interpréter un rôle",
+      "discipline": "Art dramatique",
+      "discipline_code": "AD",
+      "vague": 1,
+      "objectif": "Interpréter un rôle en maintenant une intention et une relation de jeu.",
+      "preuve": "Jouer une scène courte avec constance des choix interprétatifs.",
+      "prerequis": [
+        "qc-pri-ad-002"
+      ],
+      "family_id": "qc-pri-ad-006-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ad-008",
+      "titre": "Apprécier une représentation et argumenter",
+      "discipline": "Art dramatique",
+      "discipline_code": "AD",
+      "vague": 1,
+      "objectif": "Apprécier une représentation à partir de critères observables.",
+      "preuve": "Exprimer une appréciation appuyée sur deux moments précis.",
+      "prerequis": [
+        "qc-pri-ad-007"
+      ],
+      "family_id": "qc-pri-ad-008-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ale-002",
+      "titre": "Phonics et décodage",
+      "discipline": "Anglais, langue d’enseignement",
+      "discipline_code": "ALE",
+      "vague": 1,
+      "objectif": "Appliquer des correspondances lettres-sons anglaises au décodage.",
+      "preuve": "Lire de nouveaux mots réguliers et indiquer l’indice utilisé.",
+      "prerequis": [
+        "qc-pri-ale-001"
+      ],
+      "family_id": "qc-pri-ale-002-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ale-010",
+      "titre": "Construire des phrases en anglais",
+      "discipline": "Anglais, langue d’enseignement",
+      "discipline_code": "ALE",
+      "vague": 1,
+      "objectif": "Construire des phrases anglaises variées et grammaticalement compréhensibles.",
+      "preuve": "Produire et transformer plusieurs phrases sur le même thème.",
+      "prerequis": [
+        "qc-pri-ale-008"
+      ],
+      "family_id": "qc-pri-ale-010-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ale-014",
+      "titre": "Parler, interagir et présenter à l’oral",
+      "discipline": "Anglais, langue d’enseignement",
+      "discipline_code": "ALE",
+      "vague": 1,
+      "objectif": "Participer à un échange oral puis présenter une idée argumentée en anglais.",
+      "preuve": "Soutenir un échange et exposer une idée avec un exemple.",
+      "prerequis": [
+        "qc-pri-ale-013"
+      ],
+      "family_id": "qc-pri-ale-014-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-als-005",
+      "titre": "Interagir par formules et questions simples",
+      "discipline": "Anglais, langue seconde",
+      "discipline_code": "ALS",
+      "vague": 1,
+      "objectif": "Poser et répondre à des questions simples en interaction.",
+      "preuve": "Soutenir un échange de quatre tours avec un partenaire.",
+      "prerequis": [
+        "qc-pri-als-001",
+        "qc-pri-als-002"
+      ],
+      "family_id": "qc-pri-als-005-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-als-008",
+      "titre": "Stratégies de lecture et d’écoute en anglais",
+      "discipline": "Anglais, langue seconde",
+      "discipline_code": "ALS",
+      "vague": 1,
+      "objectif": "Choisir une stratégie adaptée pour comprendre un message anglais.",
+      "preuve": "Décrire l’indice ayant permis de comprendre un passage nouveau.",
+      "prerequis": [
+        "qc-pri-als-001"
+      ],
+      "family_id": "qc-pri-als-008-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-als-009",
+      "titre": "Réinvestir le contenu de textes lus ou entendus",
+      "discipline": "Anglais, langue seconde",
+      "discipline_code": "ALS",
+      "vague": 1,
+      "objectif": "Réemployer à l’oral ou à l’écrit des informations comprises dans un message.",
+      "preuve": "Transformer un bref récit entendu ou lu en présentation personnelle.",
+      "prerequis": [
+        "qc-pri-als-003"
+      ],
+      "family_id": "qc-pri-als-009-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-als-010",
+      "titre": "Produire de courts textes en anglais",
+      "discipline": "Anglais, langue seconde",
+      "discipline_code": "ALS",
+      "vague": 1,
+      "objectif": "Rédiger un texte anglais bref, intelligible et adapté à une consigne.",
+      "preuve": "Produire un message de quatre phrases sur une situation donnée.",
+      "prerequis": [
+        "qc-pri-als-002"
+      ],
+      "family_id": "qc-pri-als-010-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ap-003",
+      "titre": "Composer dans l’espace et sur un support",
+      "discipline": "Arts plastiques",
+      "discipline_code": "AP",
+      "vague": 1,
+      "objectif": "Organiser des éléments visuels en une composition intentionnelle.",
+      "preuve": "Créer deux compositions différentes et expliquer les choix.",
+      "prerequis": [
+        "qc-pri-ap-001"
+      ],
+      "family_id": "qc-pri-ap-003-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ap-004",
+      "titre": "Choisir des matériaux et procédés de création",
+      "discipline": "Arts plastiques",
+      "discipline_code": "AP",
+      "vague": 1,
+      "objectif": "Choisir matériaux et procédés en fonction d’une intention créative.",
+      "preuve": "Tester deux matériaux puis justifier celui qui convient à l’intention.",
+      "prerequis": [
+        "qc-pri-ap-002"
+      ],
+      "family_id": "qc-pri-ap-004-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ap-007",
+      "titre": "Analyser les éléments d’une œuvre visuelle",
+      "discipline": "Arts plastiques",
+      "discipline_code": "AP",
+      "vague": 1,
+      "objectif": "Décrire l’organisation et les moyens expressifs d’une œuvre visuelle.",
+      "preuve": "Analyser une œuvre avec preuves visuelles spécifiques.",
+      "prerequis": [
+        "qc-pri-ap-001"
+      ],
+      "family_id": "qc-pri-ap-007-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ccq-007",
+      "titre": "Comparer les réalités culturelles et les points de vue",
+      "discipline": "Culture et citoyenneté québécoise",
+      "discipline_code": "CCQ",
+      "vague": 1,
+      "objectif": "Comparer des perspectives culturelles sans généralisation abusive.",
+      "preuve": "Comparer deux récits en distinguant faits et points de vue.",
+      "prerequis": [
+        "qc-pri-ccq-006"
+      ],
+      "family_id": "qc-pri-ccq-007-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ccq-009",
+      "titre": "Réfléchir de façon critique et éthique",
+      "discipline": "Culture et citoyenneté québécoise",
+      "discipline_code": "CCQ",
+      "vague": 1,
+      "objectif": "Examiner un choix et argumenter à partir de conséquences et de principes.",
+      "preuve": "Justifier une décision possible et reconnaître une objection valable.",
+      "prerequis": [
+        "qc-pri-ccq-008"
+      ],
+      "family_id": "qc-pri-ccq-009-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-da-002",
+      "titre": "Explorer espace, temps et énergie en mouvement",
+      "discipline": "Danse",
+      "discipline_code": "DA",
+      "vague": 1,
+      "objectif": "Faire varier espace, temps et énergie dans un même motif dansé.",
+      "preuve": "Transformer un même mouvement selon trois paramètres annoncés.",
+      "prerequis": [
+        "qc-pri-da-001"
+      ],
+      "family_id": "qc-pri-da-002-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-da-005",
+      "titre": "Improviser seul ou en groupe",
+      "discipline": "Danse",
+      "discipline_code": "DA",
+      "vague": 1,
+      "objectif": "Improviser un mouvement en respectant une contrainte expressive.",
+      "preuve": "Réaliser une improvisation où la contrainte est perceptible.",
+      "prerequis": [
+        "qc-pri-da-001"
+      ],
+      "family_id": "qc-pri-da-005-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-da-008",
+      "titre": "Apprécier et comparer des œuvres chorégraphiques",
+      "discipline": "Danse",
+      "discipline_code": "DA",
+      "vague": 1,
+      "objectif": "Comparer deux propositions chorégraphiques à partir de critères explicites.",
+      "preuve": "Présenter une comparaison avec des observations vérifiables.",
+      "prerequis": [
+        "qc-pri-da-007"
+      ],
+      "family_id": "qc-pri-da-008-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-eps-005",
+      "titre": "Actions et enchaînements moteurs",
+      "discipline": "Éducation physique et à la santé",
+      "discipline_code": "EPS",
+      "vague": 1,
+      "objectif": "Assembler plusieurs habiletés motrices en une séquence contrôlée.",
+      "preuve": "Exécuter une séquence de trois mouvements avec continuité.",
+      "prerequis": [
+        "qc-pri-eps-002"
+      ],
+      "family_id": "qc-pri-eps-005-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-eps-006",
+      "titre": "Jeux coopératifs et opposition",
+      "discipline": "Éducation physique et à la santé",
+      "discipline_code": "EPS",
+      "vague": 1,
+      "objectif": "Jouer selon des règles partagées en coopérant et en gérant l’opposition.",
+      "preuve": "Participer à un jeu en montrant respect des règles et décisions adaptées.",
+      "prerequis": [
+        "qc-pri-eps-008"
+      ],
+      "family_id": "qc-pri-eps-006-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-eps-009",
+      "titre": "Condition physique et effort",
+      "discipline": "Éducation physique et à la santé",
+      "discipline_code": "EPS",
+      "vague": 1,
+      "objectif": "Réguler son effort en fonction d’une activité et des signes corporels usuels.",
+      "preuve": "Planifier puis ajuster une séance d’effort adaptée et sûre.",
+      "prerequis": [
+        "qc-pri-eps-008"
+      ],
+      "family_id": "qc-pri-eps-009-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fls-004",
+      "titre": "Interagir dans des situations familières en français",
+      "discipline": "Français, langue seconde",
+      "discipline_code": "FLS",
+      "vague": 1,
+      "objectif": "Échanger en français dans une situation quotidienne préparée.",
+      "preuve": "Jouer un dialogue de quatre tours avec choix de formules adaptées.",
+      "prerequis": [
+        "qc-pri-fls-001",
+        "qc-pri-fls-002"
+      ],
+      "family_id": "qc-pri-fls-004-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fls-006",
+      "titre": "Lire et comprendre des textes adaptés en français",
+      "discipline": "Français, langue seconde",
+      "discipline_code": "FLS",
+      "vague": 1,
+      "objectif": "Lire un texte français adapté et en identifier sens global et détails.",
+      "preuve": "Répondre à des questions sur un texte court inconnu.",
+      "prerequis": [
+        "qc-pri-fls-002"
+      ],
+      "family_id": "qc-pri-fls-006-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fls-007",
+      "titre": "Réinvestir des informations lues et entendues",
+      "discipline": "Français, langue seconde",
+      "discipline_code": "FLS",
+      "vague": 1,
+      "objectif": "Réinvestir en situation nouvelle des informations lues ou entendues.",
+      "preuve": "Préparer une consigne ou présentation à partir de deux messages.",
+      "prerequis": [
+        "qc-pri-fls-001"
+      ],
+      "family_id": "qc-pri-fls-007-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fls-008",
+      "titre": "Construire et écrire des phrases en français",
+      "discipline": "Français, langue seconde",
+      "discipline_code": "FLS",
+      "vague": 1,
+      "objectif": "Écrire des phrases simples en français adaptées à une intention.",
+      "preuve": "Rédiger un message de plusieurs phrases intelligibles.",
+      "prerequis": [
+        "qc-pri-fls-002"
+      ],
+      "family_id": "qc-pri-fls-008-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-002",
+      "titre": "Correspondances graphèmes-phonèmes",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 1,
+      "objectif": "Associer les graphèmes courants aux phonèmes et effectuer la conversion dans les deux sens.",
+      "preuve": "Lire et écrire une série de syllabes et de mots réguliers nouveaux.",
+      "prerequis": [
+        "qc-pri-fr-001"
+      ],
+      "family_id": "qc-pri-fr-002-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-006",
+      "titre": "Inférences en lecture",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 1,
+      "objectif": "Déduire une information implicite en reliant indices du texte et connaissances pertinentes.",
+      "preuve": "Formuler deux inférences différentes appuyées chacune sur un indice.",
+      "prerequis": [
+        "qc-pri-fr-005"
+      ],
+      "family_id": "qc-pri-fr-006-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-008",
+      "titre": "Lire un récit",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 1,
+      "objectif": "Reconstituer les éléments d’un récit et leurs liens de cause à effet.",
+      "preuve": "Produire un schéma narratif et justifier l’ordre des événements.",
+      "prerequis": [
+        "qc-pri-fr-005"
+      ],
+      "family_id": "qc-pri-fr-008-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-009",
+      "titre": "Lire un texte courant ou documentaire",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 1,
+      "objectif": "Extraire, organiser et reformuler les informations principales d’un texte documentaire.",
+      "preuve": "Créer une synthèse courte distinguant informations principales et secondaires.",
+      "prerequis": [
+        "qc-pri-fr-005"
+      ],
+      "family_id": "qc-pri-fr-009-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-014",
+      "titre": "Groupes de mots et fonctions syntaxiques",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 1,
+      "objectif": "Repérer des groupes de mots et expliquer leurs principales fonctions dans une phrase.",
+      "preuve": "Segmenter plusieurs phrases et expliciter le rôle de leurs groupes.",
+      "prerequis": [
+        "qc-pri-fr-013"
+      ],
+      "family_id": "qc-pri-fr-014-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-018",
+      "titre": "Conjugaison des verbes",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 1,
+      "objectif": "Employer les formes verbales étudiées selon la personne et la valeur temporelle.",
+      "preuve": "Compléter puis produire de courtes phrases aux temps ciblés.",
+      "prerequis": [
+        "qc-pri-fr-013"
+      ],
+      "family_id": "qc-pri-fr-018-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-019",
+      "titre": "Ponctuation et majuscules",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 1,
+      "objectif": "Utiliser majuscules et signes de ponctuation pour segmenter et clarifier un écrit.",
+      "preuve": "Ponctuer un passage dépourvu de signes et motiver les choix.",
+      "prerequis": [
+        "qc-pri-fr-015"
+      ],
+      "family_id": "qc-pri-fr-019-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-021",
+      "titre": "Rédiger des phrases et des paragraphes",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 1,
+      "objectif": "Rédiger des phrases reliées en paragraphes porteurs d’une idée centrale.",
+      "preuve": "Rédiger deux paragraphes complets à partir d’un plan.",
+      "prerequis": [
+        "qc-pri-fr-015"
+      ],
+      "family_id": "qc-pri-fr-021-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-025",
+      "titre": "Interagir et écouter activement",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 1,
+      "objectif": "Prendre part à un échange en écoutant, reformulant et poursuivant le propos d’autrui.",
+      "preuve": "Participer à une discussion guidée avec deux relances pertinentes.",
+      "prerequis": [
+        "qc-pri-fr-024"
+      ],
+      "family_id": "qc-pri-fr-025-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ilss-002",
+      "titre": "Interagir oralement dans la classe",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "discipline_code": "ILSS",
+      "vague": 1,
+      "objectif": "Échanger des informations nécessaires à la vie de classe.",
+      "preuve": "Participer à un échange scolaire de plusieurs tours.",
+      "prerequis": [
+        "qc-pri-ilss-001"
+      ],
+      "family_id": "qc-pri-ilss-002-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ilss-004",
+      "titre": "Comprendre des échanges et documents de la vie quotidienne",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "discipline_code": "ILSS",
+      "vague": 1,
+      "objectif": "Comprendre des messages et documents fonctionnels du quotidien.",
+      "preuve": "Extraire l’information utile d’un document scolaire adapté.",
+      "prerequis": [
+        "qc-pri-ilss-001"
+      ],
+      "family_id": "qc-pri-ilss-004-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ilss-005",
+      "titre": "Entrer dans la lecture en français selon le palier",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "discipline_code": "ILSS",
+      "vague": 1,
+      "objectif": "Utiliser des stratégies de lecture adaptées à son palier de littératie.",
+      "preuve": "Lire un texte adapté et indiquer la stratégie utile.",
+      "prerequis": [
+        "qc-pri-ilss-003"
+      ],
+      "family_id": "qc-pri-ilss-005-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ilss-007",
+      "titre": "Écrire des messages et textes fonctionnels",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "discipline_code": "ILSS",
+      "vague": 1,
+      "objectif": "Écrire un message fonctionnel compréhensible pour un destinataire.",
+      "preuve": "Rédiger une demande ou une réponse scolaire utilisable.",
+      "prerequis": [
+        "qc-pri-ilss-003"
+      ],
+      "family_id": "qc-pri-ilss-007-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ilss-010",
+      "titre": "Participer à la vie sociale et culturelle du milieu",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "discipline_code": "ILSS",
+      "vague": 1,
+      "objectif": "Participer à une activité sociale ou culturelle en utilisant les ressources du milieu.",
+      "preuve": "Préparer puis réaliser une participation adaptée à un contexte sûr.",
+      "prerequis": [
+        "qc-pri-ilss-009"
+      ],
+      "family_id": "qc-pri-ilss-010-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-002",
+      "titre": "Lire, écrire et comparer des nombres naturels",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 1,
+      "objectif": "Lire, écrire, ordonner et comparer des nombres naturels dans un champ adapté.",
+      "preuve": "Placer et comparer des nombres en expliquant le critère de comparaison.",
+      "prerequis": [
+        "qc-pri-ma-001"
+      ],
+      "family_id": "qc-pri-ma-002-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-013",
+      "titre": "Fractions : équivalence et comparaison",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 1,
+      "objectif": "Construire des fractions équivalentes et comparer des fractions de référence.",
+      "preuve": "Ordonner des fractions avec justification visuelle ou numérique.",
+      "prerequis": [
+        "qc-pri-ma-012"
+      ],
+      "family_id": "qc-pri-ma-013-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-024",
+      "titre": "Droites, angles et symétrie",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 1,
+      "objectif": "Identifier et construire des angles, des droites et des symétries simples.",
+      "preuve": "Compléter une figure symétrique puis justifier la transformation.",
+      "prerequis": [
+        "qc-pri-ma-023"
+      ],
+      "family_id": "qc-pri-ma-024-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-027",
+      "titre": "Périmètre",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 1,
+      "objectif": "Calculer et interpréter le périmètre d’une figure comme longueur du contour.",
+      "preuve": "Trouver le périmètre de deux figures et expliquer l’effet d’une modification.",
+      "prerequis": [
+        "qc-pri-ma-023",
+        "qc-pri-ma-025"
+      ],
+      "family_id": "qc-pri-ma-027-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-028",
+      "titre": "Aire et unités d’aire",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 1,
+      "objectif": "Mesurer ou calculer une aire en unités carrées adaptées.",
+      "preuve": "Déterminer l’aire de figures quadrillées et expliquer la méthode.",
+      "prerequis": [
+        "qc-pri-ma-023",
+        "qc-pri-ma-025"
+      ],
+      "family_id": "qc-pri-ma-028-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-029",
+      "titre": "Volume et unités de volume",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 1,
+      "objectif": "Déterminer un volume par comptage ou structuration d’unités cubiques.",
+      "preuve": "Évaluer le volume d’un assemblage de cubes en montrant le comptage.",
+      "prerequis": [
+        "qc-pri-ma-022",
+        "qc-pri-ma-025"
+      ],
+      "family_id": "qc-pri-ma-029-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-031",
+      "titre": "Lire et produire des diagrammes",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 1,
+      "objectif": "Lire, créer et critiquer une représentation graphique de données.",
+      "preuve": "Produire un diagramme et repérer une interprétation incorrecte.",
+      "prerequis": [
+        "qc-pri-ma-030"
+      ],
+      "family_id": "qc-pri-ma-031-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-mu-002",
+      "titre": "Explorer pulsation, rythme et durée",
+      "discipline": "Musique",
+      "discipline_code": "MU",
+      "vague": 1,
+      "objectif": "Reproduire et créer des motifs avec pulsation et durées.",
+      "preuve": "Reproduire puis inventer un motif rythmique stable.",
+      "prerequis": [
+        "qc-pri-mu-001"
+      ],
+      "family_id": "qc-pri-mu-002-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-mu-003",
+      "titre": "Explorer hauteur, mélodie et harmonie",
+      "discipline": "Musique",
+      "discipline_code": "MU",
+      "vague": 1,
+      "objectif": "Comparer des motifs mélodiques selon les mouvements de hauteur.",
+      "preuve": "Chanter ou jouer un motif et décrire ses variations de hauteur.",
+      "prerequis": [
+        "qc-pri-mu-001"
+      ],
+      "family_id": "qc-pri-mu-003-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-mu-004",
+      "titre": "Découvrir timbres et instruments",
+      "discipline": "Musique",
+      "discipline_code": "MU",
+      "vague": 1,
+      "objectif": "Reconnaître des timbres instrumentaux et expliquer leur différence.",
+      "preuve": "Identifier et comparer plusieurs sons instrumentaux.",
+      "prerequis": [
+        "qc-pri-mu-001"
+      ],
+      "family_id": "qc-pri-mu-004-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-mu-005",
+      "titre": "Explorer voix et techniques vocales",
+      "discipline": "Musique",
+      "discipline_code": "MU",
+      "vague": 1,
+      "objectif": "Utiliser sa voix de façon sûre et expressive dans un motif simple.",
+      "preuve": "Interpréter un chant court avec diction et contrôle du souffle.",
+      "prerequis": [
+        "qc-pri-mu-001"
+      ],
+      "family_id": "qc-pri-mu-005-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-mu-008",
+      "titre": "Écouter et analyser des œuvres musicales",
+      "discipline": "Musique",
+      "discipline_code": "MU",
+      "vague": 1,
+      "objectif": "Écouter un extrait et en décrire des caractéristiques musicales observables.",
+      "preuve": "Présenter une analyse d’écoute justifiée par des moments précis.",
+      "prerequis": [
+        "qc-pri-mu-001"
+      ],
+      "family_id": "qc-pri-mu-008-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-st-002",
+      "titre": "Formuler des hypothèses et planifier une investigation",
+      "discipline": "Science et technologie",
+      "discipline_code": "ST",
+      "vague": 1,
+      "objectif": "Formuler une prédiction motivée et concevoir un test simple et sûr.",
+      "preuve": "Proposer un protocole avec paramètres observables et mesures prévues.",
+      "prerequis": [
+        "qc-pri-st-001"
+      ],
+      "family_id": "qc-pri-st-002-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-st-003",
+      "titre": "Mesurer et recueillir des données",
+      "discipline": "Science et technologie",
+      "discipline_code": "ST",
+      "vague": 1,
+      "objectif": "Choisir un instrument et relever des mesures traçables et reproductibles.",
+      "preuve": "Tenir un tableau de données sur deux essais comparables.",
+      "prerequis": [
+        "qc-pri-st-001"
+      ],
+      "family_id": "qc-pri-st-003-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-st-006",
+      "titre": "Transformations de la matière",
+      "discipline": "Science et technologie",
+      "discipline_code": "ST",
+      "vague": 1,
+      "objectif": "Identifier et comparer des changements physiques observables de la matière.",
+      "preuve": "Comparer deux transformations et conserver une trace des observations.",
+      "prerequis": [
+        "qc-pri-st-005"
+      ],
+      "family_id": "qc-pri-st-006-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-st-010",
+      "titre": "Électricité et magnétisme",
+      "discipline": "Science et technologie",
+      "discipline_code": "ST",
+      "vague": 1,
+      "objectif": "Construire un circuit très simple et distinguer circuit fermé et ouvert.",
+      "preuve": "Dessiner puis vérifier le fonctionnement d’un montage à basse tension.",
+      "prerequis": [
+        "qc-pri-st-008"
+      ],
+      "family_id": "qc-pri-st-010-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-st-012",
+      "titre": "Concevoir et fabriquer un objet technique",
+      "discipline": "Science et technologie",
+      "discipline_code": "ST",
+      "vague": 1,
+      "objectif": "Prototyper un objet répondant à un besoin avec tests et améliorations.",
+      "preuve": "Fabriquer un prototype et documenter une amélioration issue des essais.",
+      "prerequis": [
+        "qc-pri-st-011"
+      ],
+      "family_id": "qc-pri-st-012-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-st-014",
+      "titre": "Eau et cycle de l’eau",
+      "discipline": "Science et technologie",
+      "discipline_code": "ST",
+      "vague": 1,
+      "objectif": "Expliquer par un schéma les principaux changements d’état et déplacements de l’eau.",
+      "preuve": "Construire une représentation commentée du cycle de l’eau.",
+      "prerequis": [
+        "qc-pri-st-005"
+      ],
+      "family_id": "qc-pri-st-014-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-st-019",
+      "titre": "Cycles de vie et adaptations du vivant",
+      "discipline": "Science et technologie",
+      "discipline_code": "ST",
+      "vague": 1,
+      "objectif": "Comparer des étapes de cycles de vie et des adaptations à un milieu.",
+      "preuve": "Ordonner un cycle de vie et justifier une adaptation observable.",
+      "prerequis": [
+        "qc-pri-st-017"
+      ],
+      "family_id": "qc-pri-st-019-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-st-020",
+      "titre": "Habitats, réseaux alimentaires et environnement",
+      "discipline": "Science et technologie",
+      "discipline_code": "ST",
+      "vague": 1,
+      "objectif": "Représenter des interactions alimentaires et environnementales d’un habitat.",
+      "preuve": "Construire un réseau simple et prédire l’effet d’un changement de ressource.",
+      "prerequis": [
+        "qc-pri-st-017"
+      ],
+      "family_id": "qc-pri-st-020-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-us-004",
+      "titre": "Lire l’organisation d’une société sur son territoire",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "discipline_code": "US",
+      "vague": 1,
+      "objectif": "Décrire comment une société organise ses activités et son territoire.",
+      "preuve": "Présenter une société avec une grille commune de comparaison.",
+      "prerequis": [
+        "qc-pri-us-002"
+      ],
+      "family_id": "qc-pri-us-004-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-us-008",
+      "titre": "La Nouvelle-France : territoire et société",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "discipline_code": "US",
+      "vague": 1,
+      "objectif": "Présenter l’organisation et des évolutions de la Nouvelle-France.",
+      "preuve": "Réaliser une chronologie commentée de transformations déterminées.",
+      "prerequis": [
+        "qc-pri-us-001"
+      ],
+      "family_id": "qc-pri-us-008-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-us-010",
+      "titre": "Transformations à l’époque britannique",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "discipline_code": "US",
+      "vague": 1,
+      "objectif": "Identifier des transformations sociales et politiques sous le régime britannique.",
+      "preuve": "Produire une comparaison avant-après sur un aspect précis.",
+      "prerequis": [
+        "qc-pri-us-001"
+      ],
+      "family_id": "qc-pri-us-010-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-us-011",
+      "titre": "Industrialisation, urbanisation et transformations sociales",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "discipline_code": "US",
+      "vague": 1,
+      "objectif": "Expliquer des conséquences de l’industrialisation sur la vie quotidienne.",
+      "preuve": "Relier une transformation technique à deux effets sociaux documentés.",
+      "prerequis": [
+        "qc-pri-us-001"
+      ],
+      "family_id": "qc-pri-us-011-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-us-012",
+      "titre": "Québec au XXe siècle",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "discipline_code": "US",
+      "vague": 1,
+      "objectif": "Ordonner des changements marquants du Québec au XXe siècle.",
+      "preuve": "Concevoir une frise thématique avec sources et liens justifiés.",
+      "prerequis": [
+        "qc-pri-us-001"
+      ],
+      "family_id": "qc-pri-us-012-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-us-013",
+      "titre": "Québec contemporain et évolution sociale",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "discipline_code": "US",
+      "vague": 1,
+      "objectif": "Décrire un enjeu du Québec contemporain à partir d’informations croisées.",
+      "preuve": "Synthétiser un enjeu avec faits, acteurs et limites des sources.",
+      "prerequis": [
+        "qc-pri-us-001"
+      ],
+      "family_id": "qc-pri-us-013-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-us-015",
+      "titre": "Comprendre les changements et les continuités historiques",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "discipline_code": "US",
+      "vague": 1,
+      "objectif": "Distinguer ce qui change de ce qui perdure au fil d’une période.",
+      "preuve": "Appuyer deux constats historiques par des éléments datés.",
+      "prerequis": [
+        "qc-pri-us-001",
+        "qc-pri-us-005"
+      ],
+      "family_id": "qc-pri-us-015-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ad-004",
+      "titre": "Créer une séquence dramatique",
+      "discipline": "Art dramatique",
+      "discipline_code": "AD",
+      "vague": 2,
+      "objectif": "Construire une brève séquence dramatique comportant une évolution.",
+      "preuve": "Jouer une séquence originale avec progression intelligible.",
+      "prerequis": [
+        "qc-pri-ad-003"
+      ],
+      "family_id": "qc-pri-ad-004-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ale-003",
+      "titre": "Lire avec fluidité en anglais",
+      "discipline": "Anglais, langue d’enseignement",
+      "discipline_code": "ALE",
+      "vague": 2,
+      "objectif": "Lire un passage anglais avec précision et rythme permettant la compréhension.",
+      "preuve": "Relire un texte nouveau avec meilleure exactitude et phrasé.",
+      "prerequis": [
+        "qc-pri-ale-002"
+      ],
+      "family_id": "qc-pri-ale-003-ev-01",
+      "nombre_items": 13,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ale-009",
+      "titre": "Orthographe et conventions de l’écrit en anglais",
+      "discipline": "Anglais, langue d’enseignement",
+      "discipline_code": "ALE",
+      "vague": 2,
+      "objectif": "Orthographier et ponctuer des phrases anglaises ciblées.",
+      "preuve": "Corriger un message en repérant et justifiant les corrections.",
+      "prerequis": [
+        "qc-pri-ale-002"
+      ],
+      "family_id": "qc-pri-ale-009-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ale-011",
+      "titre": "Planifier et produire des textes en anglais",
+      "discipline": "Anglais, langue d’enseignement",
+      "discipline_code": "ALE",
+      "vague": 2,
+      "objectif": "Planifier puis rédiger un texte anglais pour un public explicite.",
+      "preuve": "Produire deux paragraphes ordonnés selon une consigne nouvelle.",
+      "prerequis": [
+        "qc-pri-ale-010"
+      ],
+      "family_id": "qc-pri-ale-011-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-als-006",
+      "titre": "Parler d’expériences et de situations familières",
+      "discipline": "Anglais, langue seconde",
+      "discipline_code": "ALS",
+      "vague": 2,
+      "objectif": "Décrire une expérience proche en phrases anglaises simples.",
+      "preuve": "Raconter oralement une situation familière avec trois informations pertinentes.",
+      "prerequis": [
+        "qc-pri-als-005"
+      ],
+      "family_id": "qc-pri-als-006-ev-01",
+      "nombre_items": 8,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-als-011",
+      "titre": "Réviser les productions écrites en anglais",
+      "discipline": "Anglais, langue seconde",
+      "discipline_code": "ALS",
+      "vague": 2,
+      "objectif": "Relire et améliorer un texte anglais court à partir de critères ciblés.",
+      "preuve": "Réviser un court message et expliquer deux améliorations.",
+      "prerequis": [
+        "qc-pri-als-010"
+      ],
+      "family_id": "qc-pri-als-011-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-als-012",
+      "titre": "Présenter et échanger en anglais",
+      "discipline": "Anglais, langue seconde",
+      "discipline_code": "ALS",
+      "vague": 2,
+      "objectif": "Communiquer une idée en anglais devant un petit groupe et répondre aux questions.",
+      "preuve": "Présenter un thème familier puis répondre à des demandes de précision.",
+      "prerequis": [
+        "qc-pri-als-005"
+      ],
+      "family_id": "qc-pri-als-012-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ap-005",
+      "titre": "Créer des images personnelles",
+      "discipline": "Arts plastiques",
+      "discipline_code": "AP",
+      "vague": 2,
+      "objectif": "Créer une image personnelle cohérente avec un projet expressif.",
+      "preuve": "Réaliser une production et présenter ses choix de création.",
+      "prerequis": [
+        "qc-pri-ap-003"
+      ],
+      "family_id": "qc-pri-ap-005-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ap-006",
+      "titre": "Créer des images médiatiques",
+      "discipline": "Arts plastiques",
+      "discipline_code": "AP",
+      "vague": 2,
+      "objectif": "Créer une image destinée à communiquer à un public précis.",
+      "preuve": "Réaliser une affiche et vérifier sa compréhension auprès d’un pair.",
+      "prerequis": [
+        "qc-pri-ap-003"
+      ],
+      "family_id": "qc-pri-ap-006-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ap-008",
+      "titre": "Apprécier des œuvres et exprimer sa perception",
+      "discipline": "Arts plastiques",
+      "discipline_code": "AP",
+      "vague": 2,
+      "objectif": "Formuler une appréciation argumentée d’une œuvre sans imposer le goût.",
+      "preuve": "Donner un avis distinguant préférence et éléments de l’œuvre.",
+      "prerequis": [
+        "qc-pri-ap-007"
+      ],
+      "family_id": "qc-pri-ap-008-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-da-003",
+      "titre": "Créer une phrase chorégraphique",
+      "discipline": "Danse",
+      "discipline_code": "DA",
+      "vague": 2,
+      "objectif": "Composer une phrase dansée structurée avec un début et une fin.",
+      "preuve": "Présenter une phrase chorégraphique originale mémorisable.",
+      "prerequis": [
+        "qc-pri-da-002"
+      ],
+      "family_id": "qc-pri-da-003-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-da-006",
+      "titre": "Interpréter une danse",
+      "discipline": "Danse",
+      "discipline_code": "DA",
+      "vague": 2,
+      "objectif": "Interpréter une danse avec précision relative et intention expressive.",
+      "preuve": "Exécuter une séquence montrant une progression entre deux essais.",
+      "prerequis": [
+        "qc-pri-da-002"
+      ],
+      "family_id": "qc-pri-da-006-ev-01",
+      "nombre_items": 8,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-eps-007",
+      "titre": "Stratégies d’action collective",
+      "discipline": "Éducation physique et à la santé",
+      "discipline_code": "EPS",
+      "vague": 2,
+      "objectif": "Choisir une stratégie collective simple puis l’adapter après observation.",
+      "preuve": "Expliquer un choix tactique et montrer un ajustement en jeu.",
+      "prerequis": [
+        "qc-pri-eps-006"
+      ],
+      "family_id": "qc-pri-eps-007-ev-01",
+      "nombre_items": 13,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-eps-012",
+      "titre": "Autoévaluation d’une pratique physique",
+      "discipline": "Éducation physique et à la santé",
+      "discipline_code": "EPS",
+      "vague": 2,
+      "objectif": "Analyser une pratique physique à partir de critères observables et personnels non comparatifs.",
+      "preuve": "Comparer deux essais personnels et identifier une prochaine adaptation.",
+      "prerequis": [
+        "qc-pri-eps-009"
+      ],
+      "family_id": "qc-pri-eps-012-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fls-005",
+      "titre": "Développer l’interaction et la prise de parole",
+      "discipline": "Français, langue seconde",
+      "discipline_code": "FLS",
+      "vague": 2,
+      "objectif": "Développer et relancer un échange oral en français au-delà des routines.",
+      "preuve": "Soutenir une conversation brève et demander une précision utile.",
+      "prerequis": [
+        "qc-pri-fls-004"
+      ],
+      "family_id": "qc-pri-fls-005-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fls-009",
+      "titre": "Produire des textes adaptés en français",
+      "discipline": "Français, langue seconde",
+      "discipline_code": "FLS",
+      "vague": 2,
+      "objectif": "Rédiger un court texte en français répondant à une consigne précise.",
+      "preuve": "Produire un texte bref avec début, information et clôture.",
+      "prerequis": [
+        "qc-pri-fls-008"
+      ],
+      "family_id": "qc-pri-fls-009-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-003",
+      "titre": "Décodage et reconnaissance des mots",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 2,
+      "objectif": "Décoder des mots inconnus en mobilisant les correspondances apprises.",
+      "preuve": "Lire à voix haute une série de mots nouveaux et expliquer la stratégie employée.",
+      "prerequis": [
+        "qc-pri-fr-002"
+      ],
+      "family_id": "qc-pri-fr-003-ev-01",
+      "nombre_items": 13,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-010",
+      "titre": "Réagir aux textes et les apprécier",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 2,
+      "objectif": "Exprimer une réaction argumentée à une lecture en distinguant goûts et indices textuels.",
+      "preuve": "Défendre une appréciation personnelle fondée sur deux éléments du texte.",
+      "prerequis": [
+        "qc-pri-fr-008"
+      ],
+      "family_id": "qc-pri-fr-010-ev-01",
+      "nombre_items": 8,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-016",
+      "titre": "Accords dans le groupe nominal",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 2,
+      "objectif": "Réaliser les accords à l’intérieur d’un groupe nominal et expliquer les marques utilisées.",
+      "preuve": "Corriger des groupes nominaux en indiquant les indices d’accord.",
+      "prerequis": [
+        "qc-pri-fr-014"
+      ],
+      "family_id": "qc-pri-fr-016-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-017",
+      "titre": "Accord du verbe avec le sujet",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 2,
+      "objectif": "Accorder le verbe avec son sujet dans des phrases simples puis enrichies.",
+      "preuve": "Repérer le sujet et justifier l’accord dans six phrases différentes.",
+      "prerequis": [
+        "qc-pri-fr-014"
+      ],
+      "family_id": "qc-pri-fr-017-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-022",
+      "titre": "Organiser et assurer la cohérence d’un texte",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 2,
+      "objectif": "Relier des paragraphes en maintenant le sujet et l’ordre logique du texte.",
+      "preuve": "Réorganiser un texte fragmenté et expliquer les liens créés.",
+      "prerequis": [
+        "qc-pri-fr-021"
+      ],
+      "family_id": "qc-pri-fr-022-ev-01",
+      "nombre_items": 11,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-023",
+      "titre": "Réviser et corriger un texte",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 2,
+      "objectif": "Améliorer un texte en révisant sens, structure puis orthographe et grammaire.",
+      "preuve": "Annoter puis produire une version révisée avec justification de trois changements.",
+      "prerequis": [
+        "qc-pri-fr-021"
+      ],
+      "family_id": "qc-pri-fr-023-ev-01",
+      "nombre_items": 8,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-026",
+      "titre": "Présenter et justifier des idées à l’oral",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 2,
+      "objectif": "Présenter une idée structurée et la défendre à l’aide de raisons audibles.",
+      "preuve": "Donner un court exposé suivi de réponses pertinentes à deux questions.",
+      "prerequis": [
+        "qc-pri-fr-025"
+      ],
+      "family_id": "qc-pri-fr-026-ev-01",
+      "nombre_items": 13,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ilss-006",
+      "titre": "Lire et comprendre des textes scolaires",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "discipline_code": "ILSS",
+      "vague": 2,
+      "objectif": "Identifier et organiser les informations principales de documents scolaires.",
+      "preuve": "Restituer le sens d’un court document pédagogique.",
+      "prerequis": [
+        "qc-pri-ilss-005"
+      ],
+      "family_id": "qc-pri-ilss-006-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-003",
+      "titre": "Valeur de position et regroupements",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 2,
+      "objectif": "Décomposer et recomposer des nombres grâce aux valeurs de position.",
+      "preuve": "Décomposer un nombre de deux façons puis effectuer un regroupement inverse.",
+      "prerequis": [
+        "qc-pri-ma-002"
+      ],
+      "family_id": "qc-pri-ma-003-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-006",
+      "titre": "Sens et stratégies de l’addition",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 2,
+      "objectif": "Modéliser l’addition et choisir une stratégie efficace pour calculer.",
+      "preuve": "Résoudre deux additions distinctes et expliquer la stratégie adoptée.",
+      "prerequis": [
+        "qc-pri-ma-002"
+      ],
+      "family_id": "qc-pri-ma-006-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-007",
+      "titre": "Sens et stratégies de la soustraction",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 2,
+      "objectif": "Modéliser la soustraction comme retrait, différence ou complément.",
+      "preuve": "Résoudre un problème de différence et vérifier par addition.",
+      "prerequis": [
+        "qc-pri-ma-002"
+      ],
+      "family_id": "qc-pri-ma-007-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-014",
+      "titre": "Fractions : opérations selon la progression",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 2,
+      "objectif": "Effectuer des opérations élémentaires sur les fractions en conservant leur sens.",
+      "preuve": "Résoudre une situation illustrée sur des fractions et vérifier le résultat.",
+      "prerequis": [
+        "qc-pri-ma-013"
+      ],
+      "family_id": "qc-pri-ma-014-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-mu-006",
+      "titre": "Inventer une pièce vocale ou instrumentale",
+      "discipline": "Musique",
+      "discipline_code": "MU",
+      "vague": 2,
+      "objectif": "Composer une courte pièce sonore selon une intention donnée.",
+      "preuve": "Créer et documenter une pièce courte avec structure reconnaissable.",
+      "prerequis": [
+        "qc-pri-mu-002"
+      ],
+      "family_id": "qc-pri-mu-006-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-mu-007",
+      "titre": "Interpréter seul ou en ensemble",
+      "discipline": "Musique",
+      "discipline_code": "MU",
+      "vague": 2,
+      "objectif": "Interpréter une pièce avec écoute mutuelle et cohérence collective.",
+      "preuve": "Exécuter une pièce courte puis corriger un passage problématique.",
+      "prerequis": [
+        "qc-pri-mu-002"
+      ],
+      "family_id": "qc-pri-mu-007-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-mu-009",
+      "titre": "Apprécier des œuvres et justifier son appréciation",
+      "discipline": "Musique",
+      "discipline_code": "MU",
+      "vague": 2,
+      "objectif": "Exprimer une appréciation musicale reliée à des indices entendus.",
+      "preuve": "Argumenter une appréciation en citant deux éléments auditifs.",
+      "prerequis": [
+        "qc-pri-mu-008"
+      ],
+      "family_id": "qc-pri-mu-009-ev-01",
+      "nombre_items": 11,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-st-004",
+      "titre": "Expliquer et communiquer des résultats",
+      "discipline": "Science et technologie",
+      "discipline_code": "ST",
+      "vague": 2,
+      "objectif": "Relier des observations à une conclusion en distinguant constat et interprétation.",
+      "preuve": "Présenter un résultat, son indice et une limite de la conclusion.",
+      "prerequis": [
+        "qc-pri-st-003"
+      ],
+      "family_id": "qc-pri-st-004-ev-01",
+      "nombre_items": 13,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-us-014",
+      "titre": "Comparer des sociétés et leurs territoires",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "discipline_code": "US",
+      "vague": 2,
+      "objectif": "Comparer deux sociétés selon des critères explicites et communs.",
+      "preuve": "Produire un tableau comparatif avec explication des différences.",
+      "prerequis": [
+        "qc-pri-us-004"
+      ],
+      "family_id": "qc-pri-us-014-ev-01",
+      "nombre_items": 8,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ad-005",
+      "titre": "Organiser une mise en scène simple",
+      "discipline": "Art dramatique",
+      "discipline_code": "AD",
+      "vague": 3,
+      "objectif": "Organiser les éléments d’une mise en scène simple pour un public.",
+      "preuve": "Présenter une mise en scène et justifier ses choix scéniques.",
+      "prerequis": [
+        "qc-pri-ad-004"
+      ],
+      "family_id": "qc-pri-ad-005-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ad-009",
+      "titre": "Présenter et analyser sa démarche dramatique",
+      "discipline": "Art dramatique",
+      "discipline_code": "AD",
+      "vague": 3,
+      "objectif": "Analyser les étapes de sa démarche de création ou d’interprétation.",
+      "preuve": "Présenter sa démarche avec un exemple d’ajustement réalisé.",
+      "prerequis": [
+        "qc-pri-ad-004"
+      ],
+      "family_id": "qc-pri-ad-009-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ale-004",
+      "titre": "Comprendre des textes narratifs",
+      "discipline": "Anglais, langue d’enseignement",
+      "discipline_code": "ALE",
+      "vague": 3,
+      "objectif": "Reconstituer actions, personnages et idées d’un récit en anglais.",
+      "preuve": "Résumer une histoire et citer un détail qui soutient le résumé.",
+      "prerequis": [
+        "qc-pri-ale-003"
+      ],
+      "family_id": "qc-pri-ale-004-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ale-005",
+      "titre": "Comprendre des textes informatifs",
+      "discipline": "Anglais, langue d’enseignement",
+      "discipline_code": "ALE",
+      "vague": 3,
+      "objectif": "Repérer et organiser les informations d’un texte informatif en anglais.",
+      "preuve": "Créer une fiche de synthèse d’un document nouveau.",
+      "prerequis": [
+        "qc-pri-ale-003"
+      ],
+      "family_id": "qc-pri-ale-005-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ale-012",
+      "titre": "Réviser ses textes en anglais",
+      "discipline": "Anglais, langue d’enseignement",
+      "discipline_code": "ALE",
+      "vague": 3,
+      "objectif": "Réviser un texte anglais selon un ordre de contrôle du sens puis de la forme.",
+      "preuve": "Remettre une version annotée montrant des améliorations justifiées.",
+      "prerequis": [
+        "qc-pri-ale-011"
+      ],
+      "family_id": "qc-pri-ale-012-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ap-009",
+      "titre": "Présenter et expliquer sa démarche artistique",
+      "discipline": "Arts plastiques",
+      "discipline_code": "AP",
+      "vague": 3,
+      "objectif": "Expliquer son processus de création et des ajustements apportés.",
+      "preuve": "Présenter un portfolio commenté de deux étapes de création.",
+      "prerequis": [
+        "qc-pri-ap-005"
+      ],
+      "family_id": "qc-pri-ap-009-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-da-004",
+      "titre": "Organiser une composition dansée",
+      "discipline": "Danse",
+      "discipline_code": "DA",
+      "vague": 3,
+      "objectif": "Combiner plusieurs phrases dansées en une composition cohérente.",
+      "preuve": "Créer une courte composition et justifier l’ordre des motifs.",
+      "prerequis": [
+        "qc-pri-da-003"
+      ],
+      "family_id": "qc-pri-da-004-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fls-010",
+      "titre": "Réviser et améliorer les productions en français",
+      "discipline": "Français, langue seconde",
+      "discipline_code": "FLS",
+      "vague": 3,
+      "objectif": "Améliorer un texte en français grâce à une relecture guidée par critères.",
+      "preuve": "Corriger un texte court et justifier les modifications.",
+      "prerequis": [
+        "qc-pri-fls-009"
+      ],
+      "family_id": "qc-pri-fls-010-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fls-012",
+      "titre": "Réaliser des projets de communication en français",
+      "discipline": "Français, langue seconde",
+      "discipline_code": "FLS",
+      "vague": 3,
+      "objectif": "Mener un projet de communication orale et écrite simple en français.",
+      "preuve": "Produire et présenter un message cohérent pour une situation réelle.",
+      "prerequis": [
+        "qc-pri-fls-005"
+      ],
+      "family_id": "qc-pri-fls-012-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-fr-004",
+      "titre": "Fluidité et expressivité en lecture",
+      "discipline": "Français, langue d’enseignement",
+      "discipline_code": "FR",
+      "vague": 3,
+      "objectif": "Lire un court passage adapté avec exactitude, continuité et prosodie pertinente.",
+      "preuve": "Effectuer deux lectures d’un passage et montrer une amélioration vérifiable.",
+      "prerequis": [
+        "qc-pri-fr-003"
+      ],
+      "family_id": "qc-pri-fr-004-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ilss-008",
+      "titre": "Produire des textes scolaires progressifs",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "discipline_code": "ILSS",
+      "vague": 3,
+      "objectif": "Produire un texte scolaire progressif avec structure compréhensible.",
+      "preuve": "Rédiger un texte court répondant à une consigne disciplinaire.",
+      "prerequis": [
+        "qc-pri-ilss-006",
+        "qc-pri-ilss-007"
+      ],
+      "family_id": "qc-pri-ilss-008-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-005",
+      "titre": "Estimation et arrondissement",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 3,
+      "objectif": "Produire une estimation défendable et arrondir selon un rang annoncé.",
+      "preuve": "Estimer puis vérifier une quantité en signalant l’écart observé.",
+      "prerequis": [
+        "qc-pri-ma-003"
+      ],
+      "family_id": "qc-pri-ma-005-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-008",
+      "titre": "Sens et stratégies de la multiplication",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 3,
+      "objectif": "Représenter la multiplication comme groupes égaux et calculer des produits.",
+      "preuve": "Résoudre un problème de groupes égaux avec dessin et calcul.",
+      "prerequis": [
+        "qc-pri-ma-006"
+      ],
+      "family_id": "qc-pri-ma-008-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-010",
+      "titre": "Calcul mental et propriétés des opérations",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 3,
+      "objectif": "Choisir une stratégie de calcul mental et mobiliser une propriété opératoire.",
+      "preuve": "Comparer deux stratégies mentales et expliquer laquelle convient le mieux.",
+      "prerequis": [
+        "qc-pri-ma-006"
+      ],
+      "family_id": "qc-pri-ma-010-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-011",
+      "titre": "Algorithmes et vérification des calculs",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 3,
+      "objectif": "Exécuter, vérifier et expliquer une procédure de calcul écrit.",
+      "preuve": "Calculer puis détecter une erreur dans une procédure proposée.",
+      "prerequis": [
+        "qc-pri-ma-003"
+      ],
+      "family_id": "qc-pri-ma-011-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-015",
+      "titre": "Nombres décimaux : représentations",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 3,
+      "objectif": "Relier les écritures décimales aux décompositions en dixièmes et centièmes.",
+      "preuve": "Représenter un même décimal par un dessin et une décomposition.",
+      "prerequis": [
+        "qc-pri-ma-003",
+        "qc-pri-ma-012"
+      ],
+      "family_id": "qc-pri-ma-015-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-019",
+      "titre": "Situations-problèmes additives",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 3,
+      "objectif": "Modéliser et résoudre une situation additive en distinguant les données utiles.",
+      "preuve": "Résoudre deux problèmes verbaux nouveaux et expliquer les opérations.",
+      "prerequis": [
+        "qc-pri-ma-006",
+        "qc-pri-ma-007"
+      ],
+      "family_id": "qc-pri-ma-019-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ale-006",
+      "titre": "Inférences et interprétation en lecture",
+      "discipline": "Anglais, langue d’enseignement",
+      "discipline_code": "ALE",
+      "vague": 4,
+      "objectif": "Inférer une intention ou une information non explicite dans un texte anglais.",
+      "preuve": "Formuler deux inférences soutenues par des indices textuels.",
+      "prerequis": [
+        "qc-pri-ale-004"
+      ],
+      "family_id": "qc-pri-ale-006-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ale-007",
+      "titre": "Apprécier la littérature de langue anglaise",
+      "discipline": "Anglais, langue d’enseignement",
+      "discipline_code": "ALE",
+      "vague": 4,
+      "objectif": "Formuler une appréciation littéraire fondée sur des éléments de l’œuvre.",
+      "preuve": "Défendre une appréciation et reconnaître une autre lecture possible.",
+      "prerequis": [
+        "qc-pri-ale-004"
+      ],
+      "family_id": "qc-pri-ale-007-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-da-009",
+      "titre": "Présenter et expliquer sa démarche en danse",
+      "discipline": "Danse",
+      "discipline_code": "DA",
+      "vague": 4,
+      "objectif": "Présenter et expliquer les étapes de sa création dansée.",
+      "preuve": "Raconter sa démarche à partir d’une trace ou d’une vidéo de répétition.",
+      "prerequis": [
+        "qc-pri-da-004"
+      ],
+      "family_id": "qc-pri-da-009-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-009",
+      "titre": "Sens et stratégies de la division",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 4,
+      "objectif": "Représenter le partage et le groupement pour résoudre des divisions.",
+      "preuve": "Effectuer un partage justifié et vérifier quotient et reste.",
+      "prerequis": [
+        "qc-pri-ma-008"
+      ],
+      "family_id": "qc-pri-ma-009-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-016",
+      "titre": "Nombres décimaux : comparaison et calculs",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 4,
+      "objectif": "Comparer et calculer avec des décimaux en utilisant les valeurs de position.",
+      "preuve": "Résoudre deux calculs décimaux et justifier la plausibilité des réponses.",
+      "prerequis": [
+        "qc-pri-ma-015"
+      ],
+      "family_id": "qc-pri-ma-016-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-017",
+      "titre": "Pourcentages et situations de proportionnalité",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 4,
+      "objectif": "Relier pourcentage, fraction de cent et situations proportionnelles simples.",
+      "preuve": "Déterminer une quantité correspondant à un pourcentage simple et la vérifier.",
+      "prerequis": [
+        "qc-pri-ma-013",
+        "qc-pri-ma-015"
+      ],
+      "family_id": "qc-pri-ma-017-ev-01",
+      "nombre_items": 10,
+      "statut": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "id": "qc-pri-ma-020",
+      "titre": "Situations-problèmes multiplicatives",
+      "discipline": "Mathématique",
+      "discipline_code": "MA",
+      "vague": 4,
+      "objectif": "Modéliser une situation multiplicative ou de partage et contrôler la solution.",
+      "preuve": "Construire une représentation et résoudre un problème multiplicatif inédit.",
+      "prerequis": [
+        "qc-pri-ma-008"
+      ],
+      "family_id": "qc-pri-ma-020-ev-01",
+      "nombre_items": 12,
+      "statut": "livraison_pedagogique_a_revoir"
+    }
+  ]
+}

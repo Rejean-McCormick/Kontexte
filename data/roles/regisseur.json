@@ -1,0 +1,31 @@
+{
+  "format": "kontexte.role/1",
+  "id": "regisseur",
+  "name": {
+    "fr-CA": "Régisseur",
+    "en": "Stage manager"
+  },
+  "intro": {
+    "fr-CA": "préparer la scène et les objets",
+    "en": "You are playing the role of stage manager in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "installer",
+    "vérifier",
+    "coordonner"
+  ],
+  "objects": [
+    "chaises",
+    "décor",
+    "plan"
+  ],
+  "problems": [
+    "place insuffisante"
+  ],
+  "partners": [
+    "metteur-en-scene",
+    "origamiste",
+    "peintre"
+  ]
+}

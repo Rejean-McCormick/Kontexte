@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "danseur",
+  "name": {
+    "fr-CA": "Danseur",
+    "en": "Dancer"
+  },
+  "intro": {
+    "fr-CA": "préparer une chorégraphie",
+    "en": "You are playing the role of dancer in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "compter les temps",
+    "répéter",
+    "présenter"
+  ],
+  "objects": [
+    "musique",
+    "séquence",
+    "scène"
+  ],
+  "problems": [
+    "rythme difficile",
+    "espace limité"
+  ],
+  "partners": [
+    "musicien",
+    "metteur-en-scene",
+    "regisseur"
+  ]
+}

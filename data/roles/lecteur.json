@@ -1,0 +1,31 @@
+{
+  "format": "kontexte.role/1",
+  "id": "lecteur",
+  "name": {
+    "fr-CA": "Lecteur",
+    "en": "Reader"
+  },
+  "intro": {
+    "fr-CA": "dire le discours au public",
+    "en": "You are playing the role of reader in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "lire",
+    "répéter",
+    "articuler"
+  ],
+  "objects": [
+    "discours",
+    "micro factice",
+    "pupitre"
+  ],
+  "problems": [
+    "prononciation difficile"
+  ],
+  "partners": [
+    "redacteur",
+    "metteur-en-scene",
+    "traducteur"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ekole:role-frame:1.0-proposal",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "format",
+    "id",
+    "version",
+    "label",
+    "kind",
+    "verbs",
+    "objects",
+    "tensions",
+    "transactions",
+    "presentation",
+    "languages",
+    "status"
+  ],
+  "properties": {
+    "format": {
+      "const": "ekole.role-frame/1.0-proposal"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "version": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "kind": {
+      "enum": [
+        "real",
+        "fantasy",
+        "historic",
+        "creative"
+      ]
+    },
+    "verbs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "objects": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tensions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "transactions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "action",
+          "resource",
+          "result"
+        ],
+        "properties": {
+          "action": {
+            "type": "string"
+          },
+          "resource": {
+            "type": "string"
+          },
+          "result": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "presentation": {
+      "type": "object",
+      "required": [
+        "theme_token",
+        "neutral_fallback"
+      ],
+      "properties": {
+        "theme_token": {
+          "type": "string"
+        },
+        "neutral_fallback": {
+          "const": true
+        }
+      }
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "const": "proposal_review_required"
+    }
+  }
+}

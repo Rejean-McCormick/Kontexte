@@ -1,0 +1,12 @@
+{
+  "audience": "public",
+  "asset": {
+    "id":"art-001", "persons":["kid-a","kid-b"], "author":"kid-a", "mission_id":"fete-sorciere",
+    "reviewed_by_school":true, "guardian_permission_verified":true, "contains_identifiable_minors":true,
+    "approved_media_ref":"approved/abc.webp", "approved_thumbnail_ref":"approved/thumb.webp", "non_identifying_tags":["origami","chapeau"]
+  },
+  "consents": {
+    "kid-a":{"asset_id":"art-001","allowed":true,"audiences":["group","school","public"]},
+    "kid-b":{"asset_id":"art-001","allowed":false,"audiences":[]}
+  }
+}

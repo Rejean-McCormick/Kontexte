@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "peintre",
+  "name": {
+    "fr-CA": "Peintre",
+    "en": "Painter"
+  },
+  "intro": {
+    "fr-CA": "créer les affiches et décors",
+    "en": "You are playing the role of painter in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "dessiner",
+    "colorier",
+    "exposer"
+  ],
+  "objects": [
+    "affiche",
+    "pinceau",
+    "palette"
+  ],
+  "problems": [
+    "panneau manquant",
+    "délais"
+  ],
+  "partners": [
+    "metteur-en-scene",
+    "photographe",
+    "ecrivain"
+  ]
+}

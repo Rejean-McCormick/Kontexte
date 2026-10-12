@@ -1,0 +1,23 @@
+{
+  "currency": "Klownkoins",
+  "fictional": true,
+  "items": [
+    {
+      "description": "Décor (fictif)",
+      "quantity": 1,
+      "unit_price": "8.00",
+      "subtotal": "8.00"
+    },
+    {
+      "description": "Prestations (fictives)",
+      "quantity": 4,
+      "unit_price": "6.00",
+      "subtotal": "24.00"
+    }
+  ],
+  "subtotal": "32.00",
+  "fictional_tax_rate": "0.10",
+  "tax": "3.20",
+  "total": "35.20",
+  "legal_notice": "Jeu pédagogique, aucune monnaie réelle ni taxe fiscale officielle."
+}

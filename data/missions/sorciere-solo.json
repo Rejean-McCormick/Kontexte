@@ -1,0 +1,74 @@
+{
+  "format": "kontexte.mission/1",
+  "id": "sorciere-solo",
+  "version": "1.0.0",
+  "synthetic": true,
+  "title": {
+    "fr-CA": "Le chaudron des mesures",
+    "en": "Measuring the cauldron"
+  },
+  "fiction": {
+    "fr-CA": "Mila veut remplir quatre fioles avec la même quantité de potion imaginaire.",
+    "en": "Mila wants to fill four equal bottles with imaginary potion."
+  },
+  "year_suggestion": 3,
+  "roles": [
+    "sorciere"
+  ],
+  "fragments": [
+    {
+      "id": "indice-mesure",
+      "holder_role": "sorciere",
+      "content": {
+        "fr-CA": "Une fiole contient 125 mL.",
+        "en": "Each bottle holds 125 mL."
+      },
+      "release": "orgo_authorized",
+      "visibility": "participant"
+    }
+  ],
+  "steps": [
+    {
+      "id": "mesurer",
+      "role": "sorciere",
+      "instruction": {
+        "fr-CA": "Calcule 4 × 125 mL et explique ta démarche.",
+        "en": "Calculate 4 × 125 mL and explain."
+      },
+      "kind": "object",
+      "depends_on": [],
+      "curriculum_ids": [
+        "qc-pri-ma-006"
+      ],
+      "validation": "deterministic_practice"
+    },
+    {
+      "id": "expliquer",
+      "role": "sorciere",
+      "instruction": {
+        "fr-CA": "Rédige une phrase qui explique ta solution.",
+        "en": "Write a sentence explaining your solution."
+      },
+      "kind": "document",
+      "depends_on": [
+        "mesurer"
+      ],
+      "curriculum_ids": [
+        "qc-pri-fr-021"
+      ],
+      "validation": "human_review"
+    }
+  ],
+  "joins": [],
+  "adaptation": {
+    "accompagne": {
+      "instruction": "Consignes courtes, pictogrammes et aide disponible, sans étiquette publique."
+    },
+    "standard": {
+      "instruction": "Autonomie progressive et défis adaptés."
+    },
+    "approfondi": {
+      "instruction": "Information partielle, décisions en plusieurs étapes et justification."
+    }
+  }
+}

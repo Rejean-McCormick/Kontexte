@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "architecte",
+  "name": {
+    "fr-CA": "Architecte",
+    "en": "Architect"
+  },
+  "intro": {
+    "fr-CA": "imaginer des bâtiments",
+    "en": "You are playing the role of architect in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "mesurer",
+    "dessiner",
+    "organiser"
+  ],
+  "objects": [
+    "plan",
+    "maquette",
+    "règle"
+  ],
+  "problems": [
+    "terrain étroit",
+    "budget limité"
+  ],
+  "partners": [
+    "menuisier",
+    "regisseur",
+    "comptable"
+  ]
+}

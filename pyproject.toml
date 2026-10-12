@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kontexte"
+version = "0.1.0"
+description = "Bibliothèque de situations et de projections pédagogiques pour Orgo et Ekole"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "License pending: see LICENSE-POLICY.md"}
+authors = [{name = "Projet Kontexte"}]
+dependencies = []
+
+[project.scripts]
+kontexte = "kontexte.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

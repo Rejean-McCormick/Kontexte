@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "sorciere",
+  "name": {
+    "fr-CA": "Sorcière",
+    "en": "Witch"
+  },
+  "intro": {
+    "fr-CA": "créer des objets imaginaires, enquêter, organiser une fête",
+    "en": "You are playing the role of witch in a learning story."
+  },
+  "theme": "sorciere",
+  "actions": [
+    "créer une potion fictive",
+    "préparer des accessoires",
+    "organiser"
+  ],
+  "objects": [
+    "chapeau",
+    "invitation",
+    "potion fictive"
+  ],
+  "problems": [
+    "ingrédient manquant",
+    "fête à organiser"
+  ],
+  "partners": [
+    "origamiste",
+    "messager",
+    "scientifique"
+  ]
+}

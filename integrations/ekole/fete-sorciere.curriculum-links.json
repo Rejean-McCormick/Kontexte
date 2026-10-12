@@ -1,0 +1,85 @@
+{
+  "format": "kontexte.curriculum-links/1",
+  "links": [
+    {
+      "mission_id": "fete-sorciere",
+      "step_id": "origami",
+      "internal_kristal_id": "qc-pri-ap-003",
+      "title": "Composer dans l’espace et sur un support",
+      "discipline": "Arts plastiques",
+      "official_pfeq_id": null,
+      "mapping_status": "candidate_unreviewed",
+      "internal_content_status": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "mission_id": "fete-sorciere",
+      "step_id": "invitation",
+      "internal_kristal_id": "qc-pri-fr-021",
+      "title": "Rédiger des phrases et des paragraphes",
+      "discipline": "Français, langue d’enseignement",
+      "official_pfeq_id": null,
+      "mapping_status": "candidate_unreviewed",
+      "internal_content_status": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "mission_id": "fete-sorciere",
+      "step_id": "bilingue",
+      "internal_kristal_id": "qc-pri-als-006",
+      "title": "Parler d’expériences et de situations familières",
+      "discipline": "Anglais, langue seconde",
+      "official_pfeq_id": null,
+      "mapping_status": "candidate_unreviewed",
+      "internal_content_status": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "mission_id": "fete-sorciere",
+      "step_id": "repartition",
+      "internal_kristal_id": "qc-pri-ma-009",
+      "title": "Sens et stratégies de la division",
+      "discipline": "Mathématique",
+      "official_pfeq_id": null,
+      "mapping_status": "candidate_unreviewed",
+      "internal_content_status": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "mission_id": "fete-sorciere",
+      "step_id": "mandat",
+      "internal_kristal_id": "qc-pri-ad-001",
+      "title": "Explorer corps, voix et espace scénique",
+      "discipline": "Art dramatique",
+      "official_pfeq_id": null,
+      "mapping_status": "candidate_unreviewed",
+      "internal_content_status": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "mission_id": "fete-sorciere",
+      "step_id": "discours",
+      "internal_kristal_id": "qc-pri-fr-021",
+      "title": "Rédiger des phrases et des paragraphes",
+      "discipline": "Français, langue d’enseignement",
+      "official_pfeq_id": null,
+      "mapping_status": "candidate_unreviewed",
+      "internal_content_status": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "mission_id": "fete-sorciere",
+      "step_id": "lecture",
+      "internal_kristal_id": "qc-pri-ad-001",
+      "title": "Explorer corps, voix et espace scénique",
+      "discipline": "Art dramatique",
+      "official_pfeq_id": null,
+      "mapping_status": "candidate_unreviewed",
+      "internal_content_status": "livraison_pedagogique_a_revoir"
+    },
+    {
+      "mission_id": "fete-sorciere",
+      "step_id": "budget-final",
+      "internal_kristal_id": "qc-pri-ma-006",
+      "title": "Sens et stratégies de l’addition",
+      "discipline": "Mathématique",
+      "official_pfeq_id": null,
+      "mapping_status": "candidate_unreviewed",
+      "internal_content_status": "livraison_pedagogique_a_revoir"
+    }
+  ]
+}

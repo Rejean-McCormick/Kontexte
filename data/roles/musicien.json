@@ -1,0 +1,31 @@
+{
+  "format": "kontexte.role/1",
+  "id": "musicien",
+  "name": {
+    "fr-CA": "Musicien",
+    "en": "Musician"
+  },
+  "intro": {
+    "fr-CA": "préparer une musique de fête",
+    "en": "You are playing the role of musician in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "composer",
+    "rythmer",
+    "jouer"
+  ],
+  "objects": [
+    "partition",
+    "instrument",
+    "chanson"
+  ],
+  "problems": [
+    "rythme à synchroniser"
+  ],
+  "partners": [
+    "danseur",
+    "clown",
+    "metteur-en-scene"
+  ]
+}

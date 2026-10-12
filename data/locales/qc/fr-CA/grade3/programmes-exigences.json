@@ -1,0 +1,65 @@
+{
+  "format": "kontexte.prescriptions-review/1",
+  "grade": 3,
+  "referentiel": "Quebec PFEQ; Progressions des apprentissages et cadres d’évaluation en vigueur",
+  "date_recherche": "2026-10-12",
+  "ccq_third_year_source": "https://cdn-contenu.quebec.ca/cdn-contenu/education/pfeq/primaire/progressions-apprentissages/PFEQ-progression-apprentissages-culture-citoyennete-quebecoise-primaire.pdf",
+  "ccq_contenus_reperes_dans_pdf_officiel_p13": [
+    {
+      "theme": "Perception de soi",
+      "contenus": [
+        "Désirs et limites personnelles",
+        "Stéréotypes et vision de soi",
+        "Éducation à la sexualité : prévention des agressions sexuelles",
+        "Éducation à la sexualité : stéréotypes sexuels et de genre"
+      ],
+      "mode": "cours_encadre, pas de jeu de rôle imposant une divulgation intime"
+    },
+    {
+      "theme": "Dynamiques de groupe",
+      "contenus": [
+        "Différences et points communs entre les individus",
+        "Inclusion et exclusion",
+        "Éducation à la sexualité : normes de genre"
+      ],
+      "mode": "discussion guidée, observation non stigmatisante"
+    },
+    {
+      "theme": "Questions existentielles",
+      "contenus": [
+        "Spiritualité",
+        "Cycle de la vie"
+      ],
+      "mode": "sources diverses, respect des convictions; pas d’attribution de croyance à un élève"
+    },
+    {
+      "theme": "Milieux de vie",
+      "contenus": [
+        "Relation avec la nature",
+        "Manière d’habiter le territoire"
+      ],
+      "mode": "données et expériences contextualisées, sans généralisation"
+    },
+    {
+      "theme": "Savoirs dans l’espace numérique",
+      "contenus": [
+        "Fiabilité de l’information sur les plateformes numériques"
+      ],
+      "mode": "documents et simulations non identifiants"
+    }
+  ],
+  "univers_social_sujets_a_approfondir_avec_sources": [
+    "Sociétés iroquoiennes vers 1500",
+    "Sociétés algonquiennes vers 1500",
+    "Territoire, modes de vie, ressources, organisation sociale, technologies et échanges",
+    "Lecture de documents et cartes historiques contextualisés"
+  ],
+  "garde_fous": [
+    "N’utiliser des historiques nationaux et noms autochtones qu’avec sources appropriées et expertise culturelle.",
+    "Ne pas présenter les rôles caricaturaux ou les savoirs culturels comme des « costumes ».",
+    "Vérifier le cadre d’évaluation de chaque discipline, indépendamment des trames.",
+    "La maîtrise d’un objectif n’est pas prouvée par un seul clic ou par la réussite collective.",
+    "Adapter les attentes à la langue d’enseignement et au plan d’intervention si applicable."
+  ],
+  "statut": "partiellement_ancre_sur_sources_officielles_a_auditer_par_enseignants"
+}

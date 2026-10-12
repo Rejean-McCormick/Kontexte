@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "createur-jeux",
+  "name": {
+    "fr-CA": "Créateur de jeux vidéo",
+    "en": "Video game designer"
+  },
+  "intro": {
+    "fr-CA": "concevoir un petit jeu sur papier",
+    "en": "You are playing the role of video game designer in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "décrire des règles",
+    "tester",
+    "déboguer"
+  ],
+  "objects": [
+    "grille",
+    "personnage",
+    "carte"
+  ],
+  "problems": [
+    "règle ambiguë",
+    "niveau bloqué"
+  ],
+  "partners": [
+    "scientifique",
+    "inventeur",
+    "peintre"
+  ]
+}

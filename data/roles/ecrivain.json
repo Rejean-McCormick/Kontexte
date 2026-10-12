@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "ecrivain",
+  "name": {
+    "fr-CA": "Écrivain",
+    "en": "Writer"
+  },
+  "intro": {
+    "fr-CA": "écrire une histoire et des messages",
+    "en": "You are playing the role of writer in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "rédiger",
+    "corriger",
+    "lire"
+  ],
+  "objects": [
+    "cahier",
+    "invitation",
+    "manuscrit"
+  ],
+  "problems": [
+    "information manquante",
+    "consigne floue"
+  ],
+  "partners": [
+    "lecteur",
+    "traducteur",
+    "redacteur"
+  ]
+}

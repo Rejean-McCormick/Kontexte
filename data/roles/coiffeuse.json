@@ -1,0 +1,31 @@
+{
+  "format": "kontexte.role/1",
+  "id": "coiffeuse",
+  "name": {
+    "fr-CA": "Coiffeuse",
+    "en": "Hairdresser"
+  },
+  "intro": {
+    "fr-CA": "concevoir des styles et services imaginaires",
+    "en": "You are playing the role of hairdresser in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "dessiner",
+    "écouter",
+    "organiser"
+  ],
+  "objects": [
+    "modèle",
+    "ciseaux de papier",
+    "miroir"
+  ],
+  "problems": [
+    "rendez-vous en retard"
+  ],
+  "partners": [
+    "artiste",
+    "comptable",
+    "photographe"
+  ]
+}

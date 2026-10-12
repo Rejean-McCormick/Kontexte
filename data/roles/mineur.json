@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "mineur",
+  "name": {
+    "fr-CA": "Mineur",
+    "en": "Miner"
+  },
+  "intro": {
+    "fr-CA": "explorer un gisement fictif",
+    "en": "You are playing the role of miner in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "cartographier",
+    "classer",
+    "compter"
+  ],
+  "objects": [
+    "carte",
+    "cailloux",
+    "lampes factices"
+  ],
+  "problems": [
+    "tunnel fermé",
+    "ressources rares"
+  ],
+  "partners": [
+    "scientifique",
+    "explorateur",
+    "comptable"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "dresseur-animaux",
+  "name": {
+    "fr-CA": "Éducateur animalier",
+    "en": "Animal educator"
+  },
+  "intro": {
+    "fr-CA": "étudier les animaux avec respect",
+    "en": "You are playing the role of animal educator in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "observer",
+    "classifier",
+    "expliquer"
+  ],
+  "objects": [
+    "fiche espèce",
+    "schéma",
+    "habitat"
+  ],
+  "problems": [
+    "animal stressé",
+    "alimentation spéciale"
+  ],
+  "partners": [
+    "veterinaire",
+    "scientifique",
+    "fermier"
+  ]
+}

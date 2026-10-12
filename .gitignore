@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+*.sqlite
+*.sqlite3
+.env
+.env.*
+!.env.example
+.cache/
+coverage.xml
+htmlcov/
+# Ne pas embarquer les originaux non approuvés ni des captures d'enfants.
+private/
+uploads/
+media-originals/
+examples/private-demo.html

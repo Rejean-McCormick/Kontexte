@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "mecanicien",
+  "name": {
+    "fr-CA": "Mécanicien",
+    "en": "Mechanic"
+  },
+  "intro": {
+    "fr-CA": "réparer des objets simulés",
+    "en": "You are playing the role of mechanic in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "diagnostiquer",
+    "mesurer",
+    "assembler"
+  ],
+  "objects": [
+    "engrenage carton",
+    "vélo fictif",
+    "plan"
+  ],
+  "problems": [
+    "pièce manquante",
+    "dysfonctionnement"
+  ],
+  "partners": [
+    "inventeur",
+    "menuisier",
+    "scientifique"
+  ]
+}

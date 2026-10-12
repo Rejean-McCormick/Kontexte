@@ -1,0 +1,21 @@
+{
+  "format": "ekole.learning-event/1.0-proposal",
+  "event_id": "ev-001",
+  "kind": "evidence_recorded",
+  "occurred_at": "2026-10-11T14:00:00-04:00",
+  "learner_ref": "pseudonyme-042",
+  "mission_run_ref": "run-fete-001",
+  "step_id": "invitation",
+  "ekole_course_id": "qc-pri-fr-021",
+  "artifact_ref": "private-artifact-001",
+  "mapping_status": "candidate",
+  "assessment": {
+    "mode": "human_review",
+    "result": "demonstrated",
+    "support": "modèle guidé",
+    "validator": "teacher",
+    "validation_status": "teacher_reviewed"
+  },
+  "privacy_scope": "private_school",
+  "idempotency_key": "run-fete-001:invitation:pseudonyme-042:1"
+}

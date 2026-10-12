@@ -1,0 +1,44 @@
+{
+  "format": "ekole.role-frame/1.0-proposal",
+  "id": "sorciere",
+  "version": "1.0",
+  "label": "Sorcière",
+  "kind": "fantasy",
+  "verbs": [
+    "fabriquer",
+    "inviter",
+    "payer",
+    "organiser",
+    "aider"
+  ],
+  "objects": [
+    "papier",
+    "invitations",
+    "Klownkoins",
+    "décor"
+  ],
+  "tensions": [
+    "une ressource manque",
+    "information partagée entre deux rôles"
+  ],
+  "transactions": [
+    {
+      "action": "emprunter",
+      "resource": "papier",
+      "result": "chapeau origami"
+    },
+    {
+      "action": "remettre",
+      "resource": "invitation bilingue",
+      "result": "invité informé"
+    }
+  ],
+  "presentation": {
+    "theme_token": "sorciere-violet",
+    "neutral_fallback": true
+  },
+  "languages": [
+    "fr-CA"
+  ],
+  "status": "proposal_review_required"
+}

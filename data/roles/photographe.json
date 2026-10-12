@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "photographe",
+  "name": {
+    "fr-CA": "Photographe",
+    "en": "Photographer"
+  },
+  "intro": {
+    "fr-CA": "documenter les productions avec permission",
+    "en": "You are playing the role of photographer in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "cadrer",
+    "classer",
+    "documenter"
+  ],
+  "objects": [
+    "photo",
+    "galerie",
+    "métadonnées"
+  ],
+  "problems": [
+    "refus de publication",
+    "tag erroné"
+  ],
+  "partners": [
+    "origamiste",
+    "peintre",
+    "metteur-en-scene"
+  ]
+}

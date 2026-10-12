@@ -1,0 +1,31 @@
+{
+  "format": "kontexte.role/1",
+  "id": "politicien",
+  "name": {
+    "fr-CA": "Politicien",
+    "en": "Civic representative"
+  },
+  "intro": {
+    "fr-CA": "proposer une décision collective",
+    "en": "You are playing the role of civic representative in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "délibérer",
+    "expliquer",
+    "voter"
+  ],
+  "objects": [
+    "ordre du jour",
+    "discours"
+  ],
+  "problems": [
+    "désaccord",
+    "priorité concurrente"
+  ],
+  "partners": [
+    "redacteur",
+    "lecteur",
+    "comptable"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "format": "kontexte.role/1",
+  "id": "mystique",
+  "name": {
+    "fr-CA": "Mystique",
+    "en": "Mystic"
+  },
+  "intro": {
+    "fr-CA": "explorer des symboles et contes imaginaires",
+    "en": "You are playing the role of mystic in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "interpréter",
+    "raconter",
+    "dessiner"
+  ],
+  "objects": [
+    "symbole",
+    "conte",
+    "carte"
+  ],
+  "problems": [
+    "énigme non résolue"
+  ],
+  "partners": [
+    "sorciere",
+    "ecrivain",
+    "explorateur"
+  ]
+}

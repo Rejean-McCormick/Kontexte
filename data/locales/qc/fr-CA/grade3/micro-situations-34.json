@@ -1,0 +1,839 @@
+{
+  "format": "kontexte.micro-lessons/1",
+  "nombre": 34,
+  "statut": "activites_proposees_a_instancier; elles ne remplacent pas les progressions et le jugement enseignant",
+  "modules": [
+    {
+      "id": "enseignement-explicite-001",
+      "objet_pedagogique": "qc3.ad.personnage",
+      "discipline": "AD",
+      "parent_trame_culturellement_neutre": "regles-ateliers",
+      "semaine_suggeree": 1,
+      "titre": "Atelier ciblé : Caractériser un personnage fictif",
+      "declencheur": "Deux personnages fictifs détiennent une information de scène.",
+      "tache_concrete": "Faire construire un court dialogue, répéter et commenter la représentation.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : caractériser un personnage fictif ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "présentation incarnée",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-002",
+      "objet_pedagogique": "qc3.als.consignes",
+      "discipline": "ALS",
+      "parent_trame_culturellement_neutre": "carte-incomplete",
+      "semaine_suggeree": 2,
+      "titre": "Atelier ciblé : Comprendre des consignes courtes en anglais",
+      "declencheur": "Deux participants échangent une courte consigne ou un message bilingue lié à un atelier.",
+      "tache_concrete": "Faire pratiquer des mots-clés, un mini-dialogue et une vérification de compréhension.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : comprendre des consignes courtes en anglais ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "action exécutée après consigne orale",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-003",
+      "objet_pedagogique": "qc3.als.dialogue",
+      "discipline": "ALS",
+      "parent_trame_culturellement_neutre": "message-fragmente",
+      "semaine_suggeree": 3,
+      "titre": "Atelier ciblé : Employer des formules et courtes questions",
+      "declencheur": "Deux participants échangent une courte consigne ou un message bilingue lié à un atelier.",
+      "tache_concrete": "Faire pratiquer des mots-clés, un mini-dialogue et une vérification de compréhension.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : employer des formules et courtes questions ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "échange oral enregistré localement ou observé",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-004",
+      "objet_pedagogique": "qc3.als.lecture",
+      "discipline": "ALS",
+      "parent_trame_culturellement_neutre": "chapeau-de-papier",
+      "semaine_suggeree": 4,
+      "titre": "Atelier ciblé : Repérer une information dans un court écrit adapté",
+      "declencheur": "Deux participants échangent une courte consigne ou un message bilingue lié à un atelier.",
+      "tache_concrete": "Faire pratiquer des mots-clés, un mini-dialogue et une vérification de compréhension.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : repérer une information dans un court écrit adapté ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "réponse appuyée sur le texte",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-005",
+      "objet_pedagogique": "qc3.ap.appreciation",
+      "discipline": "AP",
+      "parent_trame_culturellement_neutre": "journal-exploration",
+      "semaine_suggeree": 5,
+      "titre": "Atelier ciblé : Exprimer un point de vue sur une création",
+      "declencheur": "Une collection de papiers, couleurs ou productions anonymes sert de point de départ.",
+      "tache_concrete": "Faire explorer puis expliquer un choix plastique concret.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : exprimer un point de vue sur une création ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "observations sans jugement des personnes",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-006",
+      "objet_pedagogique": "qc3.ccq.cycle-vie",
+      "discipline": "CCQ",
+      "parent_trame_culturellement_neutre": "lumiere-et-couleurs",
+      "semaine_suggeree": 6,
+      "titre": "Atelier ciblé : Étudier les étapes de vie et diversité des expériences",
+      "declencheur": "Deux points de vue ou documents fictifs sont présentés sans attribution personnelle.",
+      "tache_concrete": "Faire identifier le sujet, les différences, les limites et une réponse respectueuse.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : étudier les étapes de vie et diversité des expériences ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "observation non intrusive",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier",
+      "type": "enseignement_obligatoire_encadre",
+      "restriction": "activité non ludifiée ni scénarisée par des élèves; utiliser des ressources et méthodes autorisées selon la situation",
+      "responsable": "enseignant_habilite"
+    },
+    {
+      "id": "enseignement-explicite-007",
+      "objet_pedagogique": "qc3.ccq.genre",
+      "discipline": "CCQ",
+      "parent_trame_culturellement_neutre": "messagers-en-mouvement",
+      "semaine_suggeree": 7,
+      "titre": "Atelier ciblé : Normes de genre : enseigner avec respect et sans assignation",
+      "declencheur": "Deux points de vue ou documents fictifs sont présentés sans attribution personnelle.",
+      "tache_concrete": "Faire identifier le sujet, les différences, les limites et une réponse respectueuse.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : normes de genre : enseigner avec respect et sans assignation ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "enseignement explicite par personnel qualifié",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier",
+      "type": "enseignement_obligatoire_encadre",
+      "restriction": "activité non ludifiée ni scénarisée par des élèves; utiliser des ressources et méthodes autorisées selon la situation",
+      "responsable": "enseignant_habilite"
+    },
+    {
+      "id": "enseignement-explicite-008",
+      "objet_pedagogique": "qc3.ccq.habiter",
+      "discipline": "CCQ",
+      "parent_trame_culturellement_neutre": "indices-dans-ecole",
+      "semaine_suggeree": 8,
+      "titre": "Atelier ciblé : Observer différentes façons d’habiter le territoire québécois",
+      "declencheur": "Deux points de vue ou documents fictifs sont présentés sans attribution personnelle.",
+      "tache_concrete": "Faire identifier le sujet, les différences, les limites et une réponse respectueuse.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : observer différentes façons d’habiter le territoire québécois ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "documents de contextes variés",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-009",
+      "objet_pedagogique": "qc3.ccq.prevention",
+      "discipline": "CCQ",
+      "parent_trame_culturellement_neutre": "fete-commune",
+      "semaine_suggeree": 9,
+      "titre": "Atelier ciblé : Prévention des agressions sexuelles : enseignement approprié par personnel qualifié",
+      "declencheur": "Deux points de vue ou documents fictifs sont présentés sans attribution personnelle.",
+      "tache_concrete": "Faire identifier le sujet, les différences, les limites et une réponse respectueuse.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : prévention des agressions sexuelles : enseignement approprié par personnel qualifié ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "enseignement spécifique et attestation enseignante",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier",
+      "type": "enseignement_obligatoire_encadre",
+      "restriction": "activité non ludifiée ni scénarisée par des élèves; utiliser des ressources et méthodes autorisées selon la situation",
+      "responsable": "enseignant_habilite"
+    },
+    {
+      "id": "enseignement-explicite-010",
+      "objet_pedagogique": "qc3.ccq.spiritualite",
+      "discipline": "CCQ",
+      "parent_trame_culturellement_neutre": "commande-de-pains",
+      "semaine_suggeree": 10,
+      "titre": "Atelier ciblé : Observer la diversité des croyances et des formes de spiritualité sans l’essentialiser",
+      "declencheur": "Deux points de vue ou documents fictifs sont présentés sans attribution personnelle.",
+      "tache_concrete": "Faire identifier le sujet, les différences, les limites et une réponse respectueuse.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : observer la diversité des croyances et des formes de spiritualité sans l’essentialiser ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "analyse documentaire encadrée",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier",
+      "type": "enseignement_obligatoire_encadre",
+      "restriction": "activité non ludifiée ni scénarisée par des élèves; utiliser des ressources et méthodes autorisées selon la situation",
+      "responsable": "enseignant_habilite"
+    },
+    {
+      "id": "enseignement-explicite-011",
+      "objet_pedagogique": "qc3.ccq.stereotypes",
+      "discipline": "CCQ",
+      "parent_trame_culturellement_neutre": "semis-compare",
+      "semaine_suggeree": 11,
+      "titre": "Atelier ciblé : Observer des stéréotypes et leurs effets",
+      "declencheur": "Deux points de vue ou documents fictifs sont présentés sans attribution personnelle.",
+      "tache_concrete": "Faire identifier le sujet, les différences, les limites et une réponse respectueuse.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : observer des stéréotypes et leurs effets ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "exemples et points de vue comparés",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-012",
+      "objet_pedagogique": "qc3.da.composition",
+      "discipline": "DA",
+      "parent_trame_culturellement_neutre": "accueil-nouveaux",
+      "semaine_suggeree": 12,
+      "titre": "Atelier ciblé : Inventer une courte séquence corporelle",
+      "declencheur": "Deux mouvements simples et facultatifs sont proposés, avec variantes accessibles.",
+      "tache_concrete": "Faire composer une transition et verbaliser un choix.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : inventer une courte séquence corporelle ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "enchaînement expliqué",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-013",
+      "objet_pedagogique": "qc3.da.interpretation",
+      "discipline": "DA",
+      "parent_trame_culturellement_neutre": "invitation-multilingue",
+      "semaine_suggeree": 13,
+      "titre": "Atelier ciblé : Interpréter la séquence devant un groupe",
+      "declencheur": "Deux mouvements simples et facultatifs sont proposés, avec variantes accessibles.",
+      "tache_concrete": "Faire composer une transition et verbaliser un choix.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : interpréter la séquence devant un groupe ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "observation respectueuse",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-014",
+      "objet_pedagogique": "qc3.da.mouvement",
+      "discipline": "DA",
+      "parent_trame_culturellement_neutre": "budget-marche",
+      "semaine_suggeree": 14,
+      "titre": "Atelier ciblé : Explorer corps, espace et qualités de mouvement",
+      "declencheur": "Deux mouvements simples et facultatifs sont proposés, avec variantes accessibles.",
+      "tache_concrete": "Faire composer une transition et verbaliser un choix.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : explorer corps, espace et qualités de mouvement ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "séquence observée",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-015",
+      "objet_pedagogique": "qc3.eps.coordination",
+      "discipline": "EPS",
+      "parent_trame_culturellement_neutre": "jardin-saisonnier",
+      "semaine_suggeree": 15,
+      "titre": "Atelier ciblé : Coordonner des gestes et manipuler un objet",
+      "declencheur": "Une consigne de déplacement ou de manipulation accessible est proposée dans un circuit sécurisé.",
+      "tache_concrete": "Faire exécuter ou représenter l’action, expliquer un choix sécuritaire et observer avec accord.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : coordonner des gestes et manipuler un objet ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "démonstration accessible",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-016",
+      "objet_pedagogique": "qc3.eps.equilibre",
+      "discipline": "EPS",
+      "parent_trame_culturellement_neutre": "ressources-a-partager",
+      "semaine_suggeree": 16,
+      "titre": "Atelier ciblé : Maintenir et retrouver son équilibre",
+      "declencheur": "Une consigne de déplacement ou de manipulation accessible est proposée dans un circuit sécurisé.",
+      "tache_concrete": "Faire exécuter ou représenter l’action, expliquer un choix sécuritaire et observer avec accord.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : maintenir et retrouver son équilibre ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "observation graduée",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-017",
+      "objet_pedagogique": "qc3.eps.sante",
+      "discipline": "EPS",
+      "parent_trame_culturellement_neutre": "affiche-service",
+      "semaine_suggeree": 17,
+      "titre": "Atelier ciblé : Observer et nommer des habitudes actives appropriées",
+      "declencheur": "Une consigne de déplacement ou de manipulation accessible est proposée dans un circuit sécurisé.",
+      "tache_concrete": "Faire exécuter ou représenter l’action, expliquer un choix sécuritaire et observer avec accord.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : observer et nommer des habitudes actives appropriées ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "rétroaction adaptée",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-018",
+      "objet_pedagogique": "qc3.fr.accords",
+      "discipline": "FR",
+      "parent_trame_culturellement_neutre": "fete-commune",
+      "semaine_suggeree": 18,
+      "titre": "Atelier ciblé : Observer et effectuer des accords appropriés",
+      "declencheur": "L’élève reçoit un extrait de notice de classe ou une courte histoire contenant l’objet étudié.",
+      "tache_concrete": "Faire annoter l’élément linguistique ciblé et produire une version révisée.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : observer et effectuer des accords appropriés ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "justification d’accord simple",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-019",
+      "objet_pedagogique": "qc3.fr.inference",
+      "discipline": "FR",
+      "parent_trame_culturellement_neutre": "spectacle-imprevu",
+      "semaine_suggeree": 19,
+      "titre": "Atelier ciblé : Formuler une inférence simple à partir du texte",
+      "declencheur": "L’élève reçoit un extrait de notice de classe ou une courte histoire contenant l’objet étudié.",
+      "tache_concrete": "Faire annoter l’élément linguistique ciblé et produire une version révisée.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : formuler une inférence simple à partir du texte ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "raisonnement et indice textuel",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-020",
+      "objet_pedagogique": "qc3.fr.orthographe",
+      "discipline": "FR",
+      "parent_trame_culturellement_neutre": "pont-miniature",
+      "semaine_suggeree": 20,
+      "titre": "Atelier ciblé : Réviser l’orthographe d’usage avec des outils",
+      "declencheur": "L’élève reçoit un extrait de notice de classe ou une courte histoire contenant l’objet étudié.",
+      "tache_concrete": "Faire annoter l’élément linguistique ciblé et produire une version révisée.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : réviser l’orthographe d’usage avec des outils ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "brouillon et version corrigée",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-021",
+      "objet_pedagogique": "qc3.fr.verbes",
+      "discipline": "FR",
+      "parent_trame_culturellement_neutre": "sons-des-lieux",
+      "semaine_suggeree": 21,
+      "titre": "Atelier ciblé : Employer des formes verbales adaptées au texte",
+      "declencheur": "L’élève reçoit un extrait de notice de classe ou une courte histoire contenant l’objet étudié.",
+      "tache_concrete": "Faire annoter l’élément linguistique ciblé et produire une version révisée.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : employer des formes verbales adaptées au texte ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "relecture de formes verbales ciblées",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-022",
+      "objet_pedagogique": "qc3.ma.demarche",
+      "discipline": "MA",
+      "parent_trame_culturellement_neutre": "taxe-de-simulation",
+      "semaine_suggeree": 22,
+      "titre": "Atelier ciblé : Expliquer et vérifier sa démarche mathématique",
+      "declencheur": "Un atelier fictif demande de regrouper, mesurer, comparer ou représenter des matériaux.",
+      "tache_concrete": "Faire représenter les données, résoudre, expliquer et vérifier par une seconde méthode.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : expliquer et vérifier sa démarche mathématique ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "justification intelligible",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-023",
+      "objet_pedagogique": "qc3.ma.fraction",
+      "discipline": "MA",
+      "parent_trame_culturellement_neutre": "costumes-recycles",
+      "semaine_suggeree": 23,
+      "titre": "Atelier ciblé : Représenter des fractions usuelles avec un matériel",
+      "declencheur": "Un atelier fictif demande de regrouper, mesurer, comparer ou représenter des matériaux.",
+      "tache_concrete": "Faire représenter les données, résoudre, expliquer et vérifier par une seconde méthode.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : représenter des fractions usuelles avec un matériel ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "parts égales et fraction associée",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-024",
+      "objet_pedagogique": "qc3.ma.numeration",
+      "discipline": "MA",
+      "parent_trame_culturellement_neutre": "salle-a-configurer",
+      "semaine_suggeree": 24,
+      "titre": "Atelier ciblé : Lire, représenter et comparer des nombres naturels",
+      "declencheur": "Un atelier fictif demande de regrouper, mesurer, comparer ou représenter des matériaux.",
+      "tache_concrete": "Faire représenter les données, résoudre, expliquer et vérifier par une seconde méthode.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : lire, représenter et comparer des nombres naturels ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "écriture et représentation vérifiées",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-025",
+      "objet_pedagogique": "qc3.ma.position",
+      "discipline": "MA",
+      "parent_trame_culturellement_neutre": "conte-partage",
+      "semaine_suggeree": 25,
+      "titre": "Atelier ciblé : Mobiliser la valeur de position et le regroupement",
+      "declencheur": "Un atelier fictif demande de regrouper, mesurer, comparer ou représenter des matériaux.",
+      "tache_concrete": "Faire représenter les données, résoudre, expliquer et vérifier par une seconde méthode.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : mobiliser la valeur de position et le regroupement ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "décomposition correcte",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-026",
+      "objet_pedagogique": "qc3.ma.suite",
+      "discipline": "MA",
+      "parent_trame_culturellement_neutre": "troc-equitable",
+      "semaine_suggeree": 26,
+      "titre": "Atelier ciblé : Repérer et poursuivre une régularité",
+      "declencheur": "Un atelier fictif demande de regrouper, mesurer, comparer ou représenter des matériaux.",
+      "tache_concrete": "Faire représenter les données, résoudre, expliquer et vérifier par une seconde méthode.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : repérer et poursuivre une régularité ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "règle expliquée et suite complétée",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-027",
+      "objet_pedagogique": "qc3.mu.creation",
+      "discipline": "MU",
+      "parent_trame_culturellement_neutre": "fete-commune",
+      "semaine_suggeree": 27,
+      "titre": "Atelier ciblé : Créer un court motif sonore",
+      "declencheur": "Deux motifs sonores simples et non enregistrés publiquement sont proposés.",
+      "tache_concrete": "Faire écouter, reproduire et comparer le motif.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : créer un court motif sonore ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "motif identifié",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-028",
+      "objet_pedagogique": "qc3.mu.ensemble",
+      "discipline": "MU",
+      "parent_trame_culturellement_neutre": "fete-commune",
+      "semaine_suggeree": 28,
+      "titre": "Atelier ciblé : Interpréter un motif en groupe",
+      "declencheur": "Deux motifs sonores simples et non enregistrés publiquement sont proposés.",
+      "tache_concrete": "Faire écouter, reproduire et comparer le motif.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : interpréter un motif en groupe ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "participation et écoute",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-029",
+      "objet_pedagogique": "qc3.st.conclusion",
+      "discipline": "ST",
+      "parent_trame_culturellement_neutre": "conseil-du-village",
+      "semaine_suggeree": 29,
+      "titre": "Atelier ciblé : Décrire une conclusion limitée aux observations",
+      "declencheur": "Deux stations fictives présentent des observations ou mesures différentes.",
+      "tache_concrete": "Faire poser une question, comparer les données et distinguer observation et conclusion.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : décrire une conclusion limitée aux observations ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "conclusion justifiée",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-030",
+      "objet_pedagogique": "qc3.us.algonquiens1500",
+      "discipline": "US",
+      "parent_trame_culturellement_neutre": "photo-ou-pas",
+      "semaine_suggeree": 30,
+      "titre": "Atelier ciblé : Comparer des caractéristiques de sociétés algonquiennes vers 1500",
+      "declencheur": "Un document, une carte ou une frise contextualisée est remise avec son origine.",
+      "tache_concrete": "Faire situer, décrire et citer la source avant toute conclusion historique.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : comparer des caractéristiques de sociétés algonquiennes vers 1500 ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "comparaison sourcée, sans homogénéiser les nations",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier",
+      "type": "documentation_historique_et_culturelle",
+      "restriction": "révision des sources et points de vue; ne pas représenter les peuples autochtones comme des rôles fantaisistes"
+    },
+    {
+      "id": "enseignement-explicite-031",
+      "objet_pedagogique": "qc3.us.continuite",
+      "discipline": "US",
+      "parent_trame_culturellement_neutre": "compost-collectif",
+      "semaine_suggeree": 31,
+      "titre": "Atelier ciblé : Distinguer changement, continuité, passé et présent",
+      "declencheur": "Un document, une carte ou une frise contextualisée est remise avec son origine.",
+      "tache_concrete": "Faire situer, décrire et citer la source avant toute conclusion historique.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : distinguer changement, continuité, passé et présent ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "comparaison située dans le temps",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-032",
+      "objet_pedagogique": "qc3.us.iroquois1500",
+      "discipline": "US",
+      "parent_trame_culturellement_neutre": "caisse-klownkoins",
+      "semaine_suggeree": 32,
+      "titre": "Atelier ciblé : Étudier une société iroquoienne vers 1500 avec sources contextualisées",
+      "declencheur": "Un document, une carte ou une frise contextualisée est remise avec son origine.",
+      "tache_concrete": "Faire situer, décrire et citer la source avant toute conclusion historique.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : étudier une société iroquoienne vers 1500 avec sources contextualisées ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "carte/fiche sourcée; validation historique et culturelle requise",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier",
+      "type": "documentation_historique_et_culturelle",
+      "restriction": "révision des sources et points de vue; ne pas représenter les peuples autochtones comme des rôles fantaisistes"
+    },
+    {
+      "id": "enseignement-explicite-033",
+      "objet_pedagogique": "qc3.us.organisation",
+      "discipline": "US",
+      "parent_trame_culturellement_neutre": "foret-partagee",
+      "semaine_suggeree": 33,
+      "titre": "Atelier ciblé : Décrire une organisation sociale liée à son territoire",
+      "declencheur": "Un document, une carte ou une frise contextualisée est remise avec son origine.",
+      "tache_concrete": "Faire situer, décrire et citer la source avant toute conclusion historique.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : décrire une organisation sociale liée à son territoire ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "description liée aux ressources",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    },
+    {
+      "id": "enseignement-explicite-034",
+      "objet_pedagogique": "qc3.us.sources",
+      "discipline": "US",
+      "parent_trame_culturellement_neutre": "bulletin-local",
+      "semaine_suggeree": 34,
+      "titre": "Atelier ciblé : Distinguer documents, témoins et sources",
+      "declencheur": "Un document, une carte ou une frise contextualisée est remise avec son origine.",
+      "tache_concrete": "Faire situer, décrire et citer la source avant toute conclusion historique.",
+      "question_enseignant": "Quelle trace démontrerait que l’élève peut : distinguer documents, témoins et sources ?",
+      "materiel": [
+        "fiche accessible",
+        "objets ou documents non identifiants",
+        "matériel de représentation facultatif"
+      ],
+      "preuve_attendue": "origine de document identifiée",
+      "modalites": [
+        "oral",
+        "écrit",
+        "manipulation ou observation selon l’objectif"
+      ],
+      "consigne_securite": "Aucune information intime, image ou production identifiante publiée par défaut.",
+      "statut": "seance_concue_a_relire_et_instancier"
+    }
+  ]
+}

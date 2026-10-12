@@ -1,0 +1,313 @@
+{
+  "format": "kontexte.gap-plan/1",
+  "nb_d_objectifs_non_mobilises_par_les_32": 34,
+  "pieces_a_produire": [
+    {
+      "id": "enseignement-explicite-001",
+      "objectif_interne": "qc3.ad.personnage",
+      "discipline": "AD",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "présentation incarnée",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-002",
+      "objectif_interne": "qc3.als.consignes",
+      "discipline": "ALS",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "action exécutée après consigne orale",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-003",
+      "objectif_interne": "qc3.als.dialogue",
+      "discipline": "ALS",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "échange oral enregistré localement ou observé",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-004",
+      "objectif_interne": "qc3.als.lecture",
+      "discipline": "ALS",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "réponse appuyée sur le texte",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-005",
+      "objectif_interne": "qc3.ap.appreciation",
+      "discipline": "AP",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "observations sans jugement des personnes",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-006",
+      "objectif_interne": "qc3.ccq.cycle-vie",
+      "discipline": "CCQ",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "observation non intrusive",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-007",
+      "objectif_interne": "qc3.ccq.genre",
+      "discipline": "CCQ",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "enseignement explicite par personnel qualifié",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-008",
+      "objectif_interne": "qc3.ccq.habiter",
+      "discipline": "CCQ",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "documents de contextes variés",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-009",
+      "objectif_interne": "qc3.ccq.prevention",
+      "discipline": "CCQ",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "enseignement spécifique et attestation enseignante",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-010",
+      "objectif_interne": "qc3.ccq.spiritualite",
+      "discipline": "CCQ",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "analyse documentaire encadrée",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-011",
+      "objectif_interne": "qc3.ccq.stereotypes",
+      "discipline": "CCQ",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "exemples et points de vue comparés",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-012",
+      "objectif_interne": "qc3.da.composition",
+      "discipline": "DA",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "enchaînement expliqué",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-013",
+      "objectif_interne": "qc3.da.interpretation",
+      "discipline": "DA",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "observation respectueuse",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-014",
+      "objectif_interne": "qc3.da.mouvement",
+      "discipline": "DA",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "séquence observée",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-015",
+      "objectif_interne": "qc3.eps.coordination",
+      "discipline": "EPS",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "démonstration accessible",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-016",
+      "objectif_interne": "qc3.eps.equilibre",
+      "discipline": "EPS",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "observation graduée",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-017",
+      "objectif_interne": "qc3.eps.sante",
+      "discipline": "EPS",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "rétroaction adaptée",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-018",
+      "objectif_interne": "qc3.fr.accords",
+      "discipline": "FR",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "justification d’accord simple",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-019",
+      "objectif_interne": "qc3.fr.inference",
+      "discipline": "FR",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "raisonnement et indice textuel",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-020",
+      "objectif_interne": "qc3.fr.orthographe",
+      "discipline": "FR",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "brouillon et version corrigée",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-021",
+      "objectif_interne": "qc3.fr.verbes",
+      "discipline": "FR",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "relecture de formes verbales ciblées",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-022",
+      "objectif_interne": "qc3.ma.demarche",
+      "discipline": "MA",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "justification intelligible",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-023",
+      "objectif_interne": "qc3.ma.fraction",
+      "discipline": "MA",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "parts égales et fraction associée",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-024",
+      "objectif_interne": "qc3.ma.numeration",
+      "discipline": "MA",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "écriture et représentation vérifiées",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-025",
+      "objectif_interne": "qc3.ma.position",
+      "discipline": "MA",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "décomposition correcte",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-026",
+      "objectif_interne": "qc3.ma.suite",
+      "discipline": "MA",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "règle expliquée et suite complétée",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-027",
+      "objectif_interne": "qc3.mu.creation",
+      "discipline": "MU",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "motif identifié",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-028",
+      "objectif_interne": "qc3.mu.ensemble",
+      "discipline": "MU",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "participation et écoute",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-029",
+      "objectif_interne": "qc3.st.conclusion",
+      "discipline": "ST",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "conclusion justifiée",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-030",
+      "objectif_interne": "qc3.us.algonquiens1500",
+      "discipline": "US",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "comparaison sourcée, sans homogénéiser les nations",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-031",
+      "objectif_interne": "qc3.us.continuite",
+      "discipline": "US",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "comparaison située dans le temps",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-032",
+      "objectif_interne": "qc3.us.iroquois1500",
+      "discipline": "US",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "carte/fiche sourcée; validation historique et culturelle requise",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-033",
+      "objectif_interne": "qc3.us.organisation",
+      "discipline": "US",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "description liée aux ressources",
+      "lien_pfeq_a_verifier": true
+    },
+    {
+      "id": "enseignement-explicite-034",
+      "objectif_interne": "qc3.us.sources",
+      "discipline": "US",
+      "modalite": "seance_ou_micro_situation_dediee",
+      "statut": "non_produite_a_planifier",
+      "trace_minimale": "origine de document identifiée",
+      "lien_pfeq_a_verifier": true
+    }
+  ],
+  "statut": "registre_de_travail_pas_enseignement_realise"
+}

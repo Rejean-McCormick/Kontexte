@@ -1,0 +1,165 @@
+{
+  "format": "kontexte.orgo-blueprint/1",
+  "mission_id": "fete-sorciere",
+  "orgo_canonical": [
+    "Case",
+    "Task",
+    "Signal",
+    "WorkflowVersion"
+  ],
+  "proposed_assignments": [
+    {
+      "step_id": "origami",
+      "role": "origamiste",
+      "depends_on": [],
+      "kind": "object",
+      "curriculum_ids": [
+        "qc-pri-ap-003"
+      ]
+    },
+    {
+      "step_id": "invitation",
+      "role": "sorciere",
+      "depends_on": [],
+      "kind": "object",
+      "curriculum_ids": [
+        "qc-pri-fr-021"
+      ]
+    },
+    {
+      "step_id": "bilingue",
+      "role": "traducteur",
+      "depends_on": [
+        "invitation"
+      ],
+      "kind": "object",
+      "curriculum_ids": [
+        "qc-pri-als-006"
+      ]
+    },
+    {
+      "step_id": "echange-indices",
+      "role": "messager",
+      "depends_on": [
+        "bilingue"
+      ],
+      "kind": "encounter",
+      "curriculum_ids": []
+    },
+    {
+      "step_id": "repartition",
+      "role": "sorciere",
+      "depends_on": [
+        "echange-indices"
+      ],
+      "kind": "object",
+      "curriculum_ids": [
+        "qc-pri-ma-009"
+      ]
+    },
+    {
+      "step_id": "mandat",
+      "role": "metteur-en-scene",
+      "depends_on": [
+        "repartition"
+      ],
+      "kind": "message",
+      "curriculum_ids": [
+        "qc-pri-ad-001"
+      ]
+    },
+    {
+      "step_id": "discours",
+      "role": "redacteur",
+      "depends_on": [
+        "mandat"
+      ],
+      "kind": "document",
+      "curriculum_ids": [
+        "qc-pri-fr-021"
+      ]
+    },
+    {
+      "step_id": "lecture",
+      "role": "lecteur",
+      "depends_on": [
+        "discours"
+      ],
+      "kind": "performance",
+      "curriculum_ids": [
+        "qc-pri-ad-001"
+      ]
+    },
+    {
+      "step_id": "scene",
+      "role": "regisseur",
+      "depends_on": [
+        "mandat"
+      ],
+      "kind": "object",
+      "curriculum_ids": []
+    },
+    {
+      "step_id": "budget-final",
+      "role": "comptable",
+      "depends_on": [
+        "lecture",
+        "scene"
+      ],
+      "kind": "payment",
+      "curriculum_ids": [
+        "qc-pri-ma-006"
+      ]
+    },
+    {
+      "step_id": "galerie",
+      "role": "photographe",
+      "depends_on": [
+        "origami"
+      ],
+      "kind": "review",
+      "curriculum_ids": []
+    }
+  ],
+  "proposed_fragment_controls": [
+    {
+      "id": "besoin-invitations",
+      "role": "sorciere",
+      "release": "orgo_authorized"
+    },
+    {
+      "id": "papier-disponible",
+      "role": "messager",
+      "release": "orgo_authorized"
+    },
+    {
+      "id": "budget",
+      "role": "comptable",
+      "release": "orgo_authorized"
+    },
+    {
+      "id": "tarifs",
+      "role": "regisseur",
+      "release": "orgo_authorized"
+    }
+  ],
+  "proposed_joins": [
+    {
+      "id": "jointure-papier",
+      "fragment_ids": [
+        "besoin-invitations",
+        "papier-disponible"
+      ],
+      "unlock_step": "repartition"
+    },
+    {
+      "id": "jointure-budget",
+      "fragment_ids": [
+        "budget",
+        "tarifs"
+      ],
+      "unlock_step": "budget-final"
+    }
+  ],
+  "status": "requires_generic_orgo_capabilities_and_review"
+}

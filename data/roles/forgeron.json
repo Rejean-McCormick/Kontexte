@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "forgeron",
+  "name": {
+    "fr-CA": "Forgeron",
+    "en": "Blacksmith"
+  },
+  "intro": {
+    "fr-CA": "fabriquer des outils fictifs en papier",
+    "en": "You are playing the role of blacksmith in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "concevoir",
+    "comparer",
+    "assembler"
+  ],
+  "objects": [
+    "plan",
+    "métal fictif",
+    "carton"
+  ],
+  "problems": [
+    "outil à réparer",
+    "matériau épuisé"
+  ],
+  "partners": [
+    "chevalier",
+    "menuisier",
+    "inventeur"
+  ]
+}

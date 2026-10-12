@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "explorateur",
+  "name": {
+    "fr-CA": "Explorateur",
+    "en": "Explorer"
+  },
+  "intro": {
+    "fr-CA": "explorer un territoire imaginaire",
+    "en": "You are playing the role of explorer in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "cartographier",
+    "observer",
+    "communiquer"
+  ],
+  "objects": [
+    "carte",
+    "carnet",
+    "boussole"
+  ],
+  "problems": [
+    "route fermée",
+    "message perdu"
+  ],
+  "partners": [
+    "messager",
+    "scientifique",
+    "extraterrestre"
+  ]
+}

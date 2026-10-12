@@ -1,0 +1,306 @@
+{
+  "type": "kontexte.teacher-only-fixture/1",
+  "protection": "enseignant_privilege_et_hors_export_eleve",
+  "corriges": [
+    {
+      "base_trame_id": "fete-commune",
+      "question": "Combien d’ateliers de fabrication faut-il prévoir?",
+      "correction": "24 ÷ 6 = 4 ateliers."
+    },
+    {
+      "base_trame_id": "spectacle-imprevu",
+      "question": "Combien de minutes restent pour les transitions?",
+      "correction": "20 − (3 × 5) = 5 minutes."
+    },
+    {
+      "base_trame_id": "repas-partage",
+      "question": "Toutes les personnes peuvent-elles être assises?",
+      "correction": "24 places; 3 places libres."
+    },
+    {
+      "base_trame_id": "marche-des-creations",
+      "question": "Quel budget reste-t-il?",
+      "correction": "50 − 3 × 8 = 26 Klownkoins."
+    },
+    {
+      "base_trame_id": "bibliotheque-vivante",
+      "question": "Combien de livres peut recevoir chaque groupe si on répartit également?",
+      "correction": "12 ÷ 4 = 3 livres."
+    },
+    {
+      "base_trame_id": "merci-collectif",
+      "question": "Combien de gestes figureront sur l’affiche?",
+      "correction": "7 + 5 = 12 gestes."
+    },
+    {
+      "base_trame_id": "commande-de-pains",
+      "question": "Combien de pains faut-il prévoir?",
+      "correction": "6 × 4 = 24 pains."
+    },
+    {
+      "base_trame_id": "chapeau-de-papier",
+      "question": "Quel est le nombre total?",
+      "correction": "4 × 3 = 12 chapeaux."
+    },
+    {
+      "base_trame_id": "pont-miniature",
+      "question": "Quel pont supporte le plus de blocs et de combien?",
+      "correction": "Le deuxième; 11 − 8 = 3 blocs de plus."
+    },
+    {
+      "base_trame_id": "mecanisme-en-panne",
+      "question": "Quelle différence observe-t-on?",
+      "correction": "10 − 6 = 4 cm."
+    },
+    {
+      "base_trame_id": "atelier-metal",
+      "question": "Combien de triangles au total?",
+      "correction": "3 × 4 = 12 triangles."
+    },
+    {
+      "base_trame_id": "costumes-recycles",
+      "question": "Combien d’attaches faut-il?",
+      "correction": "5 × 2 = 10 attaches."
+    },
+    {
+      "base_trame_id": "message-fragmente",
+      "question": "Rédige l’invitation complète, sans inventer de destinataire.",
+      "correction": "« Rencontre mardi à 13 h à la bibliothèque de l’école. »"
+    },
+    {
+      "base_trame_id": "plante-mystere",
+      "question": "Nomme deux différences observables, sans attribuer une espèce sans preuve.",
+      "correction": "B a une tige de 3 cm de plus et 2 feuilles de plus."
+    },
+    {
+      "base_trame_id": "carte-incomplete",
+      "question": "Où se situe le gymnase par rapport à la classe?",
+      "correction": "Au nord-est dans ce plan fictif."
+    },
+    {
+      "base_trame_id": "sons-des-lieux",
+      "question": "Combien de frappes sont identifiées dans ces deux extraits?",
+      "correction": "3 + 2 = 5 frappes."
+    },
+    {
+      "base_trame_id": "ombres-mobiles",
+      "question": "Quelle différence de longueur faut-il expliquer?",
+      "correction": "12 − 8 = 4 cm."
+    },
+    {
+      "base_trame_id": "colis-egare",
+      "question": "Quelle destination complète faut-il transmettre?",
+      "correction": "Bibliothèque, aile A, tablette 2 (bâtiment simulé)."
+    },
+    {
+      "base_trame_id": "coup-de-main",
+      "question": "Dans quel ordre aider l’équipe A?",
+      "correction": "Lire → vérifier → afficher."
+    },
+    {
+      "base_trame_id": "tuteurs-temporaires",
+      "question": "Peut-on aider les trois groupes et combien reste-t-il de tuteurs libres?",
+      "correction": "Oui; 4 − 3 = 1 tuteur libre."
+    },
+    {
+      "base_trame_id": "maquette-accessible",
+      "question": "Quelle longueur supplémentaire faut-il prévoir sur le modèle?",
+      "correction": "20 − 12 = 8 cm sur le modèle; conformité réelle non déduite."
+    },
+    {
+      "base_trame_id": "affiche-service",
+      "question": "Assemble une affiche bilingue qui conserve la même fonction.",
+      "correction": "Afficher les deux messages, en identifiant les langues."
+    },
+    {
+      "base_trame_id": "accueil-nouveaux",
+      "question": "Que faut-il dire à une nouvelle personne?",
+      "correction": "Accueil à 9 h 15, bibliothèque à gauche de l’entrée sur cette carte."
+    },
+    {
+      "base_trame_id": "reparer-pour-un-autre",
+      "question": "Quelle longueur manque-t-il?",
+      "correction": "20 − 16 = 4 cm."
+    },
+    {
+      "base_trame_id": "jardin-saisonnier",
+      "question": "Combien de plants en tout?",
+      "correction": "4 + 6 = 10 plants."
+    },
+    {
+      "base_trame_id": "reserve-eau",
+      "question": "Quel volume restera?",
+      "correction": "1 500 − 4 × 250 = 500 mL."
+    },
+    {
+      "base_trame_id": "foret-partagee",
+      "question": "Trouve une solution permettant de documenter le lieu sans nuire au milieu.",
+      "correction": "Observer sans prélever et fabriquer la maquette à partir de sources et de carton recyclé."
+    },
+    {
+      "base_trame_id": "habitats-des-animaux",
+      "question": "Quel milieu est cohérent avec la fiche A, en tenant compte des limites de la simulation?",
+      "correction": "Le milieu aquatique; ne pas inférer l’espèce réelle."
+    },
+    {
+      "base_trame_id": "lac-a-preserver",
+      "question": "Comment combiner les propositions?",
+      "correction": "Prévoir un sentier balisé et une gestion des déchets sur la rive."
+    },
+    {
+      "base_trame_id": "compost-collectif",
+      "question": "Combien de feuilles en tout?",
+      "correction": "8 + 7 = 15 feuilles."
+    },
+    {
+      "base_trame_id": "caisse-klownkoins",
+      "question": "Quel est le solde total fictif?",
+      "correction": "18 + 13 + 9 = 40 Klownkoins."
+    },
+    {
+      "base_trame_id": "budget-marche",
+      "question": "Quel montant reste-t-il?",
+      "correction": "40 − (12 + 7 + 5) = 16 Klownkoins."
+    },
+    {
+      "base_trame_id": "stock-et-commande",
+      "question": "Combien manque-t-il?",
+      "correction": "30 − 18 = 12 feuilles."
+    },
+    {
+      "base_trame_id": "taxe-de-simulation",
+      "question": "Quel total payer dans cette simulation sans taux réel?",
+      "correction": "20 + 2 = 22 Klownkoins; aucune taxe réelle calculée."
+    },
+    {
+      "base_trame_id": "troc-equitable",
+      "question": "Quelles informations manquent pour juger si l’échange est accepté par les deux?",
+      "correction": "Demander l’usage et la valeur d’usage des objets et le consentement des équipes; pas de valeur objective implicite."
+    },
+    {
+      "base_trame_id": "transport-commande",
+      "question": "Quel parcours est le plus court et quelle différence?",
+      "correction": "B, de 3 m; vérifier d’autres contraintes de sécurité."
+    },
+    {
+      "base_trame_id": "invitation-multilingue",
+      "question": "Quelle information faut-il ajouter à la version anglaise?",
+      "correction": "Le lieu : « at the school library »."
+    },
+    {
+      "base_trame_id": "bulletin-local",
+      "question": "Quelles vérifications faut-il faire avant de publier?",
+      "correction": "Vérifier date, lieu, source et concordance avant de présenter l’affirmation comme un fait."
+    },
+    {
+      "base_trame_id": "journal-exploration",
+      "question": "Quelle observation placer en premier dans la chronologie?",
+      "correction": "Celle de 9 h, puis celle de 11 h."
+    },
+    {
+      "base_trame_id": "conte-partage",
+      "question": "Quel événement de liaison manque pour relier les deux passages?",
+      "correction": "Inventer une recherche du destinataire puis l’identification de l’expéditeur."
+    },
+    {
+      "base_trame_id": "notice-ambigue",
+      "question": "Comment corriger la notice pour qu’elle soit exécutable?",
+      "correction": "Nommer les deux premières étapes puis préciser quand plier."
+    },
+    {
+      "base_trame_id": "mode-emploi-visible",
+      "question": "Comment construire une fiche compréhensible sans obliger la lecture?",
+      "correction": "Associer chaque consigne écrite à son pictogramme et tester la compréhension."
+    },
+    {
+      "base_trame_id": "semis-compare",
+      "question": "Quelle croissance observe-t-on?",
+      "correction": "9 − 3 = 6 cm."
+    },
+    {
+      "base_trame_id": "ciel-en-cartes",
+      "question": "Pourquoi ne faut-il pas présumer les mêmes observations du ciel?",
+      "correction": "L’observation dépend notamment de la date et de l’heure; comparer à une source astronomique fiable."
+    },
+    {
+      "base_trame_id": "station-meteo",
+      "question": "Quelle variation observe-t-on?",
+      "correction": "8 − 4 = 4 °C."
+    },
+    {
+      "base_trame_id": "ponts-a-tester",
+      "question": "Quelle différence de charge simulée?",
+      "correction": "9 − 6 = 3 cubes identiques."
+    },
+    {
+      "base_trame_id": "temperatures-melangees",
+      "question": "Quel nombre est le plus élevé et à quel moment?",
+      "correction": "8 °C à midi."
+    },
+    {
+      "base_trame_id": "lumiere-et-couleurs",
+      "question": "Quel matériau choisir pour produire une ombre nette?",
+      "correction": "Le carton opaque, selon cet essai."
+    },
+    {
+      "base_trame_id": "messagers-en-mouvement",
+      "question": "Que doit vérifier le messager avant de partir?",
+      "correction": "Destinataires, ordre, consignes et trajet autorisé."
+    },
+    {
+      "base_trame_id": "salle-a-configurer",
+      "question": "Combien de chaises en tout?",
+      "correction": "5 × 4 = 20 chaises; l’accessibilité réelle nécessite une validation humaine."
+    },
+    {
+      "base_trame_id": "parcours-livraison",
+      "question": "Quelle longueur totale a ce parcours fictif?",
+      "correction": "12 + 9 = 21 m."
+    },
+    {
+      "base_trame_id": "indices-dans-ecole",
+      "question": "Quelle destination complète possède l’équipe?",
+      "correction": "La boîte bleue sur la table de la bibliothèque, si la supervision l’autorise."
+    },
+    {
+      "base_trame_id": "itineraire-sur",
+      "question": "Quel trajet proposer pour un groupe ayant besoin d’un passage sans escalier?",
+      "correction": "Le chemin B; l’équipe vérifie la situation concrète."
+    },
+    {
+      "base_trame_id": "randonnee-symbolique",
+      "question": "Combien d’objets sont observés au total?",
+      "correction": "3 × 2 = 6 objets."
+    },
+    {
+      "base_trame_id": "conseil-du-village",
+      "question": "Comment organiser un dialogue pour choisir ou combiner les usages?",
+      "correction": "Écouter les besoins, proposer des horaires ou zones partagées et expliquer la décision."
+    },
+    {
+      "base_trame_id": "regles-ateliers",
+      "question": "Quelle séquence commune peut convenir?",
+      "correction": "Terminer, ranger, vérifier, puis changer de station."
+    },
+    {
+      "base_trame_id": "ressources-a-partager",
+      "question": "Combien de cartons par groupe?",
+      "correction": "24 ÷ 4 = 6 cartons."
+    },
+    {
+      "base_trame_id": "horaires-contradictoires",
+      "question": "Quelles minutes de réservation se chevauchent?",
+      "correction": "De 10 h 15 à 10 h 30, soit 15 minutes."
+    },
+    {
+      "base_trame_id": "photo-ou-pas",
+      "question": "Que peut-on publier sur le site public?",
+      "correction": "Pas la photo ni les tags identifiants; proposer une représentation non identifiante avec revue."
+    },
+    {
+      "base_trame_id": "vote-projet-commun",
+      "question": "Quelle proposition reçoit le plus de votes et de combien?",
+      "correction": "L’affiche, avec 3 votes de plus; respecter les règles du vote établies."
+    }
+  ]
+}

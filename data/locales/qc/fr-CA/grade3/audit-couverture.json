@@ -1,0 +1,190 @@
+{
+  "format": "kontexte.coverage-audit/1",
+  "catalogue_neutre_trames": 60,
+  "overlays_qc": 60,
+  "trames_plan_annuel": 32,
+  "banque_optionnelle": 28,
+  "objectif_internes_total": 83,
+  "objectifs_mobilises_dans_32": 49,
+  "objectifs_non_mobilises_dans_32": [
+    "qc3.ad.personnage",
+    "qc3.als.consignes",
+    "qc3.als.dialogue",
+    "qc3.als.lecture",
+    "qc3.ap.appreciation",
+    "qc3.ccq.cycle-vie",
+    "qc3.ccq.genre",
+    "qc3.ccq.habiter",
+    "qc3.ccq.prevention",
+    "qc3.ccq.spiritualite",
+    "qc3.ccq.stereotypes",
+    "qc3.da.composition",
+    "qc3.da.interpretation",
+    "qc3.da.mouvement",
+    "qc3.eps.coordination",
+    "qc3.eps.equilibre",
+    "qc3.eps.sante",
+    "qc3.fr.accords",
+    "qc3.fr.inference",
+    "qc3.fr.orthographe",
+    "qc3.fr.verbes",
+    "qc3.ma.demarche",
+    "qc3.ma.fraction",
+    "qc3.ma.numeration",
+    "qc3.ma.position",
+    "qc3.ma.suite",
+    "qc3.mu.creation",
+    "qc3.mu.ensemble",
+    "qc3.st.conclusion",
+    "qc3.us.algonquiens1500",
+    "qc3.us.continuite",
+    "qc3.us.iroquois1500",
+    "qc3.us.organisation",
+    "qc3.us.sources"
+  ],
+  "par_discipline": {
+    "FR": {
+      "total": 12,
+      "in_core": 8,
+      "in_bank": 8
+    },
+    "MA": {
+      "total": 16,
+      "in_core": 11,
+      "in_bank": 12
+    },
+    "ALS": {
+      "total": 5,
+      "in_core": 2,
+      "in_bank": 2
+    },
+    "ST": {
+      "total": 11,
+      "in_core": 10,
+      "in_bank": 10
+    },
+    "US": {
+      "total": 8,
+      "in_core": 3,
+      "in_bank": 4
+    },
+    "CCQ": {
+      "total": 12,
+      "in_core": 6,
+      "in_bank": 6
+    },
+    "EPS": {
+      "total": 6,
+      "in_core": 3,
+      "in_bank": 3
+    },
+    "AP": {
+      "total": 4,
+      "in_core": 3,
+      "in_bank": 3
+    },
+    "AD": {
+      "total": 3,
+      "in_core": 2,
+      "in_bank": 2
+    },
+    "MU": {
+      "total": 3,
+      "in_core": 1,
+      "in_bank": 1
+    },
+    "DA": {
+      "total": 3,
+      "in_core": 0,
+      "in_bank": 0
+    }
+  },
+  "obligations_a_enseigner_specifiquement": {
+    "ccq.incontournables": {
+      "topics": [
+        "qc3.ccq.prevention",
+        "qc3.ccq.genre",
+        "qc3.ccq.spiritualite",
+        "qc3.ccq.cycle-vie",
+        "qc3.ccq.stereotypes",
+        "qc3.ccq.limites"
+      ],
+      "type": "enseignement_encadre_non_gamifie",
+      "responsable": "enseignant qualifié",
+      "raison": "contenus obligatoires de CCQ non couverts automatiquement par une quête fictive",
+      "reference": "https://cdn-contenu.quebec.ca/cdn-contenu/education/pfeq/primaire/progressions-apprentissages/PFEQ-progression-apprentissages-culture-citoyennete-quebecoise-primaire.pdf"
+    },
+    "us.1500": {
+      "topics": [
+        "qc3.us.iroquois1500",
+        "qc3.us.algonquiens1500",
+        "qc3.us.chronologie",
+        "qc3.us.sources",
+        "qc3.us.territoire"
+      ],
+      "type": "sequence_documentaire_sourcée",
+      "responsable": "enseignant avec validation historique/culturelle",
+      "raison": "éviter les reconstitutions stéréotypées et attribuer correctement les sources",
+      "reference": "https://www.quebec.ca/education/prescolaire-primaire-et-secondaire/programmes-formations-evaluation/programme-formation-ecole-quebecoise/primaire/geographie-histoire-education-citoyennete"
+    },
+    "arts.choices": {
+      "topics": [
+        "qc3.ap.formes",
+        "qc3.ad.scene",
+        "qc3.mu.rythme",
+        "qc3.da.mouvement"
+      ],
+      "type": "parcours_arts_selon_offre_scolaire",
+      "responsable": "école",
+      "raison": "les quatre disciplines sont des options de contenus artistiques, pas toutes automatiquement des matières d’enseignement simultanées",
+      "reference": "https://www.quebec.ca/education/prescolaire-primaire-et-secondaire/programmes-formations-evaluation/programme-formation-ecole-quebecoise/primaire"
+    },
+    "core_proof": {
+      "topics": [
+        "qc3.ad.personnage",
+        "qc3.als.consignes",
+        "qc3.als.dialogue",
+        "qc3.als.lecture",
+        "qc3.ap.appreciation",
+        "qc3.ccq.cycle-vie",
+        "qc3.ccq.genre",
+        "qc3.ccq.habiter",
+        "qc3.ccq.prevention",
+        "qc3.ccq.spiritualite",
+        "qc3.ccq.stereotypes",
+        "qc3.da.composition",
+        "qc3.da.interpretation",
+        "qc3.da.mouvement",
+        "qc3.eps.coordination",
+        "qc3.eps.equilibre",
+        "qc3.eps.sante",
+        "qc3.fr.accords",
+        "qc3.fr.inference",
+        "qc3.fr.orthographe",
+        "qc3.fr.verbes",
+        "qc3.ma.demarche",
+        "qc3.ma.fraction",
+        "qc3.ma.numeration",
+        "qc3.ma.position",
+        "qc3.ma.suite",
+        "qc3.mu.creation",
+        "qc3.mu.ensemble",
+        "qc3.st.conclusion",
+        "qc3.us.algonquiens1500",
+        "qc3.us.continuite",
+        "qc3.us.iroquois1500",
+        "qc3.us.organisation",
+        "qc3.us.sources"
+      ],
+      "type": "missions_supplementaires_ou_seances_explicites",
+      "responsable": "enseignant",
+      "raison": "les objectifs internes sans preuve planifiée dans les 32 trames ne sont pas déclarés couverts",
+      "reference": "https://www.quebec.ca/education/prescolaire-primaire-et-secondaire/programmes-formations-evaluation/programme-formation-ecole-quebecoise/primaire"
+    }
+  },
+  "attention": "Ces chiffres mesurent des LIENS DOCUMENTAIRES, pas des apprentissages réalisés ni le respect intégral du programme.",
+  "objectifs_avec_seance_compensatoire": 34,
+  "objectifs_prevus_dans_trames_ou_micro_situations": 83,
+  "statut_couverture_supplementaire": "planifiee_non_realisee",
+  "attestation_ministerielle": false
+}

@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "jardinier",
+  "name": {
+    "fr-CA": "Jardinier",
+    "en": "Gardener"
+  },
+  "intro": {
+    "fr-CA": "aménager un jardin scolaire",
+    "en": "You are playing the role of gardener in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "semer",
+    "mesurer",
+    "classer"
+  ],
+  "objects": [
+    "graines",
+    "plante",
+    "arrosoir"
+  ],
+  "problems": [
+    "manque de lumière",
+    "stock"
+  ],
+  "partners": [
+    "fermier",
+    "scientifique",
+    "peintre"
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "format": "kontexte.exercise-fixtures/1",
+  "validation_type": "arithmetique_locale_sans_evaluation_reelle",
+  "grade": 3,
+  "exercices": [
+    {
+      "scenario_id": "commande-de-pains",
+      "question": "La boulangerie fictive prépare 6 plateaux de 4 pains. Combien de pains?",
+      "operands": [
+        6,
+        4
+      ],
+      "operator": "multiply",
+      "answer": 24,
+      "unit": "pains",
+      "check": "4+4+4+4+4+4=24"
+    },
+    {
+      "scenario_id": "chapeau-de-papier",
+      "question": "4 équipes fabriquent chacune 3 chapeaux. Combien de chapeaux?",
+      "operands": [
+        4,
+        3
+      ],
+      "operator": "multiply",
+      "answer": 12,
+      "unit": "chapeaux",
+      "check": "3+3+3+3=12"
+    },
+    {
+      "scenario_id": "marche-des-creations",
+      "question": "Une équipe possède 50 Klownkoins et achète 3 articles à 8 Klownkoins. Quel montant reste?",
+      "operands": [
+        50,
+        3,
+        8
+      ],
+      "operator": "subtract_product",
+      "answer": 26,
+      "unit": "Klownkoins",
+      "check": "50-(3×8)=26"
+    },
+    {
+      "scenario_id": "stock-et-commande",
+      "question": "Il faut 30 invitations. Il reste 18 feuilles. Combien manque-t-il de feuilles?",
+      "operands": [
+        30,
+        18
+      ],
+      "operator": "subtract",
+      "answer": 12,
+      "unit": "feuilles",
+      "check": "18+12=30"
+    },
+    {
+      "scenario_id": "budget-marche",
+      "question": "Trois fournitures coûtent respectivement 12, 7 et 5 Klownkoins. Quel total?",
+      "operands": [
+        12,
+        7,
+        5
+      ],
+      "operator": "sum",
+      "answer": 24,
+      "unit": "Klownkoins",
+      "check": "12+7=19;19+5=24"
+    },
+    {
+      "scenario_id": "caisse-klownkoins",
+      "question": "La caisse reçoit 18, 13 et 9 Klownkoins. Quel total?",
+      "operands": [
+        18,
+        13,
+        9
+      ],
+      "operator": "sum",
+      "answer": 40,
+      "unit": "Klownkoins",
+      "check": "18+13=31;31+9=40"
+    },
+    {
+      "scenario_id": "ressources-a-partager",
+      "question": "24 cartons sont partagés également entre 4 groupes. Combien par groupe?",
+      "operands": [
+        24,
+        4
+      ],
+      "operator": "divide",
+      "answer": 6,
+      "unit": "cartons",
+      "check": "6×4=24"
+    },
+    {
+      "scenario_id": "salle-a-configurer",
+      "question": "5 rangées contiennent 4 chaises chacune. Combien de chaises?",
+      "operands": [
+        5,
+        4
+      ],
+      "operator": "multiply",
+      "answer": 20,
+      "unit": "chaises",
+      "check": "4+4+4+4+4=20"
+    },
+    {
+      "scenario_id": "jardin-saisonnier",
+      "question": "Un plant mesure 8 cm, puis 13 cm. Quelle croissance?",
+      "operands": [
+        13,
+        8
+      ],
+      "operator": "subtract",
+      "answer": 5,
+      "unit": "cm",
+      "check": "8+5=13"
+    },
+    {
+      "scenario_id": "reserve-eau",
+      "question": "Quatre pots ont besoin chacun de 250 mL d’eau. Quel volume total?",
+      "operands": [
+        4,
+        250
+      ],
+      "operator": "multiply",
+      "answer": 1000,
+      "unit": "mL",
+      "check": "250+250+250+250=1000"
+    },
+    {
+      "scenario_id": "invitation-multilingue",
+      "question": "La classe imprime 3 lots de 9 invitations. Combien d’invitations?",
+      "operands": [
+        3,
+        9
+      ],
+      "operator": "multiply",
+      "answer": 27,
+      "unit": "invitations",
+      "check": "9+9+9=27"
+    },
+    {
+      "scenario_id": "semis-compare",
+      "question": "Une plante passe de 3 cm à 9 cm. De combien grandit-elle?",
+      "operands": [
+        9,
+        3
+      ],
+      "operator": "subtract",
+      "answer": 6,
+      "unit": "cm",
+      "check": "3+6=9"
+    },
+    {
+      "scenario_id": "fete-commune",
+      "question": "6 équipes préparent 4 étoiles chacune. Combien d’étoiles?",
+      "operands": [
+        6,
+        4
+      ],
+      "operator": "multiply",
+      "answer": 24,
+      "unit": "étoiles",
+      "check": "4×6=24"
+    },
+    {
+      "scenario_id": "spectacle-imprevu",
+      "question": "Le spectacle contient 3 numéros de 5 minutes. Combien de minutes?",
+      "operands": [
+        3,
+        5
+      ],
+      "operator": "multiply",
+      "answer": 15,
+      "unit": "minutes",
+      "check": "5+5+5=15"
+    },
+    {
+      "scenario_id": "parcours-livraison",
+      "question": "On parcourt 12 m, puis 9 m. Quelle distance totale?",
+      "operands": [
+        12,
+        9
+      ],
+      "operator": "sum",
+      "answer": 21,
+      "unit": "m",
+      "check": "12+9=21"
+    }
+  ]
+}

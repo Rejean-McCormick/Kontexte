@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "chevalier",
+  "name": {
+    "fr-CA": "Chevalier",
+    "en": "Knight"
+  },
+  "intro": {
+    "fr-CA": "protéger et organiser un château imaginaire",
+    "en": "You are playing the role of knight in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "planifier",
+    "aider",
+    "négocier"
+  ],
+  "objects": [
+    "bouclier de papier",
+    "carte",
+    "lettre"
+  ],
+  "problems": [
+    "pont endommagé",
+    "message secret"
+  ],
+  "partners": [
+    "forgeron",
+    "architecte",
+    "messager"
+  ]
+}

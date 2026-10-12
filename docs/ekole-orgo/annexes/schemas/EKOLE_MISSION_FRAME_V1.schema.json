@@ -1,0 +1,174 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ekole:mission-frame:1.0-proposal",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "format",
+    "id",
+    "version",
+    "title",
+    "year_suggestion",
+    "fiction",
+    "roles",
+    "fragments",
+    "steps",
+    "joins",
+    "teacher_approval_required",
+    "status"
+  ],
+  "properties": {
+    "format": {
+      "const": "ekole.mission-frame/1.0-proposal"
+    },
+    "id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "year_suggestion": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 6
+    },
+    "fiction": {
+      "type": "string"
+    },
+    "roles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "fragments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "holder_role",
+          "text_fr_CA"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "holder_role": {
+            "type": "string"
+          },
+          "text_fr_CA": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "steps": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "actor",
+          "action",
+          "depends_on",
+          "output",
+          "competency_links",
+          "validation_mode"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "actor": {
+            "type": "string"
+          },
+          "action": {
+            "type": "string"
+          },
+          "depends_on": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "output": {
+            "type": "string"
+          },
+          "competency_links": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "ekole_course_id",
+                "mapping_status"
+              ],
+              "properties": {
+                "ekole_course_id": {
+                  "type": "string",
+                  "pattern": "^qc-pri-[a-z]+-[0-9]{3}$"
+                },
+                "mapping_status": {
+                  "enum": [
+                    "candidate",
+                    "reviewed",
+                    "approved"
+                  ]
+                }
+              }
+            }
+          },
+          "validation_mode": {
+            "enum": [
+              "deterministic_practice",
+              "human_review",
+              "logistical_only"
+            ]
+          }
+        }
+      }
+    },
+    "joins": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "fragment_ids",
+          "unlock"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "fragment_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "unlock": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "teacher_approval_required": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "const": "proposal_review_required"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "traducteur",
+  "name": {
+    "fr-CA": "Traducteur",
+    "en": "Translator"
+  },
+  "intro": {
+    "fr-CA": "produire des invitations bilingues",
+    "en": "You are playing the role of translator in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "comparer",
+    "reformuler",
+    "relire"
+  ],
+  "objects": [
+    "dictionnaire",
+    "texte",
+    "invitation"
+  ],
+  "problems": [
+    "mot ambigu",
+    "manque de contexte"
+  ],
+  "partners": [
+    "ecrivain",
+    "sorciere",
+    "messager"
+  ]
+}

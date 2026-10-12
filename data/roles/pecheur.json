@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "pecheur",
+  "name": {
+    "fr-CA": "Pêcheur",
+    "en": "Fisher"
+  },
+  "intro": {
+    "fr-CA": "organiser une pêche simulée",
+    "en": "You are playing the role of fisher in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "mesurer",
+    "observer",
+    "classifier"
+  ],
+  "objects": [
+    "carte",
+    "filet fictif",
+    "carnet"
+  ],
+  "problems": [
+    "météo défavorable",
+    "capture limitée"
+  ],
+  "partners": [
+    "scientifique",
+    "cuisinier",
+    "comptable"
+  ]
+}

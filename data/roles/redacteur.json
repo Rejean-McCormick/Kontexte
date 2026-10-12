@@ -1,0 +1,31 @@
+{
+  "format": "kontexte.role/1",
+  "id": "redacteur",
+  "name": {
+    "fr-CA": "Rédacteur",
+    "en": "Scriptwriter"
+  },
+  "intro": {
+    "fr-CA": "écrire les textes d'une cérémonie",
+    "en": "You are playing the role of scriptwriter in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "rédiger",
+    "corriger",
+    "adapter"
+  ],
+  "objects": [
+    "discours",
+    "mandat",
+    "brouillon"
+  ],
+  "problems": [
+    "informations manquantes"
+  ],
+  "partners": [
+    "sorciere",
+    "metteur-en-scene",
+    "traducteur"
+  ]
+}

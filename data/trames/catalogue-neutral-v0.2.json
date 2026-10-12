@@ -1,0 +1,2215 @@
+{
+  "format": "kontexte.catalogue-trames/1",
+  "version": "0.2.0",
+  "langue_source": "fr-CA",
+  "statut": "idees_de_scenarios_non_executables",
+  "description": "Trames minimales indépendantes des cours, à décliner culturellement, pédagogiquement et opérationnellement.",
+  "orchestration": "orgo",
+  "pedagogie": "ekole",
+  "regles": {
+    "invariant": "Conserver le problème central, les interdépendances et le type de production attendue.",
+    "variable": "Adapter les objets, personnes, pratiques, lieux, langues, temporalités et modalités de coopération selon les contextes.",
+    "roles": "Les rôles sont des propositions remplaçables par une fonction équivalente; ils ne sont pas une obligation culturelle.",
+    "annees": "Les niveaux sont suggérés; un scénario peut être réinstancié pour d’autres niveaux et aides.",
+    "evaluations": "Les domaines potentiels ne sont pas des compétences officielles ni des validations acquises.",
+    "orchestration": "Les indices décrivent des informations à répartir; les règles de libération et les transitions appartiennent à Orgo.",
+    "culture": "Aucune pratique ne doit être présumée universelle au sein d’une culture; valider avec la communauté concernée et respecter les protocoles et droits.",
+    "medias": "Pas de publication identifiante sans autorisation valide; en cas de refus, ne pas exporter le média ni les tags identifiants.",
+    "securite": "Aucune dépense, taxe, message, déplacement ni intervention physique réelle n’est automatiquement autorisé par la trame."
+  },
+  "axes_de_variation": {
+    "theme_role": "Identités narratives et rôles équivalents sans obligation culturelle",
+    "occasion": "Fête, événement ou occasion pertinente localement",
+    "activites": "Types d’ateliers et pratiques accessibles dans le contexte",
+    "environnements": "Types de milieux bâtis ou naturels",
+    "langues": "Langues et niveaux de traduction validés",
+    "scripts": "Systèmes d’écriture et conventions typographiques",
+    "symboles": "Symboles et références visuelles autorisés",
+    "materiaux": "Matériaux et outils disponibles et adaptés",
+    "regles_partage": "Règles de diffusion et de participation",
+    "arts_performatifs": "Formes locales de danse, musique, théâtre ou parole",
+    "lieux": "Aménagements et lieux réels ou simulés",
+    "codes_sociaux": "Modes de politesse, collaboration et échanges",
+    "alimentation": "Pratiques alimentaires et contraintes de santé",
+    "restrictions": "Allergies et autres restrictions; ne pas inférer les personnes",
+    "unites": "Systèmes de mesure et ordre de grandeur",
+    "monnaie": "Devise ou monnaie fictive et affichage des montants",
+    "monnaie_fictive": "Système fictif de points et unités pédagogiques",
+    "conventions_echange": "Normes d’achat, prêt, échange, don ou rémunération fictive",
+    "objets": "Objets et artefacts de l’environnement cible",
+    "vetements": "Habits et accessoires utilisés avec respect",
+    "esthetiques": "Esthétiques choisies par les participants",
+    "habitat": "Types de bâtiments et infrastructures selon le contexte",
+    "artisanat": "Techniques de fabrication documentées et autorisées",
+    "outils": "Outils disponibles, sûrs et adaptés à l’âge",
+    "technologies": "Technologies connues ou présentes localement",
+    "toponymes": "Noms géographiques contextualisés et vérifiés",
+    "territoires": "Géographies et environnements locaux",
+    "milieux_sonores": "Sons accessibles et pertinents au milieu",
+    "savoirs_valides": "Sources locales fiables, validation humaine requise",
+    "flora_locale": "Plantes réellement présentes dans le contexte local",
+    "faune_locale": "Animaux réellement présents dans le contexte local",
+    "especes_locales": "Espèces et milieux aquatiques documentés",
+    "ecosystemes": "Écosystèmes et leurs contraintes contextuelles",
+    "ressources_locales": "Disponibilité des ressources du milieu",
+    "climat": "Conditions climatiques observées ou scénarisées",
+    "saisons": "Calendrier saisonnier et activités pertinentes",
+    "dechets_locaux": "Règles et filières locales de tri",
+    "regles_locales": "Règlements pertinents au lieu (vérification requise)",
+    "regles_fiscales_simulees": "Taux fictifs d’apprentissage, pas de déclaration fiscale",
+    "systemes_livraison": "Modes locaux de livraison et distribution",
+    "transports": "Moyens de transport possibles dans le contexte",
+    "recits": "Récits autorisés, origines et droits vérifiés",
+    "droits_et_protocoles": "Droits d’auteur et protocoles culturels applicables",
+    "medias": "Supports et pratiques de diffusion contrôlés",
+    "supports": "Papier, affichage, audio, etc., accessibles",
+    "accessibilite": "Modalités d’accès, assistance et adaptations",
+    "communication": "Modalités de communication accessibles",
+    "consentement": "Consentements distincts image, nom, œuvre et diffusion",
+    "formules_politesse": "Salutations et formulations contextualisées",
+    "protocole": "Ordre et forme d’une cérémonie locale",
+    "calendriers": "Dates et calendriers locaux",
+    "formes_decision": "Procédures locales de consultation ou de décision",
+    "ciel_local": "Références astronomiques vérifiées selon lieu et date"
+  },
+  "scenarios": [
+    {
+      "id": "fete-commune",
+      "famille": "evenement",
+      "titre": "La fête commune",
+      "portee": "ecole",
+      "niveaux_suggeres": "maternelle-6",
+      "roles": [
+        "sorciere",
+        "origamiste",
+        "messager",
+        "metteur-en-scene",
+        "comptable",
+        "photographe"
+      ],
+      "declencheur": "Une célébration commune est annoncée.",
+      "tension": "Les préparatifs dépendent de plusieurs équipes.",
+      "informations_a_reunir": [
+        "besoins",
+        "ressources disponibles"
+      ],
+      "actions": [
+        "fabriquer",
+        "inviter",
+        "organiser",
+        "livrer"
+      ],
+      "resultat": "Fête et productions partagées",
+      "rebond_possible": "Un matériel manque.",
+      "domaines_potentiels": [
+        "arts",
+        "francais",
+        "mathematiques",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "occasion",
+        "langues",
+        "symboles",
+        "materiaux",
+        "regles_partage",
+        "theme_role"
+      ]
+    },
+    {
+      "id": "spectacle-imprevu",
+      "famille": "evenement",
+      "titre": "Le spectacle imprévu",
+      "portee": "classe",
+      "niveaux_suggeres": "primaire-3",
+      "roles": [
+        "clown",
+        "danseur",
+        "musicien",
+        "metteur-en-scene",
+        "redacteur"
+      ],
+      "declencheur": "Un spectacle est demandé.",
+      "tension": "La scène et le texte ne sont pas prêts.",
+      "informations_a_reunir": [
+        "duree disponible",
+        "participants"
+      ],
+      "actions": [
+        "repartir",
+        "repeter",
+        "presenter"
+      ],
+      "resultat": "Courte représentation",
+      "rebond_possible": "Le temps disponible diminue.",
+      "domaines_potentiels": [
+        "arts",
+        "francais",
+        "mathematiques",
+        "education_physique"
+      ],
+      "axes_de_variation": [
+        "arts_performatifs",
+        "langues",
+        "lieux",
+        "codes_sociaux"
+      ]
+    },
+    {
+      "id": "repas-partage",
+      "famille": "evenement",
+      "titre": "Le repas partagé",
+      "portee": "interannees",
+      "niveaux_suggeres": "primaire-1-6",
+      "roles": [
+        "cuisinier",
+        "boulanger",
+        "fermier",
+        "comptable",
+        "messager"
+      ],
+      "declencheur": "Un repas fictif doit être planifié.",
+      "tension": "Les portions et préférences diffèrent.",
+      "informations_a_reunir": [
+        "nombre de convives",
+        "stocks et besoins"
+      ],
+      "actions": [
+        "planifier",
+        "calculer",
+        "communiquer"
+      ],
+      "resultat": "Menu et plan des portions",
+      "rebond_possible": "Un ingrédient est indisponible.",
+      "domaines_potentiels": [
+        "mathematiques",
+        "francais",
+        "sciences",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "alimentation",
+        "restrictions",
+        "unites",
+        "monnaie"
+      ]
+    },
+    {
+      "id": "marche-des-creations",
+      "famille": "evenement",
+      "titre": "Le marché des créations",
+      "portee": "ecole",
+      "niveaux_suggeres": "maternelle-6",
+      "roles": [
+        "peintre",
+        "origamiste",
+        "forgeron",
+        "comptable",
+        "messager"
+      ],
+      "declencheur": "L’école prépare un marché fictif.",
+      "tension": "Chaque équipe a un budget limité.",
+      "informations_a_reunir": [
+        "couts",
+        "commandes"
+      ],
+      "actions": [
+        "produire",
+        "etiqueter",
+        "echanger"
+      ],
+      "resultat": "Kiosques et registre fictif",
+      "rebond_possible": "La demande dépasse l’offre.",
+      "domaines_potentiels": [
+        "mathematiques",
+        "arts",
+        "francais"
+      ],
+      "axes_de_variation": [
+        "objets",
+        "monnaie",
+        "unites",
+        "conventions_echange"
+      ]
+    },
+    {
+      "id": "bibliotheque-vivante",
+      "famille": "evenement",
+      "titre": "La bibliothèque vivante",
+      "portee": "interannees",
+      "niveaux_suggeres": "primaire-2-6",
+      "roles": [
+        "ecrivain",
+        "lecteur",
+        "traducteur",
+        "photographe"
+      ],
+      "declencheur": "Des histoires doivent circuler entre classes.",
+      "tension": "Les publics n’ont pas tous la même langue ni le même niveau de lecture.",
+      "informations_a_reunir": [
+        "histoires disponibles",
+        "besoins des lecteurs"
+      ],
+      "actions": [
+        "choisir",
+        "adapter",
+        "lire"
+      ],
+      "resultat": "Lectures et catalogue",
+      "rebond_possible": "Une histoire demande une nouvelle version.",
+      "domaines_potentiels": [
+        "francais",
+        "anglais",
+        "arts",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "recits",
+        "langues",
+        "codes_sociaux",
+        "consentement"
+      ]
+    },
+    {
+      "id": "merci-collectif",
+      "famille": "evenement",
+      "titre": "La cérémonie des mercis",
+      "portee": "classe",
+      "niveaux_suggeres": "primaire-2",
+      "roles": [
+        "redacteur",
+        "lecteur",
+        "peintre",
+        "metteur-en-scene"
+      ],
+      "declencheur": "La classe veut remercier des personnes.",
+      "tension": "Les contributions sont nombreuses mais invisibles.",
+      "informations_a_reunir": [
+        "personnes remerciees",
+        "gestes reconnus"
+      ],
+      "actions": [
+        "recueillir",
+        "rediger",
+        "presenter"
+      ],
+      "resultat": "Cartes et cérémonie",
+      "rebond_possible": "Une personne souhaite rester anonyme.",
+      "domaines_potentiels": [
+        "francais",
+        "arts",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "formules_politesse",
+        "langues",
+        "protocole"
+      ]
+    },
+    {
+      "id": "commande-de-pains",
+      "famille": "fabrication",
+      "titre": "La commande de pains",
+      "portee": "classe",
+      "niveaux_suggeres": "primaire-3",
+      "roles": [
+        "boulanger",
+        "fermier",
+        "comptable"
+      ],
+      "declencheur": "Une commande fictive arrive.",
+      "tension": "La recette ne correspond pas à la quantité demandée.",
+      "informations_a_reunir": [
+        "recette de base",
+        "quantite demandee"
+      ],
+      "actions": [
+        "mesurer",
+        "ajuster",
+        "calculer"
+      ],
+      "resultat": "Plan de production",
+      "rebond_possible": "La réserve de farine est insuffisante.",
+      "domaines_potentiels": [
+        "mathematiques",
+        "francais",
+        "sciences"
+      ],
+      "axes_de_variation": [
+        "alimentation",
+        "unites",
+        "materiaux",
+        "monnaie"
+      ]
+    },
+    {
+      "id": "chapeau-de-papier",
+      "famille": "fabrication",
+      "titre": "Le chapeau de papier",
+      "portee": "solo",
+      "niveaux_suggeres": "primaire-2",
+      "roles": [
+        "origamiste",
+        "sorciere"
+      ],
+      "declencheur": "Un costume a besoin d’un accessoire.",
+      "tension": "Le papier et la forme imposent des contraintes.",
+      "informations_a_reunir": [
+        "modele",
+        "dimensions de la feuille"
+      ],
+      "actions": [
+        "plier",
+        "mesurer",
+        "decrire"
+      ],
+      "resultat": "Chapeau ou maquette papier",
+      "rebond_possible": "Un autre format est demandé.",
+      "domaines_potentiels": [
+        "arts",
+        "mathematiques",
+        "francais"
+      ],
+      "axes_de_variation": [
+        "symboles",
+        "materiaux",
+        "vetements",
+        "theme_role"
+      ]
+    },
+    {
+      "id": "pont-miniature",
+      "famille": "fabrication",
+      "titre": "Le pont miniature",
+      "portee": "equipe",
+      "niveaux_suggeres": "primaire-4",
+      "roles": [
+        "architecte",
+        "menuisier",
+        "regisseur"
+      ],
+      "declencheur": "Deux zones d’une maquette doivent être reliées.",
+      "tension": "Le matériel est limité.",
+      "informations_a_reunir": [
+        "distance a franchir",
+        "materiaux disponibles"
+      ],
+      "actions": [
+        "concevoir",
+        "construire",
+        "tester"
+      ],
+      "resultat": "Pont miniature",
+      "rebond_possible": "Une charge fictive augmente.",
+      "domaines_potentiels": [
+        "mathematiques",
+        "sciences",
+        "arts"
+      ],
+      "axes_de_variation": [
+        "habitat",
+        "materiaux",
+        "unites"
+      ]
+    },
+    {
+      "id": "mecanisme-en-panne",
+      "famille": "fabrication",
+      "titre": "Le mécanisme en panne",
+      "portee": "equipe",
+      "niveaux_suggeres": "primaire-4",
+      "roles": [
+        "mecanicien",
+        "inventeur",
+        "scientifique"
+      ],
+      "declencheur": "Une machine fictive s’arrête.",
+      "tension": "Plusieurs causes sont plausibles.",
+      "informations_a_reunir": [
+        "symptomes",
+        "plan du mecanisme"
+      ],
+      "actions": [
+        "observer",
+        "tester",
+        "reparer"
+      ],
+      "resultat": "Diagnostic et modèle réparé",
+      "rebond_possible": "Un nouvel indice change le diagnostic.",
+      "domaines_potentiels": [
+        "sciences",
+        "mathematiques",
+        "francais"
+      ],
+      "axes_de_variation": [
+        "technologies",
+        "outils",
+        "materiaux"
+      ]
+    },
+    {
+      "id": "atelier-metal",
+      "famille": "fabrication",
+      "titre": "Le projet du forgeron",
+      "portee": "classe",
+      "niveaux_suggeres": "primaire-4",
+      "roles": [
+        "forgeron",
+        "menuisier",
+        "architecte"
+      ],
+      "declencheur": "Un objet doit être conçu en matériaux sûrs.",
+      "tension": "Les propriétés attendues sont contradictoires.",
+      "informations_a_reunir": [
+        "usage prevu",
+        "contraintes de materiaux"
+      ],
+      "actions": [
+        "dessiner",
+        "comparer",
+        "fabriquer"
+      ],
+      "resultat": "Prototype en carton",
+      "rebond_possible": "Le prototype se déforme.",
+      "domaines_potentiels": [
+        "sciences",
+        "arts",
+        "mathematiques"
+      ],
+      "axes_de_variation": [
+        "artisanat",
+        "materiaux",
+        "outils"
+      ]
+    },
+    {
+      "id": "costumes-recycles",
+      "famille": "fabrication",
+      "titre": "Les costumes réinventés",
+      "portee": "interannees",
+      "niveaux_suggeres": "primaire-2-6",
+      "roles": [
+        "coiffeuse",
+        "peintre",
+        "regisseur",
+        "origamiste"
+      ],
+      "declencheur": "Une équipe prépare des costumes de scène.",
+      "tension": "Les matériaux réutilisables sont insuffisants.",
+      "informations_a_reunir": [
+        "inventaire",
+        "besoins par costume"
+      ],
+      "actions": [
+        "trier",
+        "creer",
+        "adapter"
+      ],
+      "resultat": "Costumes et accessoires",
+      "rebond_possible": "Un participant change de rôle.",
+      "domaines_potentiels": [
+        "arts",
+        "mathematiques",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "vetements",
+        "materiaux",
+        "esthetiques"
+      ]
+    },
+    {
+      "id": "message-fragmente",
+      "famille": "enquete",
+      "titre": "Le message incomplet",
+      "portee": "duo",
+      "niveaux_suggeres": "primaire-3",
+      "roles": [
+        "messager",
+        "traducteur",
+        "redacteur"
+      ],
+      "declencheur": "Un message arrive en deux parties.",
+      "tension": "Aucun élève ne connaît la consigne complète.",
+      "informations_a_reunir": [
+        "premiere partie",
+        "deuxieme partie"
+      ],
+      "actions": [
+        "echanger",
+        "reconstituer",
+        "agir"
+      ],
+      "resultat": "Message reconstruit",
+      "rebond_possible": "Un terme a deux sens.",
+      "domaines_potentiels": [
+        "francais",
+        "anglais",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "langues",
+        "scripts",
+        "codes_sociaux"
+      ]
+    },
+    {
+      "id": "plante-mystere",
+      "famille": "enquete",
+      "titre": "La plante mystérieuse",
+      "portee": "solo",
+      "niveaux_suggeres": "primaire-3",
+      "roles": [
+        "scientifique",
+        "jardinier",
+        "mystique"
+      ],
+      "declencheur": "Une plante inconnue apparaît dans une histoire.",
+      "tension": "Ses propriétés doivent être distinguées des croyances fictives.",
+      "informations_a_reunir": [
+        "observations",
+        "documentation"
+      ],
+      "actions": [
+        "observer",
+        "comparer",
+        "classer"
+      ],
+      "resultat": "Fiche d’identification",
+      "rebond_possible": "Deux plantes se ressemblent.",
+      "domaines_potentiels": [
+        "sciences",
+        "francais",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "flora_locale",
+        "savoirs_valides",
+        "langues"
+      ]
+    },
+    {
+      "id": "carte-incomplete",
+      "famille": "enquete",
+      "titre": "La carte incomplète",
+      "portee": "duo",
+      "niveaux_suggeres": "primaire-3",
+      "roles": [
+        "explorateur",
+        "messager"
+      ],
+      "declencheur": "Une route doit être retrouvée sur une carte.",
+      "tension": "Deux personnes détiennent des repères différents.",
+      "informations_a_reunir": [
+        "repere nord",
+        "repere sud"
+      ],
+      "actions": [
+        "localiser",
+        "combiner",
+        "tracer"
+      ],
+      "resultat": "Itinéraire sur plan",
+      "rebond_possible": "Un passage est fermé.",
+      "domaines_potentiels": [
+        "univers_social",
+        "mathematiques",
+        "francais"
+      ],
+      "axes_de_variation": [
+        "territoires",
+        "unites",
+        "toponymes"
+      ]
+    },
+    {
+      "id": "sons-des-lieux",
+      "famille": "enquete",
+      "titre": "Les sons du quartier",
+      "portee": "classe",
+      "niveaux_suggeres": "primaire-3",
+      "roles": [
+        "musicien",
+        "scientifique",
+        "photographe"
+      ],
+      "declencheur": "Une collection de sons doit être classée.",
+      "tension": "L’origine de certains sons est incertaine.",
+      "informations_a_reunir": [
+        "enregistrements autorises",
+        "observations"
+      ],
+      "actions": [
+        "ecouter",
+        "classer",
+        "presenter"
+      ],
+      "resultat": "Carte sonore fictive",
+      "rebond_possible": "Un son a plusieurs sources possibles.",
+      "domaines_potentiels": [
+        "arts",
+        "sciences",
+        "francais"
+      ],
+      "axes_de_variation": [
+        "milieux_sonores",
+        "langues",
+        "consentement"
+      ]
+    },
+    {
+      "id": "ombres-mobiles",
+      "famille": "enquete",
+      "titre": "Le mystère des ombres",
+      "portee": "solo",
+      "niveaux_suggeres": "primaire-4",
+      "roles": [
+        "scientifique",
+        "sorciere"
+      ],
+      "declencheur": "Une ombre change de forme.",
+      "tension": "L’élève doit expliquer ce changement.",
+      "informations_a_reunir": [
+        "position lumiere",
+        "position objet"
+      ],
+      "actions": [
+        "mesurer",
+        "dessiner",
+        "verifier"
+      ],
+      "resultat": "Explication illustrée",
+      "rebond_possible": "Une deuxième source lumineuse apparaît.",
+      "domaines_potentiels": [
+        "sciences",
+        "mathematiques",
+        "arts"
+      ],
+      "axes_de_variation": [
+        "objets",
+        "lieux",
+        "technologies"
+      ]
+    },
+    {
+      "id": "colis-egare",
+      "famille": "enquete",
+      "titre": "Le colis égaré",
+      "portee": "equipe",
+      "niveaux_suggeres": "primaire-3",
+      "roles": [
+        "messager",
+        "comptable",
+        "regisseur"
+      ],
+      "declencheur": "Une livraison de matériel manque.",
+      "tension": "Les registres ne concordent pas.",
+      "informations_a_reunir": [
+        "bon de livraison",
+        "inventaire"
+      ],
+      "actions": [
+        "comparer",
+        "questionner",
+        "retrouver"
+      ],
+      "resultat": "Rapport de réception",
+      "rebond_possible": "Le colis porte une mauvaise étiquette.",
+      "domaines_potentiels": [
+        "francais",
+        "mathematiques",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "systemes_livraison",
+        "unites",
+        "langues"
+      ]
+    },
+    {
+      "id": "coup-de-main",
+      "famille": "entraide",
+      "titre": "La mission coup de main",
+      "portee": "duo",
+      "niveaux_suggeres": "primaire-2",
+      "roles": [
+        "messager",
+        "menuisier",
+        "regisseur"
+      ],
+      "declencheur": "Un élève a besoin d’assistance pour terminer une production.",
+      "tension": "Les deux élèves disposent de compétences complémentaires.",
+      "informations_a_reunir": [
+        "besoin exprime",
+        "ressource disponible"
+      ],
+      "actions": [
+        "demander",
+        "aider",
+        "verifier"
+      ],
+      "resultat": "Production achevée en coopération",
+      "rebond_possible": "La personne préfère une autre forme d’aide.",
+      "domaines_potentiels": [
+        "ccq",
+        "francais",
+        "arts"
+      ],
+      "axes_de_variation": [
+        "codes_sociaux",
+        "communication",
+        "accessibilite"
+      ]
+    },
+    {
+      "id": "tuteurs-temporaires",
+      "famille": "entraide",
+      "titre": "Les ateliers solidaires",
+      "portee": "ecole",
+      "niveaux_suggeres": "maternelle-6",
+      "roles": [
+        "origamiste",
+        "lecteur",
+        "scientifique",
+        "danseur"
+      ],
+      "declencheur": "Des ateliers accueillent des enfants de plusieurs âges.",
+      "tension": "Chaque participant a besoin d’un soutien différent.",
+      "informations_a_reunir": [
+        "competences des guides",
+        "besoins des participants"
+      ],
+      "actions": [
+        "accueillir",
+        "montrer",
+        "adapter"
+      ],
+      "resultat": "Ateliers accessibles",
+      "rebond_possible": "Un atelier devient trop fréquenté.",
+      "domaines_potentiels": [
+        "ccq",
+        "francais",
+        "arts",
+        "education_physique"
+      ],
+      "axes_de_variation": [
+        "activites",
+        "langues",
+        "accessibilite"
+      ]
+    },
+    {
+      "id": "maquette-accessible",
+      "famille": "entraide",
+      "titre": "La maquette inclusive",
+      "portee": "interannees",
+      "niveaux_suggeres": "primaire-3-6",
+      "roles": [
+        "architecte",
+        "menuisier",
+        "regisseur"
+      ],
+      "declencheur": "Une maquette doit convenir à différents utilisateurs.",
+      "tension": "Une voie d’accès ne fonctionne pas pour tous.",
+      "informations_a_reunir": [
+        "contraintes des utilisateurs",
+        "dimensions"
+      ],
+      "actions": [
+        "ecouter",
+        "dessiner",
+        "tester"
+      ],
+      "resultat": "Maquette améliorée",
+      "rebond_possible": "Une nouvelle contrainte est révélée.",
+      "domaines_potentiels": [
+        "sciences",
+        "mathematiques",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "environnements",
+        "accessibilite",
+        "unites"
+      ]
+    },
+    {
+      "id": "affiche-service",
+      "famille": "entraide",
+      "titre": "L’affiche d’entraide",
+      "portee": "classe",
+      "niveaux_suggeres": "primaire-3",
+      "roles": [
+        "redacteur",
+        "peintre",
+        "messager"
+      ],
+      "declencheur": "Un service communautaire fictif cherche des volontaires.",
+      "tension": "Le message doit être compris par tous.",
+      "informations_a_reunir": [
+        "besoin",
+        "public cible"
+      ],
+      "actions": [
+        "rediger",
+        "illustrer",
+        "diffuser"
+      ],
+      "resultat": "Affiche accessible",
+      "rebond_possible": "Un public utilise une autre langue.",
+      "domaines_potentiels": [
+        "francais",
+        "anglais",
+        "arts",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "langues",
+        "codes_sociaux",
+        "supports"
+      ]
+    },
+    {
+      "id": "accueil-nouveaux",
+      "famille": "entraide",
+      "titre": "Le guide des nouveaux",
+      "portee": "interannees",
+      "niveaux_suggeres": "primaire-2-6",
+      "roles": [
+        "traducteur",
+        "messager",
+        "explorateur"
+      ],
+      "declencheur": "De nouveaux élèves découvrent le lieu.",
+      "tension": "Ils ne connaissent ni les espaces ni certaines consignes.",
+      "informations_a_reunir": [
+        "plan des lieux",
+        "questions frequentes"
+      ],
+      "actions": [
+        "accueillir",
+        "orienter",
+        "expliquer"
+      ],
+      "resultat": "Guide d’accueil",
+      "rebond_possible": "Un lieu devient inaccessible.",
+      "domaines_potentiels": [
+        "francais",
+        "anglais",
+        "univers_social",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "langues",
+        "toponymes",
+        "codes_sociaux",
+        "accessibilite"
+      ]
+    },
+    {
+      "id": "reparer-pour-un-autre",
+      "famille": "entraide",
+      "titre": "L’atelier de réparation",
+      "portee": "duo",
+      "niveaux_suggeres": "primaire-4",
+      "roles": [
+        "mecanicien",
+        "inventeur",
+        "menuisier"
+      ],
+      "declencheur": "Un objet scolaire simulé doit être remis en état.",
+      "tension": "L’utilisateur et le réparateur ont des informations différentes.",
+      "informations_a_reunir": [
+        "symptomes observes",
+        "solutions possibles"
+      ],
+      "actions": [
+        "diagnostiquer",
+        "proposer",
+        "verifier"
+      ],
+      "resultat": "Plan de réparation sûr",
+      "rebond_possible": "La pièce de rechange manque.",
+      "domaines_potentiels": [
+        "sciences",
+        "francais",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "objets",
+        "materiaux",
+        "technologies"
+      ]
+    },
+    {
+      "id": "jardin-saisonnier",
+      "famille": "environnement",
+      "titre": "Le jardin des saisons",
+      "portee": "classe",
+      "niveaux_suggeres": "primaire-3",
+      "roles": [
+        "fermier",
+        "jardinier",
+        "scientifique"
+      ],
+      "declencheur": "Un jardin pédagogique doit être planifié.",
+      "tension": "Les besoins des plantes varient.",
+      "informations_a_reunir": [
+        "conditions locales",
+        "besoins des plantes"
+      ],
+      "actions": [
+        "observer",
+        "planifier",
+        "mesurer"
+      ],
+      "resultat": "Plan de jardin",
+      "rebond_possible": "La météo change le calendrier.",
+      "domaines_potentiels": [
+        "sciences",
+        "mathematiques",
+        "francais"
+      ],
+      "axes_de_variation": [
+        "flora_locale",
+        "saisons",
+        "climat",
+        "unites"
+      ]
+    },
+    {
+      "id": "reserve-eau",
+      "famille": "environnement",
+      "titre": "La réserve d’eau",
+      "portee": "equipe",
+      "niveaux_suggeres": "primaire-4",
+      "roles": [
+        "fermier",
+        "scientifique",
+        "comptable"
+      ],
+      "declencheur": "Une maquette de village possède une réserve d’eau limitée.",
+      "tension": "Les usages dépassent la quantité disponible.",
+      "informations_a_reunir": [
+        "stock",
+        "consommations"
+      ],
+      "actions": [
+        "mesurer",
+        "prioriser",
+        "calculer"
+      ],
+      "resultat": "Plan fictif de répartition",
+      "rebond_possible": "Une nouvelle demande survient.",
+      "domaines_potentiels": [
+        "mathematiques",
+        "sciences",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "ressources_locales",
+        "unites",
+        "climat"
+      ]
+    },
+    {
+      "id": "foret-partagee",
+      "famille": "environnement",
+      "titre": "La forêt partagée",
+      "portee": "interannees",
+      "niveaux_suggeres": "primaire-3-6",
+      "roles": [
+        "bucheron",
+        "jardinier",
+        "scientifique",
+        "politicien"
+      ],
+      "declencheur": "Un territoire forestier fictif est utilisé par plusieurs groupes.",
+      "tension": "Les objectifs de protection et d’usage divergent.",
+      "informations_a_reunir": [
+        "habitats",
+        "besoins humains"
+      ],
+      "actions": [
+        "comparer",
+        "debattre",
+        "proposer"
+      ],
+      "resultat": "Plan d’usage responsable",
+      "rebond_possible": "Une espèce fragile est découverte.",
+      "domaines_potentiels": [
+        "sciences",
+        "univers_social",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "ecosystemes",
+        "droits_et_protocoles",
+        "materiaux"
+      ]
+    },
+    {
+      "id": "habitats-des-animaux",
+      "famille": "environnement",
+      "titre": "Les habitats à protéger",
+      "portee": "classe",
+      "niveaux_suggeres": "primaire-3",
+      "roles": [
+        "dresseur-animaux",
+        "veterinaire",
+        "scientifique"
+      ],
+      "declencheur": "Des animaux fictifs changent d’habitat.",
+      "tension": "Les besoins des espèces sont différents.",
+      "informations_a_reunir": [
+        "espece et besoins",
+        "caracteristiques du lieu"
+      ],
+      "actions": [
+        "classer",
+        "associer",
+        "justifier"
+      ],
+      "resultat": "Carte d’habitats",
+      "rebond_possible": "Un lieu ne convient plus.",
+      "domaines_potentiels": [
+        "sciences",
+        "francais",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "faune_locale",
+        "ecosystemes",
+        "savoirs_valides"
+      ]
+    },
+    {
+      "id": "lac-a-preserver",
+      "famille": "environnement",
+      "titre": "Le lac à préserver",
+      "portee": "equipe",
+      "niveaux_suggeres": "primaire-4",
+      "roles": [
+        "pecheur",
+        "scientifique",
+        "comptable"
+      ],
+      "declencheur": "Un lac fictif doit être géré.",
+      "tension": "Les captures prévues dépassent un seuil de simulation.",
+      "informations_a_reunir": [
+        "populations estimees",
+        "prelevements prevus"
+      ],
+      "actions": [
+        "calculer",
+        "comparer",
+        "decider"
+      ],
+      "resultat": "Proposition de gestion",
+      "rebond_possible": "Les données sont mises à jour.",
+      "domaines_potentiels": [
+        "mathematiques",
+        "sciences",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "especes_locales",
+        "regles_locales",
+        "unites"
+      ]
+    },
+    {
+      "id": "compost-collectif",
+      "famille": "environnement",
+      "titre": "Le compost collectif",
+      "portee": "ecole",
+      "niveaux_suggeres": "maternelle-6",
+      "roles": [
+        "fermier",
+        "jardinier",
+        "messager",
+        "scientifique"
+      ],
+      "declencheur": "L’école veut organiser un compost fictif ou contrôlé.",
+      "tension": "Les matières doivent être triées correctement.",
+      "informations_a_reunir": [
+        "types de matieres",
+        "regles locales"
+      ],
+      "actions": [
+        "trier",
+        "expliquer",
+        "comptabiliser"
+      ],
+      "resultat": "Guide et tableau de suivi",
+      "rebond_possible": "Un déchet pose problème.",
+      "domaines_potentiels": [
+        "sciences",
+        "mathematiques",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "dechets_locaux",
+        "regles_locales",
+        "langues"
+      ]
+    },
+    {
+      "id": "caisse-klownkoins",
+      "famille": "economie",
+      "titre": "La caisse des Klownkoins",
+      "portee": "classe",
+      "niveaux_suggeres": "primaire-4",
+      "roles": [
+        "comptable",
+        "clown",
+        "metteur-en-scene"
+      ],
+      "declencheur": "Un événement utilise une monnaie entièrement fictive.",
+      "tension": "La caisse et les paiements doivent concorder.",
+      "informations_a_reunir": [
+        "tarifs convenus",
+        "services realises"
+      ],
+      "actions": [
+        "additionner",
+        "remunerer",
+        "verifier"
+      ],
+      "resultat": "Bilan en Klownkoins",
+      "rebond_possible": "Une écriture est en double.",
+      "domaines_potentiels": [
+        "mathematiques",
+        "francais",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "monnaie_fictive",
+        "conventions_echange",
+        "unites"
+      ]
+    },
+    {
+      "id": "budget-marche",
+      "famille": "economie",
+      "titre": "Le budget du marché",
+      "portee": "equipe",
+      "niveaux_suggeres": "primaire-3",
+      "roles": [
+        "fermier",
+        "boulanger",
+        "comptable"
+      ],
+      "declencheur": "Un marché fictif reçoit des commandes.",
+      "tension": "Le budget ne couvre pas toutes les demandes.",
+      "informations_a_reunir": [
+        "prix",
+        "quantites"
+      ],
+      "actions": [
+        "prioriser",
+        "calculer",
+        "negocier"
+      ],
+      "resultat": "Liste de commandes",
+      "rebond_possible": "Un prix change.",
+      "domaines_potentiels": [
+        "mathematiques",
+        "francais",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "alimentation",
+        "monnaie",
+        "unites"
+      ]
+    },
+    {
+      "id": "stock-et-commande",
+      "famille": "economie",
+      "titre": "Le stock insuffisant",
+      "portee": "duo",
+      "niveaux_suggeres": "primaire-3",
+      "roles": [
+        "comptable",
+        "messager",
+        "menuisier"
+      ],
+      "declencheur": "Une commande est supérieure au stock.",
+      "tension": "Le client et le fournisseur possèdent chacun un chiffre.",
+      "informations_a_reunir": [
+        "commande",
+        "inventaire"
+      ],
+      "actions": [
+        "echanger",
+        "soustraire",
+        "commander"
+      ],
+      "resultat": "Bon de commande",
+      "rebond_possible": "Une livraison partielle arrive.",
+      "domaines_potentiels": [
+        "mathematiques",
+        "francais"
+      ],
+      "axes_de_variation": [
+        "objets",
+        "unites",
+        "systemes_livraison"
+      ]
+    },
+    {
+      "id": "taxe-de-simulation",
+      "famille": "economie",
+      "titre": "La taxe fictive",
+      "portee": "classe",
+      "niveaux_suggeres": "primaire-5",
+      "roles": [
+        "comptable",
+        "politicien",
+        "boulanger"
+      ],
+      "declencheur": "Une vente fictive inclut une taxe pédagogique.",
+      "tension": "Le total hors taxe diffère du total à payer.",
+      "informations_a_reunir": [
+        "prix initial",
+        "taux de simulation"
+      ],
+      "actions": [
+        "calculer",
+        "expliquer",
+        "verifier"
+      ],
+      "resultat": "Facture fictive",
+      "rebond_possible": "Une remise est annoncée.",
+      "domaines_potentiels": [
+        "mathematiques",
+        "francais",
+        "univers_social"
+      ],
+      "axes_de_variation": [
+        "monnaie",
+        "regles_fiscales_simulees",
+        "unites"
+      ]
+    },
+    {
+      "id": "troc-equitable",
+      "famille": "economie",
+      "titre": "L’échange équitable",
+      "portee": "duo",
+      "niveaux_suggeres": "primaire-4",
+      "roles": [
+        "fermier",
+        "forgeron",
+        "pecheur"
+      ],
+      "declencheur": "Deux participants veulent échanger des biens fictifs.",
+      "tension": "La valeur et l’utilité ne sont pas perçues pareil.",
+      "informations_a_reunir": [
+        "offre",
+        "besoin"
+      ],
+      "actions": [
+        "proposer",
+        "argumenter",
+        "conclure"
+      ],
+      "resultat": "Accord simulé",
+      "rebond_possible": "Un troisième besoin apparaît.",
+      "domaines_potentiels": [
+        "mathematiques",
+        "francais",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "conventions_echange",
+        "objets",
+        "codes_sociaux"
+      ]
+    },
+    {
+      "id": "transport-commande",
+      "famille": "economie",
+      "titre": "Le trajet le plus utile",
+      "portee": "equipe",
+      "niveaux_suggeres": "primaire-4",
+      "roles": [
+        "messager",
+        "explorateur",
+        "comptable"
+      ],
+      "declencheur": "Plusieurs livraisons doivent être effectuées.",
+      "tension": "Le temps et les ressources sont limités.",
+      "informations_a_reunir": [
+        "destinations",
+        "capacite et trajet"
+      ],
+      "actions": [
+        "planifier",
+        "estimer",
+        "choisir"
+      ],
+      "resultat": "Plan de livraison",
+      "rebond_possible": "Un chemin devient indisponible.",
+      "domaines_potentiels": [
+        "mathematiques",
+        "univers_social",
+        "francais"
+      ],
+      "axes_de_variation": [
+        "territoires",
+        "transports",
+        "unites"
+      ]
+    },
+    {
+      "id": "invitation-multilingue",
+      "famille": "communication",
+      "titre": "L’invitation multilingue",
+      "portee": "duo",
+      "niveaux_suggeres": "primaire-3",
+      "roles": [
+        "redacteur",
+        "traducteur",
+        "messager"
+      ],
+      "declencheur": "Un groupe doit être invité à une rencontre.",
+      "tension": "Les destinataires n’utilisent pas tous la même langue.",
+      "informations_a_reunir": [
+        "details de la rencontre",
+        "langues des destinataires"
+      ],
+      "actions": [
+        "rediger",
+        "adapter",
+        "remettre"
+      ],
+      "resultat": "Invitation vérifiée",
+      "rebond_possible": "Un destinataire demande un autre format.",
+      "domaines_potentiels": [
+        "francais",
+        "anglais",
+        "arts",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "langues",
+        "formules_politesse",
+        "scripts",
+        "supports"
+      ]
+    },
+    {
+      "id": "bulletin-local",
+      "famille": "communication",
+      "titre": "Le bulletin local",
+      "portee": "classe",
+      "niveaux_suggeres": "primaire-4",
+      "roles": [
+        "ecrivain",
+        "photographe",
+        "lecteur"
+      ],
+      "declencheur": "Une nouvelle fictive mérite d’être expliquée.",
+      "tension": "Les témoignages ne concordent pas.",
+      "informations_a_reunir": [
+        "faits confirmes",
+        "points de vue"
+      ],
+      "actions": [
+        "verifier",
+        "rediger",
+        "publier"
+      ],
+      "resultat": "Bulletin relu",
+      "rebond_possible": "Une correction arrive.",
+      "domaines_potentiels": [
+        "francais",
+        "univers_social",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "langues",
+        "medias",
+        "consentement",
+        "codes_sociaux"
+      ]
+    },
+    {
+      "id": "journal-exploration",
+      "famille": "communication",
+      "titre": "Le carnet d’exploration",
+      "portee": "solo",
+      "niveaux_suggeres": "primaire-3",
+      "roles": [
+        "explorateur",
+        "ecrivain"
+      ],
+      "declencheur": "Un explorateur consigne sa découverte.",
+      "tension": "Certaines observations manquent de précision.",
+      "informations_a_reunir": [
+        "observations",
+        "mesures"
+      ],
+      "actions": [
+        "decrire",
+        "situer",
+        "completer"
+      ],
+      "resultat": "Carnet illustré",
+      "rebond_possible": "Une nouvelle découverte contredit l’ancienne.",
+      "domaines_potentiels": [
+        "francais",
+        "mathematiques",
+        "univers_social"
+      ],
+      "axes_de_variation": [
+        "territoires",
+        "unites",
+        "langues"
+      ]
+    },
+    {
+      "id": "conte-partage",
+      "famille": "communication",
+      "titre": "Le conte mis en scène",
+      "portee": "interannees",
+      "niveaux_suggeres": "primaire-1-6",
+      "roles": [
+        "ecrivain",
+        "lecteur",
+        "metteur-en-scene",
+        "peintre"
+      ],
+      "declencheur": "Un récit doit être présenté aux plus jeunes.",
+      "tension": "Sa forme actuelle est trop complexe pour certains auditeurs.",
+      "informations_a_reunir": [
+        "histoire source autorisee",
+        "besoins du public"
+      ],
+      "actions": [
+        "adapter",
+        "illustrer",
+        "raconter"
+      ],
+      "resultat": "Conte présenté",
+      "rebond_possible": "Une scène doit être simplifiée.",
+      "domaines_potentiels": [
+        "francais",
+        "arts",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "recits",
+        "langues",
+        "droits_et_protocoles"
+      ]
+    },
+    {
+      "id": "notice-ambigue",
+      "famille": "communication",
+      "titre": "La notice ambiguë",
+      "portee": "duo",
+      "niveaux_suggeres": "primaire-4",
+      "roles": [
+        "inventeur",
+        "redacteur",
+        "mecanicien"
+      ],
+      "declencheur": "Une notice ne permet pas de monter une maquette.",
+      "tension": "Deux étapes peuvent être comprises différemment.",
+      "informations_a_reunir": [
+        "texte des consignes",
+        "dessin du mecanisme"
+      ],
+      "actions": [
+        "clarifier",
+        "tester",
+        "reecrire"
+      ],
+      "resultat": "Notice corrigée",
+      "rebond_possible": "Une pièce est différente du schéma.",
+      "domaines_potentiels": [
+        "francais",
+        "sciences",
+        "mathematiques"
+      ],
+      "axes_de_variation": [
+        "outils",
+        "langues",
+        "supports"
+      ]
+    },
+    {
+      "id": "mode-emploi-visible",
+      "famille": "communication",
+      "titre": "Le mode d’emploi accessible",
+      "portee": "equipe",
+      "niveaux_suggeres": "primaire-3",
+      "roles": [
+        "traducteur",
+        "peintre",
+        "mecanicien"
+      ],
+      "declencheur": "Un objet nécessite un mode d’emploi.",
+      "tension": "Les utilisateurs ne lisent pas tous le même format.",
+      "informations_a_reunir": [
+        "fonctionnement",
+        "besoins de lecture"
+      ],
+      "actions": [
+        "illustrer",
+        "traduire",
+        "tester"
+      ],
+      "resultat": "Mode d’emploi multimodal",
+      "rebond_possible": "Un pictogramme est mal compris.",
+      "domaines_potentiels": [
+        "francais",
+        "anglais",
+        "arts",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "langues",
+        "accessibilite",
+        "scripts",
+        "supports"
+      ]
+    },
+    {
+      "id": "semis-compare",
+      "famille": "science",
+      "titre": "Les semis comparés",
+      "portee": "solo",
+      "niveaux_suggeres": "primaire-3",
+      "roles": [
+        "scientifique",
+        "jardinier"
+      ],
+      "declencheur": "Deux plants sont observés dans des conditions sûres.",
+      "tension": "La croissance n’est pas identique.",
+      "informations_a_reunir": [
+        "conditions",
+        "mesures successives"
+      ],
+      "actions": [
+        "observer",
+        "noter",
+        "comparer"
+      ],
+      "resultat": "Tableau d’observations",
+      "rebond_possible": "Une mesure semble anormale.",
+      "domaines_potentiels": [
+        "sciences",
+        "mathematiques",
+        "francais"
+      ],
+      "axes_de_variation": [
+        "flora_locale",
+        "climat",
+        "unites"
+      ]
+    },
+    {
+      "id": "ciel-en-cartes",
+      "famille": "science",
+      "titre": "Les cartes du ciel",
+      "portee": "classe",
+      "niveaux_suggeres": "primaire-4",
+      "roles": [
+        "astronaute",
+        "scientifique",
+        "peintre"
+      ],
+      "declencheur": "Une exposition sur le ciel est prévue.",
+      "tension": "Les observations changent selon le lieu et l’heure.",
+      "informations_a_reunir": [
+        "lieu et moment",
+        "observation et source"
+      ],
+      "actions": [
+        "chercher",
+        "comparer",
+        "representer"
+      ],
+      "resultat": "Carte du ciel annotée",
+      "rebond_possible": "Une observation contredit le dessin.",
+      "domaines_potentiels": [
+        "sciences",
+        "arts",
+        "mathematiques"
+      ],
+      "axes_de_variation": [
+        "ciel_local",
+        "calendriers",
+        "langues"
+      ]
+    },
+    {
+      "id": "station-meteo",
+      "famille": "science",
+      "titre": "La station météo",
+      "portee": "equipe",
+      "niveaux_suggeres": "primaire-4",
+      "roles": [
+        "scientifique",
+        "inventeur",
+        "messager"
+      ],
+      "declencheur": "Une station de mesures doit informer un groupe.",
+      "tension": "Les données de plusieurs moments diffèrent.",
+      "informations_a_reunir": [
+        "mesures",
+        "heures"
+      ],
+      "actions": [
+        "relever",
+        "calculer",
+        "communiquer"
+      ],
+      "resultat": "Bulletin de mesures",
+      "rebond_possible": "Un instrument donne une valeur suspecte.",
+      "domaines_potentiels": [
+        "sciences",
+        "mathematiques",
+        "francais"
+      ],
+      "axes_de_variation": [
+        "climat",
+        "unites",
+        "saisons"
+      ]
+    },
+    {
+      "id": "ponts-a-tester",
+      "famille": "science",
+      "titre": "Les structures à tester",
+      "portee": "duo",
+      "niveaux_suggeres": "primaire-4",
+      "roles": [
+        "architecte",
+        "scientifique"
+      ],
+      "declencheur": "Plusieurs maquettes de pont sont disponibles.",
+      "tension": "La résistance des modèles diffère.",
+      "informations_a_reunir": [
+        "plans",
+        "mesures de tests"
+      ],
+      "actions": [
+        "comparer",
+        "justifier",
+        "ameliorer"
+      ],
+      "resultat": "Tableau comparatif",
+      "rebond_possible": "Un matériau est remplacé.",
+      "domaines_potentiels": [
+        "sciences",
+        "mathematiques",
+        "arts"
+      ],
+      "axes_de_variation": [
+        "materiaux",
+        "unites",
+        "habitat"
+      ]
+    },
+    {
+      "id": "temperatures-melangees",
+      "famille": "science",
+      "titre": "Les mesures mélangées",
+      "portee": "solo",
+      "niveaux_suggeres": "primaire-3",
+      "roles": [
+        "scientifique",
+        "cuisinier"
+      ],
+      "declencheur": "Une suite de mesures de température doit être interprétée.",
+      "tension": "Les relevés ne sont pas classés.",
+      "informations_a_reunir": [
+        "valeurs",
+        "moments de mesure"
+      ],
+      "actions": [
+        "classer",
+        "mesurer",
+        "expliquer"
+      ],
+      "resultat": "Tableau chronologique",
+      "rebond_possible": "Une mesure est manquante.",
+      "domaines_potentiels": [
+        "sciences",
+        "mathematiques",
+        "francais"
+      ],
+      "axes_de_variation": [
+        "unites",
+        "climat",
+        "alimentation"
+      ]
+    },
+    {
+      "id": "lumiere-et-couleurs",
+      "famille": "science",
+      "titre": "Le laboratoire de lumière",
+      "portee": "classe",
+      "niveaux_suggeres": "primaire-3",
+      "roles": [
+        "scientifique",
+        "peintre",
+        "sorciere"
+      ],
+      "declencheur": "Une installation lumineuse fictive doit être expliquée.",
+      "tension": "Les couleurs observées changent selon les conditions.",
+      "informations_a_reunir": [
+        "sources lumineuses",
+        "materiaux transparents"
+      ],
+      "actions": [
+        "observer",
+        "tester",
+        "representer"
+      ],
+      "resultat": "Présentation des observations",
+      "rebond_possible": "Un nouveau filtre apparaît.",
+      "domaines_potentiels": [
+        "sciences",
+        "arts",
+        "francais"
+      ],
+      "axes_de_variation": [
+        "symboles",
+        "materiaux",
+        "technologies",
+        "theme_role"
+      ]
+    },
+    {
+      "id": "messagers-en-mouvement",
+      "famille": "deplacement",
+      "titre": "Le relais des messages",
+      "portee": "interannees",
+      "niveaux_suggeres": "primaire-1-6",
+      "roles": [
+        "messager",
+        "explorateur",
+        "lecteur"
+      ],
+      "declencheur": "Des messages doivent circuler entre équipes.",
+      "tension": "Les destinataires et les trajets ne sont pas connus de tous.",
+      "informations_a_reunir": [
+        "destinations",
+        "messages autorises"
+      ],
+      "actions": [
+        "orienter",
+        "transmettre",
+        "confirmer"
+      ],
+      "resultat": "Messages remis",
+      "rebond_possible": "Un destinataire change de lieu.",
+      "domaines_potentiels": [
+        "education_physique",
+        "francais",
+        "univers_social"
+      ],
+      "axes_de_variation": [
+        "lieux",
+        "codes_sociaux",
+        "accessibilite"
+      ]
+    },
+    {
+      "id": "salle-a-configurer",
+      "famille": "deplacement",
+      "titre": "La salle à préparer",
+      "portee": "equipe",
+      "niveaux_suggeres": "primaire-3",
+      "roles": [
+        "regisseur",
+        "architecte",
+        "metteur-en-scene"
+      ],
+      "declencheur": "Une salle accueille un spectacle.",
+      "tension": "La disposition ne permet pas à tous de voir ou de circuler.",
+      "informations_a_reunir": [
+        "plan de salle",
+        "besoins des participants"
+      ],
+      "actions": [
+        "mesurer",
+        "placer",
+        "tester"
+      ],
+      "resultat": "Plan d’aménagement sûr",
+      "rebond_possible": "La taille du groupe change.",
+      "domaines_potentiels": [
+        "mathematiques",
+        "education_physique",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "lieux",
+        "accessibilite",
+        "unites"
+      ]
+    },
+    {
+      "id": "parcours-livraison",
+      "famille": "deplacement",
+      "titre": "Le parcours de livraison",
+      "portee": "duo",
+      "niveaux_suggeres": "primaire-3",
+      "roles": [
+        "messager",
+        "comptable",
+        "explorateur"
+      ],
+      "declencheur": "Des objets fictifs sont à livrer.",
+      "tension": "La capacité de transport est limitée.",
+      "informations_a_reunir": [
+        "quantites",
+        "distances"
+      ],
+      "actions": [
+        "repartir",
+        "suivre",
+        "compter"
+      ],
+      "resultat": "Plan de tournée",
+      "rebond_possible": "Une livraison supplémentaire est annoncée.",
+      "domaines_potentiels": [
+        "mathematiques",
+        "univers_social",
+        "education_physique"
+      ],
+      "axes_de_variation": [
+        "transports",
+        "territoires",
+        "unites"
+      ]
+    },
+    {
+      "id": "indices-dans-ecole",
+      "famille": "deplacement",
+      "titre": "Les indices dans l’école",
+      "portee": "classe",
+      "niveaux_suggeres": "primaire-2",
+      "roles": [
+        "explorateur",
+        "messager",
+        "scientifique"
+      ],
+      "declencheur": "Une énigme se déroule dans des zones autorisées.",
+      "tension": "Les indices sont dispersés.",
+      "informations_a_reunir": [
+        "indice visuel",
+        "indice ecrit"
+      ],
+      "actions": [
+        "chercher",
+        "associer",
+        "expliquer"
+      ],
+      "resultat": "Énigme résolue",
+      "rebond_possible": "Un indice est remplacé par une version accessible.",
+      "domaines_potentiels": [
+        "francais",
+        "mathematiques",
+        "education_physique"
+      ],
+      "axes_de_variation": [
+        "lieux",
+        "langues",
+        "accessibilite"
+      ]
+    },
+    {
+      "id": "itineraire-sur",
+      "famille": "deplacement",
+      "titre": "L’itinéraire sûr",
+      "portee": "solo",
+      "niveaux_suggeres": "primaire-4",
+      "roles": [
+        "explorateur",
+        "architecte"
+      ],
+      "declencheur": "Un plan présente plusieurs trajets fictifs.",
+      "tension": "Le plus court trajet n’est pas toujours praticable.",
+      "informations_a_reunir": [
+        "distances",
+        "contraintes du parcours"
+      ],
+      "actions": [
+        "comparer",
+        "choisir",
+        "justifier"
+      ],
+      "resultat": "Trajet annoté",
+      "rebond_possible": "Une zone devient inaccessible.",
+      "domaines_potentiels": [
+        "mathematiques",
+        "univers_social",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "territoires",
+        "accessibilite",
+        "unites"
+      ]
+    },
+    {
+      "id": "randonnee-symbolique",
+      "famille": "deplacement",
+      "titre": "La randonnée des découvertes",
+      "portee": "ecole",
+      "niveaux_suggeres": "maternelle-6",
+      "roles": [
+        "explorateur",
+        "scientifique",
+        "photographe",
+        "messager"
+      ],
+      "declencheur": "Plusieurs équipes explorent des stations encadrées.",
+      "tension": "Les stations demandent des compétences variées.",
+      "informations_a_reunir": [
+        "carte des stations",
+        "mandats des equipes"
+      ],
+      "actions": [
+        "observer",
+        "cooperer",
+        "documenter"
+      ],
+      "resultat": "Carnet collectif",
+      "rebond_possible": "Une station doit être adaptée.",
+      "domaines_potentiels": [
+        "education_physique",
+        "sciences",
+        "francais"
+      ],
+      "axes_de_variation": [
+        "territoires",
+        "climat",
+        "accessibilite",
+        "consentement"
+      ]
+    },
+    {
+      "id": "conseil-du-village",
+      "famille": "collectif",
+      "titre": "Le conseil du village",
+      "portee": "classe",
+      "niveaux_suggeres": "primaire-4",
+      "roles": [
+        "politicien",
+        "redacteur",
+        "lecteur",
+        "comptable"
+      ],
+      "declencheur": "Un conseil fictif doit choisir un projet.",
+      "tension": "Plusieurs propositions dépassent le budget.",
+      "informations_a_reunir": [
+        "besoins exprimes",
+        "couts proposes"
+      ],
+      "actions": [
+        "debattre",
+        "voter",
+        "justifier"
+      ],
+      "resultat": "Décision motivée",
+      "rebond_possible": "Un groupe propose un compromis.",
+      "domaines_potentiels": [
+        "ccq",
+        "francais",
+        "mathematiques"
+      ],
+      "axes_de_variation": [
+        "formes_decision",
+        "codes_sociaux",
+        "monnaie"
+      ]
+    },
+    {
+      "id": "regles-ateliers",
+      "famille": "collectif",
+      "titre": "Les règles de l’atelier",
+      "portee": "interannees",
+      "niveaux_suggeres": "primaire-2-6",
+      "roles": [
+        "mecanicien",
+        "scientifique",
+        "regisseur"
+      ],
+      "declencheur": "Plusieurs groupes partagent un atelier scolaire.",
+      "tension": "Les besoins d’utilisation entrent en conflit.",
+      "informations_a_reunir": [
+        "risques identifies",
+        "usages demandes"
+      ],
+      "actions": [
+        "ecouter",
+        "proposer",
+        "afficher"
+      ],
+      "resultat": "Règles communes approuvées",
+      "rebond_possible": "Une nouvelle activité apparaît.",
+      "domaines_potentiels": [
+        "ccq",
+        "francais",
+        "sciences"
+      ],
+      "axes_de_variation": [
+        "codes_sociaux",
+        "outils",
+        "accessibilite"
+      ]
+    },
+    {
+      "id": "ressources-a-partager",
+      "famille": "collectif",
+      "titre": "La ressource partagée",
+      "portee": "duo",
+      "niveaux_suggeres": "primaire-3",
+      "roles": [
+        "fermier",
+        "jardinier",
+        "comptable"
+      ],
+      "declencheur": "Deux équipes ont besoin du même matériel fictif.",
+      "tension": "La quantité disponible ne suffit pas.",
+      "informations_a_reunir": [
+        "besoin equipe A",
+        "besoin equipe B"
+      ],
+      "actions": [
+        "calculer",
+        "negocier",
+        "partager"
+      ],
+      "resultat": "Plan de partage",
+      "rebond_possible": "Une troisième équipe arrive.",
+      "domaines_potentiels": [
+        "mathematiques",
+        "ccq",
+        "francais"
+      ],
+      "axes_de_variation": [
+        "materiaux",
+        "conventions_echange",
+        "unites"
+      ]
+    },
+    {
+      "id": "horaires-contradictoires",
+      "famille": "collectif",
+      "titre": "Le calendrier des groupes",
+      "portee": "equipe",
+      "niveaux_suggeres": "primaire-4",
+      "roles": [
+        "metteur-en-scene",
+        "messager",
+        "regisseur"
+      ],
+      "declencheur": "Deux groupes réservent le même espace.",
+      "tension": "Les horaires se chevauchent.",
+      "informations_a_reunir": [
+        "planning A",
+        "planning B"
+      ],
+      "actions": [
+        "comparer",
+        "discuter",
+        "reserver"
+      ],
+      "resultat": "Calendrier commun",
+      "rebond_possible": "Un événement est reporté.",
+      "domaines_potentiels": [
+        "mathematiques",
+        "francais",
+        "ccq"
+      ],
+      "axes_de_variation": [
+        "calendriers",
+        "lieux",
+        "codes_sociaux"
+      ]
+    },
+    {
+      "id": "photo-ou-pas",
+      "famille": "collectif",
+      "titre": "La photo et le choix",
+      "portee": "classe",
+      "niveaux_suggeres": "primaire-4",
+      "roles": [
+        "photographe",
+        "redacteur",
+        "peintre"
+      ],
+      "declencheur": "Une production peut être montrée dans une galerie.",
+      "tension": "Une personne refuse une diffusion identifiante.",
+      "informations_a_reunir": [
+        "auteur et œuvre",
+        "choix de visibilite"
+      ],
+      "actions": [
+        "demander",
+        "classifier",
+        "publier_ou_retenir"
+      ],
+      "resultat": "Galerie respectueuse des choix",
+      "rebond_possible": "Un consentement est retiré.",
+      "domaines_potentiels": [
+        "ccq",
+        "francais",
+        "numerique"
+      ],
+      "axes_de_variation": [
+        "consentement",
+        "droits_et_protocoles",
+        "supports"
+      ]
+    },
+    {
+      "id": "vote-projet-commun",
+      "famille": "collectif",
+      "titre": "Le projet commun",
+      "portee": "ecole",
+      "niveaux_suggeres": "maternelle-6",
+      "roles": [
+        "politicien",
+        "architecte",
+        "peintre",
+        "messager"
+      ],
+      "declencheur": "L’école choisit un projet simulé.",
+      "tension": "Les priorités diffèrent selon les classes.",
+      "informations_a_reunir": [
+        "propositions",
+        "contraintes communes"
+      ],
+      "actions": [
+        "consulter",
+        "presenter",
+        "choisir"
+      ],
+      "resultat": "Décision collective",
+      "rebond_possible": "Une solution hybride apparaît.",
+      "domaines_potentiels": [
+        "ccq",
+        "francais",
+        "mathematiques",
+        "arts"
+      ],
+      "axes_de_variation": [
+        "formes_decision",
+        "langues",
+        "codes_sociaux",
+        "accessibilite"
+      ]
+    }
+  ]
+}

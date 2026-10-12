@@ -1,0 +1,301 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/kontexte/mission.v1.schema.json",
+  "title": "Kontexte Mission v1",
+  "type": "object",
+  "required": [
+    "format",
+    "id",
+    "version",
+    "synthetic",
+    "title",
+    "fiction",
+    "year_suggestion",
+    "roles",
+    "fragments",
+    "steps",
+    "joins",
+    "adaptation"
+  ],
+  "properties": {
+    "format": {
+      "const": "kontexte.mission/1"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_-]{1,80}$"
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "synthetic": {
+      "const": true
+    },
+    "title": {
+      "type": "object",
+      "required": [
+        "fr-CA"
+      ],
+      "properties": {
+        "fr-CA": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "fiction": {
+      "type": "object",
+      "required": [
+        "fr-CA"
+      ],
+      "properties": {
+        "fr-CA": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "year_suggestion": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 6
+    },
+    "roles": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_-]{1,80}$"
+      },
+      "uniqueItems": true
+    },
+    "fragments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "holder_role",
+          "content",
+          "release",
+          "visibility"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_-]{1,80}$"
+          },
+          "holder_role": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_-]{1,80}$"
+          },
+          "content": {
+            "type": "object",
+            "required": [
+              "fr-CA"
+            ],
+            "properties": {
+              "fr-CA": {
+                "type": "string",
+                "minLength": 1
+              },
+              "en": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          },
+          "release": {
+            "const": "orgo_authorized"
+          },
+          "visibility": {
+            "enum": [
+              "participant",
+              "teacher"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "role",
+          "instruction",
+          "kind",
+          "depends_on",
+          "validation",
+          "curriculum_ids"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_-]{1,80}$"
+          },
+          "role": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_-]{1,80}$"
+          },
+          "instruction": {
+            "type": "object",
+            "required": [
+              "fr-CA"
+            ],
+            "properties": {
+              "fr-CA": {
+                "type": "string",
+                "minLength": 1
+              },
+              "en": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          },
+          "kind": {
+            "enum": [
+              "human",
+              "object",
+              "message",
+              "document",
+              "payment",
+              "encounter",
+              "performance",
+              "review"
+            ]
+          },
+          "depends_on": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9_-]{1,80}$"
+            }
+          },
+          "curriculum_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^qc-pri-"
+            }
+          },
+          "validation": {
+            "enum": [
+              "human_review",
+              "deterministic_practice",
+              "logistical_only"
+            ]
+          }
+        },
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "maxItems": 60
+    },
+    "joins": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "fragment_ids",
+          "unlock_step"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_-]{1,80}$"
+          },
+          "fragment_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9_-]{1,80}$"
+            },
+            "minItems": 2
+          },
+          "unlock_step": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_-]{1,80}$"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "adaptation": {
+      "type": "object",
+      "required": [
+        "accompagne",
+        "standard",
+        "approfondi"
+      ],
+      "properties": {
+        "accompagne": {
+          "type": "object",
+          "required": [
+            "instruction"
+          ],
+          "properties": {
+            "instruction": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false
+        },
+        "standard": {
+          "type": "object",
+          "required": [
+            "instruction"
+          ],
+          "properties": {
+            "instruction": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false
+        },
+        "approfondi": {
+          "type": "object",
+          "required": [
+            "instruction"
+          ],
+          "properties": {
+            "instruction": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "status": {
+      "type": "string"
+    },
+    "safety": {
+      "type": "object"
+    },
+    "constraints": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

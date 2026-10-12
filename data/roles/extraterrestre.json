@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "extraterrestre",
+  "name": {
+    "fr-CA": "Extraterrestre",
+    "en": "Alien"
+  },
+  "intro": {
+    "fr-CA": "découvrir un monde et communiquer",
+    "en": "You are playing the role of alien in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "décoder",
+    "observer",
+    "traduire"
+  ],
+  "objects": [
+    "message",
+    "astronef de carton",
+    "carte"
+  ],
+  "problems": [
+    "langage inconnu",
+    "signal incomplet"
+  ],
+  "partners": [
+    "astronaute",
+    "traducteur",
+    "scientifique"
+  ]
+}

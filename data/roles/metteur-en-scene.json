@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "metteur-en-scene",
+  "name": {
+    "fr-CA": "Metteur en scène",
+    "en": "Director"
+  },
+  "intro": {
+    "fr-CA": "orchestrer une représentation",
+    "en": "You are playing the role of director in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "planifier",
+    "coordonner",
+    "répéter"
+  ],
+  "objects": [
+    "planning",
+    "scène",
+    "texte"
+  ],
+  "problems": [
+    "intervenant absent",
+    "retard"
+  ],
+  "partners": [
+    "redacteur",
+    "lecteur",
+    "regisseur"
+  ]
+}

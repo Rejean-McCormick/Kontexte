@@ -1,0 +1,538 @@
+{
+  "format": "kontexte.year-plan/1",
+  "niveau": "primaire-3",
+  "duree_indicative_semaines": 36,
+  "etapes_internes_ekole": 4,
+  "statut": "proposition_editoriale_non_calendrier_ministeriel",
+  "trames_pilotes_par_etape": {
+    "1": [
+      "regles-ateliers",
+      "carte-incomplete",
+      "message-fragmente",
+      "chapeau-de-papier",
+      "journal-exploration",
+      "lumiere-et-couleurs",
+      "messagers-en-mouvement",
+      "indices-dans-ecole"
+    ],
+    "2": [
+      "commande-de-pains",
+      "semis-compare",
+      "accueil-nouveaux",
+      "invitation-multilingue",
+      "budget-marche",
+      "jardin-saisonnier",
+      "ressources-a-partager",
+      "affiche-service"
+    ],
+    "3": [
+      "spectacle-imprevu",
+      "pont-miniature",
+      "sons-des-lieux",
+      "station-meteo",
+      "costumes-recycles",
+      "salle-a-configurer",
+      "conte-partage",
+      "troc-equitable"
+    ],
+    "4": [
+      "fete-commune",
+      "conseil-du-village",
+      "photo-ou-pas",
+      "compost-collectif",
+      "caisse-klownkoins",
+      "foret-partagee",
+      "vote-projet-commun",
+      "tuteurs-temporaires"
+    ]
+  },
+  "semaines": [
+    {
+      "semaine_pedagogique": 1,
+      "etape_interne_ekole": 1,
+      "trame_principale": "regles-ateliers",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "coup-de-main"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-001"
+      ]
+    },
+    {
+      "semaine_pedagogique": 2,
+      "etape_interne_ekole": 1,
+      "trame_principale": "carte-incomplete",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "coup-de-main"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-002"
+      ]
+    },
+    {
+      "semaine_pedagogique": 3,
+      "etape_interne_ekole": 1,
+      "trame_principale": "message-fragmente",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "coup-de-main"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-003"
+      ]
+    },
+    {
+      "semaine_pedagogique": 4,
+      "etape_interne_ekole": 1,
+      "trame_principale": "chapeau-de-papier",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "coup-de-main"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-004"
+      ]
+    },
+    {
+      "semaine_pedagogique": 5,
+      "etape_interne_ekole": 1,
+      "trame_principale": "journal-exploration",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "coup-de-main"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-005"
+      ]
+    },
+    {
+      "semaine_pedagogique": 6,
+      "etape_interne_ekole": 1,
+      "trame_principale": "lumiere-et-couleurs",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "coup-de-main"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-006"
+      ]
+    },
+    {
+      "semaine_pedagogique": 7,
+      "etape_interne_ekole": 1,
+      "trame_principale": "messagers-en-mouvement",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "coup-de-main"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-007"
+      ]
+    },
+    {
+      "semaine_pedagogique": 8,
+      "etape_interne_ekole": 1,
+      "trame_principale": "indices-dans-ecole",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "coup-de-main"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-008"
+      ]
+    },
+    {
+      "semaine_pedagogique": 9,
+      "etape_interne_ekole": 1,
+      "trame_principale": null,
+      "modalite": "consolidation, reprises et évaluation sans nouveau scénario obligatoire",
+      "activites_optionnelles": [
+        "coup-de-main"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-009"
+      ]
+    },
+    {
+      "semaine_pedagogique": 10,
+      "etape_interne_ekole": 2,
+      "trame_principale": "commande-de-pains",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "bibliotheque-vivante",
+        "merci-collectif",
+        "plante-mystere"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-010"
+      ]
+    },
+    {
+      "semaine_pedagogique": 11,
+      "etape_interne_ekole": 2,
+      "trame_principale": "semis-compare",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "bibliotheque-vivante",
+        "merci-collectif",
+        "plante-mystere"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-011"
+      ]
+    },
+    {
+      "semaine_pedagogique": 12,
+      "etape_interne_ekole": 2,
+      "trame_principale": "accueil-nouveaux",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "bibliotheque-vivante",
+        "merci-collectif",
+        "plante-mystere"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-012"
+      ]
+    },
+    {
+      "semaine_pedagogique": 13,
+      "etape_interne_ekole": 2,
+      "trame_principale": "invitation-multilingue",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "bibliotheque-vivante",
+        "merci-collectif",
+        "plante-mystere"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-013"
+      ]
+    },
+    {
+      "semaine_pedagogique": 14,
+      "etape_interne_ekole": 2,
+      "trame_principale": "budget-marche",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "bibliotheque-vivante",
+        "merci-collectif",
+        "plante-mystere"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-014"
+      ]
+    },
+    {
+      "semaine_pedagogique": 15,
+      "etape_interne_ekole": 2,
+      "trame_principale": "jardin-saisonnier",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "bibliotheque-vivante",
+        "merci-collectif",
+        "plante-mystere"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-015"
+      ]
+    },
+    {
+      "semaine_pedagogique": 16,
+      "etape_interne_ekole": 2,
+      "trame_principale": "ressources-a-partager",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "bibliotheque-vivante",
+        "merci-collectif",
+        "plante-mystere"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-016"
+      ]
+    },
+    {
+      "semaine_pedagogique": 17,
+      "etape_interne_ekole": 2,
+      "trame_principale": "affiche-service",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "bibliotheque-vivante",
+        "merci-collectif",
+        "plante-mystere"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-017"
+      ]
+    },
+    {
+      "semaine_pedagogique": 18,
+      "etape_interne_ekole": 2,
+      "trame_principale": null,
+      "modalite": "consolidation, reprises et évaluation sans nouveau scénario obligatoire",
+      "activites_optionnelles": [
+        "bibliotheque-vivante",
+        "merci-collectif",
+        "plante-mystere"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-018"
+      ]
+    },
+    {
+      "semaine_pedagogique": 19,
+      "etape_interne_ekole": 3,
+      "trame_principale": "spectacle-imprevu",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "repas-partage",
+        "mecanisme-en-panne",
+        "atelier-metal"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-019"
+      ]
+    },
+    {
+      "semaine_pedagogique": 20,
+      "etape_interne_ekole": 3,
+      "trame_principale": "pont-miniature",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "repas-partage",
+        "mecanisme-en-panne",
+        "atelier-metal"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-020"
+      ]
+    },
+    {
+      "semaine_pedagogique": 21,
+      "etape_interne_ekole": 3,
+      "trame_principale": "sons-des-lieux",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "repas-partage",
+        "mecanisme-en-panne",
+        "atelier-metal"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-021"
+      ]
+    },
+    {
+      "semaine_pedagogique": 22,
+      "etape_interne_ekole": 3,
+      "trame_principale": "station-meteo",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "repas-partage",
+        "mecanisme-en-panne",
+        "atelier-metal"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-022"
+      ]
+    },
+    {
+      "semaine_pedagogique": 23,
+      "etape_interne_ekole": 3,
+      "trame_principale": "costumes-recycles",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "repas-partage",
+        "mecanisme-en-panne",
+        "atelier-metal"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-023"
+      ]
+    },
+    {
+      "semaine_pedagogique": 24,
+      "etape_interne_ekole": 3,
+      "trame_principale": "salle-a-configurer",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "repas-partage",
+        "mecanisme-en-panne",
+        "atelier-metal"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-024"
+      ]
+    },
+    {
+      "semaine_pedagogique": 25,
+      "etape_interne_ekole": 3,
+      "trame_principale": "conte-partage",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "repas-partage",
+        "mecanisme-en-panne",
+        "atelier-metal"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-025"
+      ]
+    },
+    {
+      "semaine_pedagogique": 26,
+      "etape_interne_ekole": 3,
+      "trame_principale": "troc-equitable",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "repas-partage",
+        "mecanisme-en-panne",
+        "atelier-metal"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-026"
+      ]
+    },
+    {
+      "semaine_pedagogique": 27,
+      "etape_interne_ekole": 3,
+      "trame_principale": null,
+      "modalite": "consolidation, reprises et évaluation sans nouveau scénario obligatoire",
+      "activites_optionnelles": [
+        "repas-partage",
+        "mecanisme-en-panne",
+        "atelier-metal"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-027"
+      ]
+    },
+    {
+      "semaine_pedagogique": 28,
+      "etape_interne_ekole": 4,
+      "trame_principale": "fete-commune",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "marche-des-creations",
+        "lac-a-preserver",
+        "taxe-de-simulation"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-028"
+      ]
+    },
+    {
+      "semaine_pedagogique": 29,
+      "etape_interne_ekole": 4,
+      "trame_principale": "conseil-du-village",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "marche-des-creations",
+        "lac-a-preserver",
+        "taxe-de-simulation"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-029"
+      ]
+    },
+    {
+      "semaine_pedagogique": 30,
+      "etape_interne_ekole": 4,
+      "trame_principale": "photo-ou-pas",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "marche-des-creations",
+        "lac-a-preserver",
+        "taxe-de-simulation"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-030"
+      ]
+    },
+    {
+      "semaine_pedagogique": 31,
+      "etape_interne_ekole": 4,
+      "trame_principale": "compost-collectif",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "marche-des-creations",
+        "lac-a-preserver",
+        "taxe-de-simulation"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-031"
+      ]
+    },
+    {
+      "semaine_pedagogique": 32,
+      "etape_interne_ekole": 4,
+      "trame_principale": "caisse-klownkoins",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "marche-des-creations",
+        "lac-a-preserver",
+        "taxe-de-simulation"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-032"
+      ]
+    },
+    {
+      "semaine_pedagogique": 33,
+      "etape_interne_ekole": 4,
+      "trame_principale": "foret-partagee",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "marche-des-creations",
+        "lac-a-preserver",
+        "taxe-de-simulation"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-033"
+      ]
+    },
+    {
+      "semaine_pedagogique": 34,
+      "etape_interne_ekole": 4,
+      "trame_principale": "vote-projet-commun",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "marche-des-creations",
+        "lac-a-preserver",
+        "taxe-de-simulation"
+      ],
+      "micro_situations_supplementaires": [
+        "enseignement-explicite-034"
+      ]
+    },
+    {
+      "semaine_pedagogique": 35,
+      "etape_interne_ekole": 4,
+      "trame_principale": "tuteurs-temporaires",
+      "modalite": "application et observation",
+      "activites_optionnelles": [
+        "marche-des-creations",
+        "lac-a-preserver",
+        "taxe-de-simulation"
+      ]
+    },
+    {
+      "semaine_pedagogique": 36,
+      "etape_interne_ekole": 4,
+      "trame_principale": null,
+      "modalite": "consolidation, reprises et évaluation sans nouveau scénario obligatoire",
+      "activites_optionnelles": [
+        "marche-des-creations",
+        "lac-a-preserver",
+        "taxe-de-simulation"
+      ]
+    }
+  ],
+  "regles": [
+    "Le calendrier indique les trames, pas des périodes minimales officielles.",
+    "Un scénario est remplaçable selon compétence sans modifier le référentiel.",
+    "Chaque discipline et contenu prescrit nécessite un plan de vérification explicite.",
+    "La participation à un événement ne valide aucune compétence à elle seule."
+  ],
+  "micro_situations_annexes_planifiees": 34
+}

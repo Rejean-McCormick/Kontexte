@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "menuisier",
+  "name": {
+    "fr-CA": "Menuisier",
+    "en": "Carpenter"
+  },
+  "intro": {
+    "fr-CA": "fabriquer des objets en bois fictif ou matériaux sécuritaires",
+    "en": "You are playing the role of carpenter in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "mesurer",
+    "dessiner",
+    "assembler"
+  ],
+  "objects": [
+    "plan",
+    "règle",
+    "planche de carton"
+  ],
+  "problems": [
+    "pièce trop courte",
+    "plan incomplet"
+  ],
+  "partners": [
+    "architecte",
+    "mecanicien",
+    "peintre"
+  ]
+}

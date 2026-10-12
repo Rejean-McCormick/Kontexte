@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "veterinaire",
+  "name": {
+    "fr-CA": "Vétérinaire",
+    "en": "Veterinarian"
+  },
+  "intro": {
+    "fr-CA": "soigner des animaux fictifs",
+    "en": "You are playing the role of veterinarian in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "observer",
+    "diagnostiquer fictivement",
+    "expliquer"
+  ],
+  "objects": [
+    "dossier",
+    "peluche",
+    "balance"
+  ],
+  "problems": [
+    "symptôme incompris",
+    "matériel manquant"
+  ],
+  "partners": [
+    "dresseur-animaux",
+    "scientifique",
+    "comptable"
+  ]
+}

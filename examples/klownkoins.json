@@ -1,0 +1,7 @@
+{
+  "fictional_tax_rate": "0.10",
+  "items": [
+    {"description": "Décor (fictif)", "quantity": 1, "unit_price": "8.00"},
+    {"description": "Prestations (fictives)", "quantity": 4, "unit_price": "6.00"}
+  ]
+}

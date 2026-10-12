@@ -1,0 +1,31 @@
+{
+  "format": "kontexte.role/1",
+  "id": "inventeur",
+  "name": {
+    "fr-CA": "Inventeur",
+    "en": "Inventor"
+  },
+  "intro": {
+    "fr-CA": "résoudre des problèmes par des prototypes",
+    "en": "You are playing the role of inventor in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "concevoir",
+    "tester",
+    "réparer"
+  ],
+  "objects": [
+    "prototype carton",
+    "croquis",
+    "mesures"
+  ],
+  "problems": [
+    "prototype instable"
+  ],
+  "partners": [
+    "mecanicien",
+    "scientifique",
+    "architecte"
+  ]
+}

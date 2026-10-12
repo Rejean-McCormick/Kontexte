@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "scientifique",
+  "name": {
+    "fr-CA": "Scientifique",
+    "en": "Scientist"
+  },
+  "intro": {
+    "fr-CA": "tester une hypothèse",
+    "en": "You are playing the role of scientist in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "observer",
+    "calculer",
+    "comparer"
+  ],
+  "objects": [
+    "carnet",
+    "tableau",
+    "mesure"
+  ],
+  "problems": [
+    "résultat contradictoire",
+    "mesure incomplète"
+  ],
+  "partners": [
+    "jardinier",
+    "sorciere",
+    "inventeur"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "format": "kontexte.curriculum-report/1",
+  "internal_catalogue_status": "experimental_unofficial",
+  "courses": {
+    "qc-pri-ma-006": {
+      "title": "Sens et stratégies de l’addition",
+      "discipline": "Mathématique",
+      "states": [
+        "practiced"
+      ],
+      "evidence_count": 1
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ekole:learning-event:1.0-proposal",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "format",
+    "event_id",
+    "kind",
+    "occurred_at",
+    "learner_ref",
+    "mission_run_ref",
+    "step_id",
+    "ekole_course_id",
+    "artifact_ref",
+    "mapping_status",
+    "assessment",
+    "privacy_scope",
+    "idempotency_key"
+  ],
+  "properties": {
+    "format": {
+      "const": "ekole.learning-event/1.0-proposal"
+    },
+    "event_id": {
+      "type": "string"
+    },
+    "kind": {
+      "enum": [
+        "activity_practiced",
+        "evidence_recorded",
+        "evidence_corrected",
+        "validation_recorded",
+        "validation_withdrawn"
+      ]
+    },
+    "occurred_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "learner_ref": {
+      "type": "string"
+    },
+    "mission_run_ref": {
+      "type": "string"
+    },
+    "step_id": {
+      "type": "string"
+    },
+    "ekole_course_id": {
+      "type": "string",
+      "pattern": "^qc-pri-[a-z]+-[0-9]{3}$"
+    },
+    "artifact_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "mapping_status": {
+      "enum": [
+        "candidate",
+        "reviewed",
+        "approved"
+      ]
+    },
+    "assessment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mode",
+        "result",
+        "support",
+        "validator",
+        "validation_status"
+      ],
+      "properties": {
+        "mode": {
+          "enum": [
+            "deterministic_practice",
+            "human_review"
+          ]
+        },
+        "result": {
+          "enum": [
+            "practiced",
+            "demonstrated",
+            "needs_retry"
+          ]
+        },
+        "support": {
+          "type": "string"
+        },
+        "validator": {
+          "enum": [
+            "deterministic_checker",
+            "teacher"
+          ]
+        },
+        "validation_status": {
+          "enum": [
+            "unreviewed",
+            "automatic_practice_only",
+            "teacher_reviewed",
+            "institutionally_approved",
+            "withdrawn"
+          ]
+        }
+      }
+    },
+    "privacy_scope": {
+      "const": "private_school"
+    },
+    "idempotency_key": {
+      "type": "string"
+    }
+  }
+}

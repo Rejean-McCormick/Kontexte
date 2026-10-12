@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "messager",
+  "name": {
+    "fr-CA": "Messager",
+    "en": "Messenger"
+  },
+  "intro": {
+    "fr-CA": "livrer des messages et aider les autres",
+    "en": "You are playing the role of messenger in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "rencontrer",
+    "remettre",
+    "confirmer"
+  ],
+  "objects": [
+    "invitation",
+    "carte",
+    "enveloppe"
+  ],
+  "problems": [
+    "destinataire absent",
+    "message incomplet"
+  ],
+  "partners": [
+    "sorciere",
+    "explorateur",
+    "redacteur"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "format": "ekole.curriculum-map/1.0-proposal",
+  "id": "fete-sorciere-mapping",
+  "version": "1.0",
+  "source_registry": "referentiel-quebec-version-a-verifier",
+  "mappings": [
+    {
+      "step_id": "invitation",
+      "ekole_course_id": "qc-pri-fr-021",
+      "official_ref": null,
+      "mapping_status": "candidate",
+      "criterion": "Rédiger un texte fonctionnel transmettant le lieu et la date."
+    },
+    {
+      "step_id": "comptes",
+      "ekole_course_id": "qc-pri-ma-006",
+      "official_ref": null,
+      "mapping_status": "candidate",
+      "criterion": "Additionner des montants et vérifier le solde."
+    }
+  ],
+  "status": "proposal_review_required"
+}

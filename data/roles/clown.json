@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "clown",
+  "name": {
+    "fr-CA": "Clown",
+    "en": "Clown"
+  },
+  "intro": {
+    "fr-CA": "préparer un spectacle comique",
+    "en": "You are playing the role of clown in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "jongler",
+    "présenter",
+    "inviter"
+  ],
+  "objects": [
+    "costume",
+    "scène",
+    "accessoires"
+  ],
+  "problems": [
+    "spectacle incomplet",
+    "accessoires manquants"
+  ],
+  "partners": [
+    "metteur-en-scene",
+    "photographe",
+    "musicien"
+  ]
+}

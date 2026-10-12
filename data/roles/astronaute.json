@@ -1,0 +1,30 @@
+{
+  "format": "kontexte.role/1",
+  "id": "astronaute",
+  "name": {
+    "fr-CA": "Astronaute",
+    "en": "Astronaut"
+  },
+  "intro": {
+    "fr-CA": "planifier une mission spatiale fictive",
+    "en": "You are playing the role of astronaut in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "calculer",
+    "explorer",
+    "communiquer"
+  ],
+  "objects": [
+    "carte stellaire",
+    "fusée de papier"
+  ],
+  "problems": [
+    "carburant imaginaire limité"
+  ],
+  "partners": [
+    "scientifique",
+    "extraterrestre",
+    "explorateur"
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "format": "ekole.mission-frame/1.0-proposal",
+  "id": "fete-sorciere",
+  "version": "1.0",
+  "title": "La fête de la sorcière",
+  "year_suggestion": 3,
+  "fiction": "Mila prépare une fête dans le village. Les invitations, les accessoires et la scène dépendent de plusieurs élèves.",
+  "roles": [
+    "sorciere",
+    "origamiste",
+    "messager",
+    "metteur-en-scene",
+    "redacteur",
+    "lecteur",
+    "regisseur",
+    "comptable",
+    "photographe"
+  ],
+  "fragments": [
+    {
+      "id": "liste-invites",
+      "holder_role": "sorciere",
+      "text_fr_CA": "Il faut six invitations."
+    },
+    {
+      "id": "papier-imprimeur",
+      "holder_role": "messager",
+      "text_fr_CA": "Une feuille donne deux invitations; il reste deux feuilles."
+    }
+  ],
+  "steps": [
+    {
+      "id": "origami",
+      "actor": "origamiste",
+      "action": "Fabriquer un chapeau en papier",
+      "depends_on": [],
+      "output": "chapeau",
+      "competency_links": [
+        {
+          "ekole_course_id": "qc-pri-ap-003",
+          "mapping_status": "candidate"
+        }
+      ],
+      "validation_mode": "human_review"
+    },
+    {
+      "id": "invitation",
+      "actor": "sorciere",
+      "action": "Écrire une invitation bilingue",
+      "depends_on": [],
+      "output": "invitation",
+      "competency_links": [
+        {
+          "ekole_course_id": "qc-pri-fr-021",
+          "mapping_status": "candidate"
+        },
+        {
+          "ekole_course_id": "qc-pri-als-006",
+          "mapping_status": "candidate"
+        }
+      ],
+      "validation_mode": "human_review"
+    },
+    {
+      "id": "stock",
+      "actor": "sorciere",
+      "action": "Combiner deux indices pour calculer le manque de papier",
+      "depends_on": [
+        "invitation"
+      ],
+      "output": "requisition",
+      "competency_links": [
+        {
+          "ekole_course_id": "qc-pri-ma-009",
+          "mapping_status": "candidate"
+        }
+      ],
+      "validation_mode": "deterministic_practice"
+    },
+    {
+      "id": "equipe-4",
+      "actor": "metteur-en-scene",
+      "action": "Coordonner rédacteur, lecteur et régisseur",
+      "depends_on": [
+        "stock"
+      ],
+      "output": "scene",
+      "competency_links": [
+        {
+          "ekole_course_id": "qc-pri-ad-001",
+          "mapping_status": "candidate"
+        }
+      ],
+      "validation_mode": "human_review"
+    },
+    {
+      "id": "comptes",
+      "actor": "comptable",
+      "action": "Payer cinq prestations et calculer taxes fictives",
+      "depends_on": [
+        "equipe-4"
+      ],
+      "output": "grand-livre",
+      "competency_links": [
+        {
+          "ekole_course_id": "qc-pri-ma-006",
+          "mapping_status": "candidate"
+        }
+      ],
+      "validation_mode": "deterministic_practice"
+    },
+    {
+      "id": "galerie",
+      "actor": "photographe",
+      "action": "Photographier l’œuvre, vérifier permissions",
+      "depends_on": [
+        "origami"
+      ],
+      "output": "media-prive",
+      "competency_links": [],
+      "validation_mode": "logistical_only"
+    }
+  ],
+  "joins": [
+    {
+      "id": "jointure-papier",
+      "fragment_ids": [
+        "liste-invites",
+        "papier-imprimeur"
+      ],
+      "unlock": "stock"
+    }
+  ],
+  "teacher_approval_required": [
+    "mise en place de la salle",
+    "publication de photo"
+  ],
+  "status": "proposal_review_required"
+}

@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "bucheron",
+  "name": {
+    "fr-CA": "Bûcheron",
+    "en": "Forestry worker"
+  },
+  "intro": {
+    "fr-CA": "planifier une récolte forestière durable fictive",
+    "en": "You are playing the role of forestry worker in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "mesurer",
+    "sélectionner",
+    "cartographier"
+  ],
+  "objects": [
+    "carte",
+    "arbre",
+    "règle"
+  ],
+  "problems": [
+    "forêt protégée",
+    "quotas"
+  ],
+  "partners": [
+    "scientifique",
+    "fermier",
+    "menuisier"
+  ]
+}

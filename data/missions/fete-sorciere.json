@@ -1,0 +1,282 @@
+{
+  "format": "kontexte.mission/1",
+  "id": "fete-sorciere",
+  "version": "1.0.0",
+  "synthetic": true,
+  "title": {
+    "fr-CA": "La fête de la sorcière",
+    "en": "The witch’s celebration"
+  },
+  "fiction": {
+    "fr-CA": "La sorcière prépare la fête du village, mais aucune personne ne possède toutes les informations.",
+    "en": "The witch plans a village celebration, but nobody has all the information."
+  },
+  "year_suggestion": 3,
+  "roles": [
+    "sorciere",
+    "origamiste",
+    "traducteur",
+    "messager",
+    "metteur-en-scene",
+    "redacteur",
+    "lecteur",
+    "regisseur",
+    "comptable",
+    "photographe"
+  ],
+  "fragments": [
+    {
+      "id": "besoin-invitations",
+      "holder_role": "sorciere",
+      "content": {
+        "fr-CA": "Il faut 6 invitations et une invitation par personne.",
+        "en": "We need 6 invitations, one per guest."
+      },
+      "release": "orgo_authorized",
+      "visibility": "participant"
+    },
+    {
+      "id": "papier-disponible",
+      "holder_role": "messager",
+      "content": {
+        "fr-CA": "Une feuille produit 2 invitations. Il reste 2 feuilles.",
+        "en": "One sheet makes 2 invitations. Two sheets remain."
+      },
+      "release": "orgo_authorized",
+      "visibility": "participant"
+    },
+    {
+      "id": "budget",
+      "holder_role": "comptable",
+      "content": {
+        "fr-CA": "La fête dispose de 55 Klownkoins fictifs.",
+        "en": "The party budget is 55 imaginary Klownkoins."
+      },
+      "release": "orgo_authorized",
+      "visibility": "participant"
+    },
+    {
+      "id": "tarifs",
+      "holder_role": "regisseur",
+      "content": {
+        "fr-CA": "Le décor coûte 8 Klownkoins; chacun des quatre artistes gagne 6 Klownkoins.",
+        "en": "Decor costs 8 Klownkoins; four artists earn 6 each."
+      },
+      "release": "orgo_authorized",
+      "visibility": "participant"
+    }
+  ],
+  "steps": [
+    {
+      "id": "origami",
+      "role": "origamiste",
+      "instruction": {
+        "fr-CA": "Plie un chapeau de sorcière selon une séquence; décris les figures obtenues.",
+        "en": "Fold a witch hat and describe its shapes."
+      },
+      "kind": "object",
+      "depends_on": [],
+      "curriculum_ids": [
+        "qc-pri-ap-003"
+      ],
+      "validation": "human_review"
+    },
+    {
+      "id": "invitation",
+      "role": "sorciere",
+      "instruction": {
+        "fr-CA": "Rédige une invitation claire avec le lieu, le jour et le thème.",
+        "en": "Write an invitation with place, date and theme."
+      },
+      "kind": "object",
+      "depends_on": [],
+      "curriculum_ids": [
+        "qc-pri-fr-021"
+      ],
+      "validation": "human_review"
+    },
+    {
+      "id": "bilingue",
+      "role": "traducteur",
+      "instruction": {
+        "fr-CA": "Prépare une version anglaise simple de l’invitation.",
+        "en": "Prepare a short English version."
+      },
+      "kind": "object",
+      "depends_on": [
+        "invitation"
+      ],
+      "curriculum_ids": [
+        "qc-pri-als-006"
+      ],
+      "validation": "human_review"
+    },
+    {
+      "id": "echange-indices",
+      "role": "messager",
+      "instruction": {
+        "fr-CA": "Rencontre le partenaire désigné, aide-le à finir sa tâche et partage l’indice du papier.",
+        "en": "Meet the assigned partner, help them and exchange the paper clue."
+      },
+      "kind": "encounter",
+      "depends_on": [
+        "bilingue"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "repartition",
+      "role": "sorciere",
+      "instruction": {
+        "fr-CA": "Ensemble, calcule le nombre de feuilles nécessaires et le manque de papier.",
+        "en": "Together calculate the sheets needed and missing."
+      },
+      "kind": "object",
+      "depends_on": [
+        "echange-indices"
+      ],
+      "curriculum_ids": [
+        "qc-pri-ma-009"
+      ],
+      "validation": "deterministic_practice"
+    },
+    {
+      "id": "mandat",
+      "role": "metteur-en-scene",
+      "instruction": {
+        "fr-CA": "Répartis quatre mandats pour une présentation commune.",
+        "en": "Assign four presentation jobs."
+      },
+      "kind": "message",
+      "depends_on": [
+        "repartition"
+      ],
+      "curriculum_ids": [
+        "qc-pri-ad-001"
+      ],
+      "validation": "human_review"
+    },
+    {
+      "id": "discours",
+      "role": "redacteur",
+      "instruction": {
+        "fr-CA": "Écris un discours de quatre phrases pour la cérémonie.",
+        "en": "Write a four-sentence speech."
+      },
+      "kind": "document",
+      "depends_on": [
+        "mandat"
+      ],
+      "curriculum_ids": [
+        "qc-pri-fr-021"
+      ],
+      "validation": "human_review"
+    },
+    {
+      "id": "lecture",
+      "role": "lecteur",
+      "instruction": {
+        "fr-CA": "Entraîne-toi à lire le discours devant le groupe.",
+        "en": "Practise reading the speech aloud."
+      },
+      "kind": "performance",
+      "depends_on": [
+        "discours"
+      ],
+      "curriculum_ids": [
+        "qc-pri-ad-001"
+      ],
+      "validation": "human_review"
+    },
+    {
+      "id": "scene",
+      "role": "regisseur",
+      "instruction": {
+        "fr-CA": "Place les chaises et le décor selon un plan approuvé.",
+        "en": "Arrange seating and decor using an approved plan."
+      },
+      "kind": "object",
+      "depends_on": [
+        "mandat"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "budget-final",
+      "role": "comptable",
+      "instruction": {
+        "fr-CA": "Combine les tarifs et le budget; calcule les paiements et une taxe strictement fictive.",
+        "en": "Combine rates and budget; compute payments and a fictional tax."
+      },
+      "kind": "payment",
+      "depends_on": [
+        "lecture",
+        "scene"
+      ],
+      "curriculum_ids": [
+        "qc-pri-ma-006"
+      ],
+      "validation": "deterministic_practice"
+    },
+    {
+      "id": "galerie",
+      "role": "photographe",
+      "instruction": {
+        "fr-CA": "Documente les productions, puis soumets les médias au contrôle de consentement.",
+        "en": "Document work and submit it for consent review."
+      },
+      "kind": "review",
+      "depends_on": [
+        "origami"
+      ],
+      "curriculum_ids": [],
+      "validation": "logistical_only"
+    }
+  ],
+  "joins": [
+    {
+      "id": "jointure-papier",
+      "fragment_ids": [
+        "besoin-invitations",
+        "papier-disponible"
+      ],
+      "unlock_step": "repartition"
+    },
+    {
+      "id": "jointure-budget",
+      "fragment_ids": [
+        "budget",
+        "tarifs"
+      ],
+      "unlock_step": "budget-final"
+    }
+  ],
+  "adaptation": {
+    "accompagne": {
+      "instruction": "Consignes courtes, pictogrammes et aide disponible, sans étiquette publique."
+    },
+    "standard": {
+      "instruction": "Autonomie progressive et défis adaptés."
+    },
+    "approfondi": {
+      "instruction": "Information partielle, décisions en plusieurs étapes et justification."
+    }
+  },
+  "safety": {
+    "real_spending": false,
+    "real_taxes": false,
+    "publication_default": "private",
+    "teacher_approval_for": [
+      "furniture_moving",
+      "real_food",
+      "media_publication"
+    ]
+  },
+  "constraints": {
+    "virtual_reward_only": true,
+    "participant_absent_fallback": "teacher_proxy",
+    "private_support_level": true
+  }
+}

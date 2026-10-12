@@ -1,0 +1,32 @@
+{
+  "format": "kontexte.role/1",
+  "id": "cuisinier",
+  "name": {
+    "fr-CA": "Cuisinier",
+    "en": "Cook"
+  },
+  "intro": {
+    "fr-CA": "préparer un menu fictif",
+    "en": "You are playing the role of cook in a learning story."
+  },
+  "theme": "neutral",
+  "actions": [
+    "mesurer",
+    "lire",
+    "calculer"
+  ],
+  "objects": [
+    "menu",
+    "recette",
+    "ingrédients fictifs"
+  ],
+  "problems": [
+    "allergie simulée",
+    "commande large"
+  ],
+  "partners": [
+    "fermier",
+    "boulanger",
+    "comptable"
+  ]
+}

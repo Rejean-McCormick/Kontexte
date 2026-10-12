@@ -1,0 +1,2529 @@
+{
+  "format": "qc.learning-graph/1.2",
+  "revision": "1.2.0",
+  "autorite": "decision_pedagogique_interne",
+  "interpretation": "requires = entrée verrouillée sauf démonstration équivalente au diagnostic; recommends_before = jamais bloquant; reinforces = transfert",
+  "count": 252,
+  "relations": [
+    {
+      "id": "qc-pri-fr-002/requires/qc-pri-fr-001",
+      "type": "requires",
+      "from": "qc-pri-fr-002",
+      "to": "qc-pri-fr-001",
+      "justification": "Pour réussir « Correspondances graphèmes-phonèmes », la compétence de « Conscience phonologique et syllabes » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-003/requires/qc-pri-fr-002",
+      "type": "requires",
+      "from": "qc-pri-fr-003",
+      "to": "qc-pri-fr-002",
+      "justification": "Pour réussir « Décodage et reconnaissance des mots », la compétence de « Correspondances graphèmes-phonèmes » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-004/requires/qc-pri-fr-003",
+      "type": "requires",
+      "from": "qc-pri-fr-004",
+      "to": "qc-pri-fr-003",
+      "justification": "Pour réussir « Fluidité et expressivité en lecture », la compétence de « Décodage et reconnaissance des mots » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-005/recommends_before/qc-pri-fr-003",
+      "type": "recommends_before",
+      "from": "qc-pri-fr-005",
+      "to": "qc-pri-fr-003",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-006/requires/qc-pri-fr-005",
+      "type": "requires",
+      "from": "qc-pri-fr-006",
+      "to": "qc-pri-fr-005",
+      "justification": "Pour réussir « Inférences en lecture », la compétence de « Compréhension littérale de textes » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-007/recommends_before/qc-pri-fr-005",
+      "type": "recommends_before",
+      "from": "qc-pri-fr-007",
+      "to": "qc-pri-fr-005",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-008/requires/qc-pri-fr-005",
+      "type": "requires",
+      "from": "qc-pri-fr-008",
+      "to": "qc-pri-fr-005",
+      "justification": "Pour réussir « Lire un récit », la compétence de « Compréhension littérale de textes » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-009/requires/qc-pri-fr-005",
+      "type": "requires",
+      "from": "qc-pri-fr-009",
+      "to": "qc-pri-fr-005",
+      "justification": "Pour réussir « Lire un texte courant ou documentaire », la compétence de « Compréhension littérale de textes » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-010/requires/qc-pri-fr-008",
+      "type": "requires",
+      "from": "qc-pri-fr-010",
+      "to": "qc-pri-fr-008",
+      "justification": "Pour réussir « Réagir aux textes et les apprécier », la compétence de « Lire un récit » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-010/recommends_before/qc-pri-fr-009",
+      "type": "recommends_before",
+      "from": "qc-pri-fr-010",
+      "to": "qc-pri-fr-009",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-012/recommends_before/qc-pri-fr-002",
+      "type": "recommends_before",
+      "from": "qc-pri-fr-012",
+      "to": "qc-pri-fr-002",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-014/requires/qc-pri-fr-013",
+      "type": "requires",
+      "from": "qc-pri-fr-014",
+      "to": "qc-pri-fr-013",
+      "justification": "Pour réussir « Groupes de mots et fonctions syntaxiques », la compétence de « Classes de mots » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-015/recommends_before/qc-pri-fr-013",
+      "type": "recommends_before",
+      "from": "qc-pri-fr-015",
+      "to": "qc-pri-fr-013",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-015/recommends_before/qc-pri-fr-014",
+      "type": "recommends_before",
+      "from": "qc-pri-fr-015",
+      "to": "qc-pri-fr-014",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-016/requires/qc-pri-fr-014",
+      "type": "requires",
+      "from": "qc-pri-fr-016",
+      "to": "qc-pri-fr-014",
+      "justification": "Pour réussir « Accords dans le groupe nominal », la compétence de « Groupes de mots et fonctions syntaxiques » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-016/recommends_before/qc-pri-fr-013",
+      "type": "recommends_before",
+      "from": "qc-pri-fr-016",
+      "to": "qc-pri-fr-013",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-017/requires/qc-pri-fr-014",
+      "type": "requires",
+      "from": "qc-pri-fr-017",
+      "to": "qc-pri-fr-014",
+      "justification": "Pour réussir « Accord du verbe avec le sujet », la compétence de « Groupes de mots et fonctions syntaxiques » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-017/recommends_before/qc-pri-fr-013",
+      "type": "recommends_before",
+      "from": "qc-pri-fr-017",
+      "to": "qc-pri-fr-013",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-018/requires/qc-pri-fr-013",
+      "type": "requires",
+      "from": "qc-pri-fr-018",
+      "to": "qc-pri-fr-013",
+      "justification": "Pour réussir « Conjugaison des verbes », la compétence de « Classes de mots » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-019/requires/qc-pri-fr-015",
+      "type": "requires",
+      "from": "qc-pri-fr-019",
+      "to": "qc-pri-fr-015",
+      "justification": "Pour réussir « Ponctuation et majuscules », la compétence de « Construction des phrases » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-021/requires/qc-pri-fr-015",
+      "type": "requires",
+      "from": "qc-pri-fr-021",
+      "to": "qc-pri-fr-015",
+      "justification": "Pour réussir « Rédiger des phrases et des paragraphes », la compétence de « Construction des phrases » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-021/recommends_before/qc-pri-fr-019",
+      "type": "recommends_before",
+      "from": "qc-pri-fr-021",
+      "to": "qc-pri-fr-019",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-022/requires/qc-pri-fr-021",
+      "type": "requires",
+      "from": "qc-pri-fr-022",
+      "to": "qc-pri-fr-021",
+      "justification": "Pour réussir « Organiser et assurer la cohérence d’un texte », la compétence de « Rédiger des phrases et des paragraphes » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-023/requires/qc-pri-fr-021",
+      "type": "requires",
+      "from": "qc-pri-fr-023",
+      "to": "qc-pri-fr-021",
+      "justification": "Pour réussir « Réviser et corriger un texte », la compétence de « Rédiger des phrases et des paragraphes » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-023/recommends_before/qc-pri-fr-012",
+      "type": "recommends_before",
+      "from": "qc-pri-fr-023",
+      "to": "qc-pri-fr-012",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-023/recommends_before/qc-pri-fr-019",
+      "type": "recommends_before",
+      "from": "qc-pri-fr-023",
+      "to": "qc-pri-fr-019",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-025/requires/qc-pri-fr-024",
+      "type": "requires",
+      "from": "qc-pri-fr-025",
+      "to": "qc-pri-fr-024",
+      "justification": "Pour réussir « Interagir et écouter activement », la compétence de « Comprendre des communications orales » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fr-026/requires/qc-pri-fr-025",
+      "type": "requires",
+      "from": "qc-pri-fr-026",
+      "to": "qc-pri-fr-025",
+      "justification": "Pour réussir « Présenter et justifier des idées à l’oral », la compétence de « Interagir et écouter activement » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-002/requires/qc-pri-ma-001",
+      "type": "requires",
+      "from": "qc-pri-ma-002",
+      "to": "qc-pri-ma-001",
+      "justification": "Pour réussir « Lire, écrire et comparer des nombres naturels », la compétence de « Dénombrer et représenter des collections » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-003/requires/qc-pri-ma-002",
+      "type": "requires",
+      "from": "qc-pri-ma-003",
+      "to": "qc-pri-ma-002",
+      "justification": "Pour réussir « Valeur de position et regroupements », la compétence de « Lire, écrire et comparer des nombres naturels » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-004/recommends_before/qc-pri-ma-002",
+      "type": "recommends_before",
+      "from": "qc-pri-ma-004",
+      "to": "qc-pri-ma-002",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-005/requires/qc-pri-ma-003",
+      "type": "requires",
+      "from": "qc-pri-ma-005",
+      "to": "qc-pri-ma-003",
+      "justification": "Pour réussir « Estimation et arrondissement », la compétence de « Valeur de position et regroupements » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-006/requires/qc-pri-ma-002",
+      "type": "requires",
+      "from": "qc-pri-ma-006",
+      "to": "qc-pri-ma-002",
+      "justification": "Pour réussir « Sens et stratégies de l’addition », la compétence de « Lire, écrire et comparer des nombres naturels » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-006/recommends_before/qc-pri-ma-003",
+      "type": "recommends_before",
+      "from": "qc-pri-ma-006",
+      "to": "qc-pri-ma-003",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-007/requires/qc-pri-ma-002",
+      "type": "requires",
+      "from": "qc-pri-ma-007",
+      "to": "qc-pri-ma-002",
+      "justification": "Pour réussir « Sens et stratégies de la soustraction », la compétence de « Lire, écrire et comparer des nombres naturels » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-007/recommends_before/qc-pri-ma-006",
+      "type": "recommends_before",
+      "from": "qc-pri-ma-007",
+      "to": "qc-pri-ma-006",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-008/requires/qc-pri-ma-006",
+      "type": "requires",
+      "from": "qc-pri-ma-008",
+      "to": "qc-pri-ma-006",
+      "justification": "Pour réussir « Sens et stratégies de la multiplication », la compétence de « Sens et stratégies de l’addition » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-008/recommends_before/qc-pri-ma-003",
+      "type": "recommends_before",
+      "from": "qc-pri-ma-008",
+      "to": "qc-pri-ma-003",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-009/requires/qc-pri-ma-008",
+      "type": "requires",
+      "from": "qc-pri-ma-009",
+      "to": "qc-pri-ma-008",
+      "justification": "Pour réussir « Sens et stratégies de la division », la compétence de « Sens et stratégies de la multiplication » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-010/requires/qc-pri-ma-006",
+      "type": "requires",
+      "from": "qc-pri-ma-010",
+      "to": "qc-pri-ma-006",
+      "justification": "Pour réussir « Calcul mental et propriétés des opérations », la compétence de « Sens et stratégies de l’addition » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-010/recommends_before/qc-pri-ma-007",
+      "type": "recommends_before",
+      "from": "qc-pri-ma-010",
+      "to": "qc-pri-ma-007",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-011/requires/qc-pri-ma-003",
+      "type": "requires",
+      "from": "qc-pri-ma-011",
+      "to": "qc-pri-ma-003",
+      "justification": "Pour réussir « Algorithmes et vérification des calculs », la compétence de « Valeur de position et regroupements » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-011/recommends_before/qc-pri-ma-010",
+      "type": "recommends_before",
+      "from": "qc-pri-ma-011",
+      "to": "qc-pri-ma-010",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-013/requires/qc-pri-ma-012",
+      "type": "requires",
+      "from": "qc-pri-ma-013",
+      "to": "qc-pri-ma-012",
+      "justification": "Pour réussir « Fractions : équivalence et comparaison », la compétence de « Fractions : représentations et sens » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-014/requires/qc-pri-ma-013",
+      "type": "requires",
+      "from": "qc-pri-ma-014",
+      "to": "qc-pri-ma-013",
+      "justification": "Pour réussir « Fractions : opérations selon la progression », la compétence de « Fractions : équivalence et comparaison » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-015/requires/qc-pri-ma-003",
+      "type": "requires",
+      "from": "qc-pri-ma-015",
+      "to": "qc-pri-ma-003",
+      "justification": "Pour réussir « Nombres décimaux : représentations », la compétence de « Valeur de position et regroupements » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-015/requires/qc-pri-ma-012",
+      "type": "requires",
+      "from": "qc-pri-ma-015",
+      "to": "qc-pri-ma-012",
+      "justification": "Pour réussir « Nombres décimaux : représentations », la compétence de « Fractions : représentations et sens » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-016/requires/qc-pri-ma-015",
+      "type": "requires",
+      "from": "qc-pri-ma-016",
+      "to": "qc-pri-ma-015",
+      "justification": "Pour réussir « Nombres décimaux : comparaison et calculs », la compétence de « Nombres décimaux : représentations » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-017/requires/qc-pri-ma-013",
+      "type": "requires",
+      "from": "qc-pri-ma-017",
+      "to": "qc-pri-ma-013",
+      "justification": "Pour réussir « Pourcentages et situations de proportionnalité », la compétence de « Fractions : équivalence et comparaison » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-017/requires/qc-pri-ma-015",
+      "type": "requires",
+      "from": "qc-pri-ma-017",
+      "to": "qc-pri-ma-015",
+      "justification": "Pour réussir « Pourcentages et situations de proportionnalité », la compétence de « Nombres décimaux : représentations » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-019/requires/qc-pri-ma-006",
+      "type": "requires",
+      "from": "qc-pri-ma-019",
+      "to": "qc-pri-ma-006",
+      "justification": "Pour réussir « Situations-problèmes additives », la compétence de « Sens et stratégies de l’addition » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-019/requires/qc-pri-ma-007",
+      "type": "requires",
+      "from": "qc-pri-ma-019",
+      "to": "qc-pri-ma-007",
+      "justification": "Pour réussir « Situations-problèmes additives », la compétence de « Sens et stratégies de la soustraction » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-020/requires/qc-pri-ma-008",
+      "type": "requires",
+      "from": "qc-pri-ma-020",
+      "to": "qc-pri-ma-008",
+      "justification": "Pour réussir « Situations-problèmes multiplicatives », la compétence de « Sens et stratégies de la multiplication » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-020/recommends_before/qc-pri-ma-009",
+      "type": "recommends_before",
+      "from": "qc-pri-ma-020",
+      "to": "qc-pri-ma-009",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-022/recommends_before/qc-pri-ma-021",
+      "type": "recommends_before",
+      "from": "qc-pri-ma-022",
+      "to": "qc-pri-ma-021",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-023/recommends_before/qc-pri-ma-021",
+      "type": "recommends_before",
+      "from": "qc-pri-ma-023",
+      "to": "qc-pri-ma-021",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-024/requires/qc-pri-ma-023",
+      "type": "requires",
+      "from": "qc-pri-ma-024",
+      "to": "qc-pri-ma-023",
+      "justification": "Pour réussir « Droites, angles et symétrie », la compétence de « Figures planes et propriétés » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-027/requires/qc-pri-ma-023",
+      "type": "requires",
+      "from": "qc-pri-ma-027",
+      "to": "qc-pri-ma-023",
+      "justification": "Pour réussir « Périmètre », la compétence de « Figures planes et propriétés » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-027/requires/qc-pri-ma-025",
+      "type": "requires",
+      "from": "qc-pri-ma-027",
+      "to": "qc-pri-ma-025",
+      "justification": "Pour réussir « Périmètre », la compétence de « Longueurs, masses et capacités » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-028/requires/qc-pri-ma-023",
+      "type": "requires",
+      "from": "qc-pri-ma-028",
+      "to": "qc-pri-ma-023",
+      "justification": "Pour réussir « Aire et unités d’aire », la compétence de « Figures planes et propriétés » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-028/requires/qc-pri-ma-025",
+      "type": "requires",
+      "from": "qc-pri-ma-028",
+      "to": "qc-pri-ma-025",
+      "justification": "Pour réussir « Aire et unités d’aire », la compétence de « Longueurs, masses et capacités » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-029/requires/qc-pri-ma-022",
+      "type": "requires",
+      "from": "qc-pri-ma-029",
+      "to": "qc-pri-ma-022",
+      "justification": "Pour réussir « Volume et unités de volume », la compétence de « Solides et représentations spatiales » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-029/requires/qc-pri-ma-025",
+      "type": "requires",
+      "from": "qc-pri-ma-029",
+      "to": "qc-pri-ma-025",
+      "justification": "Pour réussir « Volume et unités de volume », la compétence de « Longueurs, masses et capacités » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ma-031/requires/qc-pri-ma-030",
+      "type": "requires",
+      "from": "qc-pri-ma-031",
+      "to": "qc-pri-ma-030",
+      "justification": "Pour réussir « Lire et produire des diagrammes », la compétence de « Collecter et organiser des données » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-als-005/requires/qc-pri-als-001",
+      "type": "requires",
+      "from": "qc-pri-als-005",
+      "to": "qc-pri-als-001",
+      "justification": "Pour réussir « Interagir par formules et questions simples », la compétence de « Comprendre des consignes et des messages oraux » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-als-005/requires/qc-pri-als-002",
+      "type": "requires",
+      "from": "qc-pri-als-005",
+      "to": "qc-pri-als-002",
+      "justification": "Pour réussir « Interagir par formules et questions simples », la compétence de « Reconnaître et utiliser le vocabulaire quotidien » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-als-006/requires/qc-pri-als-005",
+      "type": "requires",
+      "from": "qc-pri-als-006",
+      "to": "qc-pri-als-005",
+      "justification": "Pour réussir « Parler d’expériences et de situations familières », la compétence de « Interagir par formules et questions simples » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-als-007/recommends_before/qc-pri-als-002",
+      "type": "recommends_before",
+      "from": "qc-pri-als-007",
+      "to": "qc-pri-als-002",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-als-008/requires/qc-pri-als-001",
+      "type": "requires",
+      "from": "qc-pri-als-008",
+      "to": "qc-pri-als-001",
+      "justification": "Pour réussir « Stratégies de lecture et d’écoute en anglais », la compétence de « Comprendre des consignes et des messages oraux » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-als-008/recommends_before/qc-pri-als-007",
+      "type": "recommends_before",
+      "from": "qc-pri-als-008",
+      "to": "qc-pri-als-007",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-als-009/requires/qc-pri-als-003",
+      "type": "requires",
+      "from": "qc-pri-als-009",
+      "to": "qc-pri-als-003",
+      "justification": "Pour réussir « Réinvestir le contenu de textes lus ou entendus », la compétence de « Comprendre chansons, comptines et histoires entendues » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-als-009/recommends_before/qc-pri-als-007",
+      "type": "recommends_before",
+      "from": "qc-pri-als-009",
+      "to": "qc-pri-als-007",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-als-010/requires/qc-pri-als-002",
+      "type": "requires",
+      "from": "qc-pri-als-010",
+      "to": "qc-pri-als-002",
+      "justification": "Pour réussir « Produire de courts textes en anglais », la compétence de « Reconnaître et utiliser le vocabulaire quotidien » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-als-010/recommends_before/qc-pri-als-007",
+      "type": "recommends_before",
+      "from": "qc-pri-als-010",
+      "to": "qc-pri-als-007",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-als-011/requires/qc-pri-als-010",
+      "type": "requires",
+      "from": "qc-pri-als-011",
+      "to": "qc-pri-als-010",
+      "justification": "Pour réussir « Réviser les productions écrites en anglais », la compétence de « Produire de courts textes en anglais » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-als-012/requires/qc-pri-als-005",
+      "type": "requires",
+      "from": "qc-pri-als-012",
+      "to": "qc-pri-als-005",
+      "justification": "Pour réussir « Présenter et échanger en anglais », la compétence de « Interagir par formules et questions simples » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-als-012/recommends_before/qc-pri-als-006",
+      "type": "recommends_before",
+      "from": "qc-pri-als-012",
+      "to": "qc-pri-als-006",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-als-012/reinforces/qc-pri-ccq-008",
+      "type": "reinforces",
+      "from": "qc-pri-als-012",
+      "to": "qc-pri-ccq-008",
+      "justification": "Possibilité de transfert interdisciplinaire, sans obligation de suivre le parcours source.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-002/requires/qc-pri-st-001",
+      "type": "requires",
+      "from": "qc-pri-st-002",
+      "to": "qc-pri-st-001",
+      "justification": "Pour réussir « Formuler des hypothèses et planifier une investigation », la compétence de « Observer et formuler des questions scientifiques » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-003/requires/qc-pri-st-001",
+      "type": "requires",
+      "from": "qc-pri-st-003",
+      "to": "qc-pri-st-001",
+      "justification": "Pour réussir « Mesurer et recueillir des données », la compétence de « Observer et formuler des questions scientifiques » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-003/reinforces/qc-pri-ma-025",
+      "type": "reinforces",
+      "from": "qc-pri-st-003",
+      "to": "qc-pri-ma-025",
+      "justification": "Possibilité de transfert interdisciplinaire, sans obligation de suivre le parcours source.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-003/reinforces/qc-pri-ma-030",
+      "type": "reinforces",
+      "from": "qc-pri-st-003",
+      "to": "qc-pri-ma-030",
+      "justification": "Possibilité de transfert interdisciplinaire, sans obligation de suivre le parcours source.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-004/requires/qc-pri-st-003",
+      "type": "requires",
+      "from": "qc-pri-st-004",
+      "to": "qc-pri-st-003",
+      "justification": "Pour réussir « Expliquer et communiquer des résultats », la compétence de « Mesurer et recueillir des données » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-004/reinforces/qc-pri-fr-026",
+      "type": "reinforces",
+      "from": "qc-pri-st-004",
+      "to": "qc-pri-fr-026",
+      "justification": "Possibilité de transfert interdisciplinaire, sans obligation de suivre le parcours source.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-004/reinforces/qc-pri-ma-031",
+      "type": "reinforces",
+      "from": "qc-pri-st-004",
+      "to": "qc-pri-ma-031",
+      "justification": "Possibilité de transfert interdisciplinaire, sans obligation de suivre le parcours source.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-005/recommends_before/qc-pri-st-001",
+      "type": "recommends_before",
+      "from": "qc-pri-st-005",
+      "to": "qc-pri-st-001",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-006/requires/qc-pri-st-005",
+      "type": "requires",
+      "from": "qc-pri-st-006",
+      "to": "qc-pri-st-005",
+      "justification": "Pour réussir « Transformations de la matière », la compétence de « Propriétés et états de la matière » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-007/recommends_before/qc-pri-st-001",
+      "type": "recommends_before",
+      "from": "qc-pri-st-007",
+      "to": "qc-pri-st-001",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-008/recommends_before/qc-pri-st-007",
+      "type": "recommends_before",
+      "from": "qc-pri-st-008",
+      "to": "qc-pri-st-007",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-009/recommends_before/qc-pri-st-001",
+      "type": "recommends_before",
+      "from": "qc-pri-st-009",
+      "to": "qc-pri-st-001",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-010/requires/qc-pri-st-008",
+      "type": "requires",
+      "from": "qc-pri-st-010",
+      "to": "qc-pri-st-008",
+      "justification": "Pour réussir « Électricité et magnétisme », la compétence de « Énergie et transformations énergétiques » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-011/recommends_before/qc-pri-st-001",
+      "type": "recommends_before",
+      "from": "qc-pri-st-011",
+      "to": "qc-pri-st-001",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-012/requires/qc-pri-st-011",
+      "type": "requires",
+      "from": "qc-pri-st-012",
+      "to": "qc-pri-st-011",
+      "justification": "Pour réussir « Concevoir et fabriquer un objet technique », la compétence de « Objets techniques, mécanismes et fonctions » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-012/recommends_before/qc-pri-st-002",
+      "type": "recommends_before",
+      "from": "qc-pri-st-012",
+      "to": "qc-pri-st-002",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-012/recommends_before/qc-pri-st-003",
+      "type": "recommends_before",
+      "from": "qc-pri-st-012",
+      "to": "qc-pri-st-003",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-012/reinforces/qc-pri-ap-004",
+      "type": "reinforces",
+      "from": "qc-pri-st-012",
+      "to": "qc-pri-ap-004",
+      "justification": "Possibilité de transfert interdisciplinaire, sans obligation de suivre le parcours source.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-012/reinforces/qc-pri-ma-025",
+      "type": "reinforces",
+      "from": "qc-pri-st-012",
+      "to": "qc-pri-ma-025",
+      "justification": "Possibilité de transfert interdisciplinaire, sans obligation de suivre le parcours source.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-013/recommends_before/qc-pri-st-001",
+      "type": "recommends_before",
+      "from": "qc-pri-st-013",
+      "to": "qc-pri-st-001",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-014/requires/qc-pri-st-005",
+      "type": "requires",
+      "from": "qc-pri-st-014",
+      "to": "qc-pri-st-005",
+      "justification": "Pour réussir « Eau et cycle de l’eau », la compétence de « Propriétés et états de la matière » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-014/recommends_before/qc-pri-st-001",
+      "type": "recommends_before",
+      "from": "qc-pri-st-014",
+      "to": "qc-pri-st-001",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-015/recommends_before/qc-pri-st-014",
+      "type": "recommends_before",
+      "from": "qc-pri-st-015",
+      "to": "qc-pri-st-014",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-015/reinforces/qc-pri-ma-031",
+      "type": "reinforces",
+      "from": "qc-pri-st-015",
+      "to": "qc-pri-ma-031",
+      "justification": "Possibilité de transfert interdisciplinaire, sans obligation de suivre le parcours source.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-016/recommends_before/qc-pri-st-001",
+      "type": "recommends_before",
+      "from": "qc-pri-st-016",
+      "to": "qc-pri-st-001",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-017/recommends_before/qc-pri-st-001",
+      "type": "recommends_before",
+      "from": "qc-pri-st-017",
+      "to": "qc-pri-st-001",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-018/recommends_before/qc-pri-st-017",
+      "type": "recommends_before",
+      "from": "qc-pri-st-018",
+      "to": "qc-pri-st-017",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-019/requires/qc-pri-st-017",
+      "type": "requires",
+      "from": "qc-pri-st-019",
+      "to": "qc-pri-st-017",
+      "justification": "Pour réussir « Cycles de vie et adaptations du vivant », la compétence de « Caractéristiques et classification du vivant » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-020/requires/qc-pri-st-017",
+      "type": "requires",
+      "from": "qc-pri-st-020",
+      "to": "qc-pri-st-017",
+      "justification": "Pour réussir « Habitats, réseaux alimentaires et environnement », la compétence de « Caractéristiques et classification du vivant » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-st-020/recommends_before/qc-pri-st-019",
+      "type": "recommends_before",
+      "from": "qc-pri-st-020",
+      "to": "qc-pri-st-019",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-002/reinforces/qc-pri-ma-021",
+      "type": "reinforces",
+      "from": "qc-pri-us-002",
+      "to": "qc-pri-ma-021",
+      "justification": "Possibilité de transfert interdisciplinaire, sans obligation de suivre le parcours source.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-003/recommends_before/qc-pri-us-002",
+      "type": "recommends_before",
+      "from": "qc-pri-us-003",
+      "to": "qc-pri-us-002",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-004/requires/qc-pri-us-002",
+      "type": "requires",
+      "from": "qc-pri-us-004",
+      "to": "qc-pri-us-002",
+      "justification": "Pour réussir « Lire l’organisation d’une société sur son territoire », la compétence de « Lire des cartes et se repérer dans l’espace » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-004/recommends_before/qc-pri-us-003",
+      "type": "recommends_before",
+      "from": "qc-pri-us-004",
+      "to": "qc-pri-us-003",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-005/reinforces/qc-pri-fr-009",
+      "type": "reinforces",
+      "from": "qc-pri-us-005",
+      "to": "qc-pri-fr-009",
+      "justification": "Possibilité de transfert interdisciplinaire, sans obligation de suivre le parcours source.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-006/recommends_before/qc-pri-us-001",
+      "type": "recommends_before",
+      "from": "qc-pri-us-006",
+      "to": "qc-pri-us-001",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-006/recommends_before/qc-pri-us-002",
+      "type": "recommends_before",
+      "from": "qc-pri-us-006",
+      "to": "qc-pri-us-002",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-006/recommends_before/qc-pri-us-005",
+      "type": "recommends_before",
+      "from": "qc-pri-us-006",
+      "to": "qc-pri-us-005",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-007/recommends_before/qc-pri-us-001",
+      "type": "recommends_before",
+      "from": "qc-pri-us-007",
+      "to": "qc-pri-us-001",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-007/recommends_before/qc-pri-us-002",
+      "type": "recommends_before",
+      "from": "qc-pri-us-007",
+      "to": "qc-pri-us-002",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-007/recommends_before/qc-pri-us-005",
+      "type": "recommends_before",
+      "from": "qc-pri-us-007",
+      "to": "qc-pri-us-005",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-008/requires/qc-pri-us-001",
+      "type": "requires",
+      "from": "qc-pri-us-008",
+      "to": "qc-pri-us-001",
+      "justification": "Pour réussir « La Nouvelle-France : territoire et société », la compétence de « Se repérer dans le temps et construire une chronologie » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-008/recommends_before/qc-pri-us-002",
+      "type": "recommends_before",
+      "from": "qc-pri-us-008",
+      "to": "qc-pri-us-002",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-008/recommends_before/qc-pri-us-005",
+      "type": "recommends_before",
+      "from": "qc-pri-us-008",
+      "to": "qc-pri-us-005",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-009/recommends_before/qc-pri-us-006",
+      "type": "recommends_before",
+      "from": "qc-pri-us-009",
+      "to": "qc-pri-us-006",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-009/recommends_before/qc-pri-us-008",
+      "type": "recommends_before",
+      "from": "qc-pri-us-009",
+      "to": "qc-pri-us-008",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-010/requires/qc-pri-us-001",
+      "type": "requires",
+      "from": "qc-pri-us-010",
+      "to": "qc-pri-us-001",
+      "justification": "Pour réussir « Transformations à l’époque britannique », la compétence de « Se repérer dans le temps et construire une chronologie » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-010/recommends_before/qc-pri-us-008",
+      "type": "recommends_before",
+      "from": "qc-pri-us-010",
+      "to": "qc-pri-us-008",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-011/requires/qc-pri-us-001",
+      "type": "requires",
+      "from": "qc-pri-us-011",
+      "to": "qc-pri-us-001",
+      "justification": "Pour réussir « Industrialisation, urbanisation et transformations sociales », la compétence de « Se repérer dans le temps et construire une chronologie » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-011/recommends_before/qc-pri-us-010",
+      "type": "recommends_before",
+      "from": "qc-pri-us-011",
+      "to": "qc-pri-us-010",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-012/requires/qc-pri-us-001",
+      "type": "requires",
+      "from": "qc-pri-us-012",
+      "to": "qc-pri-us-001",
+      "justification": "Pour réussir « Québec au XXe siècle », la compétence de « Se repérer dans le temps et construire une chronologie » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-012/recommends_before/qc-pri-us-011",
+      "type": "recommends_before",
+      "from": "qc-pri-us-012",
+      "to": "qc-pri-us-011",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-012/reinforces/qc-pri-ma-026",
+      "type": "reinforces",
+      "from": "qc-pri-us-012",
+      "to": "qc-pri-ma-026",
+      "justification": "Possibilité de transfert interdisciplinaire, sans obligation de suivre le parcours source.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-013/requires/qc-pri-us-001",
+      "type": "requires",
+      "from": "qc-pri-us-013",
+      "to": "qc-pri-us-001",
+      "justification": "Pour réussir « Québec contemporain et évolution sociale », la compétence de « Se repérer dans le temps et construire une chronologie » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-013/recommends_before/qc-pri-us-012",
+      "type": "recommends_before",
+      "from": "qc-pri-us-013",
+      "to": "qc-pri-us-012",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-014/requires/qc-pri-us-004",
+      "type": "requires",
+      "from": "qc-pri-us-014",
+      "to": "qc-pri-us-004",
+      "justification": "Pour réussir « Comparer des sociétés et leurs territoires », la compétence de « Lire l’organisation d’une société sur son territoire » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-014/recommends_before/qc-pri-us-003",
+      "type": "recommends_before",
+      "from": "qc-pri-us-014",
+      "to": "qc-pri-us-003",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-014/recommends_before/qc-pri-us-005",
+      "type": "recommends_before",
+      "from": "qc-pri-us-014",
+      "to": "qc-pri-us-005",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-015/requires/qc-pri-us-001",
+      "type": "requires",
+      "from": "qc-pri-us-015",
+      "to": "qc-pri-us-001",
+      "justification": "Pour réussir « Comprendre les changements et les continuités historiques », la compétence de « Se repérer dans le temps et construire une chronologie » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-015/requires/qc-pri-us-005",
+      "type": "requires",
+      "from": "qc-pri-us-015",
+      "to": "qc-pri-us-005",
+      "justification": "Pour réussir « Comprendre les changements et les continuités historiques », la compétence de « Utiliser et comparer des sources historiques » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-015/recommends_before/qc-pri-us-008",
+      "type": "recommends_before",
+      "from": "qc-pri-us-015",
+      "to": "qc-pri-us-008",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-016/recommends_before/qc-pri-us-005",
+      "type": "recommends_before",
+      "from": "qc-pri-us-016",
+      "to": "qc-pri-us-005",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-016/recommends_before/qc-pri-us-006",
+      "type": "recommends_before",
+      "from": "qc-pri-us-016",
+      "to": "qc-pri-us-006",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-us-016/recommends_before/qc-pri-us-007",
+      "type": "recommends_before",
+      "from": "qc-pri-us-016",
+      "to": "qc-pri-us-007",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ccq-005/reinforces/qc-pri-fr-009",
+      "type": "reinforces",
+      "from": "qc-pri-ccq-005",
+      "to": "qc-pri-fr-009",
+      "justification": "Possibilité de transfert interdisciplinaire, sans obligation de suivre le parcours source.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ccq-007/requires/qc-pri-ccq-006",
+      "type": "requires",
+      "from": "qc-pri-ccq-007",
+      "to": "qc-pri-ccq-006",
+      "justification": "Pour réussir « Comparer les réalités culturelles et les points de vue », la compétence de « Observer et décrire des réalités culturelles » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ccq-009/requires/qc-pri-ccq-008",
+      "type": "requires",
+      "from": "qc-pri-ccq-009",
+      "to": "qc-pri-ccq-008",
+      "justification": "Pour réussir « Réfléchir de façon critique et éthique », la compétence de « Dialoguer et écouter avec respect » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ccq-009/recommends_before/qc-pri-ccq-007",
+      "type": "recommends_before",
+      "from": "qc-pri-ccq-009",
+      "to": "qc-pri-ccq-007",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ccq-009/reinforces/qc-pri-fr-026",
+      "type": "reinforces",
+      "from": "qc-pri-ccq-009",
+      "to": "qc-pri-fr-026",
+      "justification": "Possibilité de transfert interdisciplinaire, sans obligation de suivre le parcours source.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ccq-011/recommends_before/qc-pri-ccq-006",
+      "type": "recommends_before",
+      "from": "qc-pri-ccq-011",
+      "to": "qc-pri-ccq-006",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-eps-002/recommends_before/qc-pri-eps-001",
+      "type": "recommends_before",
+      "from": "qc-pri-eps-002",
+      "to": "qc-pri-eps-001",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-eps-003/recommends_before/qc-pri-eps-001",
+      "type": "recommends_before",
+      "from": "qc-pri-eps-003",
+      "to": "qc-pri-eps-001",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-eps-004/recommends_before/qc-pri-eps-001",
+      "type": "recommends_before",
+      "from": "qc-pri-eps-004",
+      "to": "qc-pri-eps-001",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-eps-005/requires/qc-pri-eps-002",
+      "type": "requires",
+      "from": "qc-pri-eps-005",
+      "to": "qc-pri-eps-002",
+      "justification": "Pour réussir « Actions et enchaînements moteurs », la compétence de « Locomotion et déplacements » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-eps-005/recommends_before/qc-pri-eps-003",
+      "type": "recommends_before",
+      "from": "qc-pri-eps-005",
+      "to": "qc-pri-eps-003",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-eps-005/recommends_before/qc-pri-eps-004",
+      "type": "recommends_before",
+      "from": "qc-pri-eps-005",
+      "to": "qc-pri-eps-004",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-eps-006/requires/qc-pri-eps-008",
+      "type": "requires",
+      "from": "qc-pri-eps-006",
+      "to": "qc-pri-eps-008",
+      "justification": "Pour réussir « Jeux coopératifs et opposition », la compétence de « Sécurité et prévention des blessures » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-eps-006/recommends_before/qc-pri-eps-002",
+      "type": "recommends_before",
+      "from": "qc-pri-eps-006",
+      "to": "qc-pri-eps-002",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-eps-006/recommends_before/qc-pri-eps-004",
+      "type": "recommends_before",
+      "from": "qc-pri-eps-006",
+      "to": "qc-pri-eps-004",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-eps-007/requires/qc-pri-eps-006",
+      "type": "requires",
+      "from": "qc-pri-eps-007",
+      "to": "qc-pri-eps-006",
+      "justification": "Pour réussir « Stratégies d’action collective », la compétence de « Jeux coopératifs et opposition » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-eps-007/reinforces/qc-pri-fr-025",
+      "type": "reinforces",
+      "from": "qc-pri-eps-007",
+      "to": "qc-pri-fr-025",
+      "justification": "Possibilité de transfert interdisciplinaire, sans obligation de suivre le parcours source.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-eps-009/requires/qc-pri-eps-008",
+      "type": "requires",
+      "from": "qc-pri-eps-009",
+      "to": "qc-pri-eps-008",
+      "justification": "Pour réussir « Condition physique et effort », la compétence de « Sécurité et prévention des blessures » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-eps-009/recommends_before/qc-pri-eps-001",
+      "type": "recommends_before",
+      "from": "qc-pri-eps-009",
+      "to": "qc-pri-eps-001",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-eps-010/recommends_before/qc-pri-eps-009",
+      "type": "recommends_before",
+      "from": "qc-pri-eps-010",
+      "to": "qc-pri-eps-009",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-eps-010/recommends_before/qc-pri-eps-011",
+      "type": "recommends_before",
+      "from": "qc-pri-eps-010",
+      "to": "qc-pri-eps-011",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-eps-012/requires/qc-pri-eps-009",
+      "type": "requires",
+      "from": "qc-pri-eps-012",
+      "to": "qc-pri-eps-009",
+      "justification": "Pour réussir « Autoévaluation d’une pratique physique », la compétence de « Condition physique et effort » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-eps-012/recommends_before/qc-pri-eps-010",
+      "type": "recommends_before",
+      "from": "qc-pri-eps-012",
+      "to": "qc-pri-eps-010",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ap-003/requires/qc-pri-ap-001",
+      "type": "requires",
+      "from": "qc-pri-ap-003",
+      "to": "qc-pri-ap-001",
+      "justification": "Pour réussir « Composer dans l’espace et sur un support », la compétence de « Observer formes, lignes, couleurs et textures » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ap-003/recommends_before/qc-pri-ap-002",
+      "type": "recommends_before",
+      "from": "qc-pri-ap-003",
+      "to": "qc-pri-ap-002",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ap-004/requires/qc-pri-ap-002",
+      "type": "requires",
+      "from": "qc-pri-ap-004",
+      "to": "qc-pri-ap-002",
+      "justification": "Pour réussir « Choisir des matériaux et procédés de création », la compétence de « Expérimenter les gestes et techniques plastiques » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ap-005/requires/qc-pri-ap-003",
+      "type": "requires",
+      "from": "qc-pri-ap-005",
+      "to": "qc-pri-ap-003",
+      "justification": "Pour réussir « Créer des images personnelles », la compétence de « Composer dans l’espace et sur un support » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ap-005/recommends_before/qc-pri-ap-004",
+      "type": "recommends_before",
+      "from": "qc-pri-ap-005",
+      "to": "qc-pri-ap-004",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ap-006/requires/qc-pri-ap-003",
+      "type": "requires",
+      "from": "qc-pri-ap-006",
+      "to": "qc-pri-ap-003",
+      "justification": "Pour réussir « Créer des images médiatiques », la compétence de « Composer dans l’espace et sur un support » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ap-006/recommends_before/qc-pri-ap-004",
+      "type": "recommends_before",
+      "from": "qc-pri-ap-006",
+      "to": "qc-pri-ap-004",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ap-006/reinforces/qc-pri-fr-020",
+      "type": "reinforces",
+      "from": "qc-pri-ap-006",
+      "to": "qc-pri-fr-020",
+      "justification": "Possibilité de transfert interdisciplinaire, sans obligation de suivre le parcours source.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ap-007/requires/qc-pri-ap-001",
+      "type": "requires",
+      "from": "qc-pri-ap-007",
+      "to": "qc-pri-ap-001",
+      "justification": "Pour réussir « Analyser les éléments d’une œuvre visuelle », la compétence de « Observer formes, lignes, couleurs et textures » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ap-008/requires/qc-pri-ap-007",
+      "type": "requires",
+      "from": "qc-pri-ap-008",
+      "to": "qc-pri-ap-007",
+      "justification": "Pour réussir « Apprécier des œuvres et exprimer sa perception », la compétence de « Analyser les éléments d’une œuvre visuelle » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ap-009/requires/qc-pri-ap-005",
+      "type": "requires",
+      "from": "qc-pri-ap-009",
+      "to": "qc-pri-ap-005",
+      "justification": "Pour réussir « Présenter et expliquer sa démarche artistique », la compétence de « Créer des images personnelles » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ad-003/requires/qc-pri-ad-001",
+      "type": "requires",
+      "from": "qc-pri-ad-003",
+      "to": "qc-pri-ad-001",
+      "justification": "Pour réussir « Improviser en interaction », la compétence de « Explorer corps, voix et espace scénique » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ad-003/requires/qc-pri-ad-002",
+      "type": "requires",
+      "from": "qc-pri-ad-003",
+      "to": "qc-pri-ad-002",
+      "justification": "Pour réussir « Improviser en interaction », la compétence de « Découvrir personnages et situations dramatiques » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ad-004/requires/qc-pri-ad-003",
+      "type": "requires",
+      "from": "qc-pri-ad-004",
+      "to": "qc-pri-ad-003",
+      "justification": "Pour réussir « Créer une séquence dramatique », la compétence de « Improviser en interaction » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ad-005/requires/qc-pri-ad-004",
+      "type": "requires",
+      "from": "qc-pri-ad-005",
+      "to": "qc-pri-ad-004",
+      "justification": "Pour réussir « Organiser une mise en scène simple », la compétence de « Créer une séquence dramatique » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ad-006/requires/qc-pri-ad-002",
+      "type": "requires",
+      "from": "qc-pri-ad-006",
+      "to": "qc-pri-ad-002",
+      "justification": "Pour réussir « Interpréter un rôle », la compétence de « Découvrir personnages et situations dramatiques » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ad-006/recommends_before/qc-pri-ad-001",
+      "type": "recommends_before",
+      "from": "qc-pri-ad-006",
+      "to": "qc-pri-ad-001",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ad-008/requires/qc-pri-ad-007",
+      "type": "requires",
+      "from": "qc-pri-ad-008",
+      "to": "qc-pri-ad-007",
+      "justification": "Pour réussir « Apprécier une représentation et argumenter », la compétence de « Observer une œuvre ou une représentation théâtrale » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ad-009/requires/qc-pri-ad-004",
+      "type": "requires",
+      "from": "qc-pri-ad-009",
+      "to": "qc-pri-ad-004",
+      "justification": "Pour réussir « Présenter et analyser sa démarche dramatique », la compétence de « Créer une séquence dramatique » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ad-009/recommends_before/qc-pri-ad-006",
+      "type": "recommends_before",
+      "from": "qc-pri-ad-009",
+      "to": "qc-pri-ad-006",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-da-002/requires/qc-pri-da-001",
+      "type": "requires",
+      "from": "qc-pri-da-002",
+      "to": "qc-pri-da-001",
+      "justification": "Pour réussir « Explorer espace, temps et énergie en mouvement », la compétence de « Explorer le corps et le mouvement » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-da-003/requires/qc-pri-da-002",
+      "type": "requires",
+      "from": "qc-pri-da-003",
+      "to": "qc-pri-da-002",
+      "justification": "Pour réussir « Créer une phrase chorégraphique », la compétence de « Explorer espace, temps et énergie en mouvement » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-da-004/requires/qc-pri-da-003",
+      "type": "requires",
+      "from": "qc-pri-da-004",
+      "to": "qc-pri-da-003",
+      "justification": "Pour réussir « Organiser une composition dansée », la compétence de « Créer une phrase chorégraphique » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-da-004/reinforces/qc-pri-mu-002",
+      "type": "reinforces",
+      "from": "qc-pri-da-004",
+      "to": "qc-pri-mu-002",
+      "justification": "Possibilité de transfert interdisciplinaire, sans obligation de suivre le parcours source.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-da-005/requires/qc-pri-da-001",
+      "type": "requires",
+      "from": "qc-pri-da-005",
+      "to": "qc-pri-da-001",
+      "justification": "Pour réussir « Improviser seul ou en groupe », la compétence de « Explorer le corps et le mouvement » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-da-005/recommends_before/qc-pri-da-002",
+      "type": "recommends_before",
+      "from": "qc-pri-da-005",
+      "to": "qc-pri-da-002",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-da-006/requires/qc-pri-da-002",
+      "type": "requires",
+      "from": "qc-pri-da-006",
+      "to": "qc-pri-da-002",
+      "justification": "Pour réussir « Interpréter une danse », la compétence de « Explorer espace, temps et énergie en mouvement » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-da-006/recommends_before/qc-pri-da-003",
+      "type": "recommends_before",
+      "from": "qc-pri-da-006",
+      "to": "qc-pri-da-003",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-da-008/requires/qc-pri-da-007",
+      "type": "requires",
+      "from": "qc-pri-da-008",
+      "to": "qc-pri-da-007",
+      "justification": "Pour réussir « Apprécier et comparer des œuvres chorégraphiques », la compétence de « Observer des œuvres chorégraphiques » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-da-009/requires/qc-pri-da-004",
+      "type": "requires",
+      "from": "qc-pri-da-009",
+      "to": "qc-pri-da-004",
+      "justification": "Pour réussir « Présenter et expliquer sa démarche en danse », la compétence de « Organiser une composition dansée » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-da-009/recommends_before/qc-pri-da-006",
+      "type": "recommends_before",
+      "from": "qc-pri-da-009",
+      "to": "qc-pri-da-006",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-mu-002/requires/qc-pri-mu-001",
+      "type": "requires",
+      "from": "qc-pri-mu-002",
+      "to": "qc-pri-mu-001",
+      "justification": "Pour réussir « Explorer pulsation, rythme et durée », la compétence de « Percevoir les sons, leurs qualités et les silences » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-mu-002/reinforces/qc-pri-ma-004",
+      "type": "reinforces",
+      "from": "qc-pri-mu-002",
+      "to": "qc-pri-ma-004",
+      "justification": "Possibilité de transfert interdisciplinaire, sans obligation de suivre le parcours source.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-mu-003/requires/qc-pri-mu-001",
+      "type": "requires",
+      "from": "qc-pri-mu-003",
+      "to": "qc-pri-mu-001",
+      "justification": "Pour réussir « Explorer hauteur, mélodie et harmonie », la compétence de « Percevoir les sons, leurs qualités et les silences » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-mu-004/requires/qc-pri-mu-001",
+      "type": "requires",
+      "from": "qc-pri-mu-004",
+      "to": "qc-pri-mu-001",
+      "justification": "Pour réussir « Découvrir timbres et instruments », la compétence de « Percevoir les sons, leurs qualités et les silences » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-mu-005/requires/qc-pri-mu-001",
+      "type": "requires",
+      "from": "qc-pri-mu-005",
+      "to": "qc-pri-mu-001",
+      "justification": "Pour réussir « Explorer voix et techniques vocales », la compétence de « Percevoir les sons, leurs qualités et les silences » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-mu-006/requires/qc-pri-mu-002",
+      "type": "requires",
+      "from": "qc-pri-mu-006",
+      "to": "qc-pri-mu-002",
+      "justification": "Pour réussir « Inventer une pièce vocale ou instrumentale », la compétence de « Explorer pulsation, rythme et durée » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-mu-006/recommends_before/qc-pri-mu-003",
+      "type": "recommends_before",
+      "from": "qc-pri-mu-006",
+      "to": "qc-pri-mu-003",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-mu-006/recommends_before/qc-pri-mu-004",
+      "type": "recommends_before",
+      "from": "qc-pri-mu-006",
+      "to": "qc-pri-mu-004",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-mu-007/requires/qc-pri-mu-002",
+      "type": "requires",
+      "from": "qc-pri-mu-007",
+      "to": "qc-pri-mu-002",
+      "justification": "Pour réussir « Interpréter seul ou en ensemble », la compétence de « Explorer pulsation, rythme et durée » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-mu-007/recommends_before/qc-pri-mu-003",
+      "type": "recommends_before",
+      "from": "qc-pri-mu-007",
+      "to": "qc-pri-mu-003",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-mu-007/recommends_before/qc-pri-mu-005",
+      "type": "recommends_before",
+      "from": "qc-pri-mu-007",
+      "to": "qc-pri-mu-005",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-mu-008/requires/qc-pri-mu-001",
+      "type": "requires",
+      "from": "qc-pri-mu-008",
+      "to": "qc-pri-mu-001",
+      "justification": "Pour réussir « Écouter et analyser des œuvres musicales », la compétence de « Percevoir les sons, leurs qualités et les silences » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-mu-009/requires/qc-pri-mu-008",
+      "type": "requires",
+      "from": "qc-pri-mu-009",
+      "to": "qc-pri-mu-008",
+      "justification": "Pour réussir « Apprécier des œuvres et justifier son appréciation », la compétence de « Écouter et analyser des œuvres musicales » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ale-002/requires/qc-pri-ale-001",
+      "type": "requires",
+      "from": "qc-pri-ale-002",
+      "to": "qc-pri-ale-001",
+      "justification": "Pour réussir « Phonics et décodage », la compétence de « Conscience phonologique en anglais » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ale-003/requires/qc-pri-ale-002",
+      "type": "requires",
+      "from": "qc-pri-ale-003",
+      "to": "qc-pri-ale-002",
+      "justification": "Pour réussir « Lire avec fluidité en anglais », la compétence de « Phonics et décodage » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ale-004/requires/qc-pri-ale-003",
+      "type": "requires",
+      "from": "qc-pri-ale-004",
+      "to": "qc-pri-ale-003",
+      "justification": "Pour réussir « Comprendre des textes narratifs », la compétence de « Lire avec fluidité en anglais » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ale-005/requires/qc-pri-ale-003",
+      "type": "requires",
+      "from": "qc-pri-ale-005",
+      "to": "qc-pri-ale-003",
+      "justification": "Pour réussir « Comprendre des textes informatifs », la compétence de « Lire avec fluidité en anglais » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ale-006/requires/qc-pri-ale-004",
+      "type": "requires",
+      "from": "qc-pri-ale-006",
+      "to": "qc-pri-ale-004",
+      "justification": "Pour réussir « Inférences et interprétation en lecture », la compétence de « Comprendre des textes narratifs » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ale-006/recommends_before/qc-pri-ale-005",
+      "type": "recommends_before",
+      "from": "qc-pri-ale-006",
+      "to": "qc-pri-ale-005",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ale-007/requires/qc-pri-ale-004",
+      "type": "requires",
+      "from": "qc-pri-ale-007",
+      "to": "qc-pri-ale-004",
+      "justification": "Pour réussir « Apprécier la littérature de langue anglaise », la compétence de « Comprendre des textes narratifs » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ale-009/requires/qc-pri-ale-002",
+      "type": "requires",
+      "from": "qc-pri-ale-009",
+      "to": "qc-pri-ale-002",
+      "justification": "Pour réussir « Orthographe et conventions de l’écrit en anglais », la compétence de « Phonics et décodage » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ale-010/requires/qc-pri-ale-008",
+      "type": "requires",
+      "from": "qc-pri-ale-010",
+      "to": "qc-pri-ale-008",
+      "justification": "Pour réussir « Construire des phrases en anglais », la compétence de « Vocabulaire et morphologie anglaise » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ale-010/recommends_before/qc-pri-ale-009",
+      "type": "recommends_before",
+      "from": "qc-pri-ale-010",
+      "to": "qc-pri-ale-009",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ale-011/requires/qc-pri-ale-010",
+      "type": "requires",
+      "from": "qc-pri-ale-011",
+      "to": "qc-pri-ale-010",
+      "justification": "Pour réussir « Planifier et produire des textes en anglais », la compétence de « Construire des phrases en anglais » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ale-012/requires/qc-pri-ale-011",
+      "type": "requires",
+      "from": "qc-pri-ale-012",
+      "to": "qc-pri-ale-011",
+      "justification": "Pour réussir « Réviser ses textes en anglais », la compétence de « Planifier et produire des textes en anglais » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ale-014/requires/qc-pri-ale-013",
+      "type": "requires",
+      "from": "qc-pri-ale-014",
+      "to": "qc-pri-ale-013",
+      "justification": "Pour réussir « Parler, interagir et présenter à l’oral », la compétence de « Écouter et comprendre des échanges » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fls-004/requires/qc-pri-fls-001",
+      "type": "requires",
+      "from": "qc-pri-fls-004",
+      "to": "qc-pri-fls-001",
+      "justification": "Pour réussir « Interagir dans des situations familières en français », la compétence de « Comprendre des messages oraux en français » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fls-004/requires/qc-pri-fls-002",
+      "type": "requires",
+      "from": "qc-pri-fls-004",
+      "to": "qc-pri-fls-002",
+      "justification": "Pour réussir « Interagir dans des situations familières en français », la compétence de « Vocabulaire et expressions usuelles en français » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fls-005/requires/qc-pri-fls-004",
+      "type": "requires",
+      "from": "qc-pri-fls-005",
+      "to": "qc-pri-fls-004",
+      "justification": "Pour réussir « Développer l’interaction et la prise de parole », la compétence de « Interagir dans des situations familières en français » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fls-006/requires/qc-pri-fls-002",
+      "type": "requires",
+      "from": "qc-pri-fls-006",
+      "to": "qc-pri-fls-002",
+      "justification": "Pour réussir « Lire et comprendre des textes adaptés en français », la compétence de « Vocabulaire et expressions usuelles en français » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fls-006/recommends_before/qc-pri-fls-003",
+      "type": "recommends_before",
+      "from": "qc-pri-fls-006",
+      "to": "qc-pri-fls-003",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fls-007/requires/qc-pri-fls-001",
+      "type": "requires",
+      "from": "qc-pri-fls-007",
+      "to": "qc-pri-fls-001",
+      "justification": "Pour réussir « Réinvestir des informations lues et entendues », la compétence de « Comprendre des messages oraux en français » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fls-007/recommends_before/qc-pri-fls-006",
+      "type": "recommends_before",
+      "from": "qc-pri-fls-007",
+      "to": "qc-pri-fls-006",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fls-008/requires/qc-pri-fls-002",
+      "type": "requires",
+      "from": "qc-pri-fls-008",
+      "to": "qc-pri-fls-002",
+      "justification": "Pour réussir « Construire et écrire des phrases en français », la compétence de « Vocabulaire et expressions usuelles en français » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fls-008/recommends_before/qc-pri-fls-003",
+      "type": "recommends_before",
+      "from": "qc-pri-fls-008",
+      "to": "qc-pri-fls-003",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fls-009/requires/qc-pri-fls-008",
+      "type": "requires",
+      "from": "qc-pri-fls-009",
+      "to": "qc-pri-fls-008",
+      "justification": "Pour réussir « Produire des textes adaptés en français », la compétence de « Construire et écrire des phrases en français » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fls-009/recommends_before/qc-pri-fls-006",
+      "type": "recommends_before",
+      "from": "qc-pri-fls-009",
+      "to": "qc-pri-fls-006",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fls-010/requires/qc-pri-fls-009",
+      "type": "requires",
+      "from": "qc-pri-fls-010",
+      "to": "qc-pri-fls-009",
+      "justification": "Pour réussir « Réviser et améliorer les productions en français », la compétence de « Produire des textes adaptés en français » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fls-011/recommends_before/qc-pri-fls-006",
+      "type": "recommends_before",
+      "from": "qc-pri-fls-011",
+      "to": "qc-pri-fls-006",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fls-012/requires/qc-pri-fls-005",
+      "type": "requires",
+      "from": "qc-pri-fls-012",
+      "to": "qc-pri-fls-005",
+      "justification": "Pour réussir « Réaliser des projets de communication en français », la compétence de « Développer l’interaction et la prise de parole » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fls-012/recommends_before/qc-pri-fls-009",
+      "type": "recommends_before",
+      "from": "qc-pri-fls-012",
+      "to": "qc-pri-fls-009",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-fls-012/reinforces/qc-pri-ccq-008",
+      "type": "reinforces",
+      "from": "qc-pri-fls-012",
+      "to": "qc-pri-ccq-008",
+      "justification": "Possibilité de transfert interdisciplinaire, sans obligation de suivre le parcours source.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ilss-002/requires/qc-pri-ilss-001",
+      "type": "requires",
+      "from": "qc-pri-ilss-002",
+      "to": "qc-pri-ilss-001",
+      "justification": "Pour réussir « Interagir oralement dans la classe », la compétence de « Comprendre les routines et consignes scolaires » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ilss-002/recommends_before/qc-pri-ilss-003",
+      "type": "recommends_before",
+      "from": "qc-pri-ilss-002",
+      "to": "qc-pri-ilss-003",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ilss-004/requires/qc-pri-ilss-001",
+      "type": "requires",
+      "from": "qc-pri-ilss-004",
+      "to": "qc-pri-ilss-001",
+      "justification": "Pour réussir « Comprendre des échanges et documents de la vie quotidienne », la compétence de « Comprendre les routines et consignes scolaires » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ilss-004/recommends_before/qc-pri-ilss-003",
+      "type": "recommends_before",
+      "from": "qc-pri-ilss-004",
+      "to": "qc-pri-ilss-003",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ilss-005/requires/qc-pri-ilss-003",
+      "type": "requires",
+      "from": "qc-pri-ilss-005",
+      "to": "qc-pri-ilss-003",
+      "justification": "Pour réussir « Entrer dans la lecture en français selon le palier », la compétence de « Développer le vocabulaire scolaire essentiel » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ilss-006/requires/qc-pri-ilss-005",
+      "type": "requires",
+      "from": "qc-pri-ilss-006",
+      "to": "qc-pri-ilss-005",
+      "justification": "Pour réussir « Lire et comprendre des textes scolaires », la compétence de « Entrer dans la lecture en français selon le palier » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ilss-006/recommends_before/qc-pri-ilss-003",
+      "type": "recommends_before",
+      "from": "qc-pri-ilss-006",
+      "to": "qc-pri-ilss-003",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ilss-006/reinforces/qc-pri-fr-009",
+      "type": "reinforces",
+      "from": "qc-pri-ilss-006",
+      "to": "qc-pri-fr-009",
+      "justification": "Possibilité de transfert interdisciplinaire, sans obligation de suivre le parcours source.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ilss-007/requires/qc-pri-ilss-003",
+      "type": "requires",
+      "from": "qc-pri-ilss-007",
+      "to": "qc-pri-ilss-003",
+      "justification": "Pour réussir « Écrire des messages et textes fonctionnels », la compétence de « Développer le vocabulaire scolaire essentiel » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ilss-007/recommends_before/qc-pri-ilss-005",
+      "type": "recommends_before",
+      "from": "qc-pri-ilss-007",
+      "to": "qc-pri-ilss-005",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ilss-008/requires/qc-pri-ilss-006",
+      "type": "requires",
+      "from": "qc-pri-ilss-008",
+      "to": "qc-pri-ilss-006",
+      "justification": "Pour réussir « Produire des textes scolaires progressifs », la compétence de « Lire et comprendre des textes scolaires » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ilss-008/requires/qc-pri-ilss-007",
+      "type": "requires",
+      "from": "qc-pri-ilss-008",
+      "to": "qc-pri-ilss-007",
+      "justification": "Pour réussir « Produire des textes scolaires progressifs », la compétence de « Écrire des messages et textes fonctionnels » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ilss-010/requires/qc-pri-ilss-009",
+      "type": "requires",
+      "from": "qc-pri-ilss-010",
+      "to": "qc-pri-ilss-009",
+      "justification": "Pour réussir « Participer à la vie sociale et culturelle du milieu », la compétence de « Connaître les codes et pratiques de la vie scolaire » est mobilisée explicitement par ce parcours.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    },
+    {
+      "id": "qc-pri-ilss-010/recommends_before/qc-pri-ilss-002",
+      "type": "recommends_before",
+      "from": "qc-pri-ilss-010",
+      "to": "qc-pri-ilss-002",
+      "justification": "Ordre conseillé pour limiter la charge cognitive; l’accès n’est pas verrouillé si le diagnostic démontre un acquis équivalent.",
+      "statut_validation": "valide_decision_interne",
+      "provenance": "gouvernance_pedagogique_v1.2",
+      "version": "1.2.0"
+    }
+  ]
+}

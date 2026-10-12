@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/kontexte/overlay-qc3.schema.json",
+  "title": "Kontexte Québec 3e overlay de conception",
+  "type": "object",
+  "required": [
+    "overlay_id",
+    "base_trame_id",
+    "neutral_parent",
+    "localisation_id",
+    "titre_qc",
+    "contexte",
+    "adaptation",
+    "relais_orchestration",
+    "objectifs_candidats",
+    "evaluation",
+    "statut"
+  ],
+  "properties": {
+    "overlay_id": {
+      "type": "string",
+      "pattern": "^qc3-[a-z0-9-]+$"
+    },
+    "base_trame_id": {
+      "type": "string"
+    },
+    "neutral_parent": {
+      "type": "object",
+      "required": [
+        "catalogue_sha256",
+        "trame_sha256"
+      ]
+    },
+    "localisation_id": {
+      "const": "ca-qc-fr-primaire-3"
+    },
+    "titre_qc": {
+      "type": "string",
+      "minLength": 4
+    },
+    "contexte": {
+      "type": "object"
+    },
+    "adaptation": {
+      "type": "object"
+    },
+    "relais_orchestration": {
+      "type": "object"
+    },
+    "objectifs_candidats": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^qc3\\."
+      }
+    },
+    "evaluation": {
+      "type": "object"
+    },
+    "statut": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

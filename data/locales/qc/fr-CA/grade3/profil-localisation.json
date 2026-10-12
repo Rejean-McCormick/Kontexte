@@ -1,0 +1,104 @@
+{
+  "format": "kontexte.locale-profile/1",
+  "id": "ca-qc-fr-primaire-3",
+  "neutral_base": {
+    "path": "catalogue/trames-neutral-v0.2.json",
+    "sha256": "b475de9ede688045dc1bff76b0ded1ebeec5fda121327f8dfc5d0eb37d45367e",
+    "version": "0.2.0"
+  },
+  "locale": {
+    "region": "CA-QC",
+    "langue_interface": "fr-CA",
+    "anglais": "en-CA",
+    "scolarite": "primaire",
+    "annee": 3,
+    "cycle": 2,
+    "langue_enseignement_par_defaut": "francais",
+    "autres_parcours": {
+      "francais_langue_seconde": "a_parametrer",
+      "anglais_langue_enseignement": "a_parametrer",
+      "ILSS": "a_parametrer"
+    },
+    "mesures": [
+      "mm",
+      "cm",
+      "m",
+      "mL",
+      "L",
+      "g",
+      "kg",
+      "°C"
+    ],
+    "unite_monetaire_simulation": "Klownkoin",
+    "monnaie_legale": "CAD",
+    "notation_fr": "virgule_decimale",
+    "horaire": "24h"
+  },
+  "presupposes_a_eviter": [
+    "L’ensemble des élèves vivent une même fête ou une même religion",
+    "Une région, un peuple ou une nation représente tout le Québec",
+    "L’anglais est automatiquement maîtrisé",
+    "Les familles peuvent acheter du matériel",
+    "Tous les élèves peuvent se déplacer sans accompagnement",
+    "Un rôle public peut révéler les besoins pédagogiques de l’élève"
+  ],
+  "invariants": [
+    "Ne pas altérer la tension fondamentale et les dépendances de la trame neutre",
+    "Références scolaires séparées de la situation narrative",
+    "Même rôle visible, adaptations et aides privées",
+    "Toutes les transitions et états opérationnels exécutés par Orgo",
+    "Aucune publication identifiante sans base valide et consentements applicables",
+    "Pas de collectes inutiles de données sensibles sur les enfants"
+  ],
+  "axes_localises": {
+    "saisons": [
+      "automne",
+      "hiver",
+      "printemps",
+      "été"
+    ],
+    "milieux": [
+      "quartier urbain",
+      "banlieue",
+      "village rural",
+      "milieu côtier",
+      "région forestière",
+      "Nord québécois"
+    ],
+    "institutions": [
+      "bibliothèque",
+      "école",
+      "maison de la culture",
+      "centre communautaire",
+      "marché local"
+    ],
+    "langues": [
+      "fr-CA",
+      "en-CA (lorsque pertinent)",
+      "langues présentes dans le groupe avec validation"
+    ],
+    "objets": [
+      "carton",
+      "papier récupéré",
+      "bac de jardinage",
+      "maquette",
+      "chronomètre",
+      "carte locale"
+    ],
+    "evenements": [
+      "fête des lumières fictive",
+      "portes ouvertes",
+      "expo des inventions",
+      "journée de la lecture",
+      "marché simulé"
+    ],
+    "culture_recherche": "Représentations régionales et autochtones fondées sur sources et protocoles; aucune pratique n’est présumée représentative."
+  },
+  "responsabilites": {
+    "kontexte": "définition de situation, culture, options de supports et contenu pédagogique proposé",
+    "orgo": "participants, signaux, états, informations libérées et transitions",
+    "ekole": "objectifs, preuves d’apprentissage, validateur pédagogique et historique",
+    "enseignant": "validation des correspondances et des résultats, sécurité et autorisations"
+  },
+  "statut": "pack_de_conception_valide_structurellement"
+}

@@ -1,0 +1,138 @@
+{
+  "format": "kontexte.concept-instance/1",
+  "id": "qc3-fete-sorciere",
+  "parent_trame": "fete-commune",
+  "parent_overlay": "qc3-fete-commune",
+  "lien_heritage": "La sorcière n’est qu’un theme_role; la trame neutre reste la fête commune.",
+  "roles": [
+    "sorciere",
+    "origamiste",
+    "traducteur",
+    "messager",
+    "metteur-en-scene",
+    "redacteur",
+    "lecteur",
+    "regisseur",
+    "comptable",
+    "photographe"
+  ],
+  "etape": 4,
+  "situation": "Une classe organise une fête fictive des étoiles dans un gymnase scolaire. Les invitations et les accessoires ne sont pas prêts et le matériel est partagé.",
+  "missions": [
+    {
+      "id": "accessoire",
+      "intention": "Fabriquer 3 chapeaux en pliant du papier et expliquer la symétrie",
+      "objectif": [
+        "qc3.ap.materiaux",
+        "qc3.ma.symetrie",
+        "qc3.fr.lire-consigne"
+      ],
+      "preuve": "chapeau et explication ou enregistrement local"
+    },
+    {
+      "id": "invitation",
+      "intention": "Rédiger un texte fonctionnel fr-CA avec un court message en-CA adapté",
+      "objectif": [
+        "qc3.fr.planification",
+        "qc3.fr.revision",
+        "qc3.als.ecrit"
+      ],
+      "preuve": "deux versions datées et observation orale"
+    },
+    {
+      "id": "entraide",
+      "intention": "Orgo désigne un destinataire autorisé à aider avant la livraison des invitations",
+      "objectif": [
+        "qc3.ccq.dialogue",
+        "qc3.fr.oral"
+      ],
+      "preuve": "confirmation de coopération sans contenu intime"
+    },
+    {
+      "id": "scene",
+      "intention": "Equipe de quatre: metteur en scène, rédacteur, lecteur et régisseur",
+      "objectif": [
+        "qc3.ad.scene",
+        "qc3.fr.oral",
+        "qc3.ma.duree"
+      ],
+      "preuve": "plan d’action, programme court et observation"
+    },
+    {
+      "id": "caisse",
+      "intention": "Calculer recettes et dépenses en Klownkoins fictifs, sans achat réel",
+      "objectif": [
+        "qc3.ma.addition",
+        "qc3.ma.soustraction",
+        "qc3.ma.demarche"
+      ],
+      "preuve": "registre calculable"
+    },
+    {
+      "id": "galerie",
+      "intention": "Documenter les objets sous politique de consentement explicite",
+      "objectif": [
+        "qc3.ccq.information",
+        "qc3.ccq.limites"
+      ],
+      "preuve": "fiche non publiée par défaut"
+    }
+  ],
+  "fragments": [
+    {
+      "participant": "sorciere",
+      "information": "Le spectacle réunira quatre présentateurs et commence à 13 h 30."
+    },
+    {
+      "participant": "regisseur",
+      "information": "La salle peut accueillir 5 rangées de 4 chaises avec couloir de circulation."
+    },
+    {
+      "participant": "comptable",
+      "information": "Le budget initial est de 50 Klownkoins; les trois achats de 8 Klownkoins chacun sont fictifs."
+    }
+  ],
+  "declencheurs_proposes_orgo": [
+    {
+      "condition": "les deux informations nécessaires sont arrivées et peuvent être partagées",
+      "signal": "pret_pour_preparation"
+    },
+    {
+      "condition": "le registre et le livrable sont soumis",
+      "signal": "preuve_soumise_a_ekole"
+    }
+  ],
+  "exercices": [
+    {
+      "question": "Une équipe possède 50 Klownkoins et achète 3 articles à 8 Klownkoins. Quel montant reste?",
+      "operands": [
+        50,
+        3,
+        8
+      ],
+      "operator": "subtract_product",
+      "answer": 26,
+      "unit": "Klownkoins",
+      "check": "50-(3×8)=26"
+    },
+    {
+      "question": "5 rangées contiennent 4 chaises chacune. Combien de chaises?",
+      "operands": [
+        5,
+        4
+      ],
+      "operator": "multiply",
+      "answer": 20,
+      "unit": "chaises",
+      "check": "4+4+4+4+4=20"
+    }
+  ],
+  "taxe_fictive_optionnelle": "Niveau guidé : une contribution additionnelle fixe de 2 Klownkoins. Les taxes réelles et les pourcentages ne sont pas des attentes déclarées de 3e.",
+  "publication": {
+    "default": "deny",
+    "enfant_refuse": "ne_pas_exporter_fichier_ou_tags",
+    "tags": "liens internes pseudonymisés uniquement",
+    "retrait": "propagation par service médias à construire"
+  },
+  "evaluation": "Les missions produisent des observations; l’enseignant valide selon critères et références officielles."
+}

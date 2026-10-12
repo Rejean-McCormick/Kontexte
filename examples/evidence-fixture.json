@@ -1,0 +1,7 @@
+{
+  "format":"kontexte.evidence/1",
+  "id":"event-fixture-001", "student_ref":"eleve-fixture-001", "curriculum_id":"qc-pri-ma-006",
+  "mission_id":"fete-sorciere", "step_id":"budget-final", "status":"practiced",
+  "validation_mode":"deterministic_practice", "evidence_ref":"exercice-fixture-001",
+  "support_level":"standard", "occurred_at":"2026-10-11T17:00:00-04:00"
+}

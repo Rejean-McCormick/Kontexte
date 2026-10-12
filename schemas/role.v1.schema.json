@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/kontexte/role.v1.schema.json",
+  "title": "Kontexte Role v1",
+  "type": "object",
+  "required": [
+    "format",
+    "id",
+    "name",
+    "intro",
+    "theme",
+    "actions",
+    "objects",
+    "problems",
+    "partners"
+  ],
+  "properties": {
+    "format": {
+      "const": "kontexte.role/1"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_-]{1,80}$"
+    },
+    "name": {
+      "type": "object",
+      "required": [
+        "fr-CA"
+      ],
+      "properties": {
+        "fr-CA": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "intro": {
+      "type": "object",
+      "required": [
+        "fr-CA"
+      ],
+      "properties": {
+        "fr-CA": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "theme": {
+      "enum": [
+        "sorciere",
+        "boulanger",
+        "neutral",
+        "scene"
+      ]
+    },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "maxItems": 100
+    },
+    "objects": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "maxItems": 100
+    },
+    "problems": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "maxItems": 100
+    },
+    "partners": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "maxItems": 100
+    }
+  },
+  "additionalProperties": false
+}
