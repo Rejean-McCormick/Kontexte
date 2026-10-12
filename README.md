@@ -1,113 +1,160 @@
 # Kontexte
 
-**Le cadre de situations réutilisables pour Orgo et Ekole.**
+**Reusable situations, adaptive roles, and culturally localized learning experiences — designed for Orgo and Ekole.**
 
-> Orgo orchestre les missions individuelles et collectives. Kontexte compose des rôles, situations, tensions, objets et présentations contrôlées. Ekole assure les connaissances, les exercices et les preuves des apprentissages.
+Kontexte describes *what could happen*: a situation, its actors, competing needs, resources, distributed information, potential actions, and learning opportunities. **Orgo is the sole orchestrator** of the actual work, whether a mission has one participant or an entire school. **Ekole owns educational knowledge, curriculum references, and learning evidence.**
 
-[![CI](https://img.shields.io/badge/CI-local%20tests-informational)](docs/ROADMAP.md)
+> **Project status:** experimental prototype, not a production classroom system. The Python package identifies as `0.1.0`; the repository also includes the culturally neutral scenario catalogue **v0.2** and the Québec Grade 3 design overlay **v0.3**. These are content/design versions, **not** evidence of certified curriculum coverage or end-to-end multi-student execution.
 
-**Version :** 0.1.0 — prototype fonctionnel de conception et projections. **Pas** un produit prêt à déployer avec de vraies données d'enfants ou à synchroniser plusieurs élèves en direct. Aucune connexion au ministère du Québec.
+## The idea in one diagram
 
-## Démarrage (Python 3.10+)
-
-Sous Windows PowerShell :
-
-```powershell
-cd Kontexte
-$env:PYTHONPATH = "src"
-python -m kontexte validate
-python -m kontexte site --out examples/site
-# Ouvrir examples/site/index.html dans le navigateur
-python -m unittest discover -s tests -v
+```text
+Culturally neutral scenario (the reusable problem)
+             +
+Cultural and educational overlay (e.g., Québec / Grade 3)
+             +
+Role perspective and presentation (CSS, vocabulary, artifacts)
+             |
+             v
+KONTEXTE -- defines and renders a situation; exports integration intent
+             |
+     +-------+-------+
+     |               |
+     v               v
+   ORGO             EKOLE
+   operational      knowledge, exercises,
+   states, timing,   curriculum mapping,
+   tasks, signals    and learning evidence
 ```
 
-Sous Linux/macOS :
+A **role is a perspective**, not a computer permission or an ability label. A **scenario is a reusable problem**, not a hard-coded timetable of school subjects. A situation may involve mathematics, languages, art, movement, social coordination, and media creation at once. Learners can share the same outward role while receiving different private scaffolding and challenge levels.
+
+## What is included
+
+| Component | Present in this repository | Important limit |
+| --- | --- | --- |
+| Role library | **38** JSON role definitions, including witch, baker, origami maker, scientist, messenger, stage manager, and photographer | Educational roles never grant system permissions |
+| Mission definitions | **11** mission records: one detailed interdisciplinary pilot, one solo example, nine outlines | Descriptions are not fully compiled Orgo workflows |
+| Neutral scenarios | **60** concise, culturally neutral scenario frames across ten families | Design seeds, not ready-to-run activities |
+| Québec / Grade 3 overlay | **60** localized frames, **83** internal candidate objectives, **36** proposed planning weeks, and **34** supplemental micro-situations | Planning inventory, **not** ministry-approved Grade 3 coverage |
+| Static HTML | Role-based `fr-CA` and `en` previews, escaped text, allowlisted CSS themes | Static pages are not authenticated student sessions |
+| Orgo integration | Synthetic `orgo.scenario.v1` fixture and a declarative blueprint | The fixture creates only an initial Case and preparation Task |
+| Ekole mapping | Checks internal references from the experimental 202-Kristal catalogue | Official Québec curriculum mappings remain unreviewed |
+| Other prototypes | Fictional Klownkoin calculations, consent-aware media manifest, local SQLite evidence example | No real payments, media hosting, student accounts, or official assessments |
+
+## Quick start
+
+**Requirements:** Python **3.10+**. The basic commands use the Python standard library and run locally. From the extracted repository root (`Kontexte/`):
 
 ```bash
-cd Kontexte
+# macOS / Linux
 PYTHONPATH=src python -m kontexte validate
-PYTHONPATH=src python -m kontexte site --out examples/site
+PYTHONPATH=src python -m kontexte list
+PYTHONPATH=src python -m kontexte site --out examples/site --lang en
 PYTHONPATH=src python -m unittest discover -s tests -v
 ```
 
-Installation optionnelle avec `pip install -e .`, puis commande `kontexte` disponible.
+```powershell
+# Windows PowerShell
+$env:PYTHONPATH = "src"
+python -m kontexte validate
+python -m kontexte list
+python -m kontexte site --out examples/site --lang en
+python -m unittest discover -s tests -v
+```
 
-## Fonctionnalités effectivement présentes
+Open `examples/site/index.html` locally. Some interface labels and source content remain in Canadian French; `--lang en` selects translated values **where they exist** and may fall back to `fr-CA`. It does not automatically translate or validate text.
 
-- **38 rôles** (Sorcière, Boulanger, Origamiste, Chevalier, Scientifique, Traducteur, Régisseur, etc.) : fiches JSON validées, habitudes et objets, thèmes CSS autorisés.
-- **11 missions** : *La fête de la sorcière* interdisciplinaire détaillée, *Le chaudron des mesures* solo et neuf ébauches transversales.
-- **Compilateur HTML statique** (`site`, `preview`) pour Français canadien / anglais, contenus textuels échappés et fragments cachés par défaut.
-- **Export vers Orgo** : scénario synthétique compatible `orgo.scenario.v1` créé par `orgo-fixture`, validé par l'injecteur Orgo fourni. Il crée seulement un **Case et une tâche de préparation**, et non encore la mission complète.
-- **Rapport Ekole** (`curriculum`) basé sur les 202 identifiants internes du catalogue expérimental; aucune correspondance PFEQ présentée comme certifiée.
-- **Calculs** pour invitations, lanternes, budgets en Klownkoins, taxes strictement fictives.
-- **Règles de consentement** pour produire une liste de médias publiables ou refuser la publication; aucun fichier photo distribué.
-- **Exemple local SQLite** de journal de preuves avec identités factices; n'est pas un carnet de notes de production.
+Optionally install the package with `python -m pip install -e .` and use `kontexte` instead of `python -m kontexte`.
 
-## Commandes essentielles
+### Try one mission
 
 ```bash
-# Pages HTML pour tous les rôles et missions
-python -m kontexte site --out examples/site
+# Show one role's public-safe preview
+PYTHONPATH=src python -m kontexte preview fete-sorciere --role sorciere --lang en --out /tmp/witch.html
 
-# Page d'un rôle; aucune information secrète révélée
-python -m kontexte preview fete-sorciere --role sorciere --out examples/sorciere.html
+# Export a proposed workflow blueprint (NOT executable)
+PYTHONPATH=src python -m kontexte orgo-blueprint fete-sorciere --out /tmp/witch.blueprint.json
 
-# Page avec indices simulés : UNIQUEMENT en environnement de développement fictif
-python -m kontexte preview fete-sorciere --role sorciere --demo-fragments --out examples/private-demo.html
+# Export a minimal synthetic fixture recognized by the Orgo scenario injector
+PYTHONPATH=src python -m kontexte orgo-fixture fete-sorciere --out /tmp/witch.scenario.json
 
-# Schéma d'intentions de mission (NON exécutable comme workflow)
-python -m kontexte orgo-blueprint fete-sorciere --out integrations/orgo/fete-sorciere.blueprint.json
-
-# Fixture reconnue par l'injecteur Orgo officiel
-python -m kontexte orgo-fixture fete-sorciere --out integrations/orgo/fete-sorciere.scenario.json
-
-# Liens candidats avec les cours du catalogue Ekole
-python -m kontexte curriculum fete-sorciere --out integrations/ekole/fete-sorciere.curriculum-links.json
-
-# Calcul de monnaie entièrement fictive
-python -m kontexte bill --input examples/klownkoins.json --out examples/reports/klownkoins-result.json
-
-# Consentement de test refusé : résultat masqué (aucune URL publique)
-python -m kontexte privacy --input examples/consent-refusal.json --out examples/reports/media-result.json
-
-# Preuve : UNIQUEMENT données de simulation anonymes, stockage de développement
-python -m kontexte evidence-add --input examples/evidence-fixture.json --db examples/reports/dev.sqlite
-python -m kontexte evidence-report --db examples/reports/dev.sqlite --student eleve-fixture-001 --out examples/reports/evidence-result.json
+# Export candidate internal curriculum links; not official PFEQ identifiers
+PYTHONPATH=src python -m kontexte curriculum fete-sorciere --out /tmp/witch.curriculum.json
 ```
 
-## Orgo Scenario Injector
+The special `preview --demo-fragments` flag exposes **fictional** role-held information for offline development only; **never** use it to serve real participants. Orgo is expected to authorize disclosure in a future secure runtime.
 
-Dans le **dépôt Orgo fourni séparément** :
+### Run the local utilities
 
 ```bash
-node tools/scenario-injector/cli.mjs validate /chemin/Kontexte/integrations/orgo/fete-sorciere.scenario.json
-node tools/scenario-injector/cli.mjs plan /chemin/Kontexte/integrations/orgo/fete-sorciere.scenario.json
+PYTHONPATH=src python -m kontexte bill --input examples/klownkoins.json --out /tmp/bill.json
+PYTHONPATH=src python -m kontexte privacy --input examples/consent-refusal.json --out /tmp/privacy.json
+
+# Fake participant IDs and a development-only SQLite database
+PYTHONPATH=src python -m kontexte evidence-add --input examples/evidence-fixture.json --db /tmp/kontexte-dev.sqlite
+PYTHONPATH=src python -m kontexte evidence-report --db /tmp/kontexte-dev.sqlite --student eleve-fixture-001 --out /tmp/evidence.json
 ```
 
-L'injection `--apply` est une action mutante : elle doit être volontaire, limitée à un monde de test et administrée par une personne autorisée. Aucune injection automatique n'est exécutée par Kontexte.
+## The Québec Grade 3 extension
 
-## Carte du dépôt
+The neutral catalogue remains unchanged at `data/trames/catalogue-neutral-v0.2.json`. The localization layer at `data/locales/qc/fr-CA/grade3/` refers back to each parent scenario by `base_trame_id`, with catalogue and per-scenario checksums.
 
+Its **60 overlays** describe Québec contexts, objects, materials, practical tasks, information fragments, and *candidate* educational goals. An indicative **36-week** planning sequence and **34** supplemental micro-situations are included. This is not 36 weeks of fully scripted lessons, and the internal 83-objective inventory is not an official list of ministry requirements.
+
+Read [README_QC3.md](README_QC3.md) and the [Québec Grade 3 wiki page](wiki/Quebec-Grade-3.md).
+
+## Orgo and Ekole integration
+
+- **Orgo:** owns `Case`, `Task`, `Signal`, `WorkflowVersion`, release of information, participant coordination, and operational transitions. Kontexte exports synthetic initialization data and design intent; it **does not** run a competing mission state machine.
+- **Orgo_Worlds:** provides versioned world/release context, distinct from Orgo task state.
+- **Ekole:** supplies the experimental internal Kristal identifiers, exercises, and the future authorized evidence and curriculum mapping service. Completing an Orgo task **does not imply** mastery of a school competency.
+
+To check a generated fixture from the **separate Orgo checkout**:
+
+```bash
+node tools/scenario-injector/cli.mjs validate /path/to/witch.scenario.json
+node tools/scenario-injector/cli.mjs plan /path/to/witch.scenario.json
 ```
+
+Applying a fixture mutates Orgo state; never run `--apply` except in an authorized synthetic/test world. No actual Orgo instance is started automatically by Kontexte.
+
+## Repository layout
+
+```text
 Kontexte/
-├── src/kontexte/         # Python: validation, rendu, Orgo, Ekole, preuves, média, calculs
-├── data/roles/           # 38 rôles normalisés
-├── data/missions/        # 11 missions, scénario pilote et esquisses
-├── data/catalogue/       # catalogue Ekole interne 202 et graphe fourni
-├── schemas/              # JSON Schema nouveaux
-├── integrations/orgo/    # fixture officielle + blueprint déclaratif
-├── integrations/ekole/   # rapprochements pédagogiques candidats
-├── examples/site/        # 38 pages HTML sans informations privées
-├── tests/                # tests unitaires hors ligne
-├── docs/                 # architecture, limites, feuille de route
-└── docs/ekole-orgo/      # documentation complète de l'upgrade v1.1 conservée
+├── src/kontexte/                 Python validators, renderers, adapters, utilities
+├── schemas/                      Role and mission JSON Schema
+├── data/roles/                   38 role definitions
+├── data/missions/                11 mission definitions
+├── data/trames/                  Neutral v0.2 catalogue (60 frames)
+├── data/locales/qc/fr-CA/grade3/  Québec Grade 3 v0.3 overlay and planning
+├── data/catalogue/               Experimental Ekole reference data
+├── integrations/orgo/            Synthetic fixture and design blueprint
+├── integrations/ekole/           Candidate curriculum mappings
+├── examples/                     Local demos and fictional fixtures
+├── teacher-only/qc3/             Answers / educator materials: NEVER export to students
+├── tests/                        Python unit tests
+├── docs/                         Technical docs and archived Ekole–Orgo upgrade plan
+└── wiki/                         English GitHub Wiki source pages
 ```
 
-## Statut et précautions
+## Documentation
 
-- **Non fait** : compilation intégrale des dépendances/infos vers Orgo, autorisations de fragments distribuées à des comptes réels, prises en charge de classe, galerie permanente et consentement révocable en production, authentification d'une école, rapport officiel à un ministère.
-- Ne jamais considérer `Task COMPLETED` comme équivalent à une compétence maîtrisée.
-- Les 202 Kristals proviennent du snapshot utilisateur, sont de **statut pédagogique expérimental** et ne valent pas certification ministérielle.
-- Les fichiers existants Ekole/Orgo n'ont pas été modifiés. Ce dépôt est une application de conception séparée.
+Start with the **[English Wiki](wiki/Home.md)** for the conceptual guide, authoring conventions, localization, safety, and the current roadmap. The standalone files in `wiki/` can be pushed to a separate GitHub Wiki repository; GitHub **does not automatically publish** a repository's `wiki/` directory as its Wiki. See [Publishing the Wiki](wiki/Publishing-the-Wiki.md).
 
-Voir [docs/README.md](docs/README.md) et [ROADMAP](docs/ROADMAP.md) pour la suite.
+Additional materials: [Technical docs](docs/README.md) · [Orgo integration](wiki/Orgo-Integration.md) · [Ekole curriculum and evidence](wiki/Ekole-Curriculum-and-Evidence.md) · [Québec Grade 3](wiki/Quebec-Grade-3.md) · [Contributing](CONTRIBUTING.md).
+
+## Safety and project limitations
+
+**Not ready for real children or production institutions.** There is no authenticated classroom session, real multi-user information-release mechanism, permanent private media service, consent withdrawal/purge workflow, or official ministry reporting. Sample work, identifiers and currency must remain fictional.
+
+Do not export `teacher-only/`, answer keys, student records, or other participants' hidden fragments. Consent denial must prevent **the original file, thumbnails, embedded metadata and identifying tags** from becoming publicly accessible: a CSS blur is not privacy protection. Real-world student movement and physical activity require educator supervision.
+
+## License and contribution status
+
+**No repository-wide license has been granted.** See [LICENSE-POLICY.md](LICENSE-POLICY.md) before copying, redistributing, or accepting third-party contributions. References to Orgo, Orgo_Worlds and Ekole do not grant rights to those projects or their source material.
+
+---
+
+**One sentence:** *Kontexte defines the experience; Orgo orchestrates what happens; Ekole documents what was learned.*

@@ -1,11 +1,27 @@
-# Documentation Kontexte
+# Kontexte — Technical documentation index
 
-- [ARCHITECTURE.md](ARCHITECTURE.md) : vue d'ensemble et frontières d'autorité.
-- [CONTRATS.md](CONTRATS.md) : modèles, formats, HTML, langues et fragments.
-- [ORGO.md](ORGO.md) : utilisation de l'injecteur Orgo actuel, écarts et extensions nécessaires.
-- [EKOLE.md](EKOLE.md) : contrat d'évaluation et programme québécois.
-- [PILOTE_FETE_SORCIERE.md](PILOTE_FETE_SORCIERE.md) : mission interdisciplinaire complète.
-- [SECURITE_ET_MEDIAS.md](SECURITE_ET_MEDIAS.md) : données d'enfants, tags et permission de publier.
-- [ROADMAP.md](ROADMAP.md) : déploiement progressif et points non implémentés.
-- [decisions/ADR-001-ORGO-CANONIQUE.md](decisions/ADR-001-ORGO-CANONIQUE.md) : décision principale.
-- [ekole-orgo/](ekole-orgo/) : documentation d'upgrade Ekole–Orgo v1.1 conservée de la discussion, en archives documentaires.
+The **English GitHub Wiki source** lives in [`../wiki/Home.md`](../wiki/Home.md), with topic pages for new contributors, scenario authors, educators, and integrators.
+
+This `docs/` directory contains the original French design notes and the archived Ekole–Orgo upgrade specification. They are retained for technical provenance; the wiki is the primary English-language overview. Do not interpret a proposed interface documented in these design notes as a shipped feature.
+
+## Original technical notes (French)
+
+- [ARCHITECTURE.md](ARCHITECTURE.md) — separation of Orgo, Kontexte and Ekole responsibilities.
+- [CONTRATS.md](CONTRATS.md) — JSON contracts, fragment release, adaptation and HTML safety.
+- [ORGO.md](ORGO.md) — tested synthetic injector fixture and missing Orgo capabilities.
+- [EKOLE.md](EKOLE.md) — curriculum mapping and evidence states.
+- [PILOTE_FETE_SORCIERE.md](PILOTE_FETE_SORCIERE.md) — witch celebration pilot.
+- [SECURITE_ET_MEDIAS.md](SECURITE_ET_MEDIAS.md) — privacy, consent, media and fictional student identifiers.
+- [ROADMAP.md](ROADMAP.md) — staged roadmap and missing production work.
+- [decisions/ADR-001-ORGO-CANONIQUE.md](decisions/ADR-001-ORGO-CANONIQUE.md) — Orgo as the sole orchestrator.
+- [ekole-orgo/](ekole-orgo/) — original complete Ekole–Orgo v1.1 upgrade documentation and schema examples.
+- [locales/qc3/](locales/qc3/) — original Québec Grade 3 localization, sources, and pedagogical validation notes.
+
+## English starting points
+
+- [Wiki home](../wiki/Home.md)
+- [Architecture](../wiki/Architecture.md)
+- [Scenario catalogue](../wiki/Scenario-Catalogue.md)
+- [Québec Grade 3](../wiki/Quebec-Grade-3.md)
+- [Integration status](../wiki/Orgo-Integration.md)
+- [Security and privacy](../wiki/Privacy-and-Media.md)

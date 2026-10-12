@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "kontexte"
 version = "0.1.0"
-description = "Bibliothèque de situations et de projections pédagogiques pour Orgo et Ekole"
+description = "Reusable situations and educational projections for Orgo and Ekole"
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "License pending: see LICENSE-POLICY.md"}
