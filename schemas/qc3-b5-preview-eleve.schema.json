@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/kontexte/qc3-b5-preview-eleve.schema.json",
+  "title": "Kontexte B5 — Aperçu élève fictif non publié",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["format", "id", "audience", "statut", "titre", "niveau", "intro", "tache", "mode_solo_sans_fragments", "mission_collective", "roles", "objectifs_candidats", "provenance"],
+  "properties": {
+    "format": {"const": "kontexte.b5-preview-eleve/1"},
+    "id": {"type": "string"},
+    "audience": {"const": "student_preview"},
+    "statut": {"const": "prototype_pour_relecture_non_publie"},
+    "titre": {"type": "string"},
+    "niveau": {"const": "primaire-3"},
+    "intro": {"type": "string"},
+    "tache": {"type": "string"},
+    "mode_solo_sans_fragments": {
+      "type": "object", "additionalProperties": false,
+      "required": ["indication", "plateaux", "pains_par_plateau", "question", "aide_publique", "statut"],
+      "properties": {
+        "indication": {"type": "string"}, "plateaux": {"type": "integer", "minimum": 1},
+        "pains_par_plateau": {"type": "integer", "minimum": 1}, "question": {"type": "string"},
+        "aide_publique": {"type": "string"}, "statut": {"const": "simulation_solo_sans_etat_orgo"}
+      }
+    },
+    "mission_collective": {
+      "type": "object", "additionalProperties": false,
+      "required": ["statut", "message"],
+      "properties": {"statut": {"const": "description_seulement_ne_pas_lancer_sans_orgo"}, "message": {"type": "string"}}
+    },
+    "roles": {
+      "type": "array", "items": {
+        "type": "object", "additionalProperties": false, "required": ["id", "nom", "description"],
+        "properties": {"id": {"type": "string"}, "nom": {"type": "string"}, "description": {"type": "string"}}
+      }
+    },
+    "objectifs_candidats": {
+      "type": "array", "items": {
+        "type": "object", "additionalProperties": false, "required": ["id", "notion"],
+        "properties": {"id": {"type": "string"}, "notion": {"type": "string"}}
+      }
+    },
+    "provenance": {"type": "object", "required": ["base_trame_id", "overlay_id", "parent_catalogue_sha256", "parent_trame_sha256", "semaine_indicative"]}
+  }
+}

@@ -1,3 +1,5 @@
+> **Interactive browsing:** start the [Kontexte 0.4 Local Scenario Studio](docs/RELEASE_0_4.md) to explore the 60 Québec Grade 3 frames. The curricular mappings are still candidates, not approved.
+
 # Kontexte — Québec Grade 3 Extension (v0.3)
 
 This repository extends Kontexte's **60 culturally neutral scenario frames** with a **Québec / Canadian French / Grade 3 design overlay**. It is a localized planning and content layer, not a new mission runtime or an officially certified school curriculum.

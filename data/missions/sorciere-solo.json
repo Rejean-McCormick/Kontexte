@@ -38,7 +38,7 @@
       "kind": "object",
       "depends_on": [],
       "curriculum_ids": [
-        "qc-pri-ma-006"
+        "qc-pri-ma-008"
       ],
       "validation": "deterministic_practice"
     },

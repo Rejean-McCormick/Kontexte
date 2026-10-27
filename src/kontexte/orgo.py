@@ -52,3 +52,52 @@ def integration_manifest(mission: dict) -> dict:
         "proposed_joins": mission["joins"],
         "status": "requires_generic_orgo_capabilities_and_review"
     }
+
+
+def synthetic_review_workflow_fixture(mission: dict, *, label: str = '2.11') -> dict:
+    """Orgo workflow + Signal which creates SYNTHETIC review tasks in Orgo.
+
+    This is genuine Orgo workflow design for preparation, NOT conditional learning:
+    there are no Orgo joins, recipient-specific secret releases or auto-approval.
+    Each step is clearly marked pending review; it is NOT assigned to a pupil.
+    """
+    check(bool(re.fullmatch(r'[1-9]\d*\.[1-9][1-5](?:\.[A-Za-z0-9]+)*',label)), 'label Orgo invalide')
+    key=slug(mission['id']).replace('-','_')
+    digest=hashlib.sha256(json.dumps(mission,ensure_ascii=False,sort_keys=True).encode()).hexdigest()[:10]
+    workflow_code=f'kontexte_{key}_{digest}'
+    actions=[{
+        'type':'CREATE_CASE',
+        'input':{'title':'$signal.title','description':'$signal.description',
+                 'label':'$signal.label','severity':'$signal.severity',
+                 'metadata':{'synthetic':True,'mission_id':mission['id'],
+                             'pending_pedagogical_review':True,'kontexte_version':'0.4.0'}}}]
+    for step in mission['steps']:
+        actions.append({'type':'CREATE_TASK','input':{
+            'title':'[REVIEW] '+step['id']+' — '+step['role'],
+            'description':step['instruction']['fr-CA']+'\nTâche de conception. Ne pas attribuer à un élève. Dépendances et information privée non activées.',
+            'label':'$signal.label', 'type':'education_pilot','category':'request',
+            'case_id':'$case','priority':'LOW',
+            'metadata':{'synthetic':True,'mission_id':mission['id'],'step_id':step['id'],
+                        'suggested_role':step['role'],'depends_on_design_only':step['depends_on'],
+                        'pending_workflow_review':True,'private_fragments_embedded':False}}})
+    check(len(actions)<=50,'trop d’actions pour une règle Orgo')
+    return {'schema_version':'orgo.scenario.v1',
+        'scenario':{'id':f'kontexte_workflow_{key}_{digest}',
+                    'title':'SYNTHETIC review — '+mission['title']['fr-CA'],
+                    'description':'Orgo creates review tasks, not student missions or conditionally unlocked clues.',
+                    'synthetic':True,'epistemic_status':'synthetic_demo_fixture',
+                    'correlation_id':f'kontexte.review.{key}.{digest}'},
+        'operations':[
+            {'op':'publish_workflow','ref':'workflow.kontexte','code':workflow_code,
+             'content':{'rules':[{'id':'kontexte_synthetic_review','enabled':True,
+                    'match':{'source':'API','type':'kontexte_synthetic_review'},'actions':actions}]}},
+            {'op':'create_signal','ref':'signal.kontexte','workflow_ref':'workflow.kontexte',
+             'input':{'source':'api','external_reference':f'kontexte:review:{key}:{digest}',
+                      'type':'kontexte_synthetic_review','category':'request',
+                      'classification':'synthetic_review_only','severity':'MINOR','label':label,
+                      'title':'[SYNTHETIC REVIEW] '+mission['title']['fr-CA'],
+                      'description':'Review-only pilot. No real children, no private clues, no automatic learner assignment.',
+                      'payload':{'synthetic':True,'epistemic_status':'synthetic_demo_fixture',
+                                 'mission_id':mission['id'],'contains_personal_data':False}}},
+            {'op':'wait_signal','signal_ref':'signal.kontexte','timeout_seconds':15}
+        ]}

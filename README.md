@@ -2,9 +2,11 @@
 
 **Reusable situations, adaptive roles, and culturally localized learning experiences — designed for Orgo and Ekole.**
 
+> **NEW in Kontexte 0.4:** run the interactive, teacher-only **Local Scenario Studio** with `START_KONTEXTE.bat` (Windows) or `./start_kontexte.sh` (macOS/Linux). Open `http://127.0.0.1:8769/` to browse the 60 Québec frames, simulate a solo or paired mission, calculate fictional Klownkoins and record synthetic practice evidence. See [Release 0.4](docs/RELEASE_0_4.md) and the [Studio wiki guide](wiki/Local-Scenario-Studio.md). This is **not** an authenticated classroom app or a second Orgo orchestrator.
+
 Kontexte describes *what could happen*: a situation, its actors, competing needs, resources, distributed information, potential actions, and learning opportunities. **Orgo is the sole orchestrator** of the actual work, whether a mission has one participant or an entire school. **Ekole owns educational knowledge, curriculum references, and learning evidence.**
 
-> **Project status:** experimental prototype, not a production classroom system. The Python package identifies as `0.1.0`; the repository also includes the culturally neutral scenario catalogue **v0.2** and the Québec Grade 3 design overlay **v0.3**. These are content/design versions, **not** evidence of certified curriculum coverage or end-to-end multi-student execution.
+> **Project status:** experimental prototype, not a production classroom system. The Python package identifies as `0.4.0`; the repository also includes the culturally neutral scenario catalogue **v0.2** and the Québec Grade 3 design overlay **v0.3**. These are content/design versions, **not** evidence of certified curriculum coverage or end-to-end multi-student execution.
 
 ## The idea in one diagram
 
@@ -37,10 +39,15 @@ A **role is a perspective**, not a computer permission or an ability label. A **
 | Mission definitions | **11** mission records: one detailed interdisciplinary pilot, one solo example, nine outlines | Descriptions are not fully compiled Orgo workflows |
 | Neutral scenarios | **60** concise, culturally neutral scenario frames across ten families | Design seeds, not ready-to-run activities |
 | Québec / Grade 3 overlay | **60** localized frames, **83** internal candidate objectives, **36** proposed planning weeks, and **34** supplemental micro-situations | Planning inventory, **not** ministry-approved Grade 3 coverage |
+| Local Studio 0.4 | Loopback teacher/developer rehearsal for 60 overlays, 15 arithmetic checks, solo/duo tasks, imaginary finances and synthetic evidence | No student accounts, real clue security, or task orchestrator |
 | Static HTML | Role-based `fr-CA` and `en` previews, escaped text, allowlisted CSS themes | Static pages are not authenticated student sessions |
 | Orgo integration | Synthetic `orgo.scenario.v1` fixture and a declarative blueprint | The fixture creates only an initial Case and preparation Task |
 | Ekole mapping | Checks internal references from the experimental 202-Kristal catalogue | Official Québec curriculum mappings remain unreviewed |
 | Other prototypes | Fictional Klownkoin calculations, consent-aware media manifest, local SQLite evidence example | No real payments, media hosting, student accounts, or official assessments |
+
+## One-click Windows launch
+
+Double-click `START_KONTEXTE.bat` from the extracted repo. It checks Python, starts the local Studio and opens your browser. `TEST_KONTEXTE.bat` runs automated tests; `GENERER_SITE.bat` regenerates the static previews; `CHECK_ORGO_FIXTURE.bat` validates the approved test fixture if `ORGO_ROOT` points to an Orgo checkout. All launchers are included, see [Release 0.4](docs/RELEASE_0_4.md).
 
 ## Quick start
 
@@ -96,6 +103,8 @@ PYTHONPATH=src python -m kontexte evidence-add --input examples/evidence-fixture
 PYTHONPATH=src python -m kontexte evidence-report --db /tmp/kontexte-dev.sqlite --student eleve-fixture-001 --out /tmp/evidence.json
 ```
 
+**B5 Québec Grade 3 update (isolated):** new audit/export commands `qc3-audit-b5` and `qc3-pilot-b5` produce a complete traceable candidate index and separate teacher-only/student-preview bakery materials. See [B5 documentation](docs/B5_KONTEXTE_3E.md). No real Orgo execution, student publication, or official program certification.
+
 ## The Québec Grade 3 extension
 
 The neutral catalogue remains unchanged at `data/trames/catalogue-neutral-v0.2.json`. The localization layer at `data/locales/qc/fr-CA/grade3/` refers back to each parent scenario by `base_trame_id`, with catalogue and per-scenario checksums.
@@ -103,6 +112,10 @@ The neutral catalogue remains unchanged at `data/trames/catalogue-neutral-v0.2.j
 Its **60 overlays** describe Québec contexts, objects, materials, practical tasks, information fragments, and *candidate* educational goals. An indicative **36-week** planning sequence and **34** supplemental micro-situations are included. This is not 36 weeks of fully scripted lessons, and the internal 83-objective inventory is not an official list of ministry requirements.
 
 Read [README_QC3.md](README_QC3.md) and the [Québec Grade 3 wiki page](wiki/Quebec-Grade-3.md).
+
+## Tandem P1 — export enseignant Ekole (sans Orgo actif)
+
+La commande `ekole-tandem-preview` génère un JSON strict `ekole.tandem-teacher-preview/1.0` pour un **aperçu uniquement synthétique**, sans indice privé ni élève réel. Orgo conserve toute autorité sur la création, l’affectation et les transitions opérationnelles. Voir [le contrat P1](docs/ekole-orgo/TANDEM_P1_EKOLE_PREVIEW_EXPORT.md).
 
 ## Orgo and Ekole integration
 

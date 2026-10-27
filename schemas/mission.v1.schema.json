@@ -227,7 +227,8 @@
               "type": "string",
               "pattern": "^[a-z][a-z0-9_-]{1,80}$"
             },
-            "minItems": 2
+            "minItems": 2,
+            "uniqueItems": true
           },
           "unlock_step": {
             "type": "string",

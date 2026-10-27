@@ -37,14 +37,20 @@ def validate_event(event: dict, catalogue: dict[str,dict]) -> dict:
     return event
 
 def init_db(path: str | Path) -> None:
-    with sqlite3.connect(path) as db: db.execute(DDL)
+    db=sqlite3.connect(path)
+    try:
+        db.execute(DDL)
+        db.commit()
+    finally:
+        db.close()
 
 def record(path: str | Path, event: dict, catalogue: dict[str,dict]) -> bool:
     validate_event(event, catalogue)
     init_db(path)
     serialized = json.dumps(event, sort_keys=True, ensure_ascii=False)
     digest = hashlib.sha256(serialized.encode()).hexdigest()
-    with sqlite3.connect(path) as db:
+    db=sqlite3.connect(path)
+    try:
         old = db.execute("SELECT payload_hash FROM evidence WHERE id=?", (event["id"],)).fetchone()
         if old:
             check(old[0] == digest, "collision idempotency: même id, événement différent")
@@ -53,10 +59,16 @@ def record(path: str | Path, event: dict, catalogue: dict[str,dict]) -> bool:
             event["id"], event["student_ref"], event["curriculum_id"], event["mission_id"], event["step_id"], event["status"],
             event["validation_mode"], event.get("reviewer_ref"), event["evidence_ref"], event["support_level"],
             event["occurred_at"], digest))
-    return True
+        db.commit()
+        return True
+    finally:
+        db.close()
 
 def list_events(path: str | Path, student_ref: str) -> list[dict]:
     require_id(student_ref, "student_ref")
-    with sqlite3.connect(path) as db:
+    db=sqlite3.connect(path)
+    try:
         db.row_factory = sqlite3.Row
         return [dict(row) for row in db.execute("SELECT * FROM evidence WHERE student_ref=? ORDER BY occurred_at,id", (student_ref,))]
+    finally:
+        db.close()

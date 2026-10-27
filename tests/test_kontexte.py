@@ -25,6 +25,27 @@ class ContentTest(unittest.TestCase):
  def test_mission_cycles_fail(self):
   m=deepcopy(self.missions['sorciere-solo']);m['steps'][0]['depends_on']=['expliquer']
   with self.assertRaises(KontexteError):validate_mission(m,self.catalog)
+ def test_join_contract_rejects_invalid_or_duplicate_fragments(self):
+  source=self.missions['fete-sorciere']
+  malformed=[None, 'besoin-invitations', ['besoin-invitations'],
+             ['besoin-invitations','besoin-invitations'],
+             ['besoin-invitations','absent'],
+             ['besoin-invitations',None]]
+  for fragments in malformed:
+   with self.subTest(fragments=fragments),self.assertRaises(KontexteError):
+    m=deepcopy(source);m['joins'][0]['fragment_ids']=fragments
+    validate_mission(m,self.catalog)
+ def test_join_contract_rejects_missing_and_duplicate_join_ids(self):
+  source=self.missions['fete-sorciere']
+  for value in (None, [], 'invalid'):
+   with self.subTest(value=value),self.assertRaises(KontexteError):
+    m=deepcopy(source);m['joins'][0]=value
+    validate_mission(m,self.catalog)
+  m=deepcopy(source);m['joins'][1]['id']=m['joins'][0]['id']
+  with self.assertRaises(KontexteError):validate_mission(m,self.catalog)
+ def test_grade_boolean_is_not_a_school_year(self):
+  m=deepcopy(self.missions['fete-sorciere']);m['year_suggestion']=True
+  with self.assertRaises(KontexteError):validate_mission(m,self.catalog)
  def test_missing_reference_fails(self):
   m=deepcopy(self.missions['sorciere-solo']);m['steps'][0]['curriculum_ids']=['qc-pri-ma-99999']
   with self.assertRaises(KontexteError):validate_mission(m,self.catalog)

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/kontexte/qc3-b5-plan-enseignant.schema.json",
+  "title": "Kontexte B5 — Plan de préparation réservé à l'enseignant",
+  "type": "object",
+  "required": ["format", "id", "audience", "statut", "titre", "source_origine", "niveau", "semaine_indicative", "roles_suggeres", "objectifs_candidats", "kristals_candidats", "scenario_complet_source", "etapes_suggerees", "preuves_proposees", "restrictions", "provenance"],
+  "properties": {
+    "format": {"const": "kontexte.b5-plan-enseignant/1"},
+    "id": {"type": "string"},
+    "audience": {"const": "teacher_only"},
+    "statut": {"const": "prototype_a_valider_humainement"},
+    "titre": {"type": "string"},
+    "source_origine": {"type": "object"},
+    "niveau": {"const": "primaire-3"},
+    "semaine_indicative": {"const": 10},
+    "roles_suggeres": {"type": "array", "minItems": 1},
+    "objectifs_candidats": {"type": "array", "minItems": 1},
+    "kristals_candidats": {"type": "object"},
+    "scenario_complet_source": {"type": "object", "required": ["plateaux", "pains_par_plateau", "fragments_prives_a_distribuer_uniquement_par_orgo", "correction_reservee"]},
+    "etapes_suggerees": {"type": "array", "minItems": 1},
+    "preuves_proposees": {"type": "array"},
+    "restrictions": {"type": "array"},
+    "provenance": {"type": "object"}
+  }
+}

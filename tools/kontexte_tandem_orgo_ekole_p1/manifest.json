@@ -1,0 +1,80 @@
+{
+  "id": "kontexte_tandem_orgo_ekole_p1",
+  "title": "KONTEXTE / TANDEM / ORGO / EKOLE / P1",
+  "sentinel": "src/kontexte/cli.py",
+  "test_copy": [
+    "README.md",
+    "src",
+    "tests",
+    "data",
+    "examples",
+    "docs",
+    "teacher-only",
+    "schemas"
+  ],
+  "commands": [
+    [
+      "-m",
+      "compileall",
+      "-q",
+      "src",
+      "tests"
+    ],
+    [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-q"
+    ],
+    [
+      "-m",
+      "kontexte",
+      "validate"
+    ],
+    [
+      "-m",
+      "kontexte",
+      "ekole-tandem-preview",
+      "fete-sorciere",
+      "--tenant-id",
+      "11111111-1111-4111-8111-111111111111",
+      "--world-id",
+      "22222222-2222-4222-8222-222222222222",
+      "--world-release-id",
+      "33333333-3333-4333-8333-333333333333",
+      "--workflow-ref",
+      "fete-sorciere-v1",
+      "--out",
+      "temp-teacher-preview.json"
+    ]
+  ],
+  "entries": [
+    {
+      "path": "README.md",
+      "old": "c7b2584bd77d19a2b286582d119ba6535abd79ef9f0708f7a5571d71327dfb81",
+      "new": "262c5fbf74dfa02de9a795eaf734fb65a8b036ac37071e3241868bb5a1f57861"
+    },
+    {
+      "path": "src/kontexte/cli.py",
+      "old": "999e69b8343cac85cb6052477b6d31aa43d6c725eee79aaa60f51ea69b012c37",
+      "new": "ca80322629387ba17095e8a1b766fcc055fe1c4a79237e4e6fe242bf06c26123"
+    },
+    {
+      "path": "src/kontexte/tandem.py",
+      "old": null,
+      "new": "2482b97fcdf1a6ee7a802c30320eabaa07d41769b9033a843281a84bc50583ea"
+    },
+    {
+      "path": "tests/test_tandem_ekole_handoff.py",
+      "old": null,
+      "new": "a00215fca6e320b1dedf58cc872eeb221b7e425179df7083f58d48d35efa1fff"
+    },
+    {
+      "path": "docs/ekole-orgo/TANDEM_P1_EKOLE_PREVIEW_EXPORT.md",
+      "old": null,
+      "new": "8e38846aa371eb9ec1182133e1dbd70128d5f4949910eec90f65e3cf2b6d2396"
+    }
+  ]
+}

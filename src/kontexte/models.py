@@ -30,7 +30,7 @@ def validate_mission(mission: dict, catalog: dict | None = None) -> dict:
     require_text(mission.get("version"), "mission.version", 40)
     localized(mission.get("title"), "mission.title")
     localized(mission.get("fiction"), "mission.fiction")
-    check(isinstance(mission.get("year_suggestion"), int) and 1 <= mission["year_suggestion"] <= 6, "année entre 1 et 6")
+    check(type(mission.get("year_suggestion")) is int and 1 <= mission["year_suggestion"] <= 6, "année entre 1 et 6")
     roles = require_list(mission, "roles")
     for role in roles: require_id(role, "mission.roles")
     unique(roles, "roles")
@@ -61,10 +61,17 @@ def validate_mission(mission: dict, catalog: dict | None = None) -> dict:
         check(f.get("visibility") in {"participant", "teacher"}, "visibilité fragment invalide")
     unique(fids, "fragments")
     joins = require_list(mission, "joins")
+    join_ids = []
     for j in joins:
-        require_id(j.get("id"), "join.id")
-        check(len(j.get("fragment_ids", [])) >= 2 and all(fid in fids for fid in j["fragment_ids"]), "join fragments inconnus")
+        check(isinstance(j, dict), "join: objet requis")
+        join_ids.append(require_id(j.get("id"), "join.id"))
+        fragment_ids = j.get("fragment_ids")
+        check(isinstance(fragment_ids, list) and len(fragment_ids) >= 2
+              and all(isinstance(fid, str) and fid in fids for fid in fragment_ids),
+              "join fragments inconnus ou invalides")
+        unique(fragment_ids, "fragments de jointure")
         check(j.get("unlock_step") in ids, "join unlock_step inconnu")
+    unique(join_ids, "jointures")
     adaptation = mission.get("adaptation")
     check(isinstance(adaptation, dict) and set(adaptation) == {"accompagne", "standard", "approfondi"}, "trois profils requis")
     for a in adaptation.values():

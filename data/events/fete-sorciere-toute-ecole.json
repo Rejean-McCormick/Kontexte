@@ -1,0 +1,22 @@
+{
+  "format": "kontexte.school-event-frame/1",
+  "id": "fete-sorciere-toute-ecole",
+  "parent_neutral_trame_id": "fete-commune",
+  "localized_overlay_id": "qc3-fete-commune",
+  "status": "proposed_multigrade_example_not_executable_workflow",
+  "scope": {"mode":"whole_school","levels":["maternelle","primaire-1","primaire-2","primaire-3","primaire-4","primaire-5","primaire-6"]},
+  "orgo_contract": "Orgo owns assignments, conditional information release, deadlines, transitions and attendance exceptions.",
+  "pedagogy_contract": "Ekole records evidence per learner and grade, independently from event success.",
+  "participation": [
+    {"level":"Maternelle","contribution":"Fabriquer des étoiles; trier formes et couleurs.","support":"Matériel manipulable, démonstration accompagnée."},
+    {"level":"1re année","contribution":"Compter et préparer des décorations en petits groupes.","support":"Consignes courtes, pictogrammes."},
+    {"level":"2e année","contribution":"Classer les invitations et contribuer à la distribution supervisée.","support":"Liste d'étapes et accompagnement."},
+    {"level":"3e année","contribution":"Rédiger les invitations et compter les quantités.","support":"Différenciation privée; correction déterministe limitée."},
+    {"level":"4e année","contribution":"Coordonner les horaires, lire les plans et répartir les ressources.","support":"Feuille de planification."},
+    {"level":"5e année","contribution":"Estimer les budgets et rédiger les rapports du projet.","support":"Tableaux de calcul, révision humaine."},
+    {"level":"6e année","contribution":"Gérer le bilan final et accompagner des équipes plus jeunes.","support":"Mandats et supervision de l'enseignant."}
+  ],
+  "media_default": "private_no_identifying_export",
+  "real_spending": false,
+  "approval_required": ["physical_transfers","photography","publication","food","physical_setup"]
+}
