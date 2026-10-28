@@ -171,3 +171,8 @@ Do not export `teacher-only/`, answer keys, student records, or other participan
 ---
 
 **One sentence:** *Kontexte defines the experience; Orgo orchestrates what happens; Ekole documents what was learned.*
+
+## Vérification des intégrations satellites (27 octobre 2026)
+
+Voir [le contrôle de compatibilité et les limites de qualification](docs/Integration-Verification-2026-10-27.md). Les versions et statuts externes doivent être vérifiés avant tout déploiement.
+

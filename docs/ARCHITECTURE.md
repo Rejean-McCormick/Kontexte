@@ -1,5 +1,6 @@
 # Kontexte : architecture canonique
 
+
 ## Principe
 
 Une situation pédagogique ou professionnelle est constituée d'acteurs, de problèmes construits (simulation) ou réels, d'informations, de tâches, de relations, d'artefacts et de critères de succès. **La situation n'est pas propriétaire de sa propre machine à états.**

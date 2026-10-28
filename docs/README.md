@@ -27,3 +27,7 @@ This `docs/` directory contains the original French design notes and the archive
 - [Québec Grade 3](../wiki/Quebec-Grade-3.md)
 - [Integration status](../wiki/Orgo-Integration.md)
 - [Security and privacy](../wiki/Privacy-and-Media.md)
+
+## Vérification des dépôts satellites
+
+- [Contrats, versions et limites de qualification (27 octobre 2026)](Integration-Verification-2026-10-27.md)

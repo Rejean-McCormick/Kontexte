@@ -33,3 +33,5 @@
 - [Publishing the Wiki](Publishing-the-Wiki)
 
 - [Source-verified code status — October 27, 2026](Code-Status-2026-10-27)
+
+- [[Vérification des intégrations satellites|Integration-Verification-2026-10-27]]

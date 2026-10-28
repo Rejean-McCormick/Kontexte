@@ -51,3 +51,7 @@ An individual activity and a school-wide event use the **same Orgo orchestration
 The current repository contains demonstrations and design records only. It has **no authenticated classroom system, no production media gallery and no permission to publish children's records**. Do not use the static site generator to distribute teacher answers or real multi-user secrets.
 
 For implementation and wiki-publication instructions, see [Development and Testing](Development-and-Testing) and [Publishing the Wiki](Publishing-the-Wiki).
+
+## Contrôle des intégrations (27 octobre 2026)
+
+Voir [[Integration-Verification-2026-10-27]] pour les versions et frontières des dépôts satellites, avec preuves et limites.
