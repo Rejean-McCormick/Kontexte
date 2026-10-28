@@ -1,0 +1,1 @@
+*Kontexte is an experimental scenario-design project. Operational authority belongs to Orgo; educational assessment authority belongs to Ekole and qualified educators. Source code and content licensing is not yet finalized.*

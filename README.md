@@ -154,7 +154,7 @@ Kontexte/
 
 ## Documentation
 
-Start with the **[English Wiki](wiki/Home.md)** for the conceptual guide, authoring conventions, localization, safety, and the current roadmap. The standalone files in `wiki/` can be pushed to a separate GitHub Wiki repository; GitHub **does not automatically publish** a repository's `wiki/` directory as its Wiki. See [Publishing the Wiki](wiki/Publishing-the-Wiki.md).
+Start with the **[English Wiki](wiki/Home.md)** (a versioned Markdown mirror restored in `wiki/` for standalone clones; synchronize it explicitly with the external GitHub Wiki before publishing) for the conceptual guide, authoring conventions, localization, safety, and the current roadmap. The standalone files in `wiki/` can be pushed to a separate GitHub Wiki repository; GitHub **does not automatically publish** a repository's `wiki/` directory as its Wiki. See [Publishing the Wiki](wiki/Publishing-the-Wiki.md).
 
 Additional materials: [Technical docs](docs/README.md) · [Orgo integration](wiki/Orgo-Integration.md) · [Ekole curriculum and evidence](wiki/Ekole-Curriculum-and-Evidence.md) · [Québec Grade 3](wiki/Quebec-Grade-3.md) · [Contributing](CONTRIBUTING.md).
 

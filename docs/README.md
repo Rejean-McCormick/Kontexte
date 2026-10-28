@@ -2,6 +2,8 @@
 
 The **English GitHub Wiki source** lives in [`../wiki/Home.md`](../wiki/Home.md), with topic pages for new contributors, scenario authors, educators, and integrators.
 
+**Local clone availability (2026-10-27):** the `wiki/` Markdown source pages are included in this documentation correction package because the inspected code snapshot omitted that directory. The local mirror is not automatically synchronized with a separately hosted GitHub Wiki; review and publish explicitly.
+
 This `docs/` directory contains the original French design notes and the archived Ekole–Orgo upgrade specification. They are retained for technical provenance; the wiki is the primary English-language overview. Do not interpret a proposed interface documented in these design notes as a shipped feature.
 
 ## Original technical notes (French)
