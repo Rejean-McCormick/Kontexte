@@ -28,5 +28,6 @@
     "musicien",
     "metteur-en-scene",
     "regisseur"
-  ]
+  ],
+  "visual_id": "role-danseur"
 }

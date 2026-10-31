@@ -28,5 +28,6 @@
     "lecteur",
     "traducteur",
     "redacteur"
-  ]
+  ],
+  "visual_id": "role-ecrivain"
 }

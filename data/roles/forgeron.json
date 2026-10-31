@@ -28,5 +28,6 @@
     "chevalier",
     "menuisier",
     "inventeur"
-  ]
+  ],
+  "visual_id": "role-forgeron"
 }

@@ -28,5 +28,6 @@
     "jardinier",
     "sorciere",
     "inventeur"
-  ]
+  ],
+  "visual_id": "role-scientifique"
 }

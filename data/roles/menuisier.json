@@ -28,5 +28,6 @@
     "architecte",
     "mecanicien",
     "peintre"
-  ]
+  ],
+  "visual_id": "role-menuisier"
 }

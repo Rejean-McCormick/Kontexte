@@ -28,5 +28,6 @@
     "inventeur",
     "menuisier",
     "scientifique"
-  ]
+  ],
+  "visual_id": "role-mecanicien"
 }

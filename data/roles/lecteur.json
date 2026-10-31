@@ -27,5 +27,6 @@
     "redacteur",
     "metteur-en-scene",
     "traducteur"
-  ]
+  ],
+  "visual_id": "role-lecteur"
 }

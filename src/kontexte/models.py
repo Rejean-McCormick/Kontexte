@@ -22,6 +22,8 @@ def validate_role(role: dict) -> dict:
         check(len(items) <= 100, f"{name}: maximum 100")
         for item in items: require_text(item, name, 120)
     check(role.get("theme") in {"sorciere", "boulanger", "neutral", "scene"}, "thème non autorisé")
+    if "visual_id" in role:
+        check(role["visual_id"] == "role-" + role["id"], "visual_id doit correspondre à role-<id>")
     return role
 
 def validate_mission(mission: dict, catalog: dict | None = None) -> dict:

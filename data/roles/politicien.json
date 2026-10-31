@@ -27,5 +27,6 @@
     "redacteur",
     "lecteur",
     "comptable"
-  ]
+  ],
+  "visual_id": "role-politicien"
 }

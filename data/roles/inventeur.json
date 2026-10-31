@@ -27,5 +27,6 @@
     "mecanicien",
     "scientifique",
     "architecte"
-  ]
+  ],
+  "visual_id": "role-inventeur"
 }

@@ -28,5 +28,6 @@
     "ecrivain",
     "sorciere",
     "messager"
-  ]
+  ],
+  "visual_id": "role-traducteur"
 }

@@ -28,5 +28,6 @@
     "dresseur-animaux",
     "scientifique",
     "comptable"
-  ]
+  ],
+  "visual_id": "role-veterinaire"
 }

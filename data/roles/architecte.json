@@ -28,5 +28,6 @@
     "menuisier",
     "regisseur",
     "comptable"
-  ]
+  ],
+  "visual_id": "role-architecte"
 }

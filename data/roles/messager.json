@@ -28,5 +28,6 @@
     "sorciere",
     "explorateur",
     "redacteur"
-  ]
+  ],
+  "visual_id": "role-messager"
 }

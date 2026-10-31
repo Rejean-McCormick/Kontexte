@@ -28,5 +28,6 @@
     "fermier",
     "livreur",
     "comptable"
-  ]
+  ],
+  "visual_id": "role-boulanger"
 }

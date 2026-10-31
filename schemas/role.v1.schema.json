@@ -95,6 +95,11 @@
         "minLength": 1
       },
       "maxItems": 100
+    },
+    "visual_id": {
+      "type": "string",
+      "pattern": "^role-[a-z][a-z0-9_-]{1,80}$",
+      "description": "Référence stable, une illustration par rôle; le média appartient au paquet de contenu."
     }
   },
   "additionalProperties": false
