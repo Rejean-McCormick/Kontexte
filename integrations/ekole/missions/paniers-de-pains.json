@@ -1,0 +1,47 @@
+{
+  "format": "kontexte.mission/1",
+  "id": "paniers-de-pains",
+  "version": "1.0.0",
+  "synthetic": true,
+  "title": {
+    "fr-CA": "Des paniers de pains",
+    "en": "Baskets of bread"
+  },
+  "fiction": {
+    "fr-CA": "Il y a quatre paniers. Dans chaque panier, le boulanger met trois pains.",
+    "en": "There are four baskets. The baker puts three loaves in each basket."
+  },
+  "year_suggestion": 3,
+  "roles": [
+    "boulanger"
+  ],
+  "fragments": [],
+  "steps": [
+    {
+      "id": "essai",
+      "role": "boulanger",
+      "instruction": {
+        "fr-CA": "Représente des groupes égaux et calcule leur total.",
+        "en": "Represent equal groups and calculate their total."
+      },
+      "kind": "document",
+      "depends_on": [],
+      "curriculum_ids": [
+        "qc-pri-ma-008"
+      ],
+      "validation": "human_review"
+    }
+  ],
+  "joins": [],
+  "adaptation": {
+    "accompagne": {
+      "instruction": "Consignes courtes, pictogrammes et aide disponible, sans étiquette publique."
+    },
+    "standard": {
+      "instruction": "Autonomie progressive et défis adaptés."
+    },
+    "approfondi": {
+      "instruction": "Information partielle, décisions en plusieurs étapes et justification."
+    }
+  }
+}

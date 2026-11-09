@@ -1,0 +1,47 @@
+{
+  "format": "kontexte.mission/1",
+  "id": "cuisine-partage",
+  "version": "1.0.0",
+  "synthetic": true,
+  "title": {
+    "fr-CA": "Le goûter à partager",
+    "en": "Sharing a snack"
+  },
+  "fiction": {
+    "fr-CA": "Le groupe prépare des portions fictives pour un goûter.",
+    "en": "The group plans fictional portions for a snack."
+  },
+  "year_suggestion": 3,
+  "roles": [
+    "cuisinier"
+  ],
+  "fragments": [],
+  "steps": [
+    {
+      "id": "groupement",
+      "role": "cuisinier",
+      "instruction": {
+        "fr-CA": "Détermine combien d’assiettes sont nécessaires et compare avec le stock.",
+        "en": "Work out how many plates are needed and compare with the supply."
+      },
+      "kind": "object",
+      "depends_on": [],
+      "curriculum_ids": [
+        "qc-pri-ma-009"
+      ],
+      "validation": "deterministic_practice"
+    }
+  ],
+  "joins": [],
+  "adaptation": {
+    "accompagne": {
+      "instruction": "Consignes courtes, pictogrammes et aide disponible, sans étiquette publique."
+    },
+    "standard": {
+      "instruction": "Autonomie progressive et défis adaptés."
+    },
+    "approfondi": {
+      "instruction": "Information partielle, décisions en plusieurs étapes et justification."
+    }
+  }
+}

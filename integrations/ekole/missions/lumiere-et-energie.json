@@ -1,0 +1,47 @@
+{
+  "format": "kontexte.mission/1",
+  "id": "lumiere-et-energie",
+  "version": "1.0.0",
+  "synthetic": true,
+  "title": {
+    "fr-CA": "Une lampe et ses effets",
+    "en": "A torch and its effects"
+  },
+  "fiction": {
+    "fr-CA": "Mila allume une petite lampe de poche à piles et voit une tache de lumière sur le mur.",
+    "en": "Mila switches on a small battery-powered torch and sees a patch of light on the wall."
+  },
+  "year_suggestion": 3,
+  "roles": [
+    "scientifique"
+  ],
+  "fragments": [],
+  "steps": [
+    {
+      "id": "essai",
+      "role": "scientifique",
+      "instruction": {
+        "fr-CA": "Repère une source d’énergie et décris un effet observé.",
+        "en": "Identify an energy source and describe an observed effect."
+      },
+      "kind": "document",
+      "depends_on": [],
+      "curriculum_ids": [
+        "qc-pri-st-008"
+      ],
+      "validation": "human_review"
+    }
+  ],
+  "joins": [],
+  "adaptation": {
+    "accompagne": {
+      "instruction": "Consignes courtes, pictogrammes et aide disponible, sans étiquette publique."
+    },
+    "standard": {
+      "instruction": "Autonomie progressive et défis adaptés."
+    },
+    "approfondi": {
+      "instruction": "Information partielle, décisions en plusieurs étapes et justification."
+    }
+  }
+}

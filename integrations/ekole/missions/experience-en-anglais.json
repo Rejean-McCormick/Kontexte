@@ -1,0 +1,47 @@
+{
+  "format": "kontexte.mission/1",
+  "id": "experience-en-anglais",
+  "version": "1.0.0",
+  "synthetic": true,
+  "title": {
+    "fr-CA": "Une expérience à raconter en anglais",
+    "en": "Tell a story in English"
+  },
+  "fiction": {
+    "fr-CA": "Mila a joué à un jeu avec son amie samedi. Elle veut raconter cette expérience en anglais.",
+    "en": "Mila played a game with her friend on Saturday. She wants to tell someone about it in English."
+  },
+  "year_suggestion": 3,
+  "roles": [
+    "traducteur"
+  ],
+  "fragments": [],
+  "steps": [
+    {
+      "id": "essai",
+      "role": "traducteur",
+      "instruction": {
+        "fr-CA": "Décris une expérience familière en phrases anglaises simples.",
+        "en": "Describe a familiar experience in simple English sentences."
+      },
+      "kind": "document",
+      "depends_on": [],
+      "curriculum_ids": [
+        "qc-pri-als-006"
+      ],
+      "validation": "human_review"
+    }
+  ],
+  "joins": [],
+  "adaptation": {
+    "accompagne": {
+      "instruction": "Consignes courtes, pictogrammes et aide disponible, sans étiquette publique."
+    },
+    "standard": {
+      "instruction": "Autonomie progressive et défis adaptés."
+    },
+    "approfondi": {
+      "instruction": "Information partielle, décisions en plusieurs étapes et justification."
+    }
+  }
+}

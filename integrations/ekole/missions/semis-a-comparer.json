@@ -1,0 +1,47 @@
+{
+  "format": "kontexte.mission/1",
+  "id": "semis-a-comparer",
+  "version": "1.0.0",
+  "synthetic": true,
+  "title": {
+    "fr-CA": "Les semis à comparer",
+    "en": "Comparing seedlings"
+  },
+  "fiction": {
+    "fr-CA": "Les semis à comparer",
+    "en": "Comparing seedlings"
+  },
+  "year_suggestion": 3,
+  "roles": [
+    "scientifique"
+  ],
+  "fragments": [],
+  "steps": [
+    {
+      "id": "essai",
+      "role": "scientifique",
+      "instruction": {
+        "fr-CA": "Distingue un constat d’une explication et formule une question testable.",
+        "en": "Distinguish an observation from an explanation and ask a testable question."
+      },
+      "kind": "document",
+      "depends_on": [],
+      "curriculum_ids": [
+        "qc-pri-st-001"
+      ],
+      "validation": "human_review"
+    }
+  ],
+  "joins": [],
+  "adaptation": {
+    "accompagne": {
+      "instruction": "Consignes courtes, pictogrammes et aide disponible, sans étiquette publique."
+    },
+    "standard": {
+      "instruction": "Autonomie progressive et défis adaptés."
+    },
+    "approfondi": {
+      "instruction": "Information partielle, décisions en plusieurs étapes et justification."
+    }
+  }
+}

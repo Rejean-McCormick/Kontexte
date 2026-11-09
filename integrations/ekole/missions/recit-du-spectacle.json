@@ -1,0 +1,47 @@
+{
+  "format": "kontexte.mission/1",
+  "id": "recit-du-spectacle",
+  "version": "1.0.0",
+  "synthetic": true,
+  "title": {
+    "fr-CA": "Le récit du spectacle",
+    "en": "The story of the show"
+  },
+  "fiction": {
+    "fr-CA": "Le récit du spectacle",
+    "en": "The story of the show"
+  },
+  "year_suggestion": 3,
+  "roles": [
+    "lecteur"
+  ],
+  "fragments": [],
+  "steps": [
+    {
+      "id": "essai",
+      "role": "lecteur",
+      "instruction": {
+        "fr-CA": "Retrouve l’ordre du récit et justifie le lien entre deux événements.",
+        "en": "Put the story in order and explain how two events are connected."
+      },
+      "kind": "document",
+      "depends_on": [],
+      "curriculum_ids": [
+        "qc-pri-fr-008"
+      ],
+      "validation": "human_review"
+    }
+  ],
+  "joins": [],
+  "adaptation": {
+    "accompagne": {
+      "instruction": "Consignes courtes, pictogrammes et aide disponible, sans étiquette publique."
+    },
+    "standard": {
+      "instruction": "Autonomie progressive et défis adaptés."
+    },
+    "approfondi": {
+      "instruction": "Information partielle, décisions en plusieurs étapes et justification."
+    }
+  }
+}

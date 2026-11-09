@@ -1,0 +1,47 @@
+{
+  "format": "kontexte.mission/1",
+  "id": "total-du-marche",
+  "version": "1.0.0",
+  "synthetic": true,
+  "title": {
+    "fr-CA": "Le total du marché fictif",
+    "en": "The pretend market total"
+  },
+  "fiction": {
+    "fr-CA": "Au marché fictif, une décoration coûte 27 jetons et un panneau coûte 16 jetons.",
+    "en": "At the pretend market, a decoration costs 27 tokens and a sign costs 16 tokens."
+  },
+  "year_suggestion": 3,
+  "roles": [
+    "comptable"
+  ],
+  "fragments": [],
+  "steps": [
+    {
+      "id": "essai",
+      "role": "comptable",
+      "instruction": {
+        "fr-CA": "Modélise une addition et choisis une stratégie.",
+        "en": "Model an addition and choose a strategy."
+      },
+      "kind": "document",
+      "depends_on": [],
+      "curriculum_ids": [
+        "qc-pri-ma-006"
+      ],
+      "validation": "human_review"
+    }
+  ],
+  "joins": [],
+  "adaptation": {
+    "accompagne": {
+      "instruction": "Consignes courtes, pictogrammes et aide disponible, sans étiquette publique."
+    },
+    "standard": {
+      "instruction": "Autonomie progressive et défis adaptés."
+    },
+    "approfondi": {
+      "instruction": "Information partielle, décisions en plusieurs étapes et justification."
+    }
+  }
+}

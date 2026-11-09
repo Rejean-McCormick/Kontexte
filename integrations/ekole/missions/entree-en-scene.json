@@ -1,0 +1,47 @@
+{
+  "format": "kontexte.mission/1",
+  "id": "entree-en-scene",
+  "version": "1.0.0",
+  "synthetic": true,
+  "title": {
+    "fr-CA": "Une entrée en scène",
+    "en": "An entrance on stage"
+  },
+  "fiction": {
+    "fr-CA": "Un personnage cherche quelque chose sans vouloir réveiller les autres. Il entre dans une pièce vide.",
+    "en": "A character is looking for something without waking the others. The character enters an empty room."
+  },
+  "year_suggestion": 3,
+  "roles": [
+    "metteur-en-scene"
+  ],
+  "fragments": [],
+  "steps": [
+    {
+      "id": "essai",
+      "role": "metteur-en-scene",
+      "instruction": {
+        "fr-CA": "Choisis des moyens de faire comprendre une intention au public.",
+        "en": "Choose ways to help an audience understand an intention."
+      },
+      "kind": "document",
+      "depends_on": [],
+      "curriculum_ids": [
+        "qc-pri-ad-001"
+      ],
+      "validation": "human_review"
+    }
+  ],
+  "joins": [],
+  "adaptation": {
+    "accompagne": {
+      "instruction": "Consignes courtes, pictogrammes et aide disponible, sans étiquette publique."
+    },
+    "standard": {
+      "instruction": "Autonomie progressive et défis adaptés."
+    },
+    "approfondi": {
+      "instruction": "Information partielle, décisions en plusieurs étapes et justification."
+    }
+  }
+}
