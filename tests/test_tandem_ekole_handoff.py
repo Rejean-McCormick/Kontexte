@@ -48,6 +48,14 @@ class TandemExportTest(unittest.TestCase):
     def test_reject_non_synthetic(self):
         d=copy.deepcopy(self.source);d['synthetic']=False
         with self.assertRaises(KontexteError):self.export(d)
+    def test_reject_missing_synthetic_safety(self):
+        d=copy.deepcopy(self.source);d.pop('safety')
+        with self.assertRaises(KontexteError):self.export(d)
+    def test_reject_duplicate_or_unsafe_roles(self):
+        d=copy.deepcopy(self.source);d['roles'].append(d['roles'][0])
+        with self.assertRaises(KontexteError):self.export(d)
+        d=copy.deepcopy(self.source);d['roles']=['../escape']
+        with self.assertRaises(KontexteError):self.export(d)
     def test_reject_unsafe_publication(self):
         d=copy.deepcopy(self.source);d['safety']['publication_default']='public'
         with self.assertRaises(KontexteError):self.export(d)

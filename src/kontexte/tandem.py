@@ -41,10 +41,15 @@ def build_teacher_preview(mission: dict, *, tenant_id: str, world_id: str,
     if not isinstance(mission, dict) or mission.get('format') != 'kontexte.mission/1' or mission.get('synthetic') is not True:
         raise KontexteError('Mission synthétique Kontexte requise')
     safety=mission.get('safety')
-    if safety is not None and (not isinstance(safety,dict) or safety.get('real_spending') is not False
-                               or safety.get('real_taxes') is not False
-                               or safety.get('publication_default') != 'private'):
-        raise KontexteError('Précautions financières et médias non satisfaites')
+    if not isinstance(safety,dict) or (safety.get('real_spending') is not False
+                              or safety.get('real_taxes') is not False
+                              or safety.get('publication_default') != 'private'):
+        raise KontexteError('Précautions financières et médias explicites requises')
+    roles = mission.get('roles')
+    if (not isinstance(roles, list) or not 1 <= len(roles) <= 50 or
+            any(not isinstance(role, str) or not REF.fullmatch(role) for role in roles) or
+            len(roles) != len(set(roles))):
+        raise KontexteError('Liste des rôles invalide ou dupliquée')
     if not isinstance(mission.get('steps'),list) or not 1<=len(mission['steps'])<=50:
         raise KontexteError('1 à 50 étapes de conception requises')
     scenario_ref=_ref(mission.get('id'),'mission.id')
@@ -54,7 +59,7 @@ def build_teacher_preview(mission: dict, *, tenant_id: str, world_id: str,
             raise KontexteError('Étape ou dépendances invalides')
         sid=_ref(step.get('id'),'step.id')
         role=_ref(step.get('role'),'step.role')
-        if sid in ids or role not in mission.get('roles',[]):
+        if sid in ids or role not in roles:
             raise KontexteError('Étape dupliquée ou rôle absent')
         if any(not isinstance(dep,str) or dep not in ids for dep in step['depends_on']):
             raise KontexteError('Dépendance cyclique, future ou invalide')

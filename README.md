@@ -175,4 +175,6 @@ Do not export `teacher-only/`, answer keys, student records, or other participan
 ## Vérification des intégrations satellites (27 octobre 2026)
 
 Voir [le contrôle de compatibilité et les limites de qualification](docs/Integration-Verification-2026-10-27.md). Les versions et statuts externes doivent être vérifiés avant tout déploiement.
+## Final-system integration reference (Branch 06)
 
+The [English education-boundary specification](docs/FINAL_SYSTEM_EDUCATION_ALIGNMENT.md) describes implemented safety checks, local test instructions, cross-owner responsibilities and still-unapproved interfaces. It does **not** assert a deployed Orgo/Moodle workflow.

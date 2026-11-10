@@ -1,12 +1,12 @@
 SMART DUMPER INDEX
 ==================
-generated_at: 2026-10-28T16:45:56.347935
+generated_at: 2026-11-09T16:33:38.174025
 source_root: C:\mycode\Ekole\Kontexte
 mode: snapshot
 zip_file: Kontexte_Code_snapshot.zip
 embedded_index: SMARTDUMP_INDEX.txt
-file_count: 251
-total_bytes: 1523010
+file_count: 265
+total_bytes: 1552192
 compression: ZIP_DEFLATED level 1
 
 FILES
@@ -41,44 +41,44 @@ data/missions/laboratoire.json	2582 bytes
 data/missions/salon-coiffure.json	2606 bytes
 data/missions/sorciere-solo.json	1872 bytes
 data/missions/spectacle-clown.json	2586 bytes
-data/roles/architecte.json	537 bytes
-data/roles/astronaute.json	561 bytes
-data/roles/boulanger.json	552 bytes
-data/roles/bucheron.json	575 bytes
-data/roles/chevalier.json	560 bytes
-data/roles/clown.json	551 bytes
-data/roles/coiffeuse.json	557 bytes
-data/roles/comptable.json	548 bytes
-data/roles/createur-jeux.json	599 bytes
-data/roles/cuisinier.json	534 bytes
-data/roles/danseur.json	552 bytes
-data/roles/dresseur-animaux.json	598 bytes
-data/roles/ecrivain.json	549 bytes
-data/roles/explorateur.json	560 bytes
-data/roles/extraterrestre.json	567 bytes
-data/roles/fermier.json	530 bytes
-data/roles/forgeron.json	563 bytes
-data/roles/inventeur.json	550 bytes
-data/roles/jardinier.json	529 bytes
-data/roles/lecteur.json	530 bytes
-data/roles/mecanicien.json	567 bytes
-data/roles/menuisier.json	587 bytes
-data/roles/messager.json	566 bytes
-data/roles/metteur-en-scene.json	553 bytes
-data/roles/mineur.json	543 bytes
-data/roles/musicien.json	528 bytes
-data/roles/mystique.json	533 bytes
-data/roles/origamiste.json	566 bytes
-data/roles/pecheur.json	548 bytes
-data/roles/peintre.json	538 bytes
-data/roles/photographe.json	578 bytes
-data/roles/politicien.json	565 bytes
-data/roles/redacteur.json	552 bytes
-data/roles/regisseur.json	544 bytes
-data/roles/scientifique.json	552 bytes
-data/roles/sorciere.json	625 bytes
-data/roles/traducteur.json	555 bytes
-data/roles/veterinaire.json	590 bytes
+data/roles/architecte.json	571 bytes
+data/roles/astronaute.json	595 bytes
+data/roles/boulanger.json	585 bytes
+data/roles/bucheron.json	607 bytes
+data/roles/chevalier.json	593 bytes
+data/roles/clown.json	580 bytes
+data/roles/coiffeuse.json	590 bytes
+data/roles/comptable.json	581 bytes
+data/roles/createur-jeux.json	636 bytes
+data/roles/cuisinier.json	567 bytes
+data/roles/danseur.json	583 bytes
+data/roles/dresseur-animaux.json	638 bytes
+data/roles/ecrivain.json	581 bytes
+data/roles/explorateur.json	595 bytes
+data/roles/extraterrestre.json	605 bytes
+data/roles/fermier.json	561 bytes
+data/roles/forgeron.json	595 bytes
+data/roles/inventeur.json	583 bytes
+data/roles/jardinier.json	562 bytes
+data/roles/lecteur.json	561 bytes
+data/roles/mecanicien.json	601 bytes
+data/roles/menuisier.json	620 bytes
+data/roles/messager.json	598 bytes
+data/roles/metteur-en-scene.json	593 bytes
+data/roles/mineur.json	573 bytes
+data/roles/musicien.json	560 bytes
+data/roles/mystique.json	565 bytes
+data/roles/origamiste.json	600 bytes
+data/roles/pecheur.json	579 bytes
+data/roles/peintre.json	569 bytes
+data/roles/photographe.json	613 bytes
+data/roles/politicien.json	599 bytes
+data/roles/redacteur.json	585 bytes
+data/roles/regisseur.json	577 bytes
+data/roles/scientifique.json	588 bytes
+data/roles/sorciere.json	657 bytes
+data/roles/traducteur.json	589 bytes
+data/roles/veterinaire.json	625 bytes
 data/trames/catalogue-neutral-v0.2.json	60063 bytes
 docs/ARCHITECTURE.md	3107 bytes
 docs/B5_KONTEXTE_3E.md	5092 bytes
@@ -116,6 +116,7 @@ docs/locales/qc3/VALIDATION_PEDAGOGIQUE.md	2891 bytes
 docs/ORGO.md	3042 bytes
 docs/PILOTE_FETE_SORCIERE.md	2623 bytes
 docs/README.md	2293 bytes
+docs/REFERENCES_VISUELLES.md	1237 bytes
 docs/RELEASE_0_4.md	5197 bytes
 docs/ROADMAP.md	2034 bytes
 docs/SECURITE_ET_MEDIAS.md	1716 bytes
@@ -171,6 +172,17 @@ GENERER_SITE.bat	305 bytes
 GitSink.bat	3549 bytes
 INSTALL_KONTEXTE_TANDEM_P1.cmd	261 bytes
 integrations/ekole/fete-sorciere.curriculum-links.json	3062 bytes
+integrations/ekole/missions/affiche-accueil.json	1346 bytes
+integrations/ekole/missions/cuisine-partage.json	1246 bytes
+integrations/ekole/missions/entree-en-scene.json	1327 bytes
+integrations/ekole/missions/experience-en-anglais.json	1332 bytes
+integrations/ekole/missions/lumiere-et-energie.json	1299 bytes
+integrations/ekole/missions/paniers-de-pains.json	1230 bytes
+integrations/ekole/missions/papier-en-parts.json	1216 bytes
+integrations/ekole/missions/recit-du-spectacle.json	1174 bytes
+integrations/ekole/missions/responsabilites-atelier.json	1351 bytes
+integrations/ekole/missions/semis-a-comparer.json	1188 bytes
+integrations/ekole/missions/total-du-marche.json	1253 bytes
 integrations/orgo/fete-sorciere.blueprint.json	3164 bytes
 integrations/orgo/fete-sorciere.scenario.json	1720 bytes
 Kontexte_catalogue_trames_v0.2.json	60063 bytes
@@ -187,7 +199,8 @@ schemas/mission.v1.schema.json	6657 bytes
 schemas/qc3-b5-plan-enseignant.schema.json	1399 bytes
 schemas/qc3-b5-preview-eleve.schema.json	2245 bytes
 schemas/README.md	472 bytes
-schemas/role.v1.schema.json	1860 bytes
+schemas/role.v1.schema.json	2073 bytes
+SMARTDUMP_INDEX.txt	11616 bytes
 SNAPSHOT_INDEX.txt	7016 bytes
 src/kontexte/__init__.py	104 bytes
 src/kontexte/__main__.py	47 bytes
@@ -198,7 +211,7 @@ src/kontexte/economy.py	1314 bytes
 src/kontexte/ekole.py	1714 bytes
 src/kontexte/evidence.py	3543 bytes
 src/kontexte/media.py	2102 bytes
-src/kontexte/models.py	4739 bytes
+src/kontexte/models.py	4868 bytes
 src/kontexte/orgo.py	6768 bytes
 src/kontexte/orgo_http.py	3463 bytes
 src/kontexte/qc3_b5.py	20654 bytes
@@ -223,6 +236,7 @@ tests/test_orgo_workflow.py	1339 bytes
 tests/test_studio.py	4193 bytes
 tests/test_studio_http.py	3459 bytes
 tests/test_tandem_ekole_handoff.py	4357 bytes
+tests/test_visual_reference.py	757 bytes
 tools/generate_content.py	9010 bytes
 tools/generate_missions.py	8356 bytes
 tools/kontexte_tandem_orgo_ekole_p1/installer.py	8386 bytes
