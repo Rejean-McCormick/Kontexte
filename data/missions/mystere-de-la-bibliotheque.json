@@ -1,0 +1,173 @@
+{
+  "format": "kontexte.mission/1",
+  "id": "mystere-de-la-bibliotheque",
+  "version": "0.1.0",
+  "synthetic": true,
+  "title": {
+    "fr-CA": "Le mystère de la bibliothèque"
+  },
+  "fiction": {
+    "fr-CA": "Les livres d’une bibliothèque imaginaire ont perdu leurs étiquettes. L’équipe doit retrouver des familles d’histoires, classer des indices et rédiger un guide pour les prochains lecteurs."
+  },
+  "year_suggestion": 3,
+  "roles": [
+    "lecteur",
+    "ecrivain",
+    "explorateur",
+    "redacteur",
+    "messager",
+    "photographe",
+    "regisseur"
+  ],
+  "fragments": [
+    {
+      "id": "plan-rayons",
+      "holder_role": "explorateur",
+      "content": {
+        "fr-CA": "Le rayon A accueille les récits; le rayon B accueille les documentaires; un livre peut avoir plusieurs mots-clés."
+      },
+      "release": "orgo_authorized",
+      "visibility": "participant"
+    },
+    {
+      "id": "fiche-mystere",
+      "holder_role": "lecteur",
+      "content": {
+        "fr-CA": "Le livre recherché raconte un animal qui traverse une rivière, mais la couverture ne montre pas d’eau."
+      },
+      "release": "orgo_authorized",
+      "visibility": "participant"
+    }
+  ],
+  "steps": [
+    {
+      "id": "observer-couvertures",
+      "role": "lecteur",
+      "instruction": {
+        "fr-CA": "Observe trois couvertures fictives et explique les indices qui permettent de prévoir leur sujet."
+      },
+      "kind": "review",
+      "depends_on": [],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "inventaire-livres",
+      "role": "explorateur",
+      "instruction": {
+        "fr-CA": "Repère six titres sur le plan des étagères et crée un tableau de repérage."
+      },
+      "kind": "document",
+      "depends_on": [],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "mots-cles",
+      "role": "ecrivain",
+      "instruction": {
+        "fr-CA": "Choisis deux mots-clés par histoire et défends ton choix en citant des indices du texte."
+      },
+      "kind": "document",
+      "depends_on": [
+        "observer-couvertures"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "index",
+      "role": "redacteur",
+      "instruction": {
+        "fr-CA": "Propose des catégories et rédige une fiche de classement claire."
+      },
+      "kind": "document",
+      "depends_on": [
+        "inventaire-livres",
+        "mots-cles"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "pret-fictif",
+      "role": "messager",
+      "instruction": {
+        "fr-CA": "Joue le rôle de l’emprunteur : pose une question puis explique comment retrouver l’ouvrage sans partager de données personnelles."
+      },
+      "kind": "encounter",
+      "depends_on": [
+        "index"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "catalogue-images",
+      "role": "photographe",
+      "instruction": {
+        "fr-CA": "Prépare des dessins ou images autorisées des couvertures inventées pour le catalogue."
+      },
+      "kind": "document",
+      "depends_on": [
+        "pret-fictif"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "verifier-rayons",
+      "role": "regisseur",
+      "instruction": {
+        "fr-CA": "Vérifie la cohérence des classements et la facilité de retrouver un livre par deux chemins."
+      },
+      "kind": "review",
+      "depends_on": [
+        "catalogue-images"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "guide-final",
+      "role": "redacteur",
+      "instruction": {
+        "fr-CA": "Rédige un mini-guide de recherche en quatre consignes, puis le fait essayer par un pair."
+      },
+      "kind": "document",
+      "depends_on": [
+        "verifier-rayons"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    }
+  ],
+  "joins": [
+    {
+      "id": "reperer-livre",
+      "fragment_ids": [
+        "plan-rayons",
+        "fiche-mystere"
+      ],
+      "unlock_step": "index"
+    }
+  ],
+  "adaptation": {
+    "accompagne": {
+      "instruction": "Consignes fractionnées, pictogrammes, réponse orale ou avec aide; choix et besoins non dévoilés aux pairs."
+    },
+    "standard": {
+      "instruction": "Travail en autonomie progressive, échanges structurés et vérification des critères."
+    },
+    "approfondi": {
+      "instruction": "Comparer des solutions, justifier des décisions et transférer la compétence dans une nouvelle situation."
+    }
+  },
+  "status": "proposition_editoriale_synthetique_a_reviser",
+  "safety": {
+    "fr-CA": "Ouvrages fictifs ou contenus autorisés; pas de collecte de l’historique réel des lectures individuelles ou de données nominatives.",
+    "real_spending": false,
+    "real_taxes": false,
+    "publication_default": "private"
+  }
+}

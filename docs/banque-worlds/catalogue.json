@@ -1,0 +1,1312 @@
+{
+  "format": "ekole.worlds.catalogue/0.1",
+  "version": "0.1.0",
+  "synthetic": true,
+  "statut": "catalogue_editorial_non_deploye",
+  "politique_world": "un_world_par_scenario_et_par_perimetre_de_groupe_si_necessaire",
+  "sources_existantes": [
+    {
+      "id": "atelier-mecanique",
+      "titre": "L’atelier du mécanicien",
+      "annee": 3,
+      "nb_etapes": 3,
+      "nb_roles": 3,
+      "statut": "existant_dans_Kontexte_a_reviser",
+      "source": "Kontexte/data/missions/atelier-mecanique.json",
+      "reutiliser_sans_copier": true
+    },
+    {
+      "id": "boulangerie",
+      "titre": "La boulangerie du village",
+      "annee": 3,
+      "nb_etapes": 3,
+      "nb_roles": 3,
+      "statut": "existant_dans_Kontexte_a_reviser",
+      "source": "Kontexte/data/missions/boulangerie.json",
+      "reutiliser_sans_copier": true
+    },
+    {
+      "id": "chantier-maquette",
+      "titre": "Le chantier de l’architecte",
+      "annee": 3,
+      "nb_etapes": 3,
+      "nb_roles": 3,
+      "statut": "existant_dans_Kontexte_a_reviser",
+      "source": "Kontexte/data/missions/chantier-maquette.json",
+      "reutiliser_sans_copier": true
+    },
+    {
+      "id": "conseil-village",
+      "titre": "Le conseil du village",
+      "annee": 3,
+      "nb_etapes": 3,
+      "nb_roles": 3,
+      "statut": "existant_dans_Kontexte_a_reviser",
+      "source": "Kontexte/data/missions/conseil-village.json",
+      "reutiliser_sans_copier": true
+    },
+    {
+      "id": "expedition",
+      "titre": "L’expédition",
+      "annee": 3,
+      "nb_etapes": 3,
+      "nb_roles": 3,
+      "statut": "existant_dans_Kontexte_a_reviser",
+      "source": "Kontexte/data/missions/expedition.json",
+      "reutiliser_sans_copier": true
+    },
+    {
+      "id": "fete-sorciere",
+      "titre": "La fête de la sorcière",
+      "annee": 3,
+      "nb_etapes": 11,
+      "nb_roles": 10,
+      "statut": "existant_dans_Kontexte_a_reviser",
+      "source": "Kontexte/data/missions/fete-sorciere.json",
+      "reutiliser_sans_copier": true
+    },
+    {
+      "id": "jardin-fermier",
+      "titre": "Le jardin du fermier",
+      "annee": 3,
+      "nb_etapes": 3,
+      "nb_roles": 3,
+      "statut": "existant_dans_Kontexte_a_reviser",
+      "source": "Kontexte/data/missions/jardin-fermier.json",
+      "reutiliser_sans_copier": true
+    },
+    {
+      "id": "laboratoire",
+      "titre": "Le laboratoire",
+      "annee": 3,
+      "nb_etapes": 3,
+      "nb_roles": 3,
+      "statut": "existant_dans_Kontexte_a_reviser",
+      "source": "Kontexte/data/missions/laboratoire.json",
+      "reutiliser_sans_copier": true
+    },
+    {
+      "id": "salon-coiffure",
+      "titre": "Le salon de coiffure",
+      "annee": 3,
+      "nb_etapes": 3,
+      "nb_roles": 3,
+      "statut": "existant_dans_Kontexte_a_reviser",
+      "source": "Kontexte/data/missions/salon-coiffure.json",
+      "reutiliser_sans_copier": true
+    },
+    {
+      "id": "sorciere-solo",
+      "titre": "Le chaudron des mesures",
+      "annee": 3,
+      "nb_etapes": 2,
+      "nb_roles": 1,
+      "statut": "existant_dans_Kontexte_a_reviser",
+      "source": "Kontexte/data/missions/sorciere-solo.json",
+      "reutiliser_sans_copier": true
+    },
+    {
+      "id": "spectacle-clown",
+      "titre": "Le spectacle du clown",
+      "annee": 3,
+      "nb_etapes": 3,
+      "nb_roles": 3,
+      "statut": "existant_dans_Kontexte_a_reviser",
+      "source": "Kontexte/data/missions/spectacle-clown.json",
+      "reutiliser_sans_copier": true
+    }
+  ],
+  "nouvelles_missions": [
+    {
+      "id": "grand-menage-chez-mamie",
+      "titre": "Le grand ménage chez mamie",
+      "annee": 3,
+      "nb_etapes": 8,
+      "nb_roles": 6,
+      "statut": "proposition_editoriale_synthetique_a_reviser",
+      "source": "nouvelles_missions_kontexte/grand-menage-chez-mamie.json",
+      "world_key_suggeree": "ekole-grand-menage-chez-mamie",
+      "world_key_suggeree_non_deployee": true,
+      "trames_neutres_sources": [
+        "coup-de-main",
+        "salle-a-configurer",
+        "ressources-a-partager"
+      ],
+      "type_apport": "instanciation_editoriale_synthetique_de_trames_deja_existantes"
+    },
+    {
+      "id": "randonnee-a-velo",
+      "titre": "La grande randonnée à vélo",
+      "annee": 3,
+      "nb_etapes": 10,
+      "nb_roles": 9,
+      "statut": "proposition_editoriale_synthetique_a_reviser",
+      "source": "nouvelles_missions_kontexte/randonnee-a-velo.json",
+      "world_key_suggeree": "ekole-randonnee-a-velo",
+      "world_key_suggeree_non_deployee": true,
+      "trames_neutres_sources": [
+        "randonnee-symbolique",
+        "itineraire-sur",
+        "reparer-pour-un-autre"
+      ],
+      "type_apport": "instanciation_editoriale_synthetique_de_trames_deja_existantes"
+    },
+    {
+      "id": "spectacle-des-histoires",
+      "titre": "Le spectacle des histoires inventées",
+      "annee": 3,
+      "nb_etapes": 10,
+      "nb_roles": 9,
+      "statut": "proposition_editoriale_synthetique_a_reviser",
+      "source": "nouvelles_missions_kontexte/spectacle-des-histoires.json",
+      "world_key_suggeree": "ekole-spectacle-des-histoires",
+      "world_key_suggeree_non_deployee": true,
+      "trames_neutres_sources": [
+        "conte-partage",
+        "spectacle-imprevu",
+        "vote-projet-commun"
+      ],
+      "type_apport": "instanciation_editoriale_synthetique_de_trames_deja_existantes"
+    },
+    {
+      "id": "rallye-des-metiers",
+      "titre": "Le rallye des métiers du village",
+      "annee": 3,
+      "nb_etapes": 8,
+      "nb_roles": 8,
+      "statut": "proposition_editoriale_synthetique_a_reviser",
+      "source": "nouvelles_missions_kontexte/rallye-des-metiers.json",
+      "world_key_suggeree": "ekole-rallye-des-metiers",
+      "world_key_suggeree_non_deployee": true,
+      "trames_neutres_sources": [
+        "indices-dans-ecole",
+        "tuteurs-temporaires",
+        "regles-ateliers"
+      ],
+      "type_apport": "instanciation_editoriale_synthetique_de_trames_deja_existantes"
+    },
+    {
+      "id": "mystere-de-la-bibliotheque",
+      "titre": "Le mystère de la bibliothèque",
+      "annee": 3,
+      "nb_etapes": 8,
+      "nb_roles": 7,
+      "statut": "proposition_editoriale_synthetique_a_reviser",
+      "source": "nouvelles_missions_kontexte/mystere-de-la-bibliotheque.json",
+      "world_key_suggeree": "ekole-mystere-de-la-bibliotheque",
+      "world_key_suggeree_non_deployee": true,
+      "trames_neutres_sources": [
+        "bibliotheque-vivante",
+        "message-fragmente",
+        "mode-emploi-visible"
+      ],
+      "type_apport": "instanciation_editoriale_synthetique_de_trames_deja_existantes"
+    },
+    {
+      "id": "pique-nique-des-saisons",
+      "titre": "Le pique-nique des quatre saisons",
+      "annee": 3,
+      "nb_etapes": 8,
+      "nb_roles": 8,
+      "statut": "proposition_editoriale_synthetique_a_reviser",
+      "source": "nouvelles_missions_kontexte/pique-nique-des-saisons.json",
+      "world_key_suggeree": "ekole-pique-nique-des-saisons",
+      "world_key_suggeree_non_deployee": true,
+      "trames_neutres_sources": [
+        "repas-partage",
+        "station-meteo",
+        "transport-commande"
+      ],
+      "type_apport": "instanciation_editoriale_synthetique_de_trames_deja_existantes"
+    }
+  ],
+  "trames_neutres_existantes": [
+    {
+      "id": "fete-commune",
+      "titre": "La fête commune",
+      "famille": "evenement",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "spectacle-imprevu",
+      "titre": "Le spectacle imprévu",
+      "famille": "evenement",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "repas-partage",
+      "titre": "Le repas partagé",
+      "famille": "evenement",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "marche-des-creations",
+      "titre": "Le marché des créations",
+      "famille": "evenement",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "bibliotheque-vivante",
+      "titre": "La bibliothèque vivante",
+      "famille": "evenement",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "merci-collectif",
+      "titre": "La cérémonie des mercis",
+      "famille": "evenement",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "commande-de-pains",
+      "titre": "La commande de pains",
+      "famille": "fabrication",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "chapeau-de-papier",
+      "titre": "Le chapeau de papier",
+      "famille": "fabrication",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "pont-miniature",
+      "titre": "Le pont miniature",
+      "famille": "fabrication",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "mecanisme-en-panne",
+      "titre": "Le mécanisme en panne",
+      "famille": "fabrication",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "atelier-metal",
+      "titre": "Le projet du forgeron",
+      "famille": "fabrication",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "costumes-recycles",
+      "titre": "Les costumes réinventés",
+      "famille": "fabrication",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "message-fragmente",
+      "titre": "Le message incomplet",
+      "famille": "enquete",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "plante-mystere",
+      "titre": "La plante mystérieuse",
+      "famille": "enquete",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "carte-incomplete",
+      "titre": "La carte incomplète",
+      "famille": "enquete",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "sons-des-lieux",
+      "titre": "Les sons du quartier",
+      "famille": "enquete",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "ombres-mobiles",
+      "titre": "Le mystère des ombres",
+      "famille": "enquete",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "colis-egare",
+      "titre": "Le colis égaré",
+      "famille": "enquete",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "coup-de-main",
+      "titre": "La mission coup de main",
+      "famille": "entraide",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "tuteurs-temporaires",
+      "titre": "Les ateliers solidaires",
+      "famille": "entraide",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "maquette-accessible",
+      "titre": "La maquette inclusive",
+      "famille": "entraide",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "affiche-service",
+      "titre": "L’affiche d’entraide",
+      "famille": "entraide",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "accueil-nouveaux",
+      "titre": "Le guide des nouveaux",
+      "famille": "entraide",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "reparer-pour-un-autre",
+      "titre": "L’atelier de réparation",
+      "famille": "entraide",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "jardin-saisonnier",
+      "titre": "Le jardin des saisons",
+      "famille": "environnement",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "reserve-eau",
+      "titre": "La réserve d’eau",
+      "famille": "environnement",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "foret-partagee",
+      "titre": "La forêt partagée",
+      "famille": "environnement",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "habitats-des-animaux",
+      "titre": "Les habitats à protéger",
+      "famille": "environnement",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "lac-a-preserver",
+      "titre": "Le lac à préserver",
+      "famille": "environnement",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "compost-collectif",
+      "titre": "Le compost collectif",
+      "famille": "environnement",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "caisse-klownkoins",
+      "titre": "La caisse des Klownkoins",
+      "famille": "economie",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "budget-marche",
+      "titre": "Le budget du marché",
+      "famille": "economie",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "stock-et-commande",
+      "titre": "Le stock insuffisant",
+      "famille": "economie",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "taxe-de-simulation",
+      "titre": "La taxe fictive",
+      "famille": "economie",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "troc-equitable",
+      "titre": "L’échange équitable",
+      "famille": "economie",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "transport-commande",
+      "titre": "Le trajet le plus utile",
+      "famille": "economie",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "invitation-multilingue",
+      "titre": "L’invitation multilingue",
+      "famille": "communication",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "bulletin-local",
+      "titre": "Le bulletin local",
+      "famille": "communication",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "journal-exploration",
+      "titre": "Le carnet d’exploration",
+      "famille": "communication",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "conte-partage",
+      "titre": "Le conte mis en scène",
+      "famille": "communication",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "notice-ambigue",
+      "titre": "La notice ambiguë",
+      "famille": "communication",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "mode-emploi-visible",
+      "titre": "Le mode d’emploi accessible",
+      "famille": "communication",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "semis-compare",
+      "titre": "Les semis comparés",
+      "famille": "science",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "ciel-en-cartes",
+      "titre": "Les cartes du ciel",
+      "famille": "science",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "station-meteo",
+      "titre": "La station météo",
+      "famille": "science",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "ponts-a-tester",
+      "titre": "Les structures à tester",
+      "famille": "science",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "temperatures-melangees",
+      "titre": "Les mesures mélangées",
+      "famille": "science",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "lumiere-et-couleurs",
+      "titre": "Le laboratoire de lumière",
+      "famille": "science",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "messagers-en-mouvement",
+      "titre": "Le relais des messages",
+      "famille": "deplacement",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "salle-a-configurer",
+      "titre": "La salle à préparer",
+      "famille": "deplacement",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "parcours-livraison",
+      "titre": "Le parcours de livraison",
+      "famille": "deplacement",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "indices-dans-ecole",
+      "titre": "Les indices dans l’école",
+      "famille": "deplacement",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "itineraire-sur",
+      "titre": "L’itinéraire sûr",
+      "famille": "deplacement",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "randonnee-symbolique",
+      "titre": "La randonnée des découvertes",
+      "famille": "deplacement",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "conseil-du-village",
+      "titre": "Le conseil du village",
+      "famille": "collectif",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "regles-ateliers",
+      "titre": "Les règles de l’atelier",
+      "famille": "collectif",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "ressources-a-partager",
+      "titre": "La ressource partagée",
+      "famille": "collectif",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "horaires-contradictoires",
+      "titre": "Le calendrier des groupes",
+      "famille": "collectif",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "photo-ou-pas",
+      "titre": "La photo et le choix",
+      "famille": "collectif",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    },
+    {
+      "id": "vote-projet-commun",
+      "titre": "Le projet commun",
+      "famille": "collectif",
+      "source": "Kontexte/data/trames/catalogue-neutral-v0.2.json",
+      "statut": "idee_non_executable"
+    }
+  ],
+  "overlays_qc3_existants": [
+    {
+      "id": "qc3-fete-commune",
+      "trame_source_id": "fete-commune",
+      "titre": "Le rassemblement des ateliers",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-spectacle-imprevu",
+      "trame_source_id": "spectacle-imprevu",
+      "titre": "Le petit spectacle de quartier",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-repas-partage",
+      "trame_source_id": "repas-partage",
+      "titre": "Le menu fictif des récoltes",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-marche-des-creations",
+      "trame_source_id": "marche-des-creations",
+      "titre": "Le mini-marché des œuvres",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-bibliotheque-vivante",
+      "trame_source_id": "bibliotheque-vivante",
+      "titre": "Les histoires à partager",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-merci-collectif",
+      "trame_source_id": "merci-collectif",
+      "titre": "Les cartes de gratitude",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-commande-de-pains",
+      "trame_source_id": "commande-de-pains",
+      "titre": "La commande de la boulangerie fictive",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-chapeau-de-papier",
+      "trame_source_id": "chapeau-de-papier",
+      "titre": "Les chapeaux de papier",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-pont-miniature",
+      "trame_source_id": "pont-miniature",
+      "titre": "Le pont de carton",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-mecanisme-en-panne",
+      "trame_source_id": "mecanisme-en-panne",
+      "titre": "Le mécanisme des décors",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-atelier-metal",
+      "trame_source_id": "atelier-metal",
+      "titre": "La forge en papier",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-costumes-recycles",
+      "trame_source_id": "costumes-recycles",
+      "titre": "La malle de costumes réemployés",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-message-fragmente",
+      "trame_source_id": "message-fragmente",
+      "titre": "L’invitation en morceaux",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-plante-mystere",
+      "trame_source_id": "plante-mystere",
+      "titre": "Les semis inconnus",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-carte-incomplete",
+      "trame_source_id": "carte-incomplete",
+      "titre": "Le plan incomplet de l’école",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-sons-des-lieux",
+      "trame_source_id": "sons-des-lieux",
+      "titre": "La carte sonore du voisinage",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-ombres-mobiles",
+      "trame_source_id": "ombres-mobiles",
+      "titre": "Les ombres de la cour",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-colis-egare",
+      "trame_source_id": "colis-egare",
+      "titre": "Le paquet de livres égaré",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-coup-de-main",
+      "trame_source_id": "coup-de-main",
+      "titre": "Un coup de main à l’atelier",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-tuteurs-temporaires",
+      "trame_source_id": "tuteurs-temporaires",
+      "titre": "Les parrains de fabrication",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-maquette-accessible",
+      "trame_source_id": "maquette-accessible",
+      "titre": "Le parcours accessible en maquette",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-affiche-service",
+      "trame_source_id": "affiche-service",
+      "titre": "L’affiche du service d’entraide",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-accueil-nouveaux",
+      "trame_source_id": "accueil-nouveaux",
+      "titre": "Bienvenue à notre école",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-reparer-pour-un-autre",
+      "trame_source_id": "reparer-pour-un-autre",
+      "titre": "L’atelier des objets de papier",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-jardin-saisonnier",
+      "trame_source_id": "jardin-saisonnier",
+      "titre": "Le potager des quatre saisons",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-reserve-eau",
+      "trame_source_id": "reserve-eau",
+      "titre": "La réserve d’eau du jardin",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-foret-partagee",
+      "trame_source_id": "foret-partagee",
+      "titre": "L’usage partagé d’un boisé",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-habitats-des-animaux",
+      "trame_source_id": "habitats-des-animaux",
+      "titre": "Les abris des animaux du Québec",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-lac-a-preserver",
+      "trame_source_id": "lac-a-preserver",
+      "titre": "Le lac et ses visiteurs",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-compost-collectif",
+      "trame_source_id": "compost-collectif",
+      "titre": "Le compost de l’école",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-caisse-klownkoins",
+      "trame_source_id": "caisse-klownkoins",
+      "titre": "La caisse de la fête",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-budget-marche",
+      "trame_source_id": "budget-marche",
+      "titre": "Le budget des kiosques",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-stock-et-commande",
+      "trame_source_id": "stock-et-commande",
+      "titre": "Les 24 invitations manquantes",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-taxe-de-simulation",
+      "trame_source_id": "taxe-de-simulation",
+      "titre": "La taxe imaginaire des Klownkoins",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-troc-equitable",
+      "trame_source_id": "troc-equitable",
+      "titre": "L’échange des matériaux",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-transport-commande",
+      "trame_source_id": "transport-commande",
+      "titre": "La tournée des fournitures",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-invitation-multilingue",
+      "trame_source_id": "invitation-multilingue",
+      "titre": "L’invitation fr-CA / en-CA",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-bulletin-local",
+      "trame_source_id": "bulletin-local",
+      "titre": "Les nouvelles de notre quartier",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-journal-exploration",
+      "trame_source_id": "journal-exploration",
+      "titre": "Carnet d’une exploration québécoise",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-conte-partage",
+      "trame_source_id": "conte-partage",
+      "titre": "Le conte inventé ensemble",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-notice-ambigue",
+      "trame_source_id": "notice-ambigue",
+      "titre": "La notice difficile à suivre",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-mode-emploi-visible",
+      "trame_source_id": "mode-emploi-visible",
+      "titre": "Le mode d’emploi illustré",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-semis-compare",
+      "trame_source_id": "semis-compare",
+      "titre": "Deux bacs de haricots",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-ciel-en-cartes",
+      "trame_source_id": "ciel-en-cartes",
+      "titre": "Le ciel de notre région",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-station-meteo",
+      "trame_source_id": "station-meteo",
+      "titre": "La météo de la cour",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-ponts-a-tester",
+      "trame_source_id": "ponts-a-tester",
+      "titre": "Le concours de ponts en carton",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-temperatures-melangees",
+      "trame_source_id": "temperatures-melangees",
+      "titre": "Les relevés de température",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-lumiere-et-couleurs",
+      "trame_source_id": "lumiere-et-couleurs",
+      "titre": "La lumière de l’atelier",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-messagers-en-mouvement",
+      "trame_source_id": "messagers-en-mouvement",
+      "titre": "Le relais des invitations",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-salle-a-configurer",
+      "trame_source_id": "salle-a-configurer",
+      "titre": "Aménager la salle",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-parcours-livraison",
+      "trame_source_id": "parcours-livraison",
+      "titre": "La tournée du messager",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-indices-dans-ecole",
+      "trame_source_id": "indices-dans-ecole",
+      "titre": "La chasse aux indices calme",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-itineraire-sur",
+      "trame_source_id": "itineraire-sur",
+      "titre": "Le plan d’un trajet sûr",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-randonnee-symbolique",
+      "trame_source_id": "randonnee-symbolique",
+      "titre": "La randonnée des découvertes",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-conseil-du-village",
+      "trame_source_id": "conseil-du-village",
+      "titre": "Le conseil de la classe",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-regles-ateliers",
+      "trame_source_id": "regles-ateliers",
+      "titre": "Les règles de travail commun",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-ressources-a-partager",
+      "trame_source_id": "ressources-a-partager",
+      "titre": "Les matériaux partagés",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-horaires-contradictoires",
+      "trame_source_id": "horaires-contradictoires",
+      "titre": "L’emploi du temps des ateliers",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-photo-ou-pas",
+      "trame_source_id": "photo-ou-pas",
+      "titre": "Publier ou protéger une création",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    },
+    {
+      "id": "qc3-vote-projet-commun",
+      "trame_source_id": "vote-projet-commun",
+      "titre": "Choisir un projet de groupe",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/overlays-60.json",
+      "statut": "overlay_existant_propose"
+    }
+  ],
+  "microsituations_existantes": [
+    {
+      "id": "enseignement-explicite-001",
+      "titre": "Atelier ciblé : Caractériser un personnage fictif",
+      "trame_source_id": "regles-ateliers",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-002",
+      "titre": "Atelier ciblé : Comprendre des consignes courtes en anglais",
+      "trame_source_id": "carte-incomplete",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-003",
+      "titre": "Atelier ciblé : Employer des formules et courtes questions",
+      "trame_source_id": "message-fragmente",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-004",
+      "titre": "Atelier ciblé : Repérer une information dans un court écrit adapté",
+      "trame_source_id": "chapeau-de-papier",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-005",
+      "titre": "Atelier ciblé : Exprimer un point de vue sur une création",
+      "trame_source_id": "journal-exploration",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-006",
+      "titre": "Atelier ciblé : Étudier les étapes de vie et diversité des expériences",
+      "trame_source_id": "lumiere-et-couleurs",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-007",
+      "titre": "Atelier ciblé : Normes de genre : enseigner avec respect et sans assignation",
+      "trame_source_id": "messagers-en-mouvement",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-008",
+      "titre": "Atelier ciblé : Observer différentes façons d’habiter le territoire québécois",
+      "trame_source_id": "indices-dans-ecole",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-009",
+      "titre": "Atelier ciblé : Prévention des agressions sexuelles : enseignement approprié par personnel qualifié",
+      "trame_source_id": "fete-commune",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-010",
+      "titre": "Atelier ciblé : Observer la diversité des croyances et des formes de spiritualité sans l’essentialiser",
+      "trame_source_id": "commande-de-pains",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-011",
+      "titre": "Atelier ciblé : Observer des stéréotypes et leurs effets",
+      "trame_source_id": "semis-compare",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-012",
+      "titre": "Atelier ciblé : Inventer une courte séquence corporelle",
+      "trame_source_id": "accueil-nouveaux",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-013",
+      "titre": "Atelier ciblé : Interpréter la séquence devant un groupe",
+      "trame_source_id": "invitation-multilingue",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-014",
+      "titre": "Atelier ciblé : Explorer corps, espace et qualités de mouvement",
+      "trame_source_id": "budget-marche",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-015",
+      "titre": "Atelier ciblé : Coordonner des gestes et manipuler un objet",
+      "trame_source_id": "jardin-saisonnier",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-016",
+      "titre": "Atelier ciblé : Maintenir et retrouver son équilibre",
+      "trame_source_id": "ressources-a-partager",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-017",
+      "titre": "Atelier ciblé : Observer et nommer des habitudes actives appropriées",
+      "trame_source_id": "affiche-service",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-018",
+      "titre": "Atelier ciblé : Observer et effectuer des accords appropriés",
+      "trame_source_id": "fete-commune",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-019",
+      "titre": "Atelier ciblé : Formuler une inférence simple à partir du texte",
+      "trame_source_id": "spectacle-imprevu",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-020",
+      "titre": "Atelier ciblé : Réviser l’orthographe d’usage avec des outils",
+      "trame_source_id": "pont-miniature",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-021",
+      "titre": "Atelier ciblé : Employer des formes verbales adaptées au texte",
+      "trame_source_id": "sons-des-lieux",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-022",
+      "titre": "Atelier ciblé : Expliquer et vérifier sa démarche mathématique",
+      "trame_source_id": "taxe-de-simulation",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-023",
+      "titre": "Atelier ciblé : Représenter des fractions usuelles avec un matériel",
+      "trame_source_id": "costumes-recycles",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-024",
+      "titre": "Atelier ciblé : Lire, représenter et comparer des nombres naturels",
+      "trame_source_id": "salle-a-configurer",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-025",
+      "titre": "Atelier ciblé : Mobiliser la valeur de position et le regroupement",
+      "trame_source_id": "conte-partage",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-026",
+      "titre": "Atelier ciblé : Repérer et poursuivre une régularité",
+      "trame_source_id": "troc-equitable",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-027",
+      "titre": "Atelier ciblé : Créer un court motif sonore",
+      "trame_source_id": "fete-commune",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-028",
+      "titre": "Atelier ciblé : Interpréter un motif en groupe",
+      "trame_source_id": "fete-commune",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-029",
+      "titre": "Atelier ciblé : Décrire une conclusion limitée aux observations",
+      "trame_source_id": "conseil-du-village",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-030",
+      "titre": "Atelier ciblé : Comparer des caractéristiques de sociétés algonquiennes vers 1500",
+      "trame_source_id": "photo-ou-pas",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-031",
+      "titre": "Atelier ciblé : Distinguer changement, continuité, passé et présent",
+      "trame_source_id": "compost-collectif",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-032",
+      "titre": "Atelier ciblé : Étudier une société iroquoienne vers 1500 avec sources contextualisées",
+      "trame_source_id": "caisse-klownkoins",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-033",
+      "titre": "Atelier ciblé : Décrire une organisation sociale liée à son territoire",
+      "trame_source_id": "foret-partagee",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    },
+    {
+      "id": "enseignement-explicite-034",
+      "titre": "Atelier ciblé : Distinguer documents, témoins et sources",
+      "trame_source_id": "bulletin-local",
+      "source": "Kontexte/data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+      "statut": "micro_situation_proposee"
+    }
+  ],
+  "parcours_existant": {
+    "semaines_proposees": 36,
+    "source": "Kontexte/data/locales/qc/fr-CA/grade3/parcours-36-semaines.json",
+    "statut": "editorial_non_officiel"
+  }
+}

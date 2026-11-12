@@ -76,6 +76,21 @@ class TandemExportTest(unittest.TestCase):
         with self.assertRaises(KontexteError):self.export(d)
         d=copy.deepcopy(self.source);d['steps'][0]['depends_on']=['budget-final']
         with self.assertRaises(KontexteError):self.export(d)
+
+    def test_six_new_worlds_have_private_synthetic_review_guards(self):
+        _,_,missions=read_all(ROOT)
+        for mid in ('grand-menage-chez-mamie','mystere-de-la-bibliotheque',
+                    'pique-nique-des-saisons','rallye-des-metiers',
+                    'randonnee-a-velo','spectacle-des-histoires'):
+            with self.subTest(mission=mid):
+                doc=self.export(missions[mid])
+                self.assertEqual(len(doc['tasks']),len(missions[mid]['steps']))
+                self.assertTrue(all(not task['fragment_refs'] for task in doc['tasks']))
+                self.assertEqual(doc['mode'],'synthetic')
+                changed=copy.deepcopy(missions[mid])
+                changed['safety']['publication_default']='public'
+                with self.assertRaises(KontexteError):self.export(changed)
+
     def test_cli_export_no_network(self):
         with tempfile.TemporaryDirectory() as directory:
             out=Path(directory)/'ekole.json'

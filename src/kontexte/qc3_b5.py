@@ -19,6 +19,14 @@ SOURCE = 'commande-de-pains'
 ROLES = ('boulanger', 'fermier', 'comptable')
 GOALS = ('qc3.ma.multiplication', 'qc3.ma.addition', 'qc3.fr.lire-consigne', 'qc3.st.matiere')
 
+# Inventaire figé au lancement de l'audit B5. Les autres missions font partie
+# de la banque éditoriale extensible, sans modifier la cohorte historique B5.
+B5_HISTORICAL_MISSIONS = frozenset({
+    'atelier-mecanique', 'boulangerie', 'chantier-maquette', 'conseil-village',
+    'expedition', 'fete-sorciere', 'jardin-fermier', 'laboratoire',
+    'salon-coiffure', 'sorciere-solo', 'spectacle-clown',
+})
+
 
 def canonical_sha(obj:dict) -> str:
     """The pre-existing overlay uses sorted, non-ASCII, default JSON spacing."""
@@ -45,7 +53,10 @@ def gather(repo:Path) -> dict:
     check(hashlib.sha256(source_path.read_bytes()).hexdigest() == overlays_doc.get('parent_catalogue_hash'),
           'L’empreinte du catalogue neutre ne correspond plus à la surcouche Québec')
     check(len(base)==60 and len(localized)==60,'60 scénarios neutres et 60 adaptations attendus')
-    check(len(roles)==38 and len(missions)==11,'Inventaire de rôles/missions différent de la base B5')
+    check(len(roles)==38, 'Inventaire de 38 rôles différent de la base B5')
+    check(B5_HISTORICAL_MISSIONS <= set(missions),
+          'Mission historique B5 absente de la banque : ' +
+          ', '.join(sorted(B5_HISTORICAL_MISSIONS - set(missions))))
     check(len(goals)==83 and len(micro)==34 and len(weeks)==36,'Inventaire Québec 3 différent de la base B5')
     check(len(courses)==202,'Le catalogue interne de référence doit contenir 202 Kristals')
     def unique(seq,label):
@@ -88,7 +99,8 @@ def gather(repo:Path) -> dict:
         for rid in week.get('micro_situations_supplementaires',[]):
             check(rid in {m['id'] for m in micro},f'Semaine {week["semaine_pedagogique"]}: micro-situation inconnue')
     return dict(repo=repo,neutral=nb,overlays=ov,goals=g,year=year_doc,
-                micro=micro,courses=courses,roles=roles,missions=missions,
+                micro=micro,courses=courses,roles=roles,missions={k:missions[k] for k in sorted(B5_HISTORICAL_MISSIONS)},
+                bank_missions=missions,
                 core=core, weeks_for=weeks_for,used=used,remaining=remaining,
                 catalogue_sha256=overlays_doc['parent_catalogue_hash'])
 

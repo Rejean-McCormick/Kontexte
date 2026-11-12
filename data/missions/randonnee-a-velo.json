@@ -1,0 +1,229 @@
+{
+  "format": "kontexte.mission/1",
+  "id": "randonnee-a-velo",
+  "version": "0.1.0",
+  "synthetic": true,
+  "title": {
+    "fr-CA": "La grande randonnée à vélo"
+  },
+  "fiction": {
+    "fr-CA": "Martin prépare une randonnée avec un petit groupe. Il faut d’abord préparer les vélos, choisir un itinéraire, découvrir la nature, accueillir une rencontre et gérer une pause-gourmandise fictive."
+  },
+  "year_suggestion": 3,
+  "roles": [
+    "mecanicien",
+    "scientifique",
+    "explorateur",
+    "messager",
+    "jardinier",
+    "comptable",
+    "lecteur",
+    "redacteur",
+    "photographe"
+  ],
+  "fragments": [
+    {
+      "id": "panneau-trajet",
+      "holder_role": "explorateur",
+      "content": {
+        "fr-CA": "Boucle A : 3 km; boucle B : 5 km. Le groupe doit respecter un trajet approuvé par l’adulte."
+      },
+      "release": "orgo_authorized",
+      "visibility": "participant"
+    },
+    {
+      "id": "heure-retour",
+      "holder_role": "messager",
+      "content": {
+        "fr-CA": "Dans la simulation, l’équipe doit être de retour au point de départ avant 15 h."
+      },
+      "release": "orgo_authorized",
+      "visibility": "participant"
+    },
+    {
+      "id": "tarifs-glaces",
+      "holder_role": "comptable",
+      "content": {
+        "fr-CA": "Tarifs fictifs : petit cornet 3 $, grand cornet 5 $. Aucun paiement réel."
+      },
+      "release": "orgo_authorized",
+      "visibility": "participant"
+    },
+    {
+      "id": "budget-pause",
+      "holder_role": "lecteur",
+      "content": {
+        "fr-CA": "Le budget fictif pour quatre petits cornets est de 15 $."
+      },
+      "release": "orgo_authorized",
+      "visibility": "participant"
+    }
+  ],
+  "steps": [
+    {
+      "id": "lire-pneu",
+      "role": "mecanicien",
+      "instruction": {
+        "fr-CA": "Sur un pneu ou une image fournie, repère les unités et la plage de pression inscrites; ne choisis pas une pression universelle."
+      },
+      "kind": "review",
+      "depends_on": [],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "air-et-valve",
+      "role": "scientifique",
+      "instruction": {
+        "fr-CA": "Compare les lieux ou dispositifs capables de fournir de l’air; explique avec un modèle pourquoi une valve limite le retour de l’air."
+      },
+      "kind": "performance",
+      "depends_on": [
+        "lire-pneu"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "abc-dv",
+      "role": "mecanicien",
+      "instruction": {
+        "fr-CA": "Avec un adulte, applique la vérification ABCDV : air, bons freins et guidon, chaîne et pédalier, déclencheurs, vérification finale."
+      },
+      "kind": "review",
+      "depends_on": [
+        "air-et-valve"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "itineraire",
+      "role": "explorateur",
+      "instruction": {
+        "fr-CA": "À partir du plan, calcule la distance de deux trajets et choisis un itinéraire accessible et sûr selon les consignes."
+      },
+      "kind": "document",
+      "depends_on": [
+        "abc-dv"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "message-depart",
+      "role": "messager",
+      "instruction": {
+        "fr-CA": "Explique au groupe le point de rencontre et les règles; vérifie que chacun a compris, sans transmettre de coordonnées personnelles."
+      },
+      "kind": "message",
+      "depends_on": [
+        "itineraire"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "station-nature",
+      "role": "jardinier",
+      "instruction": {
+        "fr-CA": "À une station simulée, observe une fleur et un animal à partir de fiches illustrées; justifie une identification prudente."
+      },
+      "kind": "review",
+      "depends_on": [
+        "message-depart"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "rencontre",
+      "role": "lecteur",
+      "instruction": {
+        "fr-CA": "Lis le récit fictif d’une personne nouvellement arrivée dans la communauté. Formule deux questions respectueuses et écoute les réponses prévues."
+      },
+      "kind": "encounter",
+      "depends_on": [
+        "message-depart"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "glacerie",
+      "role": "comptable",
+      "instruction": {
+        "fr-CA": "Compare les prix fictifs de cornets, calcule le total pour le groupe et vérifie la monnaie rendue; aucun achat réel requis."
+      },
+      "kind": "object",
+      "depends_on": [
+        "station-nature",
+        "rencontre"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "reportage",
+      "role": "photographe",
+      "instruction": {
+        "fr-CA": "Documente le trajet par un croquis ou des photos d’objets autorisées; aucun visage ni lieu personnel n’est nécessaire."
+      },
+      "kind": "document",
+      "depends_on": [
+        "glacerie"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "journal-retour",
+      "role": "redacteur",
+      "instruction": {
+        "fr-CA": "Rédige un court bilan : vérifications, découvertes, échanges, calculs et prochaine amélioration."
+      },
+      "kind": "document",
+      "depends_on": [
+        "reportage"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    }
+  ],
+  "joins": [
+    {
+      "id": "choisir-parcours",
+      "fragment_ids": [
+        "panneau-trajet",
+        "heure-retour"
+      ],
+      "unlock_step": "itineraire"
+    },
+    {
+      "id": "calculer-pause",
+      "fragment_ids": [
+        "tarifs-glaces",
+        "budget-pause"
+      ],
+      "unlock_step": "glacerie"
+    }
+  ],
+  "adaptation": {
+    "accompagne": {
+      "instruction": "Consignes fractionnées, pictogrammes, réponse orale ou avec aide; choix et besoins non dévoilés aux pairs."
+    },
+    "standard": {
+      "instruction": "Travail en autonomie progressive, échanges structurés et vérification des critères."
+    },
+    "approfondi": {
+      "instruction": "Comparer des solutions, justifier des décisions et transférer la compétence dans une nouvelle situation."
+    }
+  },
+  "status": "proposition_editoriale_synthetique_a_reviser",
+  "safety": {
+    "fr-CA": "Randonnée fictive ou sortie supervisée seulement; inspection mécanique et pression validées par adulte qualifié; casque, permissions, encadrement, accessibilité et règles de circulation requis pour une sortie réelle. La rencontre interculturelle est un récit consenti/fictif, sans stéréotypes.",
+    "real_spending": false,
+    "real_taxes": false,
+    "publication_default": "private"
+  }
+}

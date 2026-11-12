@@ -8,7 +8,7 @@ import shutil
 import tempfile
 import unittest
 
-from kontexte.qc3_b5 import gather, audit, pilot, export_audit, export_pilot, canonical_sha
+from kontexte.qc3_b5 import gather, audit, pilot, export_audit, export_pilot, canonical_sha, B5_HISTORICAL_MISSIONS
 from kontexte.common import KontexteError
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -20,6 +20,25 @@ class B5Grade3Tests(unittest.TestCase):
         self.assertEqual((len(ctx['neutral']),len(ctx['overlays']),len(ctx['roles']),len(ctx['missions'])),(60,60,38,11))
         self.assertEqual((len(ctx['core']),len(ctx['used']),len(ctx['remaining'])),(32,49,34))
         self.assertEqual(ctx['weeks_for']['commande-de-pains'],10)
+        self.assertEqual(set(ctx['missions']),B5_HISTORICAL_MISSIONS)
+        self.assertEqual(len(ctx['bank_missions']),17)
+
+
+    def test_extended_bank_does_not_change_historical_b5(self):
+        ctx=gather(ROOT)
+        self.assertEqual(set(ctx['missions']), B5_HISTORICAL_MISSIONS)
+        self.assertEqual(len(ctx['bank_missions']) - len(ctx['missions']), 6)
+        historical, _ = audit(ROOT)
+        self.assertEqual(len(historical['missions']), 11)
+
+    def test_missing_historical_mission_fails_closed(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td)
+            for folder in ('data/trames','data/locales/qc/fr-CA/grade3','data/catalogue','data/roles','data/missions'):
+                shutil.copytree(ROOT/folder,root/folder)
+            (root/'data/missions/boulangerie.json').unlink()
+            with self.assertRaisesRegex(KontexteError,'historique B5'):
+                gather(root)
 
     def test_hashes_of_all_neutral_parents(self):
         ctx=gather(ROOT)

@@ -1,0 +1,213 @@
+{
+  "format": "kontexte.mission/1",
+  "id": "spectacle-des-histoires",
+  "version": "0.1.0",
+  "synthetic": true,
+  "title": {
+    "fr-CA": "Le spectacle des histoires inventées"
+  },
+  "fiction": {
+    "fr-CA": "Une troupe crée un petit livre puis une représentation pour le village. Pour choisir sa thématique, elle doit réunir des mots-clés, voter sur des idées et construire une scène ensemble."
+  },
+  "year_suggestion": 3,
+  "roles": [
+    "ecrivain",
+    "redacteur",
+    "politicien",
+    "metteur-en-scene",
+    "lecteur",
+    "regisseur",
+    "coiffeuse",
+    "messager",
+    "musicien"
+  ],
+  "fragments": [
+    {
+      "id": "liste-mots",
+      "holder_role": "redacteur",
+      "content": {
+        "fr-CA": "Les mots associés au thème du mystère sont : clé, rivière, lampe, carte."
+      },
+      "release": "orgo_authorized",
+      "visibility": "participant"
+    },
+    {
+      "id": "contraintes-scene",
+      "holder_role": "regisseur",
+      "content": {
+        "fr-CA": "La scène doit durer moins de huit minutes; deux accessoires seulement sont disponibles."
+      },
+      "release": "orgo_authorized",
+      "visibility": "participant"
+    },
+    {
+      "id": "indice-personnage",
+      "holder_role": "coiffeuse",
+      "content": {
+        "fr-CA": "Le personnage sait que la clé de l’histoire est cachée près de la carte, pas de la lampe."
+      },
+      "release": "orgo_authorized",
+      "visibility": "participant"
+    }
+  ],
+  "steps": [
+    {
+      "id": "idees",
+      "role": "ecrivain",
+      "instruction": {
+        "fr-CA": "Propose trois thèmes possibles et note des mots-clés associés à chacun."
+      },
+      "kind": "document",
+      "depends_on": [],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "mots-cles",
+      "role": "redacteur",
+      "instruction": {
+        "fr-CA": "Regroupe les mots par thème, distingue les mots essentiels des détails et prépare une affiche lisible."
+      },
+      "kind": "document",
+      "depends_on": [
+        "idees"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "vote-theme",
+      "role": "politicien",
+      "instruction": {
+        "fr-CA": "Anime un vote sur les thèmes, pas sur les personnes; consigne les résultats et explique le choix sans humilier la minorité."
+      },
+      "kind": "review",
+      "depends_on": [
+        "mots-cles"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "petit-livre",
+      "role": "ecrivain",
+      "instruction": {
+        "fr-CA": "Écris une histoire courte avec début, problème et résolution; crée une page de couverture."
+      },
+      "kind": "document",
+      "depends_on": [
+        "vote-theme"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "distribution",
+      "role": "metteur-en-scene",
+      "instruction": {
+        "fr-CA": "Répartis personnages, narrateur, accessoires et temps de parole de façon inclusive."
+      },
+      "kind": "message",
+      "depends_on": [
+        "petit-livre"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "station-personnage",
+      "role": "coiffeuse",
+      "instruction": {
+        "fr-CA": "À une station de jeu symbolique, présente un personnage en mimant une coiffure avec les doigts; donne au visiteur un indice de la quête."
+      },
+      "kind": "encounter",
+      "depends_on": [
+        "distribution"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "lecture-voix",
+      "role": "lecteur",
+      "instruction": {
+        "fr-CA": "Entraîne une scène en lisant clairement le texte avec une option de soutien ou de voix partagée."
+      },
+      "kind": "performance",
+      "depends_on": [
+        "distribution"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "bande-son",
+      "role": "musicien",
+      "instruction": {
+        "fr-CA": "Choisis des sons produits sans danger pour marquer le début, la tension et la conclusion."
+      },
+      "kind": "performance",
+      "depends_on": [
+        "distribution"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "scene",
+      "role": "regisseur",
+      "instruction": {
+        "fr-CA": "Vérifie quatre points : espace libre, accessoires sécuritaires, ordre de passage et possibilité de participation adaptée."
+      },
+      "kind": "review",
+      "depends_on": [
+        "station-personnage",
+        "lecture-voix",
+        "bande-son"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "representer",
+      "role": "messager",
+      "instruction": {
+        "fr-CA": "Présente le spectacle à un public invité ou fictif et recueille une rétroaction sur l’histoire, pas sur la valeur des enfants."
+      },
+      "kind": "performance",
+      "depends_on": [
+        "scene"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    }
+  ],
+  "joins": [
+    {
+      "id": "ecriture-collective",
+      "fragment_ids": [
+        "liste-mots",
+        "contraintes-scene"
+      ],
+      "unlock_step": "petit-livre"
+    }
+  ],
+  "adaptation": {
+    "accompagne": {
+      "instruction": "Consignes fractionnées, pictogrammes, réponse orale ou avec aide; choix et besoins non dévoilés aux pairs."
+    },
+    "standard": {
+      "instruction": "Travail en autonomie progressive, échanges structurés et vérification des critères."
+    },
+    "approfondi": {
+      "instruction": "Comparer des solutions, justifier des décisions et transférer la compétence dans une nouvelle situation."
+    }
+  },
+  "status": "proposition_editoriale_synthetique_a_reviser",
+  "safety": {
+    "fr-CA": "Jeu de rôle sans véritables outils de coiffure; aucune photo/vidéo d’enfant sans consentements appropriés; vote accessible, privé si nécessaire et sans jugement sur les élèves.",
+    "real_spending": false,
+    "real_taxes": false,
+    "publication_default": "private"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "format": "kontexte.mission/1",
+  "id": "grand-menage-chez-mamie",
+  "version": "0.1.0",
+  "synthetic": true,
+  "title": {
+    "fr-CA": "Le grand ménage chez mamie"
+  },
+  "fiction": {
+    "fr-CA": "Mamie a demandé de l’aide pour réorganiser une maison imaginaire avant une visite. Elle choisit ce qui peut être déplacé; l’équipe doit respecter ses décisions, son temps et un budget fictif."
+  },
+  "year_suggestion": 3,
+  "roles": [
+    "explorateur",
+    "scientifique",
+    "regisseur",
+    "comptable",
+    "redacteur",
+    "messager"
+  ],
+  "fragments": [
+    {
+      "id": "plan-maison",
+      "holder_role": "explorateur",
+      "content": {
+        "fr-CA": "Le salon contient 8 livres à classer et deux étagères avec quatre places chacune."
+      },
+      "release": "orgo_authorized",
+      "visibility": "participant"
+    },
+    {
+      "id": "temps-disponible",
+      "holder_role": "regisseur",
+      "content": {
+        "fr-CA": "Mamie autorise deux plages fictives de 15 minutes et demande qu’on commence par dégager le passage."
+      },
+      "release": "orgo_authorized",
+      "visibility": "participant"
+    },
+    {
+      "id": "inventaire-fournitures",
+      "holder_role": "scientifique",
+      "content": {
+        "fr-CA": "Seuls des chiffons secs et des boîtes de tri sont autorisés dans la simulation."
+      },
+      "release": "orgo_authorized",
+      "visibility": "participant"
+    }
+  ],
+  "steps": [
+    {
+      "id": "inventaire",
+      "role": "explorateur",
+      "instruction": {
+        "fr-CA": "Repère sur le plan fictif les objets et les quatre zones à organiser. Classe les objets dans un tableau."
+      },
+      "kind": "document",
+      "depends_on": [],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "tri-securitaire",
+      "role": "scientifique",
+      "instruction": {
+        "fr-CA": "Distingue les objets à ranger, à recycler et ceux qui nécessitent l’aide d’un adulte. Ne mélange aucun produit ménager."
+      },
+      "kind": "review",
+      "depends_on": [],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "plan-quatre-zones",
+      "role": "regisseur",
+      "instruction": {
+        "fr-CA": "Avec les indices de l’inventaire et le temps disponible, propose un ordre de travail pour quatre zones; demande l’accord de Mamie."
+      },
+      "kind": "document",
+      "depends_on": [
+        "inventaire",
+        "tri-securitaire"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "budget",
+      "role": "comptable",
+      "instruction": {
+        "fr-CA": "Calcule le coût de fournitures fictives, compare deux solutions et explique le reste du budget."
+      },
+      "kind": "object",
+      "depends_on": [
+        "plan-quatre-zones"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "consignes",
+      "role": "redacteur",
+      "instruction": {
+        "fr-CA": "Écris quatre consignes courtes et positives pour guider l’équipe."
+      },
+      "kind": "document",
+      "depends_on": [
+        "plan-quatre-zones"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "transmission",
+      "role": "messager",
+      "instruction": {
+        "fr-CA": "Présente le plan aux partenaires; recueille une question et transmets la réponse sans parler à leur place."
+      },
+      "kind": "encounter",
+      "depends_on": [
+        "consignes"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "controle-final",
+      "role": "regisseur",
+      "instruction": {
+        "fr-CA": "Vérifie avec un partenaire quatre critères : accès dégagé, objets à leur place, tri correct, choix de Mamie respectés."
+      },
+      "kind": "review",
+      "depends_on": [
+        "budget",
+        "transmission"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "bilan",
+      "role": "comptable",
+      "instruction": {
+        "fr-CA": "Explique ce qui a été réussi, ce qui reste à améliorer et ce qui a demandé de l’aide."
+      },
+      "kind": "document",
+      "depends_on": [
+        "controle-final"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    }
+  ],
+  "joins": [
+    {
+      "id": "planifie-ensemble",
+      "fragment_ids": [
+        "plan-maison",
+        "temps-disponible"
+      ],
+      "unlock_step": "plan-quatre-zones"
+    }
+  ],
+  "adaptation": {
+    "accompagne": {
+      "instruction": "Consignes fractionnées, pictogrammes, réponse orale ou avec aide; choix et besoins non dévoilés aux pairs."
+    },
+    "standard": {
+      "instruction": "Travail en autonomie progressive, échanges structurés et vérification des critères."
+    },
+    "approfondi": {
+      "instruction": "Comparer des solutions, justifier des décisions et transférer la compétence dans une nouvelle situation."
+    }
+  },
+  "status": "proposition_editoriale_synthetique_a_reviser",
+  "safety": {
+    "fr-CA": "Maison fictive ou maquette; aucune photo d’un domicile réel, aucun produit chimique, aucune charge lourde; consentement et autonomie de la personne aînée préservés.",
+    "real_spending": false,
+    "real_taxes": false,
+    "publication_default": "private"
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "format": "kontexte.legacy-safety-review/1",
+  "scope": "editorial_register_only",
+  "no_automatic_unlock": true,
+  "not_teacher_authorization": true,
+  "missions": [
+    {
+      "mission_id": "atelier-mecanique",
+      "title": "L’atelier du mécanicien",
+      "step_count": 3,
+      "review_status": "pending_human_safety_review",
+      "teacher_preview_unlocked": false,
+      "checks_required": [
+        "no_real_spending",
+        "no_real_taxes",
+        "private_publication_default",
+        "age_appropriate_activities",
+        "adult_supervision_as_needed",
+        "no_sensitive_clues_to_unauthorized_participants"
+      ],
+      "instruction": "Compléter une revue de risques adaptée au scénario et signer les garanties structurées avant toute nouvelle projection. Les anciens contenus restent bloqués."
+    },
+    {
+      "mission_id": "boulangerie",
+      "title": "La boulangerie du village",
+      "step_count": 3,
+      "review_status": "pending_human_safety_review",
+      "teacher_preview_unlocked": false,
+      "checks_required": [
+        "no_real_spending",
+        "no_real_taxes",
+        "private_publication_default",
+        "age_appropriate_activities",
+        "adult_supervision_as_needed",
+        "no_sensitive_clues_to_unauthorized_participants"
+      ],
+      "instruction": "Compléter une revue de risques adaptée au scénario et signer les garanties structurées avant toute nouvelle projection. Les anciens contenus restent bloqués."
+    },
+    {
+      "mission_id": "chantier-maquette",
+      "title": "Le chantier de l’architecte",
+      "step_count": 3,
+      "review_status": "pending_human_safety_review",
+      "teacher_preview_unlocked": false,
+      "checks_required": [
+        "no_real_spending",
+        "no_real_taxes",
+        "private_publication_default",
+        "age_appropriate_activities",
+        "adult_supervision_as_needed",
+        "no_sensitive_clues_to_unauthorized_participants"
+      ],
+      "instruction": "Compléter une revue de risques adaptée au scénario et signer les garanties structurées avant toute nouvelle projection. Les anciens contenus restent bloqués."
+    },
+    {
+      "mission_id": "conseil-village",
+      "title": "Le conseil du village",
+      "step_count": 3,
+      "review_status": "pending_human_safety_review",
+      "teacher_preview_unlocked": false,
+      "checks_required": [
+        "no_real_spending",
+        "no_real_taxes",
+        "private_publication_default",
+        "age_appropriate_activities",
+        "adult_supervision_as_needed",
+        "no_sensitive_clues_to_unauthorized_participants"
+      ],
+      "instruction": "Compléter une revue de risques adaptée au scénario et signer les garanties structurées avant toute nouvelle projection. Les anciens contenus restent bloqués."
+    },
+    {
+      "mission_id": "expedition",
+      "title": "L’expédition",
+      "step_count": 3,
+      "review_status": "pending_human_safety_review",
+      "teacher_preview_unlocked": false,
+      "checks_required": [
+        "no_real_spending",
+        "no_real_taxes",
+        "private_publication_default",
+        "age_appropriate_activities",
+        "adult_supervision_as_needed",
+        "no_sensitive_clues_to_unauthorized_participants"
+      ],
+      "instruction": "Compléter une revue de risques adaptée au scénario et signer les garanties structurées avant toute nouvelle projection. Les anciens contenus restent bloqués."
+    },
+    {
+      "mission_id": "jardin-fermier",
+      "title": "Le jardin du fermier",
+      "step_count": 3,
+      "review_status": "pending_human_safety_review",
+      "teacher_preview_unlocked": false,
+      "checks_required": [
+        "no_real_spending",
+        "no_real_taxes",
+        "private_publication_default",
+        "age_appropriate_activities",
+        "adult_supervision_as_needed",
+        "no_sensitive_clues_to_unauthorized_participants"
+      ],
+      "instruction": "Compléter une revue de risques adaptée au scénario et signer les garanties structurées avant toute nouvelle projection. Les anciens contenus restent bloqués."
+    },
+    {
+      "mission_id": "laboratoire",
+      "title": "Le laboratoire",
+      "step_count": 3,
+      "review_status": "pending_human_safety_review",
+      "teacher_preview_unlocked": false,
+      "checks_required": [
+        "no_real_spending",
+        "no_real_taxes",
+        "private_publication_default",
+        "age_appropriate_activities",
+        "adult_supervision_as_needed",
+        "no_sensitive_clues_to_unauthorized_participants"
+      ],
+      "instruction": "Compléter une revue de risques adaptée au scénario et signer les garanties structurées avant toute nouvelle projection. Les anciens contenus restent bloqués."
+    },
+    {
+      "mission_id": "salon-coiffure",
+      "title": "Le salon de coiffure",
+      "step_count": 3,
+      "review_status": "pending_human_safety_review",
+      "teacher_preview_unlocked": false,
+      "checks_required": [
+        "no_real_spending",
+        "no_real_taxes",
+        "private_publication_default",
+        "age_appropriate_activities",
+        "adult_supervision_as_needed",
+        "no_sensitive_clues_to_unauthorized_participants"
+      ],
+      "instruction": "Compléter une revue de risques adaptée au scénario et signer les garanties structurées avant toute nouvelle projection. Les anciens contenus restent bloqués."
+    },
+    {
+      "mission_id": "sorciere-solo",
+      "title": "Le chaudron des mesures",
+      "step_count": 2,
+      "review_status": "pending_human_safety_review",
+      "teacher_preview_unlocked": false,
+      "checks_required": [
+        "no_real_spending",
+        "no_real_taxes",
+        "private_publication_default",
+        "age_appropriate_activities",
+        "adult_supervision_as_needed",
+        "no_sensitive_clues_to_unauthorized_participants"
+      ],
+      "instruction": "Compléter une revue de risques adaptée au scénario et signer les garanties structurées avant toute nouvelle projection. Les anciens contenus restent bloqués."
+    },
+    {
+      "mission_id": "spectacle-clown",
+      "title": "Le spectacle du clown",
+      "step_count": 3,
+      "review_status": "pending_human_safety_review",
+      "teacher_preview_unlocked": false,
+      "checks_required": [
+        "no_real_spending",
+        "no_real_taxes",
+        "private_publication_default",
+        "age_appropriate_activities",
+        "adult_supervision_as_needed",
+        "no_sensitive_clues_to_unauthorized_participants"
+      ],
+      "instruction": "Compléter une revue de risques adaptée au scénario et signer les garanties structurées avant toute nouvelle projection. Les anciens contenus restent bloqués."
+    }
+  ]
+}

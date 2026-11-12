@@ -1,0 +1,202 @@
+{
+  "format": "kontexte.mission/1",
+  "id": "pique-nique-des-saisons",
+  "version": "0.1.0",
+  "synthetic": true,
+  "title": {
+    "fr-CA": "Le pique-nique des quatre saisons"
+  },
+  "fiction": {
+    "fr-CA": "Le village veut organiser un pique-nique imaginaire accessible à toute l’équipe. Il faut choisir un lieu, établir un plan météo, répartir des portions fictives et préparer une annonce."
+  },
+  "year_suggestion": 3,
+  "roles": [
+    "scientifique",
+    "explorateur",
+    "cuisinier",
+    "comptable",
+    "messager",
+    "regisseur",
+    "redacteur",
+    "jardinier"
+  ],
+  "fragments": [
+    {
+      "id": "previsions",
+      "holder_role": "scientifique",
+      "content": {
+        "fr-CA": "La météo fictive prévoit de la pluie en après-midi."
+      },
+      "release": "orgo_authorized",
+      "visibility": "participant"
+    },
+    {
+      "id": "plan-parc",
+      "holder_role": "explorateur",
+      "content": {
+        "fr-CA": "Le parc A est proche mais sans abri; le lieu B dispose d’une salle accessible."
+      },
+      "release": "orgo_authorized",
+      "visibility": "participant"
+    },
+    {
+      "id": "budget-repas",
+      "holder_role": "comptable",
+      "content": {
+        "fr-CA": "Le budget imaginaire est de 24 jetons pour huit personnes."
+      },
+      "release": "orgo_authorized",
+      "visibility": "participant"
+    },
+    {
+      "id": "nombre-convives",
+      "holder_role": "cuisinier",
+      "content": {
+        "fr-CA": "Huit convives sont attendus; chaque panier fictif contient deux portions."
+      },
+      "release": "orgo_authorized",
+      "visibility": "participant"
+    }
+  ],
+  "steps": [
+    {
+      "id": "observer-saison",
+      "role": "scientifique",
+      "instruction": {
+        "fr-CA": "Compare des indices météorologiques fictifs et explique deux effets possibles sur l’organisation."
+      },
+      "kind": "review",
+      "depends_on": [],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "choisir-lieu",
+      "role": "explorateur",
+      "instruction": {
+        "fr-CA": "Compare deux lieux sur une carte, la distance et les conditions d’accès."
+      },
+      "kind": "document",
+      "depends_on": [
+        "observer-saison"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "liste-menu",
+      "role": "cuisinier",
+      "instruction": {
+        "fr-CA": "Prépare un menu fictif et une solution sans aliment réel pour les contraintes d’allergie, de consentement ou d’accès."
+      },
+      "kind": "document",
+      "depends_on": [
+        "choisir-lieu"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "quantites",
+      "role": "comptable",
+      "instruction": {
+        "fr-CA": "Calcule les quantités pour un groupe fictif et compare les coûts avec le budget prévu."
+      },
+      "kind": "object",
+      "depends_on": [
+        "liste-menu"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "station-plantes",
+      "role": "jardinier",
+      "instruction": {
+        "fr-CA": "À l’aide de fiches, distingue plantes comestibles cultivées et plantes à ne jamais cueillir sans expert; ne fait aucune dégustation."
+      },
+      "kind": "review",
+      "depends_on": [
+        "choisir-lieu"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "plan-repli",
+      "role": "regisseur",
+      "instruction": {
+        "fr-CA": "Rédige un plan d’activité intérieure si le temps ou l’accès au site empêche la sortie."
+      },
+      "kind": "document",
+      "depends_on": [
+        "quantites",
+        "station-plantes"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "invitation",
+      "role": "redacteur",
+      "instruction": {
+        "fr-CA": "Écris une annonce qui précise lieu fictif, moment, équipements et option intérieure."
+      },
+      "kind": "document",
+      "depends_on": [
+        "plan-repli"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    },
+    {
+      "id": "confirmation",
+      "role": "messager",
+      "instruction": {
+        "fr-CA": "Partage l’annonce approuvée, recueille une réponse fictive et confirme que chacun a accès au plan."
+      },
+      "kind": "message",
+      "depends_on": [
+        "invitation"
+      ],
+      "curriculum_ids": [],
+      "validation": "human_review"
+    }
+  ],
+  "joins": [
+    {
+      "id": "decider-lieu",
+      "fragment_ids": [
+        "previsions",
+        "plan-parc"
+      ],
+      "unlock_step": "choisir-lieu"
+    },
+    {
+      "id": "calculer-portions",
+      "fragment_ids": [
+        "budget-repas",
+        "nombre-convives"
+      ],
+      "unlock_step": "quantites"
+    }
+  ],
+  "adaptation": {
+    "accompagne": {
+      "instruction": "Consignes fractionnées, pictogrammes, réponse orale ou avec aide; choix et besoins non dévoilés aux pairs."
+    },
+    "standard": {
+      "instruction": "Travail en autonomie progressive, échanges structurés et vérification des critères."
+    },
+    "approfondi": {
+      "instruction": "Comparer des solutions, justifier des décisions et transférer la compétence dans une nouvelle situation."
+    }
+  },
+  "status": "proposition_editoriale_synthetique_a_reviser",
+  "safety": {
+    "fr-CA": "Simulation par défaut, aucune alimentation ni dégustation imposée; les allergies et besoins personnels restent confidentiels; autorisation adulte et sécurité météo pour toute sortie réelle.",
+    "real_spending": false,
+    "real_taxes": false,
+    "publication_default": "private"
+  }
+}

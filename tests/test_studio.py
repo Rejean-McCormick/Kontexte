@@ -14,7 +14,9 @@ class StudioTest(unittest.TestCase):
  def setUpClass(cls):cls.catalogue=catalogue_for_studio(ROOT)
  def test_full_catalogue(self):
   c=self.catalogue
-  self.assertEqual((len(c['roles']),len(c['missions']),len(c['overlays']),len(c['neutral'])),(38,11,60,60))
+  self.assertEqual((len(c['roles']),len(c['missions']),len(c['overlays']),len(c['neutral'])),(38,17,60,60))
+  self.assertIn('fete-sorciere',c['missions'])
+  self.assertIn('randonnee-a-velo',c['missions'])
   self.assertEqual(len(c['year']['semaines']),36)
   self.assertEqual(set(c['neutral']),set(c['overlays']))
  def test_same_year_overlay_untouched_neutral(self):

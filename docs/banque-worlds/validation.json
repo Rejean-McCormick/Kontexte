@@ -1,0 +1,68 @@
+{
+  "schema_source": "Kontexte/schemas/mission.v1.schema.json",
+  "missions_nouvelles": [
+    {
+      "id": "grand-menage-chez-mamie",
+      "schema": "PASS",
+      "roles": "PASS",
+      "dependances_acypiques": "PASS",
+      "fragments_jointures": "PASS",
+      "nb_etapes": 8,
+      "nb_roles": 6
+    },
+    {
+      "id": "randonnee-a-velo",
+      "schema": "PASS",
+      "roles": "PASS",
+      "dependances_acypiques": "PASS",
+      "fragments_jointures": "PASS",
+      "nb_etapes": 10,
+      "nb_roles": 9
+    },
+    {
+      "id": "spectacle-des-histoires",
+      "schema": "PASS",
+      "roles": "PASS",
+      "dependances_acypiques": "PASS",
+      "fragments_jointures": "PASS",
+      "nb_etapes": 10,
+      "nb_roles": 9
+    },
+    {
+      "id": "rallye-des-metiers",
+      "schema": "PASS",
+      "roles": "PASS",
+      "dependances_acypiques": "PASS",
+      "fragments_jointures": "PASS",
+      "nb_etapes": 8,
+      "nb_roles": 8
+    },
+    {
+      "id": "mystere-de-la-bibliotheque",
+      "schema": "PASS",
+      "roles": "PASS",
+      "dependances_acypiques": "PASS",
+      "fragments_jointures": "PASS",
+      "nb_etapes": 8,
+      "nb_roles": 7
+    },
+    {
+      "id": "pique-nique-des-saisons",
+      "schema": "PASS",
+      "roles": "PASS",
+      "dependances_acypiques": "PASS",
+      "fragments_jointures": "PASS",
+      "nb_etapes": 8,
+      "nb_roles": 8
+    }
+  ],
+  "validees_localement_sans_deploiement": true,
+  "tests_runtime_orogo": "NON_EXECUTES",
+  "identite_et_autorisation": "NON_TESTEES",
+  "tests_kompose": {
+    "commande": "PYTHONPATH=<Kompose/src> python -m kompose.cli preview-kontexte <mission> <Kontexte/data/roles> --role <premier_role>",
+    "resultat": "PASS",
+    "missions_testes": 6,
+    "portee": "projection de role synthétique sans droit ni lancement Orgo"
+  }
+}
